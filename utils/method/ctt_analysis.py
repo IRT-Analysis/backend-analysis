@@ -39,7 +39,7 @@ class CttAnalysis:
                 if question_id in student.answers and answer_order is not None:
                     correct_answer_index = exam.get_correct_answer(question_id)
                     correct_answer = answer_order[correct_answer_index]
-                    student_answer = student.answers[question_id]
+                    student_answer = student.answers[question_id]['answer']
                     selected_option = answer_order[student_answer]
                     
                     # Check if the answer is correct
@@ -89,5 +89,7 @@ class CttAnalysis:
                 'discrimination': discrimination_index,
                 'options': option_stats
             }
+            
+            # Phan loai, phan cach
 
         return question_stats

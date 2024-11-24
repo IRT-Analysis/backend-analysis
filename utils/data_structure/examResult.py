@@ -20,7 +20,7 @@ class ExamResult:
                 if answer_order is not None:
                     correct_answer_index = exam.get_correct_answer(question_id)
                     correct_answer = answer_order[correct_answer_index]
-                    student_answer = answer_order[answer_index]
+                    student_answer = answer_order[answer_index['answer']]
                     
                     if student_answer == correct_answer:
                         score += 1
@@ -37,6 +37,6 @@ class ExamResult:
         if question_id in student.answers and answer_order is not None:
             correct_answer_index = exam.get_correct_answer(question_id)
             correct_answer = answer_order[correct_answer_index]
-            student_answer = answer_order[student.answers[question_id]]
+            student_answer = answer_order[student.answers[question_id]['answer']]
             return student_answer == correct_answer
         return False

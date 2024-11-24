@@ -2,6 +2,7 @@ from data_structure.question import QuestionBank
 from data_structure.exam import Exam
 from data_structure.student import Student
 from data_structure.examResult import ExamResult
+from file_handling import result_file_process
 from method.ctt_analysis import CttAnalysis
 
 # Tạo bộ câu hỏi chuẩn
@@ -46,9 +47,9 @@ exam2 = Exam(
 
 # Tạo danh sách thí sinh và câu trả lời của họ
 students = [
-    Student(id = 1, name="Thí sinh 1", exam_code="Mã đề 1", answers={'Q1': 0, 'Q2': 1, 'Q3': 0}),
-    Student(id = 2,name="Thí sinh 2", exam_code="Mã đề 2", answers={'Q3': 2, 'Q1': 3, 'Q2': 2 }),
-    Student(id = 3,name="Thí sinh 3", exam_code="Mã đề 2", answers={'Q3': 1, 'Q1': 3, 'Q2': 2 })
+    Student(id = 1, firstName="Thí sinh 1", lastName="..", exam_code="Mã đề 1", answers={'Q1': {'answer':0, 'correct': True}, 'Q2': {'answer':0, 'correct': True}, 'Q3': {'answer':0, 'correct': True}}),
+    Student(id = 2, firstName="Thí sinh 2", lastName="..", exam_code="Mã đề 2", answers={'Q3': {'answer':0, 'correct': True}, 'Q1': {'answer':0, 'correct': True}, 'Q2': {'answer':0, 'correct': True} }),
+    Student(id = 3, firstName="Thí sinh 3", lastName="..", exam_code="Mã đề 2", answers={'Q3': {'answer':0, 'correct': True}, 'Q1': {'answer':0, 'correct': True}, 'Q2': {'answer':0, 'correct': True} })
 ]
 
 # Tạo kết quả thi và tính điểm
