@@ -1,9 +1,10 @@
 class QuestionBank:
+    
     def __init__(self):
         """Quản lý bộ câu hỏi chuẩn"""
         self.questions = {}
 
-    def add_question(self, question_id, question_content, options, correct_answer_index):
+    def add_question(self, question_id, question_content, options, correct_answer_index = None):
         """
         Thêm câu hỏi vào bộ câu hỏi chuẩn
         """

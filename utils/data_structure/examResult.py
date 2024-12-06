@@ -18,12 +18,15 @@ class ExamResult:
             for question_id, answer_index in student.answers.items():
                 answer_order = exam.get_answer_order(question_id)
                 if answer_order is not None:
+                    # Provide answer in the question bank
                     correct_answer_index = exam.get_correct_answer(question_id)
                     correct_answer = answer_order[correct_answer_index]
                     student_answer = answer_order[answer_index['answer']]
                     
                     if student_answer == correct_answer:
                         score += 1
+                        
+                    # Answer in the result file
             scores.append({'student': student, 'score': score})  # Lưu đối tượng student trực tiếp
         return scores
 

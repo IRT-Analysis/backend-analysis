@@ -38,3 +38,10 @@ class Exam:
     def get_answer_order(self, question_id):
         """Trả về thứ tự đáp án cho câu hỏi trong mã đề"""
         return self.answer_order.get(question_id)
+    
+    def __str__(self):
+        return (
+            f"Exam Code: {self.code}\n"
+            f"Question Order: {self.question_order}\n"
+            f"Answer Order: {self.answer_order}\n"
+        )
