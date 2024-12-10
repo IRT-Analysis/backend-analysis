@@ -2,8 +2,10 @@ from data_structure.question import QuestionBank
 from data_structure.exam import Exam
 from data_structure.student import Student
 from data_structure.examResult import ExamResult
+from data_structure.option import Option
 from method.ctt_analysis import CttAnalysis
 from data_processing import DataProcessing 
+
 from itertools import groupby
 # Tạo bộ câu hỏi chuẩn
 question_bank = QuestionBank()
@@ -34,7 +36,8 @@ question_bank_data = [
 for question in question_bank_data:
     question_id = question['Question_ID']
     question_content = question['Content']
-    options = [question['Option_A'], question['Option_B'], question['Option_C'], question['Option_D']]
+    # options = [question['Option_A'], question['Option_B'], question['Option_C'], question['Option_D']]
+    options = [Option(question['Option_A']), Option(question['Option_B']), Option(question['Option_C']), Option(question['Option_D'])]
     correct_answer = question['Correct_Option']
     correct_answer_index = ['A', 'B', 'C', 'D'].index(correct_answer)
     
@@ -43,9 +46,8 @@ for question in question_bank_data:
 
 # # Now the question bank contains the questions
 # print(question_bank.get_all_questions())
-data_process = DataProcessing()
 student_results_data = [
-    {"Student_ID": "S001", "First_Name": "John", "Last_Name": "Doe", "Exam_code": "EX001", "Q1": "A1", "Q2": "B1", "Q3": "BS", "Q4": "DS"},
+    {"Student_ID": "S001", "First_Name": "John", "Last_Name": "Doe", "Exam_code": "EX001", "Q001": "B1", "Q002": "A1", "Q003": "BS", "Q004": "DS"},
     {"Student_ID": "S002", "First_Name": "Jane", "Last_Name": "Smith", "Exam_code": "EX001", "Q1": "AS", "Q2": "B1", "Q3": "C1", "Q4": "DS"},
     {"Student_ID": "S003", "First_Name": "Bob", "Last_Name": "Lee", "Exam_code": "EX002", "Q1": "A1", "Q2": "B1", "Q3": "C1", "Q4": "D1"},
     {"Student_ID": "S004", "First_Name": "Emily", "Last_Name": "White", "Exam_code": "EX002", "Q1": "AS", "Q2": "B1", "Q3": "C1", "Q4": "DS"},
@@ -81,7 +83,6 @@ def process_student_results(student_results_data, question_bank):
                 
                 # Convert the answer letter to an index (0 for A, 1 for B, etc.)
                 option_index = ['A', 'B', 'C', 'D'].index(answer_value)
-                
                 # Store answer in the dictionary with the new structure
                 answers[question_id] = {
                     'answer': option_index,  # Answer as index list (can be extended if needed)
@@ -96,74 +97,71 @@ def process_student_results(student_results_data, question_bank):
 
 # Process the student results and create Student objects
 students = process_student_results(student_results_data, question_bank_data)
-for student in students:
-    print(f"ID: {student.id}, Name: {student.firstName} {student.lastName}, Exam Code: {student.exam_code}, Answers: {student.answers}")
+# for student in students:
+#     print(f"ID: {student.id}, Name: {student.firstName} {student.lastName}, Exam Code: {student.exam_code}, Answers: {student.answers}")
 
 def process_exam(file_path, question_bank):
-        # Group data by Exam_code
-        file_path.sort(key=lambda x: x['Exam_code'])
+    # Group data by Exam_code
+    file_path.sort(key=lambda x: x['Exam_code'])
 
-        # Group the data by 'Exam_code'
-        grouped = {key: list(file_path) for key, group in groupby(file_path, key=lambda x: x['Exam_code'])}
+    # Group the data by 'Exam_code'
+    grouped = {key: list(file_path) for key, group in groupby(file_path, key=lambda x: x['Exam_code'])}
 
-        exams = []
+    exams = []
 
-        for exam_code, group in grouped.items():
-            question_order = []
-            answer_order = {}
+    for exam_code, group in grouped.items():
+        question_order = []
+        answer_order ={}
 
-            for question in group:
-                content = question['Content']
-                options = [question['Option_A'], question['Option_B'], question['Option_C'], question['Option_D']]
-                correct_option = question['Correct_Option']
+        for question in group:
+            content = question['Content']
+            options = [question['Option_A'], question['Option_B'], question['Option_C'], question['Option_D']]
+            correct_option = question['Correct_Option']
 
-                # Match content with the question bank
-                matched_question_id = None
-                matched_answer_order = [None] * 4
+            # Match content with the question bank
+            matched_question_id = None
+            matched_answer_order = [None] * 4
 
-                for question_id, question_data in question_bank.get_all_questions().items():
-                    if question_data['content'] == content:
-                        matched_question_id = question_id
-                        for idx, option in enumerate(options):
-                            if option in question_data['options']:
-                                matched_answer_order[idx] = question_data['options'].index(option)
-                        break
+            for question_id, question_data in question_bank.get_all_questions().items():
+                if question_data['content'] == content:
+                    matched_question_id = question_id
+                    matched_answer_order = question_data['options']
+                    # for idx, option in enumerate(options):
+                    #     # if option in question_data['options']:
+                    #     matched_answer_order[idx] = question_data['options'].index(option)
+                    # break
 
-                if matched_question_id is None:
-                    print(f"Warning: Question not found in question bank for Exam Code {exam_code}: {content}")
-                    continue
+            if matched_question_id is None:
+                print(f"Warning: Question not found in question bank for Exam Code {exam_code}: {content}")
+                continue
 
-                # Append question order and answer order
-                question_order.append(matched_question_id)
-                answer_order[matched_question_id] = matched_answer_order
+            # Append question order and answer order
+            question_order.append(matched_question_id)
+            answer_order[matched_question_id] = matched_answer_order
 
-            # Initialize Exam object
-            exam = Exam(
-                code=exam_code,
-                question_bank=question_bank,
-                question_order=question_order,
-                answer_order=answer_order
-            )
+        # Initialize Exam object
+        exam = Exam(
+            code=exam_code,
+            question_bank=question_bank,
+            question_order=question_order,
+            answer_order=answer_order
+        )
 
-            exams.append(exam) 
+        exams.append(exam) 
 
-        return exams
+    return exams
 
 exam_file_data = [
-    {"Exam_code": "EX001", "Content": "What is 2+2?", "Option_A": "4", "Option_B": "5", "Option_C": "6", "Option_D": "3", "Correct_Option": "A"},
     {"Exam_code": "EX001", "Content": "What is the capital of France?", "Option_A": "London", "Option_B": "Paris", "Option_C": "Berlin", "Option_D": "Rome", "Correct_Option": "B"},
+    {"Exam_code": "EX001", "Content": "What is 2+2?", "Option_A": "4", "Option_B": "5", "Option_C": "6", "Option_D": "3", "Correct_Option": "A"},
     {"Exam_code": "EX002", "Content": "What is 3+5?", "Option_A": "7", "Option_B": "8", "Option_C": "9", "Option_D": "10", "Correct_Option": "B"},
     {"Exam_code": "EX002", "Content": "What is the largest ocean?", "Option_A": "Atlantic", "Option_B": "Indian", "Option_C": "Arctic", "Option_D": "Pacific", "Correct_Option": "D"},
+    {"Exam_code": "EX002", "Content": "What is 2+2?", "Option_A": "4", "Option_B": "5", "Option_C": "6", "Option_D": "3", "Correct_Option": "A"},
+    {"Exam_code": "EX002", "Content": "What is the capital of France?", "Option_A": "London", "Option_B": "Paris", "Option_C": "Berlin", "Option_D": "Rome", "Correct_Option": "B"},
 ]
 
 exams = process_exam(exam_file_data, question_bank)
-print("exams: ", exams)
-# for exam_code, exam in exams.items():
-#     print(f"Exam Code: {exam_code}")
-#     print(exam)  # Calls the __str__ method to format output
-#     print("-" * 40)  # Separator for readability
-
 examResult = ExamResult(exams, students)
 analysis = CttAnalysis(examResult)
-result = analysis.analyze_questions_ctt()
-print(result[0])
+print(analysis.analyze_questions_ctt())
+

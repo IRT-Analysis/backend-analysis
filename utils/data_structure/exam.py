@@ -12,14 +12,15 @@ class Exam:
         self.answer_order = answer_order or {}  # Thứ tự đáp án cho từng câu hỏi trong mã đề (được khởi tạo)
 
         # Ánh xạ câu hỏi trong mã đề đến câu hỏi chuẩn
-        self.question_mapping = {f'Q{i+1}': self.question_order[i] for i in range(len(self.question_order))}
+        # self.question_mapping = {f'Q{i+1}': self.question_order[i] for i in range(len(self.question_order))}
 
     def get_correct_answer(self, question_id):
         """Trả về chỉ số đáp án đúng trong câu hỏi chuẩn"""
-        question_mapping = self.question_mapping.get(question_id)
-        if question_mapping:
-            return self.question_bank.get_question(question_mapping)['correct_answer_index']
-        return None
+        # question_mapping = self.question_mapping.get(question_id)
+        # if question_mapping:
+        # return self.question_bank.get_question(question_mapping)['correct_answer_index']
+        return self.question_bank.get_question(question_id)['correct_answer_index']
+        # return None
 
     def get_question_content(self, question_id):
         """Trả về nội dung câu hỏi trong mã đề (theo thứ tự câu hỏi)"""
@@ -39,9 +40,9 @@ class Exam:
         """Trả về thứ tự đáp án cho câu hỏi trong mã đề"""
         return self.answer_order.get(question_id)
     
-    def __str__(self):
-        return (
-            f"Exam Code: {self.code}\n"
-            f"Question Order: {self.question_order}\n"
-            f"Answer Order: {self.answer_order}\n"
-        )
+    # def __str__(self):
+    #     return (
+    #         f"Exam Code: {self.code}\n"
+    #         f"Question Order: {self.question_order}\n"
+    #         f"Answer Order: {self.answer_order}\n"
+    #     )
