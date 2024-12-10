@@ -9,7 +9,6 @@ from itertools import groupby
 question_bank = QuestionBank()
 
 question_bank_data = [
-    
     {"Question_ID": "Q001", "Content": "What is the capital of France?", "Option_A": "London", "Option_B": "Paris", "Option_C": "Berlin", "Option_D": "Rome", "Correct_Option": "B"},
     {"Question_ID": "Q002", "Content": "What is 2+2?", "Option_A": "4", "Option_B": "5", "Option_C": "6", "Option_D": "3", "Correct_Option": "A"},
     {"Question_ID": "Q003", "Content": "What is 3+5?", "Option_A": "7", "Option_B": "8", "Option_C": "9", "Option_D": "10", "Correct_Option": "B"},
@@ -166,4 +165,5 @@ print("exams: ", exams)
 
 examResult = ExamResult(exams, students)
 analysis = CttAnalysis(examResult)
-print(analysis)
+result = analysis.analyze_questions_ctt()
+print(result[0])

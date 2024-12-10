@@ -128,7 +128,7 @@ class DataProcessing:
         # Group data by Exam_code
         grouped = df.groupby('Exam_code')
 
-        exams = {}
+        exams = []
 
         for exam_code, group in grouped:
             question_order = []
@@ -167,7 +167,7 @@ class DataProcessing:
                 answer_order=answer_order
             )
 
-            exams[exam_code] = exam
+            exams.append(exam) 
 
         return exams
 
