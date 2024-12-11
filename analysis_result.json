@@ -1,422 +1,842 @@
 {
-    "Q1": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C1": {
+        "difficulty": 0.528169014084507,
+        "difficulty_category": "Easy",
+        "discrimination": 0.5155141843971631,
+        "discrimination_category": "Good",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.528169014084507,
+            "correct_answers": 75
+        }
     },
-    "Q2": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C2": {
+        "difficulty": 0.4859154929577465,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.32668439716312053,
+        "discrimination_category": "Good",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.4859154929577465,
+            "correct_answers": 69
+        }
     },
-    "Q3": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C3": {
+        "difficulty": 0.3873239436619718,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.4299645390070922,
+        "discrimination_category": "Good",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.3873239436619718,
+            "correct_answers": 55
+        }
     },
-    "Q4": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C4": {
+        "difficulty": 0.5915492957746479,
+        "difficulty_category": "Easy",
+        "discrimination": 0.28679078014184395,
+        "discrimination_category": "Normal",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.5915492957746479,
+            "correct_answers": 84
+        }
     },
-    "Q5": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
+    "C5": {
+        "difficulty": 0.2605633802816901,
+        "difficulty_category": "Difficult",
+        "discrimination": -0.12189716312056736,
         "discrimination_category": "Bad",
-        "options": null
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.2605633802816901,
+            "correct_answers": 37
+        }
     },
-    "Q6": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C6": {
+        "difficulty": 0.2746478873239437,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.19547872340425532,
+        "discrimination_category": "Normal",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.2746478873239437,
+            "correct_answers": 39
+        }
     },
-    "Q7": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C7": {
+        "difficulty": 0.6056338028169014,
+        "difficulty_category": "Easy",
+        "discrimination": 0.2021276595744681,
+        "discrimination_category": "Normal",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.6056338028169014,
+            "correct_answers": 86
+        }
     },
-    "Q8": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
+    "C8": {
+        "difficulty": 0.7887323943661971,
+        "difficulty_category": "Very Easy",
+        "discrimination": 0.07934397163120566,
         "discrimination_category": "Bad",
-        "options": null
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.7887323943661971,
+            "correct_answers": 112
+        }
     },
-    "Q9": {
-        "difficulty": 0.0,
+    "C9": {
+        "difficulty": 0.06338028169014084,
         "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
+        "discrimination": 0.023049645390070927,
         "discrimination_category": "Bad",
-        "options": null
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.06338028169014084,
+            "correct_answers": 9
+        }
     },
-    "Q10": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C10": {
+        "difficulty": 0.31690140845070425,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.2796985815602837,
+        "discrimination_category": "Normal",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.31690140845070425,
+            "correct_answers": 45
+        }
     },
-    "Q11": {
-        "difficulty": 0.0,
+    "C11": {
+        "difficulty": 0.23943661971830985,
         "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
+        "discrimination": -0.015514184397163122,
         "discrimination_category": "Bad",
-        "options": null
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.23943661971830985,
+            "correct_answers": 34
+        }
     },
-    "Q12": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C12": {
+        "difficulty": 0.8028169014084507,
+        "difficulty_category": "Very Easy",
+        "discrimination": 0.22695035460992907,
+        "discrimination_category": "Normal",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.8028169014084507,
+            "correct_answers": 114
+        }
     },
-    "Q13": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
+    "C13": {
+        "difficulty": 0.7535211267605634,
+        "difficulty_category": "Very Easy",
+        "discrimination": 0.09973404255319152,
         "discrimination_category": "Bad",
-        "options": null
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.7535211267605634,
+            "correct_answers": 107
+        }
     },
-    "Q14": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C14": {
+        "difficulty": 0.8591549295774648,
+        "difficulty_category": "Very Easy",
+        "discrimination": 0.1653368794326241,
+        "discrimination_category": "Normal",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.8591549295774648,
+            "correct_answers": 122
+        }
     },
-    "Q15": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C15": {
+        "difficulty": 0.8309859154929577,
+        "difficulty_category": "Very Easy",
+        "discrimination": 0.22828014184397172,
+        "discrimination_category": "Normal",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.8309859154929577,
+            "correct_answers": 118
+        }
     },
-    "Q16": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C16": {
+        "difficulty": 0.6338028169014085,
+        "difficulty_category": "Easy",
+        "discrimination": 0.4122340425531915,
+        "discrimination_category": "Good",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.6338028169014085,
+            "correct_answers": 90
+        }
     },
-    "Q17": {
-        "difficulty": 0.0,
+    "C17": {
+        "difficulty": 0.22535211267605634,
         "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+        "discrimination": 0.2575354609929078,
+        "discrimination_category": "Normal",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.22535211267605634,
+            "correct_answers": 32
+        }
     },
-    "Q18": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C18": {
+        "difficulty": 0.6690140845070423,
+        "difficulty_category": "Easy",
+        "discrimination": 0.43439716312056736,
+        "discrimination_category": "Good",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.6690140845070423,
+            "correct_answers": 95
+        }
     },
-    "Q19": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C19": {
+        "difficulty": 0.7253521126760564,
+        "difficulty_category": "Easy",
+        "discrimination": 0.37234042553191493,
+        "discrimination_category": "Good",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.7253521126760564,
+            "correct_answers": 103
+        }
     },
-    "Q20": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
+    "C20": {
+        "difficulty": 0.3732394366197183,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.008421985815602828,
         "discrimination_category": "Bad",
-        "options": null
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.3732394366197183,
+            "correct_answers": 53
+        }
     },
-    "Q21": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C21": {
+        "difficulty": 0.5,
+        "difficulty_category": "Easy",
+        "discrimination": 0.15780141843971635,
+        "discrimination_category": "Normal",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.5,
+            "correct_answers": 71
+        }
     },
-    "Q22": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C22": {
+        "difficulty": 0.47183098591549294,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.3475177304964539,
+        "discrimination_category": "Good",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.47183098591549294,
+            "correct_answers": 67
+        }
     },
-    "Q23": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C23": {
+        "difficulty": 0.38028169014084506,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.13519503546099287,
+        "discrimination_category": "Normal",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.38028169014084506,
+            "correct_answers": 54
+        }
     },
-    "Q24": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C24": {
+        "difficulty": 0.44366197183098594,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.11524822695035458,
+        "discrimination_category": "Normal",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.44366197183098594,
+            "correct_answers": 63
+        }
     },
-    "Q25": {
-        "difficulty": 0.0,
+    "C25": {
+        "difficulty": 0.07746478873239436,
         "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
+        "discrimination": 0.0651595744680851,
         "discrimination_category": "Bad",
-        "options": null
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.07746478873239436,
+            "correct_answers": 11
+        }
     },
-    "Q26": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C26": {
+        "difficulty": 0.528169014084507,
+        "difficulty_category": "Easy",
+        "discrimination": 0.2841312056737589,
+        "discrimination_category": "Normal",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.528169014084507,
+            "correct_answers": 75
+        }
     },
-    "Q27": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C27": {
+        "difficulty": 0.7112676056338029,
+        "difficulty_category": "Easy",
+        "discrimination": 0.45744680851063835,
+        "discrimination_category": "Good",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.7112676056338029,
+            "correct_answers": 101
+        }
     },
-    "Q28": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C28": {
+        "difficulty": 0.7394366197183099,
+        "difficulty_category": "Easy",
+        "discrimination": 0.35150709219858156,
+        "discrimination_category": "Good",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.7394366197183099,
+            "correct_answers": 105
+        }
     },
-    "Q29": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C29": {
+        "difficulty": 0.7112676056338029,
+        "difficulty_category": "Easy",
+        "discrimination": 0.3311170212765957,
+        "discrimination_category": "Good",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.7112676056338029,
+            "correct_answers": 101
+        }
     },
-    "Q30": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C30": {
+        "difficulty": 0.4295774647887324,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.24069148936170215,
+        "discrimination_category": "Normal",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.4295774647887324,
+            "correct_answers": 61
+        }
     },
-    "Q31": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C31": {
+        "difficulty": 0.6126760563380281,
+        "difficulty_category": "Easy",
+        "discrimination": 0.28634751773049644,
+        "discrimination_category": "Normal",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.6126760563380281,
+            "correct_answers": 87
+        }
     },
-    "Q32": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C32": {
+        "difficulty": 0.5774647887323944,
+        "difficulty_category": "Easy",
+        "discrimination": 0.24468085106382975,
+        "discrimination_category": "Normal",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.5774647887323944,
+            "correct_answers": 82
+        }
     },
-    "Q33": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C33": {
+        "difficulty": 0.7816901408450704,
+        "difficulty_category": "Very Easy",
+        "discrimination": 0.22695035460992907,
+        "discrimination_category": "Normal",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.7816901408450704,
+            "correct_answers": 111
+        }
     },
-    "Q34": {
-        "difficulty": 0.0,
+    "C34": {
+        "difficulty": 0.19014084507042253,
         "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+        "discrimination": 0.42597517730496454,
+        "discrimination_category": "Good",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.19014084507042253,
+            "correct_answers": 27
+        }
     },
-    "Q35": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C35": {
+        "difficulty": 0.4084507042253521,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.5567375886524824,
+        "discrimination_category": "Good",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.4084507042253521,
+            "correct_answers": 58
+        }
     },
-    "Q36": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C36": {
+        "difficulty": 0.6126760563380281,
+        "difficulty_category": "Easy",
+        "discrimination": 0.28679078014184395,
+        "discrimination_category": "Normal",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.6126760563380281,
+            "correct_answers": 87
+        }
     },
-    "Q37": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
+    "C37": {
+        "difficulty": 0.2676056338028169,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.04698581560283685,
         "discrimination_category": "Bad",
-        "options": null
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.2676056338028169,
+            "correct_answers": 38
+        }
     },
-    "Q38": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C38": {
+        "difficulty": 0.43661971830985913,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.49468085106382975,
+        "discrimination_category": "Good",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.43661971830985913,
+            "correct_answers": 62
+        }
     },
-    "Q39": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C39": {
+        "difficulty": 0.6549295774647887,
+        "difficulty_category": "Easy",
+        "discrimination": 0.45567375886524825,
+        "discrimination_category": "Good",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.6549295774647887,
+            "correct_answers": 93
+        }
     },
-    "Q40": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C40": {
+        "difficulty": 0.7183098591549296,
+        "difficulty_category": "Easy",
+        "discrimination": 0.5403368794326242,
+        "discrimination_category": "Good",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.7183098591549296,
+            "correct_answers": 102
+        }
     },
-    "Q41": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C41": {
+        "difficulty": 0.6267605633802817,
+        "difficulty_category": "Easy",
+        "discrimination": 0.26684397163120566,
+        "discrimination_category": "Normal",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.6267605633802817,
+            "correct_answers": 89
+        }
     },
-    "Q42": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C42": {
+        "difficulty": 0.3873239436619718,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.24024822695035458,
+        "discrimination_category": "Normal",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.3873239436619718,
+            "correct_answers": 55
+        }
     },
-    "Q43": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C43": {
+        "difficulty": 0.39436619718309857,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.26152482269503546,
+        "discrimination_category": "Normal",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.39436619718309857,
+            "correct_answers": 56
+        }
     },
-    "Q44": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C44": {
+        "difficulty": 0.6338028169014085,
+        "difficulty_category": "Easy",
+        "discrimination": 0.16223404255319152,
+        "discrimination_category": "Normal",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.6338028169014085,
+            "correct_answers": 90
+        }
     },
-    "Q45": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C45": {
+        "difficulty": 0.4788732394366197,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.36790780141843965,
+        "discrimination_category": "Good",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.4788732394366197,
+            "correct_answers": 68
+        }
     },
-    "Q46": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C46": {
+        "difficulty": 0.5422535211267606,
+        "difficulty_category": "Easy",
+        "discrimination": 0.4539007092198582,
+        "discrimination_category": "Good",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.5422535211267606,
+            "correct_answers": 77
+        }
     },
-    "Q47": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C47": {
+        "difficulty": 0.4788732394366197,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.4104609929078014,
+        "discrimination_category": "Good",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.4788732394366197,
+            "correct_answers": 68
+        }
     },
-    "Q48": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C48": {
+        "difficulty": 0.5211267605633803,
+        "difficulty_category": "Easy",
+        "discrimination": 0.3271276595744681,
+        "discrimination_category": "Good",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.5211267605633803,
+            "correct_answers": 74
+        }
     },
-    "Q49": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C49": {
+        "difficulty": 0.5845070422535211,
+        "difficulty_category": "Easy",
+        "discrimination": 0.3067375886524823,
+        "discrimination_category": "Good",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.5845070422535211,
+            "correct_answers": 83
+        }
     },
-    "Q50": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C50": {
+        "difficulty": 0.6619718309859155,
+        "difficulty_category": "Easy",
+        "discrimination": 0.49867021276595747,
+        "discrimination_category": "Good",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.6619718309859155,
+            "correct_answers": 94
+        }
     },
-    "Q51": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C51": {
+        "difficulty": 0.30985915492957744,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.30186170212765956,
+        "discrimination_category": "Good",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.30985915492957744,
+            "correct_answers": 44
+        }
     },
-    "Q52": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
+    "C52": {
+        "difficulty": 0.39436619718309857,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.07180851063829785,
         "discrimination_category": "Bad",
-        "options": null
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.39436619718309857,
+            "correct_answers": 56
+        }
     },
-    "Q53": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C53": {
+        "difficulty": 0.44366197183098594,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.40957446808510634,
+        "discrimination_category": "Good",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.44366197183098594,
+            "correct_answers": 63
+        }
     },
-    "Q54": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C54": {
+        "difficulty": 0.38028169014084506,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.2832446808510638,
+        "discrimination_category": "Normal",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.38028169014084506,
+            "correct_answers": 54
+        }
     },
-    "Q55": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C55": {
+        "difficulty": 0.34507042253521125,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.25975177304964536,
+        "discrimination_category": "Normal",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.34507042253521125,
+            "correct_answers": 49
+        }
     },
-    "Q56": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C56": {
+        "difficulty": 0.4788732394366197,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.4104609929078014,
+        "discrimination_category": "Good",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.4788732394366197,
+            "correct_answers": 68
+        }
     },
-    "Q57": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C57": {
+        "difficulty": 0.4225352112676056,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.262854609929078,
+        "discrimination_category": "Normal",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.4225352112676056,
+            "correct_answers": 60
+        }
     },
-    "Q58": {
-        "difficulty": 0.0,
+    "C58": {
+        "difficulty": 0.11971830985915492,
         "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
+        "discrimination": -0.018617021276595744,
         "discrimination_category": "Bad",
-        "options": null
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.11971830985915492,
+            "correct_answers": 17
+        }
     },
-    "Q59": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
-        "discrimination_category": "Bad",
-        "options": null
+    "C59": {
+        "difficulty": 0.30985915492957744,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.46985815602836883,
+        "discrimination_category": "Good",
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.30985915492957744,
+            "correct_answers": 44
+        }
     },
-    "Q60": {
-        "difficulty": 0.0,
-        "difficulty_category": "Very Difficult",
-        "discrimination": 0.0,
+    "C60": {
+        "difficulty": 0.38028169014084506,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.050531914893617025,
         "discrimination_category": "Bad",
-        "options": null
+        "options": {
+            "correct_answer": 0,
+            "selected_by": 142,
+            "top_selected": 47,
+            "bottom_selected": 48,
+            "ratio": 0.38028169014084506,
+            "correct_answers": 54
+        }
     }
 }

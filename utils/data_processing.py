@@ -3,6 +3,7 @@ import numpy as np
 from typing import Dict, Any, List
 from data_structure.student import Student
 
+
 class DataProcessing:
     def result_file_process(self, file_path: str):
         # """Reads the Excel file and prepares it for processing."""
@@ -22,10 +23,10 @@ class DataProcessing:
         students = []
 
         # Identify the last three columns as ID, Name, and Exam_Code
-        id_col = 'F_MASV'
-        firstName_col = 'F_HOLOT'
-        lastName_col = 'F_TEN'
-        exam_code_col = 'MADE'
+        id_col = "F_MASV"
+        firstName_col = "F_HOLOT"
+        lastName_col = "F_TEN"
+        exam_code_col = "MADE"
 
         # All other columns are considered as answers
         answer_columns = df.columns[:-11]
@@ -43,17 +44,36 @@ class DataProcessing:
             for col in answer_columns:
                 response = row[col]
                 if pd.notnull(response):  # Skip if the response is missing
-                    if response.endswith('1'):
-                        answers[col] = {'answer': (ord(response[:-1]) - ord('A')), 'correct': True}
-                    elif response.endswith('S'):
-                        answers[col] = {'answer': (ord(response[:-1]) - ord('A')), 'correct': False}
-                    else: 
-                        answers[col] = {'answer': (ord(response[:-1]) - ord('A')), 'correct': None}
+                    if response.endswith("1"):
+                        answers[col] = {
+                            "answer": (ord(response[:-1]) - ord("A")),
+                            "correct": True,
+                        }
+                    elif response.endswith("S"):
+                        # Edge case where the response is "*S" ???
+                        if response.startswith("*"):
+                            answers[col] = {"answer": -1, "correct": None}
+                        else:
+                            answers[col] = {
+                                "answer": (ord(response[:-1]) - ord("A")),
+                                "correct": False,
+                            }
+                    else:
+                        answers[col] = {
+                            "answer": (ord(response[:-1]) - ord("A")),
+                            "correct": None,
+                        }
                 else:
-                    answers[col] = {'answer': -1 , 'correct': None}
+                    answers[col] = {"answer": -1, "correct": None}
 
             # Create a Student object
-            student = Student(id=student_id, firstName=firstName, lastName=lastName, exam_code=exam_code, answers=answers)
+            student = Student(
+                id=student_id,
+                firstName=firstName,
+                lastName=lastName,
+                exam_code=exam_code,
+                answers=answers,
+            )
             students.append(student)
 
         return students
@@ -69,33 +89,52 @@ class DataProcessing:
             QuestionBank: A QuestionBank object.
         """
         # Load the file into a DataFrame
-        if file_path.endswith('.xlsx'):
+        if file_path.endswith(".xlsx"):
             df = pd.read_excel(file_path)
-        elif file_path.endswith('.csv'):
+        elif file_path.endswith(".csv"):
             df = pd.read_csv(file_path)
         else:
-            raise ValueError("Unsupported file format. Please use an Excel or CSV file.")
+            raise ValueError(
+                "Unsupported file format. Please use an Excel or CSV file."
+            )
 
         # Ensure the file has the required columns
-        required_columns = ['Question_ID', 'Content', 'Option_A', 'Option_B', 'Option_C', 'Option_D', 'Correct_Option']
+        required_columns = [
+            "Question_ID",
+            "Content",
+            "Option_A",
+            "Option_B",
+            "Option_C",
+            "Option_D",
+            "Correct_Option",
+        ]
         if not all(col in df.columns for col in required_columns):
-            raise ValueError(f"The file must contain the following columns: {required_columns}")
+            raise ValueError(
+                f"The file must contain the following columns: {required_columns}"
+            )
 
         # Create a QuestionBank object
         question_bank = QuestionBank()
 
         # Iterate through the DataFrame and add questions to the QuestionBank
         for _, row in df.iterrows():
-            question_id = row['Question_ID']
-            content = row['Content']
-            options = [row['Option_A'], row['Option_B'], row['Option_C'], row['Option_D']]
-            correct_option = row['Correct_Option']
+            question_id = row["Question_ID"]
+            content = row["Content"]
+            options = [
+                row["Option_A"],
+                row["Option_B"],
+                row["Option_C"],
+                row["Option_D"],
+            ]
+            correct_option = row["Correct_Option"]
 
             # Determine the correct answer index (0-based)
-            correct_answer_index = ['A', 'B', 'C', 'D'].index(correct_option)
+            correct_answer_index = ["A", "B", "C", "D"].index(correct_option)
 
             # Add the question to the question bank
-            question_bank.add_question(question_id, content, options, correct_answer_index)
+            question_bank.add_question(
+                question_id, content, options, correct_answer_index
+            )
 
         return question_bank
 
@@ -118,13 +157,13 @@ class DataProcessing:
     #         df = pd.read_csv(file_path)
     #     else:
     #         raise ValueError("Unsupported file format. Please use an Excel or CSV file.")
-        
+
     #     # Ensure required columns are present
     #     required_columns = ['Exam_code', 'Content', 'Option_A', 'Option_B', 'Option_C', 'Option_D', 'Correct_Option']
     #     for col in required_columns:
     #         if col not in df.columns:
     #             raise ValueError(f"Missing required column: {col}")
-        
+
     #     # Group data by Exam_code
     #     grouped = df.groupby('Exam_code')
 
@@ -167,15 +206,16 @@ class DataProcessing:
     #             answer_order=answer_order
     #         )
 
-    #         exams.append(exam) 
+    #         exams.append(exam)
 
     #     return exams
-    
+
+
 def process_exam(file_path, question_bank):
     # Load the file into a DataFrame
-    if file_path.endswith('.xlsx'):
+    if file_path.endswith(".xlsx"):
         df = pd.read_excel(file_path)
-    elif file_path.endswith('.csv'):
+    elif file_path.endswith(".csv"):
         df = pd.read_csv(file_path)
     else:
         raise ValueError("Unsupported file format. Please use an Excel or CSV file.")
@@ -183,13 +223,21 @@ def process_exam(file_path, question_bank):
     # Group data by Exam_code
     # file_path.sort(key=lambda x: x['Exam_code'])
     # Ensure required columns are present
-    required_columns = ['Exam_code', 'Content', 'Option_A', 'Option_B', 'Option_C', 'Option_D', 'Correct_Option']
+    required_columns = [
+        "Exam_code",
+        "Content",
+        "Option_A",
+        "Option_B",
+        "Option_C",
+        "Option_D",
+        "Correct_Option",
+    ]
     for col in required_columns:
         if col not in df.columns:
             raise ValueError(f"Missing required column: {col}")
-    
+
     # Group data by Exam_code
-    grouped = df.groupby('Exam_code')
+    grouped = df.groupby("Exam_code")
 
     # Group the data by 'Exam_code'
     # grouped = {key: list(file_path) for key, group in groupby(file_path, key=lambda x: x['Exam_code'])}
@@ -201,25 +249,32 @@ def process_exam(file_path, question_bank):
         answer_order = {}
 
         for _, row in group.iterrows():
-            content = question['Content']
-            options = [question['Option_A'], question['Option_B'], question['Option_C'], question['Option_D']]
-            correct_option = question['Correct_Option']
+            content = question["Content"]
+            options = [
+                question["Option_A"],
+                question["Option_B"],
+                question["Option_C"],
+                question["Option_D"],
+            ]
+            correct_option = question["Correct_Option"]
 
             # Match content with the question bank
             matched_question_id = None
             matched_answer_order = [None] * 4
 
             for question_id, question_data in question_bank.get_all_questions().items():
-                if question_data['content'] == content:
+                if question_data["content"] == content:
                     matched_question_id = question_id
-                    matched_answer_order = question_data['options']
+                    matched_answer_order = question_data["options"]
                     # for idx, option in enumerate(options):
                     #     # if option in question_data['options']:
                     #     matched_answer_order[idx] = question_data['options'].index(option)
                     # break
 
             if matched_question_id is None:
-                print(f"Warning: Question not found in question bank for Exam Code {exam_code}: {content}")
+                print(
+                    f"Warning: Question not found in question bank for Exam Code {exam_code}: {content}"
+                )
                 continue
 
             # Append question order and answer order
@@ -231,13 +286,12 @@ def process_exam(file_path, question_bank):
             code=exam_code,
             question_bank=question_bank,
             question_order=question_order,
-            answer_order=answer_order
+            answer_order=answer_order,
         )
 
-        exams.append(exam) 
+        exams.append(exam)
 
     return exams
-
 
 
 # file_path = "/Users/thtienn12/Desktop/KQCO2003_DT.xlsx"
@@ -245,8 +299,3 @@ def process_exam(file_path, question_bank):
 # for student in students:
 #     print(f"ID: {student.id}, lastName: {student.lastName}, Exam Code: {student.exam_code}")
 #     print(f"Answers: {student.answers}")
-
-
-
-
-
