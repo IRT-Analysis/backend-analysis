@@ -1,5 +1,11 @@
+import numpy as np
 class CttAnalysis:
-    examResult = None    
+    examResult = None  
+    average_rbpis = 0
+    average_score = 0
+    difficulty = 0
+    discrimination = 0
+    
     def __init__(self, examResult):
         self.examResult = examResult
         
@@ -13,7 +19,7 @@ class CttAnalysis:
         question_stats = {}
         for question_id, question_data in all_questions.items():
             question_stats[question_id] = self._analyze_single_question(
-                question_id, question_data, top_students, bottom_students
+                question_id, question_data, sorted_students, top_students, bottom_students
             )
 
         return question_stats
@@ -23,11 +29,12 @@ class CttAnalysis:
         Splits students into top and bottom groups based on scores.
         """
         sorted_students = sorted(self.examResult.scores, key=lambda x: x['score'], reverse=True)
+        top_students = [s['student'] for s in sorted_students]
         top_students = [s['student'] for s in sorted_students[:len(sorted_students) // 3]]
         bottom_students = [s['student'] for s in sorted_students[-len(sorted_students) // 3:]]
         return sorted_students, top_students, bottom_students
 
-    def _analyze_single_question(self, question_id, question_data, top_students, bottom_students):
+    def _analyze_single_question(self, question_id, question_data, sorted_students, top_students, bottom_students):
         """
         Analyzes a single question to compute difficulty and discrimination indices.
         """
@@ -40,12 +47,13 @@ class CttAnalysis:
         )
         difficulty_category = self._categorize_difficulty(difficulty_index)
         discrimination_category = self._categorize_discrimination(discrimination_index)
-
+        r_pbis = self._calculate_rpbis(question_id, sorted_students)
         return {
             'difficulty': difficulty_index,
             'difficulty_category': difficulty_category,
             'discrimination': discrimination_index,
             'discrimination_category': discrimination_category,
+            'r_pbis': r_pbis,
             'options': option_stats,
         }
 
@@ -78,8 +86,6 @@ class CttAnalysis:
 
                     # Update the dictionary with the new value
                     current_option.option_stats['correct_answers'] = correct_answers
-                # option_stats[student_answer]['selected_by'] += 1
-                # option_stats[student_answer]['ratio'] = option_stats[student_answer]['selected_by']/total_student
                 current_option.option_stats['selected_by'] += 1
                 current_option.option_stats['ratio'] = correct_answers/total_student
                 if student in top_students:
@@ -132,3 +138,41 @@ class CttAnalysis:
         else:
             return "Bad"
 
+    def _calculate_rpbis(self, question_id, all_students):
+        """
+        Calculates the Rpbis (Relative Position of the Biserial) for a question.
+
+        The Rpbis is a measure of the relative position of the biserial correlation coefficient, which is a measure of the relationship between a question and the total score.
+
+        Args:
+            question_id (str): The ID of the question.
+            all_students (list): The list of all students.
+
+        Returns:
+            float: The Rpbis for the question.
+        """
+        if len(all_students) == 0:
+            return None
+
+        all_scores = [self.examResult.scores[i] for i, student in enumerate(all_students)]
+        all_scores = [score['score'] for score in all_scores]
+       
+        if len(correct_students) == 0 or len(incorrect_students) == 0:
+            return None
+
+        correct_scores = [self.examResult.scores[i]['score'] for i, student in enumerate(all_students) if student in correct_students]
+        incorrect_scores = [self.examResult.scores[i]['score'] for i, student in enumerate(all_students) if student in incorrect_students]
+
+        correct_mean = np.mean(correct_scores)
+        incorrect_mean = np.mean(incorrect_scores)
+
+        total_std = np.std(all_scores)
+        correct_proportion = len(correct_students) / len(all_students)
+        incorrect_proportion = 1 - correct_proportion
+
+        rpbis = (correct_mean - incorrect_mean) / total_std * np.sqrt(correct_proportion * incorrect_proportion)
+
+        return rpbis
+        
+            
+        
