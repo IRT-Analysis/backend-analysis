@@ -1,4 +1,5 @@
 import numpy as np
+import statistics
 class CttAnalysis:
     examResult = None  
     average_rbpis = 0
@@ -29,7 +30,7 @@ class CttAnalysis:
         Splits students into top and bottom groups based on scores.
         """
         sorted_students = sorted(self.examResult.scores, key=lambda x: x['score'], reverse=True)
-        top_students = [s['student'] for s in sorted_students]
+        
         top_students = [s['student'] for s in sorted_students[:len(sorted_students) // 3]]
         bottom_students = [s['student'] for s in sorted_students[-len(sorted_students) // 3:]]
         return sorted_students, top_students, bottom_students
@@ -47,6 +48,7 @@ class CttAnalysis:
         )
         difficulty_category = self._categorize_difficulty(difficulty_index)
         discrimination_category = self._categorize_discrimination(discrimination_index)
+        all_students = sorted(self.examResult.scores, key=lambda x: x['score'], reverse=True)
         r_pbis = self._calculate_rpbis(question_id, sorted_students)
         return {
             'difficulty': difficulty_index,
@@ -83,7 +85,6 @@ class CttAnalysis:
                     correct_answers = current_option.option_stats.get('correct_answers', 0)
                     # Increment the value
                     correct_answers += 1
-
                     # Update the dictionary with the new value
                     current_option.option_stats['correct_answers'] = correct_answers
                 current_option.option_stats['selected_by'] += 1
@@ -156,16 +157,18 @@ class CttAnalysis:
 
         all_scores = [self.examResult.scores[i] for i, student in enumerate(all_students)]
         all_scores = [score['score'] for score in all_scores]
-       
+        # print("all score ", all_scores)
+        
         correct_students = [student for student in all_students if self.examResult.is_correct_answer(student['student'], question_id)]
         incorrect_students = [student for student in all_students if not self.examResult.is_correct_answer(student['student'], question_id)]
-
+        # for student in incorrect_students:
+        #     print(student['score'])
+            
         if len(correct_students) == 0 or len(incorrect_students) == 0:
             return None
 
-        correct_scores = [self.examResult.scores[i]['score'] for i, student in enumerate(all_students) if student in correct_students]
-        incorrect_scores = [self.examResult.scores[i]['score'] for i, student in enumerate(all_students) if student in incorrect_students]
-
+        correct_scores = [student['score'] for student in correct_students]
+        incorrect_scores = [student['score']  for student in incorrect_students]
         correct_mean = np.mean(correct_scores)
         incorrect_mean = np.mean(incorrect_scores)
 
@@ -174,7 +177,6 @@ class CttAnalysis:
         incorrect_proportion = 1 - correct_proportion
 
         rpbis = (correct_mean - incorrect_mean) / total_std * np.sqrt(correct_proportion * incorrect_proportion)
-
         return rpbis
         
             

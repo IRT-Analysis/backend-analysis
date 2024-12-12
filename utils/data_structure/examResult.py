@@ -41,5 +41,5 @@ class ExamResult:
             correct_answer_index = exam.get_correct_answer(question_id)
             correct_answer = answer_order[correct_answer_index]
             student_answer = answer_order[student.answers[question_id]['answer']]
-            return student_answer == correct_answer
+            return student_answer.content == correct_answer.content
         return False

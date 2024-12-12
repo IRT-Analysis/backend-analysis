@@ -488,6 +488,18 @@ analysis = CttAnalysis(examResult)
 
 output_file = "./analysis_result.json"
 
+with open("./student.json", "w") as json_file:
+    for student in students:
+        json.dump(
+            [student.id,student.answers], json_file, indent=4
+        )  # indent=4 for pretty-printing the JSON
+with open("./exam.json", "w") as json_file:
+    for score in examResult.scores:
+        json.dump(
+            [score['student'].id,score['score']], json_file, indent=4
+        )  # indent=4 for pretty-printing the JSON
+
+
 # Open the file in write mode and dump the result into it
 with open(output_file, "w") as json_file:
     json.dump(
