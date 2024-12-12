@@ -157,6 +157,9 @@ class CttAnalysis:
         all_scores = [self.examResult.scores[i] for i, student in enumerate(all_students)]
         all_scores = [score['score'] for score in all_scores]
        
+        correct_students = [student for student in all_students if self.examResult.is_correct_answer(student['student'], question_id)]
+        incorrect_students = [student for student in all_students if not self.examResult.is_correct_answer(student['student'], question_id)]
+
         if len(correct_students) == 0 or len(incorrect_students) == 0:
             return None
 
