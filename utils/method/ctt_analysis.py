@@ -1,11 +1,38 @@
 import numpy as np
 import statistics
+
+# class Method:
+#     examResult = None
+#     question_stats = {}
+    
+#     def get_number_of_student(self):
+#         return 0
+    
+#     def get_number_of_questions(self):
+#     """ 
+#     Return the total number of questions in the question bank.
+#     """
+#         return 0
+    
+#     def get_average_score(self):
+#     """ 
+#     Calculate average scores of all students
+#     """
+#         scores = [self.examResult.scores[i] for i, student in enumerate(self.examResult.scores)]
+#         return scores.mean()
+    
+#     def get_average_rbpis(self):
+#         None
+    
+#     def get_average_difficulty(self):
+#         None
+    
+#     def get_average_discrimination(self):
+#         None
+        
+
 class CttAnalysis:
     examResult = None  
-    average_rbpis = 0
-    average_score = 0
-    difficulty = 0
-    discrimination = 0
     
     def __init__(self, examResult):
         self.examResult = examResult
@@ -39,10 +66,10 @@ class CttAnalysis:
         """
         Analyzes a single question to compute difficulty and discrimination indices.
         """
-        correct_answers, option_stats = self._compute_option_stats(
+        chosen_by, option_stats = self._compute_option_stats(
             question_id, question_data, top_students, bottom_students
         )
-        difficulty_index = correct_answers / len(self.examResult.students)
+        difficulty_index = chosen_by / len(self.examResult.students)
         discrimination_index = self._compute_discrimination_index(
             question_id, top_students, bottom_students
         )
@@ -63,9 +90,9 @@ class CttAnalysis:
         """
         Computes statistics for each option of a question.
         """
-        correct_answers = 0
+        chosen_by = 0
         total_student = len(self.examResult.students)
-        option_stats = None
+        option_stats = {}
 
         for student in self.examResult.students:
             exam = next((ex for ex in self.examResult.exams if ex.code == student.exam_code), None)
@@ -74,27 +101,22 @@ class CttAnalysis:
             # print("----------------", student.answers)
             if question_id in student.answers and answer_order is not None:
                 correct_answer_index = exam.get_correct_answer(question_id)
-                correct_answer = answer_order[correct_answer_index]
                 student_answer = student.answers[question_id]['answer']
-                # student_answer = student.answers[question_id]
-                # selected_option = answer_order[student_answer]
-                selected_option = correct_answer_index
-                options = exam.question_bank.questions[question_id].get('options')
-                current_option = options[selected_option]
-                if selected_option == student_answer:
-                    correct_answers = current_option.option_stats.get('correct_answers', 0)
-                    # Increment the value
-                    correct_answers += 1
-                    # Update the dictionary with the new value
-                    current_option.option_stats['correct_answers'] = correct_answers
-                current_option.option_stats['selected_by'] += 1
-                current_option.option_stats['ratio'] = correct_answers/total_student
-                if student in top_students:
-                    current_option.option_stats['top_selected'] += 1
-                if student in bottom_students:
-                    current_option.option_stats['bottom_selected'] += 1
-                option_stats = current_option.option_stats
-        return correct_answers, option_stats
+                for option in enumerate(answer_order):
+                    if student_answer == option[0]:
+                        chosen_by = option[1].option_stats.get('chosen_by', 0)
+                        # Increment the value
+                        chosen_by += 1
+                        # Update the dictionary with the new value
+                        option[1].option_stats['chosen_by'] = chosen_by
+                        option[1].option_stats['selected_by'] += 1
+                        option[1].option_stats['ratio'] = chosen_by/total_student
+                        if student in top_students:
+                            option[1].option_stats['top_selected'] += 1
+                        if student in bottom_students:
+                            option[1].option_stats['bottom_selected'] += 1
+                    option_stats[option[0]] = option[1].option_stats
+        return chosen_by, option_stats
 
     def _compute_discrimination_index(self, question_id, top_students, bottom_students):
         """
@@ -178,6 +200,8 @@ class CttAnalysis:
 
         rpbis = (correct_mean - incorrect_mean) / total_std * np.sqrt(correct_proportion * incorrect_proportion)
         return rpbis
+    
+    
         
             
         

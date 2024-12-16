@@ -12,3 +12,4 @@ class Student:
         self.exam_code = exam_code
         # -1: Not answer - 0, 1, 2, 3,...: A, B, C, D,..
         self.answers = answers  
+    
