@@ -1,229 +1,50 @@
 import json
+import os
 
-import pandas as pd
-from data_structure.question import QuestionBank
-from data_structure.exam import Exam
-from data_structure.student import Student
-from data_structure.examResult import ExamResult
-from data_structure.option import Option
-from method.ctt_analysis import CttAnalysis
 # from data_processing import DataProcessing
-
 from itertools import groupby
 
+import pandas as pd
 from data_processing import DataProcessing
+from data_structure.exam import Exam
+from data_structure.examResult import ExamResult
+from data_structure.option import Option
+from data_structure.question import QuestionBank
+from data_structure.student import Student
+from method.ctt_analysis import CttAnalysis
 
-question_bank_df = pd.read_csv("uploads/mock_question_bank_items.csv")
+from config import UPLOAD_FOLDER
 
-# Convert the DataFrame into a list of dictionaries
-question_bank_data = question_bank_df.to_dict(orient="records")
+# question_bank_df = pd.read_csv(
+#     os.path.join(UPLOAD_FOLDER, "mock_question_bank_items.csv")
+# )
+
+# # Convert the DataFrame into a list of dictionaries
+# question_bank_data = question_bank_df.to_dict(orient="records")
 
 # print("Exam Data:", len(question_bank_data))  # Display the first 5 records
 
 
-# Tạo bộ câu hỏi chuẩn
-question_bank = QuestionBank()
+# # Tạo bộ câu hỏi chuẩn
+# question_bank = QuestionBank()
 
-# question_bank_data = [
-#     {
-#         "Question_ID": "Q001",
-#         "Content": "What is the capital of France?",
-#         "Option_A": "London",
-#         "Option_B": "Paris",
-#         "Option_C": "Berlin",
-#         "Option_D": "Rome",
-#         "Correct_Option": "B",
-#     },
-#     {
-#         "Question_ID": "Q002",
-#         "Content": "What is 2+2?",
-#         "Option_A": "4",
-#         "Option_B": "5",
-#         "Option_C": "6",
-#         "Option_D": "3",
-#         "Correct_Option": "A",
-#     },
-#     {
-#         "Question_ID": "Q003",
-#         "Content": "What is 3+5?",
-#         "Option_A": "7",
-#         "Option_B": "8",
-#         "Option_C": "9",
-#         "Option_D": "10",
-#         "Correct_Option": "B",
-#     },
-#     {
-#         "Question_ID": "Q004",
-#         "Content": "What is the largest ocean?",
-#         "Option_A": "Atlantic",
-#         "Option_B": "Indian",
-#         "Option_C": "Arctic",
-#         "Option_D": "Pacific",
-#         "Correct_Option": "D",
-#     },
-#     {
-#         "Question_ID": "Q005",
-#         "Content": "Who wrote '1984'?",
-#         "Option_A": "George Orwell",
-#         "Option_B": "J.K. Rowling",
-#         "Option_C": "Mark Twain",
-#         "Option_D": "Hemingway",
-#         "Correct_Option": "A",
-#     },
-#     {
-#         "Question_ID": "Q006",
-#         "Content": "What is the chemical symbol for water?",
-#         "Option_A": "H2O",
-#         "Option_B": "O2",
-#         "Option_C": "CO2",
-#         "Option_D": "H2",
-#         "Correct_Option": "A",
-#     },
-#     {
-#         "Question_ID": "Q007",
-#         "Content": "Which planet is known as the Red Planet?",
-#         "Option_A": "Venus",
-#         "Option_B": "Earth",
-#         "Option_C": "Mars",
-#         "Option_D": "Jupiter",
-#         "Correct_Option": "C",
-#     },
-#     {
-#         "Question_ID": "Q008",
-#         "Content": "What is the square root of 16?",
-#         "Option_A": "2",
-#         "Option_B": "4",
-#         "Option_C": "8",
-#         "Option_D": "16",
-#         "Correct_Option": "B",
-#     },
-#     {
-#         "Question_ID": "Q009",
-#         "Content": "Who is the first President of the United States?",
-#         "Option_A": "Abraham Lincoln",
-#         "Option_B": "George Washington",
-#         "Option_C": "Thomas Jefferson",
-#         "Option_D": "John Adams",
-#         "Correct_Option": "B",
-#     },
-#     {
-#         "Question_ID": "Q010",
-#         "Content": "What is the capital of Japan?",
-#         "Option_A": "Seoul",
-#         "Option_B": "Beijing",
-#         "Option_C": "Tokyo",
-#         "Option_D": "Kyoto",
-#         "Correct_Option": "C",
-#     },
-#     {
-#         "Question_ID": "Q011",
-#         "Content": "Which element has the atomic number 1?",
-#         "Option_A": "Helium",
-#         "Option_B": "Hydrogen",
-#         "Option_C": "Oxygen",
-#         "Option_D": "Carbon",
-#         "Correct_Option": "B",
-#     },
-#     {
-#         "Question_ID": "Q012",
-#         "Content": "Who painted the Mona Lisa?",
-#         "Option_A": "Vincent van Gogh",
-#         "Option_B": "Pablo Picasso",
-#         "Option_C": "Leonardo da Vinci",
-#         "Option_D": "Claude Monet",
-#         "Correct_Option": "C",
-#     },
-#     {
-#         "Question_ID": "Q013",
-#         "Content": "What is the largest continent?",
-#         "Option_A": "Africa",
-#         "Option_B": "Asia",
-#         "Option_C": "Europe",
-#         "Option_D": "North America",
-#         "Correct_Option": "B",
-#     },
-#     {
-#         "Question_ID": "Q014",
-#         "Content": "Which country is known as the Land of the Rising Sun?",
-#         "Option_A": "China",
-#         "Option_B": "Japan",
-#         "Option_C": "South Korea",
-#         "Option_D": "India",
-#         "Correct_Option": "B",
-#     },
-#     {
-#         "Question_ID": "Q015",
-#         "Content": "What is the boiling point of water in Celsius?",
-#         "Option_A": "50°C",
-#         "Option_B": "100°C",
-#         "Option_C": "150°C",
-#         "Option_D": "200°C",
-#         "Correct_Option": "B",
-#     },
-#     {
-#         "Question_ID": "Q016",
-#         "Content": "What is the largest animal on Earth?",
-#         "Option_A": "Elephant",
-#         "Option_B": "Blue whale",
-#         "Option_C": "Giraffe",
-#         "Option_D": "Shark",
-#         "Correct_Option": "B",
-#     },
-#     {
-#         "Question_ID": "Q017",
-#         "Content": "Which element is diamond made of?",
-#         "Option_A": "Gold",
-#         "Option_B": "Oxygen",
-#         "Option_C": "Carbon",
-#         "Option_D": "Nitrogen",
-#         "Correct_Option": "C",
-#     },
-#     {
-#         "Question_ID": "Q018",
-#         "Content": "What is the currency of the United Kingdom?",
-#         "Option_A": "Euro",
-#         "Option_B": "Pound",
-#         "Option_C": "Dollar",
-#         "Option_D": "Yen",
-#         "Correct_Option": "B",
-#     },
-#     {
-#         "Question_ID": "Q019",
-#         "Content": "Which gas do plants absorb from the atmosphere?",
-#         "Option_A": "Oxygen",
-#         "Option_B": "Hydrogen",
-#         "Option_C": "Carbon Dioxide",
-#         "Option_D": "Nitrogen",
-#         "Correct_Option": "C",
-#     },
-#     {
-#         "Question_ID": "Q020",
-#         "Content": "What is the freezing point of water?",
-#         "Option_A": "-10°C",
-#         "Option_B": "0°C",
-#         "Option_C": "10°C",
-#         "Option_D": "32°C",
-#         "Correct_Option": "B",
-#     },
-# ]
+# for question in question_bank_data:
+#     question_id = question["Question_ID"]
+#     question_content = question["Content"]
+#     # options = [question['Option_A'], question['Option_B'], question['Option_C'], question['Option_D']]
+#     options = [
+#         Option(question["Option_A"]),
+#         Option(question["Option_B"]),
+#         Option(question["Option_C"]),
+#         Option(question["Option_D"]),
+#     ]
+#     correct_answer = question["Correct_Option"]
+#     correct_answer_index = ["A", "B", "C", "D"].index(correct_answer)
 
-for question in question_bank_data:
-    question_id = question["Question_ID"]
-    question_content = question["Content"]
-    # options = [question['Option_A'], question['Option_B'], question['Option_C'], question['Option_D']]
-    options = [
-        Option(question["Option_A"]),
-        Option(question["Option_B"]),
-        Option(question["Option_C"]),
-        Option(question["Option_D"]),
-    ]
-    correct_answer = question["Correct_Option"]
-    correct_answer_index = ["A", "B", "C", "D"].index(correct_answer)
-
-    # Add the question to the QuestionBank
-    question_bank.add_question(
-        question_id, question_content, options, correct_answer_index
-    )
+#     # Add the question to the QuestionBank
+#     question_bank.add_question(
+#         question_id, question_content, options, correct_answer_index
+#     )
 
 
 # # Now the question bank contains the questions
@@ -469,41 +290,43 @@ def process_exam(file_path, question_bank):
 # # Read the CSV file into a pandas DataFrame
 
 
-students = DataProcessing().result_file_process("./uploads/KQCO2003.xlsx")
+# students = DataProcessing().result_file_process(
+#     os.path.join(UPLOAD_FOLDER, "KQCO2003.xlsx")
+# )
 
 
-exam_df = pd.read_csv("uploads/mock_exam_items.csv")
+# exam_df = pd.read_csv(os.path.join(UPLOAD_FOLDER, "mock_exam_items.csv"))
 
-# # Convert the DataFrame into a list of dictionaries
-exam_data = exam_df.to_dict(orient="records")
-
-
-exams = process_exam(exam_data, question_bank)
+# # # Convert the DataFrame into a list of dictionaries
+# exam_data = exam_df.to_dict(orient="records")
 
 
-examResult = ExamResult(exams, students)
-
-analysis = CttAnalysis(examResult)
+# exams = process_exam(exam_data, question_bank)
 
 
-output_file = "./analysis_result.json"
+# examResult = ExamResult(exams, students)
 
-with open("./student.json", "w") as json_file:
-    for student in students:
-        json.dump(
-            [student.id,student.answers], json_file, indent=4
-        )  # indent=4 for pretty-printing the JSON
-with open("./exam.json", "w") as json_file:
-    for score in examResult.scores:
-        json.dump(
-            [score['student'].id,score['score']], json_file, indent=4
-        )  # indent=4 for pretty-printing the JSON
+# analysis = CttAnalysis(examResult)
 
 
-# Open the file in write mode and dump the result into it
-with open(output_file, "w") as json_file:
-    json.dump(
-        analysis.analyze_questions_ctt(), json_file, indent=4
-    )  # indent=4 for pretty-printing the JSON
+# output_file = "./analysis_result.json"
 
-print(f"Analysis result has been written to {output_file}")
+# with open("./student.json", "w") as json_file:
+#     for student in students:
+#         json.dump(
+#             [student.id, student.answers], json_file, indent=4
+#         )  # indent=4 for pretty-printing the JSON
+# with open("./exam.json", "w") as json_file:
+#     for score in examResult.scores:
+#         json.dump(
+#             [score["student"].id, score["score"]], json_file, indent=4
+#         )  # indent=4 for pretty-printing the JSON
+
+
+# # Open the file in write mode and dump the result into it
+# with open(output_file, "w") as json_file:
+#     json.dump(
+#         analysis.analyze_questions_ctt(), json_file, indent=4
+#     )  # indent=4 for pretty-printing the JSON
+
+# print(f"Analysis result has been written to {output_file}")
