@@ -1,59 +1,48 @@
 import numpy as np
 
-# class Method:
-#     examResult = None
-#     question_stats = {}
-
-#     def get_number_of_student(self):
-#         return 0
-
-#     def get_number_of_questions(self):
-#     """
-#     Return the total number of questions in the question bank.
-#     """
-#         return 0
-
-#     def get_average_score(self):
-#     """
-#     Calculate average scores of all students
-#     """
-#         scores = [self.examResult.scores[i] for i, student in enumerate(self.examResult.scores)]
-#         return scores.mean()
-
-#     def get_average_rbpis(self):
-#         None
-
-#     def get_average_difficulty(self):
-#         None
-
-#     def get_average_discrimination(self):
-#         None
-
-
 class CttAnalysis:
     examResult = None
+    question_stats = {}
+    average_indexes = {}
+    general_detail = {}
 
     def __init__(self, examResult):
         self.examResult = examResult
+        self.general_detail = {
+            "total_students": 0,
+            "total_questions": 0,
+            "total_option": 4
+        }
+        
+    def _get_average_value(self, name, list):
+        temp = [question[name] for question in list]
+        average = np.mean(temp)
+        return round(average, 3)
 
     def analyze_questions_ctt(self):
         """
         Main function to analyze questions.
         """
         all_questions = self.examResult.exams[0].question_bank.get_all_questions()
+        self.general_detail["total_students"] = len(self.examResult.students)
+        self.general_detail["total_questions"] = len(self.examResult.exams[0].question_bank.questions)
         sorted_students, top_students, bottom_students = self._split_students()
-
-        question_stats = {}
+        list = []
         for question_id, question_data in all_questions.items():
-            question_stats[question_id] = self._analyze_single_question(
+            self.question_stats[question_id] = self._analyze_single_question(
                 question_id,
                 question_data,
                 sorted_students,
                 top_students,
                 bottom_students,
             )
-
-        return question_stats
+            list.append(self.question_stats[question_id])
+        
+        self.average_indexes["average_score"] = self._get_average_value("score", self.examResult.scores)
+        self.average_indexes["average_discrimination"] = self._get_average_value("discrimination", list)
+        self.average_indexes["average_difficulty"] = self._get_average_value("difficulty", list)
+        self.average_indexes["average_rpbis"] = self._get_average_value("r_pbis", list)
+        return self.question_stats
 
     def _split_students(self):
         """
@@ -105,6 +94,8 @@ class CttAnalysis:
         chosen_by = 0
         total_student = len(self.examResult.students)
         option_stats = {}
+        top_students_len = len(top_students)
+        bottom_students_len = len(bottom_students)
 
         for student in self.examResult.students:
             exam = next(
@@ -126,7 +117,7 @@ class CttAnalysis:
                             option[1].option_stats["top_selected"] += 1
                         if student in bottom_students:
                             option[1].option_stats['bottom_selected'] += 1
-                        option[1].option_stats['discrimination'] = round((option[1].option_stats['top_selected']-option[1].option_stats['bottom_selected'])/total_student,3)
+                        option[1].option_stats['discrimination'] = round((option[1].option_stats['top_selected']/top_students_len-option[1].option_stats['bottom_selected']/bottom_students_len),3)
                         # option[1].students.append(student)
                     option_stats[option[0]] = option[1].option_stats
         return chosen_by, option_stats
