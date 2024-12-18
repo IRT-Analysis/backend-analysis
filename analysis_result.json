@@ -1,2461 +1,2461 @@
 {
     "C1": {
-        "difficulty": 0.528169014084507,
-        "difficulty_category": "Easy",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.5155141843971631,
         "discrimination_category": "Good",
         "r_pbis": 0.44213159063793517,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 7,
                 "top_selected": 0,
                 "bottom_selected": 5,
-                "ratio": 0.04929577464788732,
-                "chosen_by": 7
+                "ratio": 0.0,
+                "discrimination": -0.035211267605633804,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 23,
                 "top_selected": 4,
                 "bottom_selected": 15,
-                "ratio": 0.1619718309859155,
-                "chosen_by": 23
+                "ratio": 0.0,
+                "discrimination": -0.07746478873239436,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 75,
                 "top_selected": 35,
                 "bottom_selected": 11,
-                "ratio": 0.528169014084507,
-                "chosen_by": 75
+                "ratio": 0.0,
+                "discrimination": 0.16901408450704225,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 37,
                 "top_selected": 8,
                 "bottom_selected": 17,
-                "ratio": 0.2605633802816901,
-                "chosen_by": 37
+                "ratio": 0.0,
+                "discrimination": -0.06338028169014084,
+                "r_bpis": 0
             }
         }
     },
     "C2": {
-        "difficulty": 0.2605633802816901,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.32668439716312053,
         "discrimination_category": "Good",
         "r_pbis": 0.2752437678814729,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 69,
                 "top_selected": 32,
                 "bottom_selected": 17,
-                "ratio": 0.4859154929577465,
-                "chosen_by": 69
+                "ratio": 0.0,
+                "discrimination": 0.1056338028169014,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 19,
                 "top_selected": 5,
                 "bottom_selected": 6,
-                "ratio": 0.13380281690140844,
-                "chosen_by": 19
+                "ratio": 0.0,
+                "discrimination": -0.007042253521126761,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 37,
                 "top_selected": 5,
                 "bottom_selected": 18,
-                "ratio": 0.2605633802816901,
-                "chosen_by": 37
+                "ratio": 0.0,
+                "discrimination": -0.09154929577464789,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 17,
                 "top_selected": 5,
                 "bottom_selected": 7,
-                "ratio": 0.11971830985915492,
-                "chosen_by": 17
+                "ratio": 0.0,
+                "discrimination": -0.014084507042253521,
+                "r_bpis": 0
             }
         }
     },
     "C3": {
-        "difficulty": 0.36619718309859156,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.4299645390070922,
         "discrimination_category": "Good",
         "r_pbis": 0.3898109374314883,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 52,
                 "top_selected": 10,
                 "bottom_selected": 24,
-                "ratio": 0.36619718309859156,
-                "chosen_by": 52
+                "ratio": 0.0,
+                "discrimination": -0.09859154929577464,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 55,
                 "top_selected": 30,
                 "bottom_selected": 10,
-                "ratio": 0.3873239436619718,
-                "chosen_by": 55
+                "ratio": 0.0,
+                "discrimination": 0.14084507042253522,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 26,
                 "top_selected": 7,
                 "bottom_selected": 10,
-                "ratio": 0.18309859154929578,
-                "chosen_by": 26
+                "ratio": 0.0,
+                "discrimination": -0.02112676056338028,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 9,
                 "top_selected": 0,
                 "bottom_selected": 4,
-                "ratio": 0.06338028169014084,
-                "chosen_by": 9
+                "ratio": 0.0,
+                "discrimination": -0.028169014084507043,
+                "r_bpis": 0
             }
         }
     },
     "C4": {
-        "difficulty": 0.5915492957746479,
-        "difficulty_category": "Easy",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.28679078014184395,
         "discrimination_category": "Normal",
         "r_pbis": 0.3099207036191126,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 11,
                 "top_selected": 1,
                 "bottom_selected": 6,
-                "ratio": 0.07746478873239436,
-                "chosen_by": 11
+                "ratio": 0.0,
+                "discrimination": -0.035211267605633804,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 84,
                 "top_selected": 36,
                 "bottom_selected": 23,
-                "ratio": 0.5915492957746479,
-                "chosen_by": 84
+                "ratio": 0.0,
+                "discrimination": 0.09154929577464789,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 36,
                 "top_selected": 6,
                 "bottom_selected": 14,
-                "ratio": 0.2535211267605634,
-                "chosen_by": 36
+                "ratio": 0.0,
+                "discrimination": -0.056338028169014086,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 11,
                 "top_selected": 4,
                 "bottom_selected": 5,
-                "ratio": 0.07746478873239436,
-                "chosen_by": 11
+                "ratio": 0.0,
+                "discrimination": -0.007042253521126761,
+                "r_bpis": 0
             }
         }
     },
     "C5": {
-        "difficulty": 0.6408450704225352,
-        "difficulty_category": "Easy",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": -0.12189716312056736,
         "discrimination_category": "Bad",
         "r_pbis": -0.09656456313679763,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 37,
                 "top_selected": 7,
                 "bottom_selected": 13,
-                "ratio": 0.2605633802816901,
-                "chosen_by": 37
+                "ratio": 0.0,
+                "discrimination": -0.04225352112676056,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 91,
                 "top_selected": 35,
                 "bottom_selected": 31,
-                "ratio": 0.6408450704225352,
-                "chosen_by": 91
+                "ratio": 0.0,
+                "discrimination": 0.028169014084507043,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 8,
                 "top_selected": 3,
                 "bottom_selected": 2,
-                "ratio": 0.056338028169014086,
-                "chosen_by": 8
+                "ratio": 0.0,
+                "discrimination": 0.007042253521126761,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 6,
                 "top_selected": 2,
                 "bottom_selected": 2,
-                "ratio": 0.04225352112676056,
-                "chosen_by": 6
+                "ratio": 0.0,
+                "discrimination": 0.0,
+                "r_bpis": 0
             }
         }
     },
     "C6": {
-        "difficulty": 0.16901408450704225,
+        "difficulty": 0.0,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.19547872340425532,
         "discrimination_category": "Normal",
         "r_pbis": 0.2398792438921467,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 48,
                 "top_selected": 11,
                 "bottom_selected": 20,
-                "ratio": 0.3380281690140845,
-                "chosen_by": 48
+                "ratio": 0.0,
+                "discrimination": -0.06338028169014084,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 24,
                 "top_selected": 10,
                 "bottom_selected": 7,
-                "ratio": 0.16901408450704225,
-                "chosen_by": 24
+                "ratio": 0.0,
+                "discrimination": 0.02112676056338028,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 31,
                 "top_selected": 8,
                 "bottom_selected": 12,
-                "ratio": 0.21830985915492956,
-                "chosen_by": 31
+                "ratio": 0.0,
+                "discrimination": -0.028169014084507043,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 39,
                 "top_selected": 18,
                 "bottom_selected": 9,
-                "ratio": 0.2746478873239437,
-                "chosen_by": 39
+                "ratio": 0.0,
+                "discrimination": 0.06338028169014084,
+                "r_bpis": 0
             }
         }
     },
     "C7": {
-        "difficulty": 0.22535211267605634,
+        "difficulty": 0.0,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.2021276595744681,
         "discrimination_category": "Normal",
         "r_pbis": 0.19802832577468388,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 86,
                 "top_selected": 33,
                 "bottom_selected": 24,
-                "ratio": 0.6056338028169014,
-                "chosen_by": 86
+                "ratio": 0.0,
+                "discrimination": 0.06338028169014084,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 32,
                 "top_selected": 9,
                 "bottom_selected": 13,
-                "ratio": 0.22535211267605634,
-                "chosen_by": 32
+                "ratio": 0.0,
+                "discrimination": -0.028169014084507043,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 18,
                 "top_selected": 4,
                 "bottom_selected": 8,
-                "ratio": 0.1267605633802817,
-                "chosen_by": 18
+                "ratio": 0.0,
+                "discrimination": -0.028169014084507043,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 5,
                 "top_selected": 1,
                 "bottom_selected": 2,
-                "ratio": 0.035211267605633804,
-                "chosen_by": 5
+                "ratio": 0.0,
+                "discrimination": -0.007042253521126761,
+                "r_bpis": 0
             }
         }
     },
     "C8": {
-        "difficulty": 0.7887323943661971,
-        "difficulty_category": "Very Easy",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.07934397163120566,
         "discrimination_category": "Bad",
         "r_pbis": 0.10748696315527193,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 112,
                 "top_selected": 38,
                 "bottom_selected": 35,
-                "ratio": 0.7887323943661971,
-                "chosen_by": 112
+                "ratio": 0.0,
+                "discrimination": 0.02112676056338028,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 3,
                 "top_selected": 0,
                 "bottom_selected": 3,
-                "ratio": 0.02112676056338028,
-                "chosen_by": 3
+                "ratio": 0.0,
+                "discrimination": -0.02112676056338028,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 17,
                 "top_selected": 7,
                 "bottom_selected": 8,
-                "ratio": 0.11971830985915492,
-                "chosen_by": 17
+                "ratio": 0.0,
+                "discrimination": -0.007042253521126761,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 10,
                 "top_selected": 2,
                 "bottom_selected": 2,
-                "ratio": 0.07042253521126761,
-                "chosen_by": 10
+                "ratio": 0.0,
+                "discrimination": 0.0,
+                "r_bpis": 0
             }
         }
     },
     "C9": {
-        "difficulty": 0.647887323943662,
-        "difficulty_category": "Easy",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.023049645390070927,
         "discrimination_category": "Bad",
         "r_pbis": 0.05837059478874927,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 25,
                 "top_selected": 7,
                 "bottom_selected": 10,
-                "ratio": 0.176056338028169,
-                "chosen_by": 25
+                "ratio": 0.0,
+                "discrimination": -0.02112676056338028,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 15,
                 "top_selected": 2,
                 "bottom_selected": 7,
-                "ratio": 0.1056338028169014,
-                "chosen_by": 15
+                "ratio": 0.0,
+                "discrimination": -0.035211267605633804,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 92,
                 "top_selected": 33,
                 "bottom_selected": 27,
-                "ratio": 0.647887323943662,
-                "chosen_by": 92
+                "ratio": 0.0,
+                "discrimination": 0.04225352112676056,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 9,
                 "top_selected": 5,
                 "bottom_selected": 4,
-                "ratio": 0.06338028169014084,
-                "chosen_by": 9
+                "ratio": 0.0,
+                "discrimination": 0.007042253521126761,
+                "r_bpis": 0
             }
         }
     },
     "C10": {
-        "difficulty": 0.14084507042253522,
+        "difficulty": 0.0,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.2796985815602837,
         "discrimination_category": "Normal",
         "r_pbis": 0.29405629381479736,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 45,
                 "top_selected": 20,
                 "bottom_selected": 7,
-                "ratio": 0.31690140845070425,
-                "chosen_by": 45
+                "ratio": 0.0,
+                "discrimination": 0.09154929577464789,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 49,
                 "top_selected": 14,
                 "bottom_selected": 23,
-                "ratio": 0.34507042253521125,
-                "chosen_by": 49
+                "ratio": 0.0,
+                "discrimination": -0.06338028169014084,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 28,
                 "top_selected": 5,
                 "bottom_selected": 11,
-                "ratio": 0.19718309859154928,
-                "chosen_by": 28
+                "ratio": 0.0,
+                "discrimination": -0.04225352112676056,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 20,
                 "top_selected": 8,
                 "bottom_selected": 7,
-                "ratio": 0.14084507042253522,
-                "chosen_by": 20
+                "ratio": 0.0,
+                "discrimination": 0.007042253521126761,
+                "r_bpis": 0
             }
         }
     },
     "C11": {
-        "difficulty": 0.5422535211267606,
-        "difficulty_category": "Easy",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": -0.015514184397163122,
         "discrimination_category": "Bad",
         "r_pbis": -0.0392141678245493,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 34,
                 "top_selected": 12,
                 "bottom_selected": 13,
-                "ratio": 0.23943661971830985,
-                "chosen_by": 34
+                "ratio": 0.0,
+                "discrimination": -0.007042253521126761,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 77,
                 "top_selected": 32,
                 "bottom_selected": 19,
-                "ratio": 0.5422535211267606,
-                "chosen_by": 77
+                "ratio": 0.0,
+                "discrimination": 0.09154929577464789,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 20,
                 "top_selected": 2,
                 "bottom_selected": 11,
-                "ratio": 0.14084507042253522,
-                "chosen_by": 20
+                "ratio": 0.0,
+                "discrimination": -0.06338028169014084,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 11,
                 "top_selected": 1,
                 "bottom_selected": 5,
-                "ratio": 0.07746478873239436,
-                "chosen_by": 11
+                "ratio": 0.0,
+                "discrimination": -0.028169014084507043,
+                "r_bpis": 0
             }
         }
     },
     "C12": {
-        "difficulty": 0.8028169014084507,
-        "difficulty_category": "Very Easy",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.22695035460992907,
         "discrimination_category": "Normal",
         "r_pbis": 0.25583311737192915,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 3,
                 "top_selected": 0,
                 "bottom_selected": 3,
-                "ratio": 0.02112676056338028,
-                "chosen_by": 3
+                "ratio": 0.0,
+                "discrimination": -0.02112676056338028,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 18,
                 "top_selected": 5,
                 "bottom_selected": 9,
-                "ratio": 0.1267605633802817,
-                "chosen_by": 18
+                "ratio": 0.0,
+                "discrimination": -0.028169014084507043,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 7,
                 "top_selected": 0,
                 "bottom_selected": 4,
-                "ratio": 0.04929577464788732,
-                "chosen_by": 7
+                "ratio": 0.0,
+                "discrimination": -0.028169014084507043,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 114,
                 "top_selected": 42,
                 "bottom_selected": 32,
-                "ratio": 0.8028169014084507,
-                "chosen_by": 114
+                "ratio": 0.0,
+                "discrimination": 0.07042253521126761,
+                "r_bpis": 0
             }
         }
     },
     "C13": {
-        "difficulty": 0.7535211267605634,
-        "difficulty_category": "Very Easy",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.09973404255319152,
         "discrimination_category": "Bad",
         "r_pbis": 0.09333557617798156,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 15,
                 "top_selected": 7,
                 "bottom_selected": 5,
-                "ratio": 0.1056338028169014,
-                "chosen_by": 15
+                "ratio": 0.0,
+                "discrimination": 0.014084507042253521,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 14,
                 "top_selected": 2,
                 "bottom_selected": 7,
-                "ratio": 0.09859154929577464,
-                "chosen_by": 14
+                "ratio": 0.0,
+                "discrimination": -0.035211267605633804,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 6,
                 "top_selected": 1,
                 "bottom_selected": 3,
-                "ratio": 0.04225352112676056,
-                "chosen_by": 6
+                "ratio": 0.0,
+                "discrimination": -0.014084507042253521,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 107,
                 "top_selected": 37,
                 "bottom_selected": 33,
-                "ratio": 0.7535211267605634,
-                "chosen_by": 107
+                "ratio": 0.0,
+                "discrimination": 0.028169014084507043,
+                "r_bpis": 0
             }
         }
     },
     "C14": {
-        "difficulty": 0.8591549295774648,
-        "difficulty_category": "Very Easy",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.1653368794326241,
         "discrimination_category": "Normal",
         "r_pbis": 0.24581944498908204,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 5,
                 "top_selected": 1,
                 "bottom_selected": 3,
-                "ratio": 0.035211267605633804,
-                "chosen_by": 5
+                "ratio": 0.0,
+                "discrimination": -0.014084507042253521,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 9,
                 "top_selected": 1,
                 "bottom_selected": 5,
-                "ratio": 0.06338028169014084,
-                "chosen_by": 9
+                "ratio": 0.0,
+                "discrimination": -0.028169014084507043,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 122,
                 "top_selected": 44,
                 "bottom_selected": 37,
-                "ratio": 0.8591549295774648,
-                "chosen_by": 122
+                "ratio": 0.0,
+                "discrimination": 0.04929577464788732,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 6,
                 "top_selected": 1,
                 "bottom_selected": 3,
-                "ratio": 0.04225352112676056,
-                "chosen_by": 6
+                "ratio": 0.0,
+                "discrimination": -0.014084507042253521,
+                "r_bpis": 0
             }
         }
     },
     "C15": {
-        "difficulty": 0.8309859154929577,
-        "difficulty_category": "Very Easy",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.22828014184397172,
         "discrimination_category": "Normal",
         "r_pbis": 0.2651567577129345,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 16,
                 "top_selected": 1,
                 "bottom_selected": 11,
-                "ratio": 0.11267605633802817,
-                "chosen_by": 16
+                "ratio": 0.0,
+                "discrimination": -0.07042253521126761,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 5,
                 "top_selected": 0,
                 "bottom_selected": 2,
-                "ratio": 0.035211267605633804,
-                "chosen_by": 5
+                "ratio": 0.0,
+                "discrimination": -0.014084507042253521,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 118,
                 "top_selected": 45,
                 "bottom_selected": 35,
-                "ratio": 0.8309859154929577,
-                "chosen_by": 118
+                "ratio": 0.0,
+                "discrimination": 0.07042253521126761,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 2,
                 "top_selected": 1,
                 "bottom_selected": 0,
-                "ratio": 0.014084507042253521,
-                "chosen_by": 2
+                "ratio": 0.0,
+                "discrimination": 0.007042253521126761,
+                "r_bpis": 0
             }
         }
     },
     "C16": {
-        "difficulty": 0.6338028169014085,
-        "difficulty_category": "Easy",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.4122340425531915,
         "discrimination_category": "Good",
         "r_pbis": 0.3621283464981148,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 90,
                 "top_selected": 37,
                 "bottom_selected": 18,
-                "ratio": 0.6338028169014085,
-                "chosen_by": 90
+                "ratio": 0.0,
+                "discrimination": 0.13380281690140844,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 16,
                 "top_selected": 3,
                 "bottom_selected": 7,
-                "ratio": 0.11267605633802817,
-                "chosen_by": 16
+                "ratio": 0.0,
+                "discrimination": -0.028169014084507043,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 33,
                 "top_selected": 6,
                 "bottom_selected": 21,
-                "ratio": 0.2323943661971831,
-                "chosen_by": 33
+                "ratio": 0.0,
+                "discrimination": -0.1056338028169014,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 3,
                 "top_selected": 1,
                 "bottom_selected": 2,
-                "ratio": 0.02112676056338028,
-                "chosen_by": 3
+                "ratio": 0.0,
+                "discrimination": -0.007042253521126761,
+                "r_bpis": 0
             }
         }
     },
     "C17": {
-        "difficulty": 0.22535211267605634,
+        "difficulty": 0.0,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.2575354609929078,
         "discrimination_category": "Normal",
         "r_pbis": 0.24355791781734035,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 26,
                 "top_selected": 9,
                 "bottom_selected": 8,
-                "ratio": 0.18309859154929578,
-                "chosen_by": 26
+                "ratio": 0.0,
+                "discrimination": 0.007042253521126761,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 59,
                 "top_selected": 16,
                 "bottom_selected": 23,
-                "ratio": 0.4154929577464789,
-                "chosen_by": 59
+                "ratio": 0.0,
+                "discrimination": -0.04929577464788732,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 32,
                 "top_selected": 17,
                 "bottom_selected": 5,
-                "ratio": 0.22535211267605634,
-                "chosen_by": 32
+                "ratio": 0.0,
+                "discrimination": 0.08450704225352113,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 23,
                 "top_selected": 5,
                 "bottom_selected": 12,
-                "ratio": 0.1619718309859155,
-                "chosen_by": 23
+                "ratio": 0.0,
+                "discrimination": -0.04929577464788732,
+                "r_bpis": 0
             }
         }
     },
     "C18": {
-        "difficulty": 0.6690140845070423,
-        "difficulty_category": "Easy",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.43439716312056736,
         "discrimination_category": "Good",
         "r_pbis": 0.4485889048899887,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 4,
                 "top_selected": 1,
                 "bottom_selected": 1,
-                "ratio": 0.028169014084507043,
-                "chosen_by": 4
+                "ratio": 0.0,
+                "discrimination": 0.0,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 32,
                 "top_selected": 3,
                 "bottom_selected": 22,
-                "ratio": 0.22535211267605634,
-                "chosen_by": 32
+                "ratio": 0.0,
+                "discrimination": -0.13380281690140844,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 10,
                 "top_selected": 3,
                 "bottom_selected": 5,
-                "ratio": 0.07042253521126761,
-                "chosen_by": 10
+                "ratio": 0.0,
+                "discrimination": -0.014084507042253521,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 95,
                 "top_selected": 40,
                 "bottom_selected": 20,
-                "ratio": 0.6690140845070423,
-                "chosen_by": 95
+                "ratio": 0.0,
+                "discrimination": 0.14084507042253522,
+                "r_bpis": 0
             }
         }
     },
     "C19": {
-        "difficulty": 0.7253521126760564,
-        "difficulty_category": "Easy",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.37234042553191493,
         "discrimination_category": "Good",
         "r_pbis": 0.33481389197038597,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 25,
                 "top_selected": 6,
                 "bottom_selected": 15,
-                "ratio": 0.176056338028169,
-                "chosen_by": 25
+                "ratio": 0.0,
+                "discrimination": -0.06338028169014084,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 8,
                 "top_selected": 0,
                 "bottom_selected": 3,
-                "ratio": 0.056338028169014086,
-                "chosen_by": 8
+                "ratio": 0.0,
+                "discrimination": -0.02112676056338028,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 103,
                 "top_selected": 41,
                 "bottom_selected": 24,
-                "ratio": 0.7253521126760564,
-                "chosen_by": 103
+                "ratio": 0.0,
+                "discrimination": 0.11971830985915492,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 6,
                 "top_selected": 0,
                 "bottom_selected": 6,
-                "ratio": 0.04225352112676056,
-                "chosen_by": 6
+                "ratio": 0.0,
+                "discrimination": -0.04225352112676056,
+                "r_bpis": 0
             }
         }
     },
     "C20": {
-        "difficulty": 0.39436619718309857,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.008421985815602828,
         "discrimination_category": "Bad",
         "r_pbis": 0.054036373504244256,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 17,
                 "top_selected": 4,
                 "bottom_selected": 9,
-                "ratio": 0.11971830985915492,
-                "chosen_by": 17
+                "ratio": 0.0,
+                "discrimination": -0.035211267605633804,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 56,
                 "top_selected": 18,
                 "bottom_selected": 15,
-                "ratio": 0.39436619718309857,
-                "chosen_by": 56
+                "ratio": 0.0,
+                "discrimination": 0.02112676056338028,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 53,
                 "top_selected": 19,
                 "bottom_selected": 19,
-                "ratio": 0.3732394366197183,
-                "chosen_by": 53
+                "ratio": 0.0,
+                "discrimination": 0.0,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 14,
                 "top_selected": 5,
                 "bottom_selected": 5,
-                "ratio": 0.09859154929577464,
-                "chosen_by": 14
+                "ratio": 0.0,
+                "discrimination": 0.0,
+                "r_bpis": 0
             }
         }
     },
     "C21": {
-        "difficulty": 0.5,
-        "difficulty_category": "Easy",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.15780141843971635,
         "discrimination_category": "Normal",
         "r_pbis": 0.17736145612485454,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 19,
                 "top_selected": 4,
                 "bottom_selected": 7,
-                "ratio": 0.13380281690140844,
-                "chosen_by": 19
+                "ratio": 0.0,
+                "discrimination": -0.02112676056338028,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 43,
                 "top_selected": 13,
                 "bottom_selected": 19,
-                "ratio": 0.3028169014084507,
-                "chosen_by": 43
+                "ratio": 0.0,
+                "discrimination": -0.04225352112676056,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 71,
                 "top_selected": 27,
                 "bottom_selected": 20,
-                "ratio": 0.5,
-                "chosen_by": 71
+                "ratio": 0.0,
+                "discrimination": 0.04929577464788732,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 9,
                 "top_selected": 3,
                 "bottom_selected": 2,
-                "ratio": 0.06338028169014084,
-                "chosen_by": 9
+                "ratio": 0.0,
+                "discrimination": 0.007042253521126761,
+                "r_bpis": 0
             }
         }
     },
     "C22": {
-        "difficulty": 0.34507042253521125,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.3475177304964539,
         "discrimination_category": "Good",
         "r_pbis": 0.32765733493850624,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 67,
                 "top_selected": 32,
                 "bottom_selected": 16,
-                "ratio": 0.47183098591549294,
-                "chosen_by": 67
+                "ratio": 0.0,
+                "discrimination": 0.11267605633802817,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 49,
                 "top_selected": 12,
                 "bottom_selected": 19,
-                "ratio": 0.34507042253521125,
-                "chosen_by": 49
+                "ratio": 0.0,
+                "discrimination": -0.04929577464788732,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 20,
                 "top_selected": 2,
                 "bottom_selected": 9,
-                "ratio": 0.14084507042253522,
-                "chosen_by": 20
+                "ratio": 0.0,
+                "discrimination": -0.04929577464788732,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 5,
                 "top_selected": 1,
                 "bottom_selected": 3,
-                "ratio": 0.035211267605633804,
-                "chosen_by": 5
+                "ratio": 0.0,
+                "discrimination": -0.014084507042253521,
+                "r_bpis": 0
             }
         }
     },
     "C23": {
-        "difficulty": 0.38028169014084506,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.13519503546099287,
         "discrimination_category": "Normal",
         "r_pbis": 0.15669723232749588,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 70,
                 "top_selected": 22,
                 "bottom_selected": 22,
-                "ratio": 0.49295774647887325,
-                "chosen_by": 70
+                "ratio": 0.0,
+                "discrimination": 0.0,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 13,
                 "top_selected": 1,
                 "bottom_selected": 6,
-                "ratio": 0.09154929577464789,
-                "chosen_by": 13
+                "ratio": 0.0,
+                "discrimination": -0.035211267605633804,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 5,
                 "top_selected": 1,
                 "bottom_selected": 3,
-                "ratio": 0.035211267605633804,
-                "chosen_by": 5
+                "ratio": 0.0,
+                "discrimination": -0.014084507042253521,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 54,
                 "top_selected": 23,
                 "bottom_selected": 17,
-                "ratio": 0.38028169014084506,
-                "chosen_by": 54
+                "ratio": 0.0,
+                "discrimination": 0.04225352112676056,
+                "r_bpis": 0
             }
         }
     },
     "C24": {
-        "difficulty": 0.44366197183098594,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.11524822695035458,
         "discrimination_category": "Normal",
         "r_pbis": 0.1426540153312074,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 29,
                 "top_selected": 12,
                 "bottom_selected": 8,
-                "ratio": 0.20422535211267606,
-                "chosen_by": 29
+                "ratio": 0.0,
+                "discrimination": 0.028169014084507043,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 25,
                 "top_selected": 5,
                 "bottom_selected": 9,
-                "ratio": 0.176056338028169,
-                "chosen_by": 25
+                "ratio": 0.0,
+                "discrimination": -0.028169014084507043,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 24,
                 "top_selected": 5,
                 "bottom_selected": 11,
-                "ratio": 0.16901408450704225,
-                "chosen_by": 24
+                "ratio": 0.0,
+                "discrimination": -0.04225352112676056,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 63,
                 "top_selected": 25,
                 "bottom_selected": 20,
-                "ratio": 0.44366197183098594,
-                "chosen_by": 63
+                "ratio": 0.0,
+                "discrimination": 0.035211267605633804,
+                "r_bpis": 0
             }
         }
     },
     "C25": {
-        "difficulty": 0.11971830985915492,
+        "difficulty": 0.0,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.0651595744680851,
         "discrimination_category": "Bad",
         "r_pbis": 0.1249453482780063,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 17,
                 "top_selected": 4,
                 "bottom_selected": 5,
-                "ratio": 0.11971830985915492,
-                "chosen_by": 17
+                "ratio": 0.0,
+                "discrimination": -0.007042253521126761,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 104,
                 "top_selected": 36,
                 "bottom_selected": 33,
-                "ratio": 0.7323943661971831,
-                "chosen_by": 104
+                "ratio": 0.0,
+                "discrimination": 0.02112676056338028,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 10,
                 "top_selected": 1,
                 "bottom_selected": 7,
-                "ratio": 0.07042253521126761,
-                "chosen_by": 10
+                "ratio": 0.0,
+                "discrimination": -0.04225352112676056,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 11,
                 "top_selected": 6,
                 "bottom_selected": 3,
-                "ratio": 0.07746478873239436,
-                "chosen_by": 11
+                "ratio": 0.0,
+                "discrimination": 0.02112676056338028,
+                "r_bpis": 0
             }
         }
     },
     "C26": {
-        "difficulty": 0.528169014084507,
-        "difficulty_category": "Easy",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.2841312056737589,
         "discrimination_category": "Normal",
         "r_pbis": 0.27212857729723244,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 11,
                 "top_selected": 2,
                 "bottom_selected": 7,
-                "ratio": 0.07746478873239436,
-                "chosen_by": 11
+                "ratio": 0.0,
+                "discrimination": -0.035211267605633804,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 45,
                 "top_selected": 11,
                 "bottom_selected": 21,
-                "ratio": 0.31690140845070425,
-                "chosen_by": 45
+                "ratio": 0.0,
+                "discrimination": -0.07042253521126761,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 11,
                 "top_selected": 4,
                 "bottom_selected": 3,
-                "ratio": 0.07746478873239436,
-                "chosen_by": 11
+                "ratio": 0.0,
+                "discrimination": 0.007042253521126761,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 75,
                 "top_selected": 30,
                 "bottom_selected": 17,
-                "ratio": 0.528169014084507,
-                "chosen_by": 75
+                "ratio": 0.0,
+                "discrimination": 0.09154929577464789,
+                "r_bpis": 0
             }
         }
     },
     "C27": {
-        "difficulty": 0.7112676056338029,
-        "difficulty_category": "Easy",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.45744680851063835,
         "discrimination_category": "Good",
         "r_pbis": 0.41659718081443525,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 15,
                 "top_selected": 2,
                 "bottom_selected": 10,
-                "ratio": 0.1056338028169014,
-                "chosen_by": 15
+                "ratio": 0.0,
+                "discrimination": -0.056338028169014086,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 6,
                 "top_selected": 0,
                 "bottom_selected": 3,
-                "ratio": 0.04225352112676056,
-                "chosen_by": 6
+                "ratio": 0.0,
+                "discrimination": -0.02112676056338028,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 101,
                 "top_selected": 45,
                 "bottom_selected": 24,
-                "ratio": 0.7112676056338029,
-                "chosen_by": 101
+                "ratio": 0.0,
+                "discrimination": 0.14788732394366197,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 19,
                 "top_selected": 0,
                 "bottom_selected": 10,
-                "ratio": 0.13380281690140844,
-                "chosen_by": 19
+                "ratio": 0.0,
+                "discrimination": -0.07042253521126761,
+                "r_bpis": 0
             }
         }
     },
     "C28": {
-        "difficulty": 0.7394366197183099,
-        "difficulty_category": "Easy",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.35150709219858156,
         "discrimination_category": "Good",
         "r_pbis": 0.3398729934485257,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 6,
                 "top_selected": 2,
                 "bottom_selected": 3,
-                "ratio": 0.04225352112676056,
-                "chosen_by": 6
+                "ratio": 0.0,
+                "discrimination": -0.007042253521126761,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 105,
                 "top_selected": 41,
                 "bottom_selected": 25,
-                "ratio": 0.7394366197183099,
-                "chosen_by": 105
+                "ratio": 0.0,
+                "discrimination": 0.11267605633802817,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 6,
                 "top_selected": 1,
                 "bottom_selected": 4,
-                "ratio": 0.04225352112676056,
-                "chosen_by": 6
+                "ratio": 0.0,
+                "discrimination": -0.02112676056338028,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 24,
                 "top_selected": 3,
                 "bottom_selected": 16,
-                "ratio": 0.16901408450704225,
-                "chosen_by": 24
+                "ratio": 0.0,
+                "discrimination": -0.09154929577464789,
+                "r_bpis": 0
             }
         }
     },
     "C29": {
-        "difficulty": 0.7112676056338029,
-        "difficulty_category": "Easy",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.3311170212765957,
         "discrimination_category": "Good",
         "r_pbis": 0.2819299268042769,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 101,
                 "top_selected": 42,
                 "bottom_selected": 27,
-                "ratio": 0.7112676056338029,
-                "chosen_by": 101
+                "ratio": 0.0,
+                "discrimination": 0.1056338028169014,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 12,
                 "top_selected": 1,
                 "bottom_selected": 6,
-                "ratio": 0.08450704225352113,
-                "chosen_by": 12
+                "ratio": 0.0,
+                "discrimination": -0.035211267605633804,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 15,
                 "top_selected": 2,
                 "bottom_selected": 7,
-                "ratio": 0.1056338028169014,
-                "chosen_by": 15
+                "ratio": 0.0,
+                "discrimination": -0.035211267605633804,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 14,
                 "top_selected": 2,
                 "bottom_selected": 8,
-                "ratio": 0.09859154929577464,
-                "chosen_by": 14
+                "ratio": 0.0,
+                "discrimination": -0.04225352112676056,
+                "r_bpis": 0
             }
         }
     },
     "C30": {
-        "difficulty": 0.3591549295774648,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.24069148936170215,
         "discrimination_category": "Normal",
         "r_pbis": 0.21254575586841631,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 23,
                 "top_selected": 1,
                 "bottom_selected": 15,
-                "ratio": 0.1619718309859155,
-                "chosen_by": 23
+                "ratio": 0.0,
+                "discrimination": -0.09859154929577464,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 51,
                 "top_selected": 17,
                 "bottom_selected": 16,
-                "ratio": 0.3591549295774648,
-                "chosen_by": 51
+                "ratio": 0.0,
+                "discrimination": 0.007042253521126761,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 61,
                 "top_selected": 26,
                 "bottom_selected": 15,
-                "ratio": 0.4295774647887324,
-                "chosen_by": 61
+                "ratio": 0.0,
+                "discrimination": 0.07746478873239436,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 7,
                 "top_selected": 3,
                 "bottom_selected": 2,
-                "ratio": 0.04929577464788732,
-                "chosen_by": 7
+                "ratio": 0.0,
+                "discrimination": 0.007042253521126761,
+                "r_bpis": 0
             }
         }
     },
     "C31": {
-        "difficulty": 0.1619718309859155,
+        "difficulty": 0.0,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.28634751773049644,
         "discrimination_category": "Normal",
         "r_pbis": 0.25810948413845325,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 87,
                 "top_selected": 35,
                 "bottom_selected": 22,
-                "ratio": 0.6126760563380281,
-                "chosen_by": 87
+                "ratio": 0.0,
+                "discrimination": 0.09154929577464789,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 19,
                 "top_selected": 2,
                 "bottom_selected": 10,
-                "ratio": 0.13380281690140844,
-                "chosen_by": 19
+                "ratio": 0.0,
+                "discrimination": -0.056338028169014086,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 23,
                 "top_selected": 6,
                 "bottom_selected": 9,
-                "ratio": 0.1619718309859155,
-                "chosen_by": 23
+                "ratio": 0.0,
+                "discrimination": -0.02112676056338028,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 12,
                 "top_selected": 4,
                 "bottom_selected": 6,
-                "ratio": 0.08450704225352113,
-                "chosen_by": 12
+                "ratio": 0.0,
+                "discrimination": -0.014084507042253521,
+                "r_bpis": 0
             }
         }
     },
     "C32": {
-        "difficulty": 0.13380281690140844,
+        "difficulty": 0.0,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.24468085106382975,
         "discrimination_category": "Normal",
         "r_pbis": 0.17958355630060027,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 19,
                 "top_selected": 3,
                 "bottom_selected": 6,
-                "ratio": 0.13380281690140844,
-                "chosen_by": 19
+                "ratio": 0.0,
+                "discrimination": -0.02112676056338028,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 24,
                 "top_selected": 7,
                 "bottom_selected": 9,
-                "ratio": 0.16901408450704225,
-                "chosen_by": 24
+                "ratio": 0.0,
+                "discrimination": -0.014084507042253521,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 82,
                 "top_selected": 35,
                 "bottom_selected": 24,
-                "ratio": 0.5774647887323944,
-                "chosen_by": 82
+                "ratio": 0.0,
+                "discrimination": 0.07746478873239436,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 17,
                 "top_selected": 2,
                 "bottom_selected": 9,
-                "ratio": 0.11971830985915492,
-                "chosen_by": 17
+                "ratio": 0.0,
+                "discrimination": -0.04929577464788732,
+                "r_bpis": 0
             }
         }
     },
     "C33": {
-        "difficulty": 0.7816901408450704,
-        "difficulty_category": "Very Easy",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.22695035460992907,
         "discrimination_category": "Normal",
         "r_pbis": 0.29003305699784643,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 2,
                 "top_selected": 0,
                 "bottom_selected": 2,
-                "ratio": 0.014084507042253521,
-                "chosen_by": 2
+                "ratio": 0.0,
+                "discrimination": -0.014084507042253521,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 111,
                 "top_selected": 42,
                 "bottom_selected": 32,
-                "ratio": 0.7816901408450704,
-                "chosen_by": 111
+                "ratio": 0.0,
+                "discrimination": 0.07042253521126761,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 15,
                 "top_selected": 1,
                 "bottom_selected": 8,
-                "ratio": 0.1056338028169014,
-                "chosen_by": 15
+                "ratio": 0.0,
+                "discrimination": -0.04929577464788732,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 14,
                 "top_selected": 4,
                 "bottom_selected": 6,
-                "ratio": 0.09859154929577464,
-                "chosen_by": 14
+                "ratio": 0.0,
+                "discrimination": -0.014084507042253521,
+                "r_bpis": 0
             }
         }
     },
     "C34": {
-        "difficulty": 0.19014084507042253,
+        "difficulty": 0.0,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.42597517730496454,
         "discrimination_category": "Good",
         "r_pbis": 0.47357354735266055,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 90,
                 "top_selected": 23,
                 "bottom_selected": 30,
-                "ratio": 0.6338028169014085,
-                "chosen_by": 90
+                "ratio": 0.0,
+                "discrimination": -0.04929577464788732,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 11,
                 "top_selected": 1,
                 "bottom_selected": 9,
-                "ratio": 0.07746478873239436,
-                "chosen_by": 11
+                "ratio": 0.0,
+                "discrimination": -0.056338028169014086,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 14,
                 "top_selected": 2,
                 "bottom_selected": 8,
-                "ratio": 0.09859154929577464,
-                "chosen_by": 14
+                "ratio": 0.0,
+                "discrimination": -0.04225352112676056,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 27,
                 "top_selected": 21,
                 "bottom_selected": 1,
-                "ratio": 0.19014084507042253,
-                "chosen_by": 27
+                "ratio": 0.0,
+                "discrimination": 0.14084507042253522,
+                "r_bpis": 0
             }
         }
     },
     "C35": {
-        "difficulty": 0.4084507042253521,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.5567375886524824,
         "discrimination_category": "Good",
         "r_pbis": 0.4505230081967338,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 49,
                 "top_selected": 9,
                 "bottom_selected": 21,
-                "ratio": 0.34507042253521125,
-                "chosen_by": 49
+                "ratio": 0.0,
+                "discrimination": -0.08450704225352113,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 22,
                 "top_selected": 3,
                 "bottom_selected": 14,
-                "ratio": 0.15492957746478872,
-                "chosen_by": 22
+                "ratio": 0.0,
+                "discrimination": -0.07746478873239436,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 13,
                 "top_selected": 1,
                 "bottom_selected": 5,
-                "ratio": 0.09154929577464789,
-                "chosen_by": 13
+                "ratio": 0.0,
+                "discrimination": -0.028169014084507043,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 58,
                 "top_selected": 34,
                 "bottom_selected": 8,
-                "ratio": 0.4084507042253521,
-                "chosen_by": 58
+                "ratio": 0.0,
+                "discrimination": 0.18309859154929578,
+                "r_bpis": 0
             }
         }
     },
     "C36": {
-        "difficulty": 0.6126760563380281,
-        "difficulty_category": "Easy",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.28679078014184395,
         "discrimination_category": "Normal",
         "r_pbis": 0.26398187466627754,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 20,
                 "top_selected": 6,
                 "bottom_selected": 9,
-                "ratio": 0.14084507042253522,
-                "chosen_by": 20
+                "ratio": 0.0,
+                "discrimination": -0.02112676056338028,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 20,
                 "top_selected": 2,
                 "bottom_selected": 8,
-                "ratio": 0.14084507042253522,
-                "chosen_by": 20
+                "ratio": 0.0,
+                "discrimination": -0.04225352112676056,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 87,
                 "top_selected": 36,
                 "bottom_selected": 23,
-                "ratio": 0.6126760563380281,
-                "chosen_by": 87
+                "ratio": 0.0,
+                "discrimination": 0.09154929577464789,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 15,
                 "top_selected": 3,
                 "bottom_selected": 8,
-                "ratio": 0.1056338028169014,
-                "chosen_by": 15
+                "ratio": 0.0,
+                "discrimination": -0.035211267605633804,
+                "r_bpis": 0
             }
         }
     },
     "C37": {
-        "difficulty": 0.352112676056338,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.04698581560283685,
         "discrimination_category": "Bad",
         "r_pbis": 0.07951239774711008,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 27,
                 "top_selected": 7,
                 "bottom_selected": 12,
-                "ratio": 0.19014084507042253,
-                "chosen_by": 27
+                "ratio": 0.0,
+                "discrimination": -0.035211267605633804,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 38,
                 "top_selected": 12,
                 "bottom_selected": 10,
-                "ratio": 0.2676056338028169,
-                "chosen_by": 38
+                "ratio": 0.0,
+                "discrimination": 0.014084507042253521,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 50,
                 "top_selected": 24,
                 "bottom_selected": 13,
-                "ratio": 0.352112676056338,
-                "chosen_by": 50
+                "ratio": 0.0,
+                "discrimination": 0.07746478873239436,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 27,
                 "top_selected": 4,
                 "bottom_selected": 13,
-                "ratio": 0.19014084507042253,
-                "chosen_by": 27
+                "ratio": 0.0,
+                "discrimination": -0.06338028169014084,
+                "r_bpis": 0
             }
         }
     },
     "C38": {
-        "difficulty": 0.09154929577464789,
+        "difficulty": 0.0,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.49468085106382975,
         "discrimination_category": "Good",
         "r_pbis": 0.4397036726102871,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 13,
                 "top_selected": 2,
                 "bottom_selected": 6,
-                "ratio": 0.09154929577464789,
-                "chosen_by": 13
+                "ratio": 0.0,
+                "discrimination": -0.028169014084507043,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 47,
                 "top_selected": 7,
                 "bottom_selected": 21,
-                "ratio": 0.33098591549295775,
-                "chosen_by": 47
+                "ratio": 0.0,
+                "discrimination": -0.09859154929577464,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 18,
                 "top_selected": 3,
                 "bottom_selected": 9,
-                "ratio": 0.1267605633802817,
-                "chosen_by": 18
+                "ratio": 0.0,
+                "discrimination": -0.04225352112676056,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 62,
                 "top_selected": 35,
                 "bottom_selected": 11,
-                "ratio": 0.43661971830985913,
-                "chosen_by": 62
+                "ratio": 0.0,
+                "discrimination": 0.16901408450704225,
+                "r_bpis": 0
             }
         }
     },
     "C39": {
-        "difficulty": 0.6549295774647887,
-        "difficulty_category": "Easy",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.45567375886524825,
         "discrimination_category": "Good",
         "r_pbis": 0.46145497662277,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 32,
                 "top_selected": 4,
                 "bottom_selected": 16,
-                "ratio": 0.22535211267605634,
-                "chosen_by": 32
+                "ratio": 0.0,
+                "discrimination": -0.08450704225352113,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 8,
                 "top_selected": 0,
                 "bottom_selected": 6,
-                "ratio": 0.056338028169014086,
-                "chosen_by": 8
+                "ratio": 0.0,
+                "discrimination": -0.04225352112676056,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 93,
                 "top_selected": 41,
                 "bottom_selected": 20,
-                "ratio": 0.6549295774647887,
-                "chosen_by": 93
+                "ratio": 0.0,
+                "discrimination": 0.14788732394366197,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 9,
                 "top_selected": 2,
                 "bottom_selected": 6,
-                "ratio": 0.06338028169014084,
-                "chosen_by": 9
+                "ratio": 0.0,
+                "discrimination": -0.028169014084507043,
+                "r_bpis": 0
             }
         }
     },
     "C40": {
-        "difficulty": 0.7183098591549296,
-        "difficulty_category": "Easy",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.5403368794326242,
         "discrimination_category": "Good",
         "r_pbis": 0.452273885384178,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 10,
                 "top_selected": 1,
                 "bottom_selected": 6,
-                "ratio": 0.07042253521126761,
-                "chosen_by": 10
+                "ratio": 0.0,
+                "discrimination": -0.035211267605633804,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 17,
                 "top_selected": 2,
                 "bottom_selected": 12,
-                "ratio": 0.11971830985915492,
-                "chosen_by": 17
+                "ratio": 0.0,
+                "discrimination": -0.07042253521126761,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 102,
                 "top_selected": 44,
                 "bottom_selected": 19,
-                "ratio": 0.7183098591549296,
-                "chosen_by": 102
+                "ratio": 0.0,
+                "discrimination": 0.176056338028169,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 9,
                 "top_selected": 0,
                 "bottom_selected": 8,
-                "ratio": 0.06338028169014084,
-                "chosen_by": 9
+                "ratio": 0.0,
+                "discrimination": -0.056338028169014086,
+                "r_bpis": 0
             }
         }
     },
     "C41": {
-        "difficulty": 0.6267605633802817,
-        "difficulty_category": "Easy",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.26684397163120566,
         "discrimination_category": "Normal",
         "r_pbis": 0.29689460714664834,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 22,
                 "top_selected": 3,
                 "bottom_selected": 9,
-                "ratio": 0.15492957746478872,
-                "chosen_by": 22
+                "ratio": 0.0,
+                "discrimination": -0.04225352112676056,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 89,
                 "top_selected": 38,
                 "bottom_selected": 26,
-                "ratio": 0.6267605633802817,
-                "chosen_by": 89
+                "ratio": 0.0,
+                "discrimination": 0.08450704225352113,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 21,
                 "top_selected": 3,
                 "bottom_selected": 8,
-                "ratio": 0.14788732394366197,
-                "chosen_by": 21
+                "ratio": 0.0,
+                "discrimination": -0.035211267605633804,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 9,
                 "top_selected": 3,
                 "bottom_selected": 4,
-                "ratio": 0.06338028169014084,
-                "chosen_by": 9
+                "ratio": 0.0,
+                "discrimination": -0.007042253521126761,
+                "r_bpis": 0
             }
         }
     },
     "C42": {
-        "difficulty": 0.3732394366197183,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.24024822695035458,
         "discrimination_category": "Normal",
         "r_pbis": 0.2175541486153103,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 14,
                 "top_selected": 3,
                 "bottom_selected": 6,
-                "ratio": 0.09859154929577464,
-                "chosen_by": 14
+                "ratio": 0.0,
+                "discrimination": -0.02112676056338028,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 55,
                 "top_selected": 25,
                 "bottom_selected": 14,
-                "ratio": 0.3873239436619718,
-                "chosen_by": 55
+                "ratio": 0.0,
+                "discrimination": 0.07746478873239436,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 53,
                 "top_selected": 15,
                 "bottom_selected": 19,
-                "ratio": 0.3732394366197183,
-                "chosen_by": 53
+                "ratio": 0.0,
+                "discrimination": -0.028169014084507043,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 18,
                 "top_selected": 4,
                 "bottom_selected": 8,
-                "ratio": 0.1267605633802817,
-                "chosen_by": 18
+                "ratio": 0.0,
+                "discrimination": -0.028169014084507043,
+                "r_bpis": 0
             }
         }
     },
     "C43": {
-        "difficulty": 0.23943661971830985,
+        "difficulty": 0.0,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.26152482269503546,
         "discrimination_category": "Normal",
         "r_pbis": 0.27024848121957284,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 25,
                 "top_selected": 6,
                 "bottom_selected": 7,
-                "ratio": 0.176056338028169,
-                "chosen_by": 25
+                "ratio": 0.0,
+                "discrimination": -0.007042253521126761,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 56,
                 "top_selected": 26,
                 "bottom_selected": 14,
-                "ratio": 0.39436619718309857,
-                "chosen_by": 56
+                "ratio": 0.0,
+                "discrimination": 0.08450704225352113,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 24,
                 "top_selected": 9,
                 "bottom_selected": 10,
-                "ratio": 0.16901408450704225,
-                "chosen_by": 24
+                "ratio": 0.0,
+                "discrimination": -0.007042253521126761,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 34,
                 "top_selected": 6,
                 "bottom_selected": 16,
-                "ratio": 0.23943661971830985,
-                "chosen_by": 34
+                "ratio": 0.0,
+                "discrimination": -0.07042253521126761,
+                "r_bpis": 0
             }
         }
     },
     "C44": {
-        "difficulty": 0.14788732394366197,
+        "difficulty": 0.0,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.16223404255319152,
         "discrimination_category": "Normal",
         "r_pbis": 0.23545311890092976,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 21,
                 "top_selected": 3,
                 "bottom_selected": 7,
-                "ratio": 0.14788732394366197,
-                "chosen_by": 21
+                "ratio": 0.0,
+                "discrimination": -0.028169014084507043,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 90,
                 "top_selected": 37,
                 "bottom_selected": 30,
-                "ratio": 0.6338028169014085,
-                "chosen_by": 90
+                "ratio": 0.0,
+                "discrimination": 0.04929577464788732,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 17,
                 "top_selected": 5,
                 "bottom_selected": 4,
-                "ratio": 0.11971830985915492,
-                "chosen_by": 17
+                "ratio": 0.0,
+                "discrimination": 0.007042253521126761,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 12,
                 "top_selected": 1,
                 "bottom_selected": 6,
-                "ratio": 0.08450704225352113,
-                "chosen_by": 12
+                "ratio": 0.0,
+                "discrimination": -0.035211267605633804,
+                "r_bpis": 0
             }
         }
     },
     "C45": {
-        "difficulty": 0.4788732394366197,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.36790780141843965,
         "discrimination_category": "Good",
         "r_pbis": 0.32049308890354794,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 35,
                 "top_selected": 8,
                 "bottom_selected": 13,
-                "ratio": 0.24647887323943662,
-                "chosen_by": 35
+                "ratio": 0.0,
+                "discrimination": -0.035211267605633804,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 68,
                 "top_selected": 31,
                 "bottom_selected": 14,
-                "ratio": 0.4788732394366197,
-                "chosen_by": 68
+                "ratio": 0.0,
+                "discrimination": 0.11971830985915492,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 18,
                 "top_selected": 6,
                 "bottom_selected": 9,
-                "ratio": 0.1267605633802817,
-                "chosen_by": 18
+                "ratio": 0.0,
+                "discrimination": -0.02112676056338028,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 20,
                 "top_selected": 2,
                 "bottom_selected": 11,
-                "ratio": 0.14084507042253522,
-                "chosen_by": 20
+                "ratio": 0.0,
+                "discrimination": -0.06338028169014084,
+                "r_bpis": 0
             }
         }
     },
     "C46": {
-        "difficulty": 0.2112676056338028,
+        "difficulty": 0.0,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.4539007092198582,
         "discrimination_category": "Good",
         "r_pbis": 0.4361137040125482,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 30,
                 "top_selected": 6,
                 "bottom_selected": 12,
-                "ratio": 0.2112676056338028,
-                "chosen_by": 30
+                "ratio": 0.0,
+                "discrimination": -0.04225352112676056,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 20,
                 "top_selected": 3,
                 "bottom_selected": 11,
-                "ratio": 0.14084507042253522,
-                "chosen_by": 20
+                "ratio": 0.0,
+                "discrimination": -0.056338028169014086,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 14,
                 "top_selected": 1,
                 "bottom_selected": 9,
-                "ratio": 0.09859154929577464,
-                "chosen_by": 14
+                "ratio": 0.0,
+                "discrimination": -0.056338028169014086,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 77,
                 "top_selected": 37,
                 "bottom_selected": 15,
-                "ratio": 0.5422535211267606,
-                "chosen_by": 77
+                "ratio": 0.0,
+                "discrimination": 0.15492957746478872,
+                "r_bpis": 0
             }
         }
     },
     "C47": {
-        "difficulty": 0.11971830985915492,
+        "difficulty": 0.0,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.4104609929078014,
         "discrimination_category": "Good",
         "r_pbis": 0.40066340943960843,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 18,
                 "top_selected": 4,
                 "bottom_selected": 8,
-                "ratio": 0.1267605633802817,
-                "chosen_by": 18
+                "ratio": 0.0,
+                "discrimination": -0.028169014084507043,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 68,
                 "top_selected": 33,
                 "bottom_selected": 14,
-                "ratio": 0.4788732394366197,
-                "chosen_by": 68
+                "ratio": 0.0,
+                "discrimination": 0.13380281690140844,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 37,
                 "top_selected": 7,
                 "bottom_selected": 17,
-                "ratio": 0.2605633802816901,
-                "chosen_by": 37
+                "ratio": 0.0,
+                "discrimination": -0.07042253521126761,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 17,
                 "top_selected": 3,
                 "bottom_selected": 7,
-                "ratio": 0.11971830985915492,
-                "chosen_by": 17
+                "ratio": 0.0,
+                "discrimination": -0.028169014084507043,
+                "r_bpis": 0
             }
         }
     },
     "C48": {
-        "difficulty": 0.5211267605633803,
-        "difficulty_category": "Easy",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.3271276595744681,
         "discrimination_category": "Good",
         "r_pbis": 0.26360496071632317,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 15,
                 "top_selected": 1,
                 "bottom_selected": 10,
-                "ratio": 0.1056338028169014,
-                "chosen_by": 15
+                "ratio": 0.0,
+                "discrimination": -0.06338028169014084,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 34,
                 "top_selected": 8,
                 "bottom_selected": 12,
-                "ratio": 0.23943661971830985,
-                "chosen_by": 34
+                "ratio": 0.0,
+                "discrimination": -0.028169014084507043,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 74,
                 "top_selected": 33,
                 "bottom_selected": 18,
-                "ratio": 0.5211267605633803,
-                "chosen_by": 74
+                "ratio": 0.0,
+                "discrimination": 0.1056338028169014,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 18,
                 "top_selected": 5,
                 "bottom_selected": 8,
-                "ratio": 0.1267605633802817,
-                "chosen_by": 18
+                "ratio": 0.0,
+                "discrimination": -0.02112676056338028,
+                "r_bpis": 0
             }
         }
     },
     "C49": {
-        "difficulty": 0.24647887323943662,
+        "difficulty": 0.0,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.3067375886524823,
         "discrimination_category": "Good",
         "r_pbis": 0.29681032408506086,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 35,
                 "top_selected": 8,
                 "bottom_selected": 15,
-                "ratio": 0.24647887323943662,
-                "chosen_by": 35
+                "ratio": 0.0,
+                "discrimination": -0.04929577464788732,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 83,
                 "top_selected": 34,
                 "bottom_selected": 20,
-                "ratio": 0.5845070422535211,
-                "chosen_by": 83
+                "ratio": 0.0,
+                "discrimination": 0.09859154929577464,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 15,
                 "top_selected": 4,
                 "bottom_selected": 6,
-                "ratio": 0.1056338028169014,
-                "chosen_by": 15
+                "ratio": 0.0,
+                "discrimination": -0.014084507042253521,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 8,
                 "top_selected": 1,
                 "bottom_selected": 7,
-                "ratio": 0.056338028169014086,
-                "chosen_by": 8
+                "ratio": 0.0,
+                "discrimination": -0.04225352112676056,
+                "r_bpis": 0
             }
         }
     },
     "C50": {
-        "difficulty": 0.1056338028169014,
+        "difficulty": 0.0,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.49867021276595747,
         "discrimination_category": "Good",
         "r_pbis": 0.4362672180099899,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 94,
                 "top_selected": 44,
                 "bottom_selected": 21,
-                "ratio": 0.6619718309859155,
-                "chosen_by": 94
+                "ratio": 0.0,
+                "discrimination": 0.1619718309859155,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 9,
                 "top_selected": 1,
                 "bottom_selected": 4,
-                "ratio": 0.06338028169014084,
-                "chosen_by": 9
+                "ratio": 0.0,
+                "discrimination": -0.02112676056338028,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 24,
                 "top_selected": 2,
                 "bottom_selected": 12,
-                "ratio": 0.16901408450704225,
-                "chosen_by": 24
+                "ratio": 0.0,
+                "discrimination": -0.07042253521126761,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 15,
                 "top_selected": 0,
                 "bottom_selected": 11,
-                "ratio": 0.1056338028169014,
-                "chosen_by": 15
+                "ratio": 0.0,
+                "discrimination": -0.07746478873239436,
+                "r_bpis": 0
             }
         }
     },
     "C51": {
-        "difficulty": 0.2112676056338028,
+        "difficulty": 0.0,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.30186170212765956,
         "discrimination_category": "Good",
         "r_pbis": 0.28273064038365076,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 30,
                 "top_selected": 3,
                 "bottom_selected": 15,
-                "ratio": 0.2112676056338028,
-                "chosen_by": 30
+                "ratio": 0.0,
+                "discrimination": -0.08450704225352113,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 44,
                 "top_selected": 23,
                 "bottom_selected": 9,
-                "ratio": 0.30985915492957744,
-                "chosen_by": 44
+                "ratio": 0.0,
+                "discrimination": 0.09859154929577464,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 55,
                 "top_selected": 21,
                 "bottom_selected": 17,
-                "ratio": 0.3873239436619718,
-                "chosen_by": 55
+                "ratio": 0.0,
+                "discrimination": 0.028169014084507043,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 13,
                 "top_selected": 0,
                 "bottom_selected": 7,
-                "ratio": 0.09154929577464789,
-                "chosen_by": 13
+                "ratio": 0.0,
+                "discrimination": -0.04929577464788732,
+                "r_bpis": 0
             }
         }
     },
     "C52": {
-        "difficulty": 0.21830985915492956,
+        "difficulty": 0.0,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.07180851063829785,
         "discrimination_category": "Bad",
         "r_pbis": 0.11025390549653498,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 48,
                 "top_selected": 17,
                 "bottom_selected": 12,
-                "ratio": 0.3380281690140845,
-                "chosen_by": 48
+                "ratio": 0.0,
+                "discrimination": 0.035211267605633804,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 31,
                 "top_selected": 9,
                 "bottom_selected": 14,
-                "ratio": 0.21830985915492956,
-                "chosen_by": 31
+                "ratio": 0.0,
+                "discrimination": -0.035211267605633804,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 56,
                 "top_selected": 21,
                 "bottom_selected": 18,
-                "ratio": 0.39436619718309857,
-                "chosen_by": 56
+                "ratio": 0.0,
+                "discrimination": 0.02112676056338028,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 6,
                 "top_selected": 0,
                 "bottom_selected": 4,
-                "ratio": 0.04225352112676056,
-                "chosen_by": 6
+                "ratio": 0.0,
+                "discrimination": -0.028169014084507043,
+                "r_bpis": 0
             }
         }
     },
     "C53": {
-        "difficulty": 0.176056338028169,
+        "difficulty": 0.0,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.40957446808510634,
         "discrimination_category": "Good",
         "r_pbis": 0.3630456965382666,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 25,
                 "top_selected": 7,
                 "bottom_selected": 9,
-                "ratio": 0.176056338028169,
-                "chosen_by": 25
+                "ratio": 0.0,
+                "discrimination": -0.014084507042253521,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 20,
                 "top_selected": 5,
                 "bottom_selected": 12,
-                "ratio": 0.14084507042253522,
-                "chosen_by": 20
+                "ratio": 0.0,
+                "discrimination": -0.04929577464788732,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 33,
                 "top_selected": 4,
                 "bottom_selected": 15,
-                "ratio": 0.2323943661971831,
-                "chosen_by": 33
+                "ratio": 0.0,
+                "discrimination": -0.07746478873239436,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 63,
                 "top_selected": 31,
                 "bottom_selected": 12,
-                "ratio": 0.44366197183098594,
-                "chosen_by": 63
+                "ratio": 0.0,
+                "discrimination": 0.13380281690140844,
+                "r_bpis": 0
             }
         }
     },
     "C54": {
-        "difficulty": 0.2605633802816901,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.2832446808510638,
         "discrimination_category": "Normal",
         "r_pbis": 0.27062364523791743,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 25,
                 "top_selected": 9,
                 "bottom_selected": 12,
-                "ratio": 0.176056338028169,
-                "chosen_by": 25
+                "ratio": 0.0,
+                "discrimination": -0.02112676056338028,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 54,
                 "top_selected": 28,
                 "bottom_selected": 15,
-                "ratio": 0.38028169014084506,
-                "chosen_by": 54
+                "ratio": 0.0,
+                "discrimination": 0.09154929577464789,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 37,
                 "top_selected": 6,
                 "bottom_selected": 14,
-                "ratio": 0.2605633802816901,
-                "chosen_by": 37
+                "ratio": 0.0,
+                "discrimination": -0.056338028169014086,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 25,
                 "top_selected": 4,
                 "bottom_selected": 7,
-                "ratio": 0.176056338028169,
-                "chosen_by": 25
+                "ratio": 0.0,
+                "discrimination": -0.02112676056338028,
+                "r_bpis": 0
             }
         }
     },
     "C55": {
-        "difficulty": 0.21830985915492956,
+        "difficulty": 0.0,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.25975177304964536,
         "discrimination_category": "Normal",
         "r_pbis": 0.21852297319561204,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 49,
                 "top_selected": 22,
                 "bottom_selected": 10,
-                "ratio": 0.34507042253521125,
-                "chosen_by": 49
+                "ratio": 0.0,
+                "discrimination": 0.08450704225352113,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 34,
                 "top_selected": 6,
                 "bottom_selected": 12,
-                "ratio": 0.23943661971830985,
-                "chosen_by": 34
+                "ratio": 0.0,
+                "discrimination": -0.04225352112676056,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 26,
                 "top_selected": 8,
                 "bottom_selected": 13,
-                "ratio": 0.18309859154929578,
-                "chosen_by": 26
+                "ratio": 0.0,
+                "discrimination": -0.035211267605633804,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 31,
                 "top_selected": 11,
                 "bottom_selected": 12,
-                "ratio": 0.21830985915492956,
-                "chosen_by": 31
+                "ratio": 0.0,
+                "discrimination": -0.007042253521126761,
+                "r_bpis": 0
             }
         }
     },
     "C56": {
-        "difficulty": 0.29577464788732394,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.4104609929078014,
         "discrimination_category": "Good",
         "r_pbis": 0.35103416339347565,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 42,
                 "top_selected": 8,
                 "bottom_selected": 13,
-                "ratio": 0.29577464788732394,
-                "chosen_by": 42
+                "ratio": 0.0,
+                "discrimination": -0.035211267605633804,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 15,
                 "top_selected": 3,
                 "bottom_selected": 12,
-                "ratio": 0.1056338028169014,
-                "chosen_by": 15
+                "ratio": 0.0,
+                "discrimination": -0.06338028169014084,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 68,
                 "top_selected": 33,
                 "bottom_selected": 14,
-                "ratio": 0.4788732394366197,
-                "chosen_by": 68
+                "ratio": 0.0,
+                "discrimination": 0.13380281690140844,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 16,
                 "top_selected": 3,
                 "bottom_selected": 9,
-                "ratio": 0.11267605633802817,
-                "chosen_by": 16
+                "ratio": 0.0,
+                "discrimination": -0.04225352112676056,
+                "r_bpis": 0
             }
         }
     },
     "C57": {
-        "difficulty": 0.4225352112676056,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.262854609929078,
         "discrimination_category": "Normal",
         "r_pbis": 0.23352659577075746,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 12,
                 "top_selected": 1,
                 "bottom_selected": 6,
-                "ratio": 0.08450704225352113,
-                "chosen_by": 12
+                "ratio": 0.0,
+                "discrimination": -0.035211267605633804,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 60,
                 "top_selected": 29,
                 "bottom_selected": 17,
-                "ratio": 0.4225352112676056,
-                "chosen_by": 60
+                "ratio": 0.0,
+                "discrimination": 0.08450704225352113,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 49,
                 "top_selected": 13,
                 "bottom_selected": 15,
-                "ratio": 0.34507042253521125,
-                "chosen_by": 49
+                "ratio": 0.0,
+                "discrimination": -0.014084507042253521,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 20,
                 "top_selected": 4,
                 "bottom_selected": 10,
-                "ratio": 0.14084507042253522,
-                "chosen_by": 20
+                "ratio": 0.0,
+                "discrimination": -0.04225352112676056,
+                "r_bpis": 0
             }
         }
     },
     "C58": {
-        "difficulty": 0.3028169014084507,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": -0.018617021276595744,
         "discrimination_category": "Bad",
         "r_pbis": -0.006902800348437222,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 34,
                 "top_selected": 12,
                 "bottom_selected": 12,
-                "ratio": 0.23943661971830985,
-                "chosen_by": 34
+                "ratio": 0.0,
+                "discrimination": 0.0,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 47,
                 "top_selected": 15,
                 "bottom_selected": 19,
-                "ratio": 0.33098591549295775,
-                "chosen_by": 47
+                "ratio": 0.0,
+                "discrimination": -0.028169014084507043,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 43,
                 "top_selected": 15,
                 "bottom_selected": 11,
-                "ratio": 0.3028169014084507,
-                "chosen_by": 43
+                "ratio": 0.0,
+                "discrimination": 0.028169014084507043,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 17,
                 "top_selected": 5,
                 "bottom_selected": 6,
-                "ratio": 0.11971830985915492,
-                "chosen_by": 17
+                "ratio": 0.0,
+                "discrimination": -0.007042253521126761,
+                "r_bpis": 0
             }
         }
     },
     "C59": {
-        "difficulty": 0.30985915492957744,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.46985815602836883,
         "discrimination_category": "Good",
         "r_pbis": 0.3847917623162287,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 27,
                 "top_selected": 7,
                 "bottom_selected": 15,
-                "ratio": 0.19014084507042253,
-                "chosen_by": 27
+                "ratio": 0.0,
+                "discrimination": -0.056338028169014086,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 39,
                 "top_selected": 7,
                 "bottom_selected": 20,
-                "ratio": 0.2746478873239437,
-                "chosen_by": 39
+                "ratio": 0.0,
+                "discrimination": -0.09154929577464789,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 30,
                 "top_selected": 7,
                 "bottom_selected": 9,
-                "ratio": 0.2112676056338028,
-                "chosen_by": 30
+                "ratio": 0.0,
+                "discrimination": -0.014084507042253521,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 44,
                 "top_selected": 26,
                 "bottom_selected": 4,
-                "ratio": 0.30985915492957744,
-                "chosen_by": 44
+                "ratio": 0.0,
+                "discrimination": 0.15492957746478872,
+                "r_bpis": 0
             }
         }
     },
     "C60": {
-        "difficulty": 0.15492957746478872,
+        "difficulty": 0.0,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.050531914893617025,
         "discrimination_category": "Bad",
         "r_pbis": 0.08991278338000733,
         "options": {
             "0": {
-                "correct_answer": 0,
                 "selected_by": 21,
                 "top_selected": 10,
                 "bottom_selected": 6,
-                "ratio": 0.14788732394366197,
-                "chosen_by": 21
+                "ratio": 0.0,
+                "discrimination": 0.028169014084507043,
+                "r_bpis": 0
             },
             "1": {
-                "correct_answer": 0,
                 "selected_by": 22,
                 "top_selected": 7,
                 "bottom_selected": 8,
-                "ratio": 0.15492957746478872,
-                "chosen_by": 22
+                "ratio": 0.0,
+                "discrimination": -0.007042253521126761,
+                "r_bpis": 0
             },
             "2": {
-                "correct_answer": 0,
                 "selected_by": 54,
                 "top_selected": 20,
                 "bottom_selected": 18,
-                "ratio": 0.38028169014084506,
-                "chosen_by": 54
+                "ratio": 0.0,
+                "discrimination": 0.014084507042253521,
+                "r_bpis": 0
             },
             "3": {
-                "correct_answer": 0,
                 "selected_by": 44,
                 "top_selected": 10,
                 "bottom_selected": 16,
-                "ratio": 0.30985915492957744,
-                "chosen_by": 44
+                "ratio": 0.0,
+                "discrimination": -0.04225352112676056,
+                "r_bpis": 0
             }
         }
     }

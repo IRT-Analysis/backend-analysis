@@ -86,9 +86,6 @@ class CttAnalysis:
         )
         difficulty_category = self._categorize_difficulty(difficulty_index)
         discrimination_category = self._categorize_discrimination(discrimination_index)
-        all_students = sorted(
-            self.examResult.scores, key=lambda x: x["score"], reverse=True
-        )
         r_pbis = self._calculate_rpbis(question_id, sorted_students)
         return {
             "difficulty": difficulty_index,
@@ -115,24 +112,21 @@ class CttAnalysis:
                 None,
             )
             answer_order = exam.answer_order.get(question_id)
-            # answer_order = exam.get_answer_order(question_id)
-            # print("----------------", student.answers)
             if question_id in student.answers and answer_order is not None:
                 correct_answer_index = exam.get_correct_answer(question_id)
                 student_answer = student.answers[question_id]["answer"]
                 for option in enumerate(answer_order):
                     if student_answer == option[0]:
-                        chosen_by = option[1].option_stats.get("chosen_by", 0)
                         # Increment the value
-                        chosen_by += 1
                         # Update the dictionary with the new value
-                        option[1].option_stats["chosen_by"] = chosen_by
-                        option[1].option_stats["selected_by"] += 1
-                        option[1].option_stats["ratio"] = chosen_by / total_student
+                        option[1].option_stats['selected_by'] += 1
+                        option[1].option_stats['ratio'] = chosen_by/total_student
                         if student in top_students:
                             option[1].option_stats["top_selected"] += 1
                         if student in bottom_students:
-                            option[1].option_stats["bottom_selected"] += 1
+                            option[1].option_stats['bottom_selected'] += 1
+                        option[1].option_stats['discrimination'] = (option[1].option_stats['top_selected']-option[1].option_stats['bottom_selected'])/total_student
+                        # option[1].students.append(student)
                     option_stats[option[0]] = option[1].option_stats
         return chosen_by, option_stats
 
@@ -184,18 +178,6 @@ class CttAnalysis:
             return "Bad"
 
     def _calculate_rpbis(self, question_id, all_students):
-        """
-        Calculates the Rpbis (Relative Position of the Biserial) for a question.
-
-        The Rpbis is a measure of the relative position of the biserial correlation coefficient, which is a measure of the relationship between a question and the total score.
-
-        Args:
-            question_id (str): The ID of the question.
-            all_students (list): The list of all students.
-
-        Returns:
-            float: The Rpbis for the question.
-        """
         if len(all_students) == 0:
             return None
 
@@ -236,3 +218,9 @@ class CttAnalysis:
             * np.sqrt(correct_proportion * incorrect_proportion)
         )
         return rpbis
+    
+    
+    
+        
+            
+        
