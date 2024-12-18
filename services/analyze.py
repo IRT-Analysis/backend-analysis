@@ -1,14 +1,15 @@
-from itertools import groupby
 import os
+from itertools import groupby
+
 import pandas as pd
+
 from config import UPLOAD_FOLDER
 from models.exam import Exam
-from models.question import Option, QuestionBank
-from utils.file_handling import save_uploaded_file
-from utils.data_processing import DataProcessing
-
 from models.exam_result import ExamResult
-from utils.method.ctt_analysis import CttAnalysis
+from models.question import Option, QuestionBank
+from utils.data_processing import DataProcessing
+from utils.file_handling import save_uploaded_file
+from analysis.ctt_analysis import CttAnalysis
 
 
 def analyze_uploaded_file(file):

@@ -1,11 +1,11 @@
 import logging
 from flask import Blueprint, request, jsonify
-from services.irt_service import analyze_uploaded_file
+from services.analyze import analyze_uploaded_file
 
-irt_analyze = Blueprint("irt_analyze", __name__)
+ctt_analyze = Blueprint("ctt_analyze", __name__)
 
 
-@irt_analyze.route("/api/irt/analyze", methods=["POST"])
+@ctt_analyze.route("/ctt", methods=["POST"])
 def analyze_file():
     if "file" not in request.files:
         return jsonify({"error": "No file uploaded"}), 400
