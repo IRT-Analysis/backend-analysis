@@ -80,7 +80,7 @@ class CttAnalysis:
         chosen_by, option_stats = self._compute_option_stats(
             question_id, question_data, top_students, bottom_students
         )
-        difficulty_index = chosen_by / len(self.examResult.students)
+        difficulty_index = round(chosen_by / len(self.examResult.students),3)
         discrimination_index = self._compute_discrimination_index(
             question_id, top_students, bottom_students
         )
@@ -120,12 +120,13 @@ class CttAnalysis:
                         # Increment the value
                         # Update the dictionary with the new value
                         option[1].option_stats['selected_by'] += 1
-                        option[1].option_stats['ratio'] = chosen_by/total_student
+                        chosen_by = option[1].option_stats['selected_by']
+                        option[1].option_stats['ratio'] = round(option[1].option_stats['selected_by']/total_student,3)
                         if student in top_students:
                             option[1].option_stats["top_selected"] += 1
                         if student in bottom_students:
                             option[1].option_stats['bottom_selected'] += 1
-                        option[1].option_stats['discrimination'] = (option[1].option_stats['top_selected']-option[1].option_stats['bottom_selected'])/total_student
+                        option[1].option_stats['discrimination'] = round((option[1].option_stats['top_selected']-option[1].option_stats['bottom_selected'])/total_student,3)
                         # option[1].students.append(student)
                     option_stats[option[0]] = option[1].option_stats
         return chosen_by, option_stats
@@ -147,9 +148,9 @@ class CttAnalysis:
             for student in bottom_students
             if self.examResult.is_correct_answer(student, question_id)
         )
-        return (top_correct / len(top_students)) - (
+        return round((top_correct / len(top_students)) - (
             bottom_correct / len(bottom_students)
-        )
+        ),3)
 
     def _categorize_difficulty(self, difficulty_index):
         """
@@ -217,7 +218,7 @@ class CttAnalysis:
             / total_std
             * np.sqrt(correct_proportion * incorrect_proportion)
         )
-        return rpbis
+        return round(rpbis,3)
     
     
     
