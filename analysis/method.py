@@ -1,17 +1,14 @@
-import numpy as np
 
-def get_average_score(student_list):
-    """
-        Args: List[Dict] [{"student": student_id, "score": score}]
-    """
-    scores = [student["score"] for student in student_list]
-    return round(scores.mean(),3)
+class Method:
+    def get_score_list(self, scores):
+        score_list = [s["score"] for s in scores]
+        return score_list
 
-def get_average_rpbis():
-    return 0
+    def get_result_list(self, name, dict):
+        list = []
+        for key, value in dict.items():
+            index = value[name]
+            list.append(index)
+        return list
 
-def get_average_discimination():
-    return 0
-
-def get_average_difficulty():
-    return 0
+    
