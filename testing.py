@@ -9,6 +9,7 @@ from models.exam_result import ExamResult
 from models.question import Option, QuestionBank
 from utils.data_processing import DataProcessing
 from analysis.ctt_analysis import CttAnalysis
+from analysis.method import Method
 
 UPLOAD_FOLDER = "uploads/"
 
@@ -52,9 +53,11 @@ def analyze_uploaded_file():
     # Generate Exam Results and Analysis
     exam_result = ExamResult(exams, students)
     analysis = CttAnalysis(exam_result)
-
+    getData = Method()
+    
     writeJson(analysis.analyze_questions_ctt())
-
+    # print(getData.get_score_list(exam_result.scores))
+    print(getData.get_result_list("discrimination", analysis.question_stats))
 
 def process_exam(file_path, question_bank):
     # Group data by Exam_code
