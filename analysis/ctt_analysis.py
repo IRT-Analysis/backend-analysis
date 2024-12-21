@@ -1,5 +1,6 @@
 import numpy as np
 
+
 class CttAnalysis:
     examResult = None
     question_stats = {}
@@ -11,9 +12,9 @@ class CttAnalysis:
         self.general_detail = {
             "total_students": 0,
             "total_questions": 0,
-            "total_option": 4
+            "total_option": 4,
         }
-        
+
     def _get_average_value(self, name, list):
         temp = [question[name] for question in list]
         average = np.mean(temp)
@@ -25,7 +26,9 @@ class CttAnalysis:
         """
         all_questions = self.examResult.exams[0].question_bank.get_all_questions()
         self.general_detail["total_students"] = len(self.examResult.students)
-        self.general_detail["total_questions"] = len(self.examResult.exams[0].question_bank.questions)
+        self.general_detail["total_questions"] = len(
+            self.examResult.exams[0].question_bank.questions
+        )
         sorted_students, top_students, bottom_students = self._split_students()
         list = []
         for question_id, question_data in all_questions.items():
@@ -37,10 +40,16 @@ class CttAnalysis:
                 bottom_students,
             )
             list.append(self.question_stats[question_id])
-        
-        self.average_indexes["average_score"] = self._get_average_value("score", self.examResult.scores)
-        self.average_indexes["average_discrimination"] = self._get_average_value("discrimination", list)
-        self.average_indexes["average_difficulty"] = self._get_average_value("difficulty", list)
+
+        self.average_indexes["average_score"] = self._get_average_value(
+            "score", self.examResult.scores
+        )
+        self.average_indexes["average_discrimination"] = self._get_average_value(
+            "discrimination", list
+        )
+        self.average_indexes["average_difficulty"] = self._get_average_value(
+            "difficulty", list
+        )
         self.average_indexes["average_rpbis"] = self._get_average_value("r_pbis", list)
         return self.question_stats
 
@@ -69,7 +78,7 @@ class CttAnalysis:
         chosen_by, option_stats = self._compute_option_stats(
             question_id, question_data, top_students, bottom_students
         )
-        difficulty_index = round(chosen_by / len(self.examResult.students),3)
+        difficulty_index = round(chosen_by / len(self.examResult.students), 3)
         discrimination_index = self._compute_discrimination_index(
             question_id, top_students, bottom_students
         )
@@ -110,14 +119,24 @@ class CttAnalysis:
                     if student_answer == option[0]:
                         # Increment the value
                         # Update the dictionary with the new value
-                        option[1].option_stats['selected_by'] += 1
-                        chosen_by = option[1].option_stats['selected_by']
-                        option[1].option_stats['ratio'] = round(option[1].option_stats['selected_by']/total_student,3)
+                        option[1].option_stats["selected_by"] += 1
+                        chosen_by = option[1].option_stats["selected_by"]
+                        option[1].option_stats["ratio"] = round(
+                            option[1].option_stats["selected_by"] / total_student, 3
+                        )
                         if student in top_students:
                             option[1].option_stats["top_selected"] += 1
                         if student in bottom_students:
-                            option[1].option_stats['bottom_selected'] += 1
-                        option[1].option_stats['discrimination'] = round((option[1].option_stats['top_selected']/top_students_len-option[1].option_stats['bottom_selected']/bottom_students_len),3)
+                            option[1].option_stats["bottom_selected"] += 1
+                        option[1].option_stats["discrimination"] = round(
+                            (
+                                option[1].option_stats["top_selected"]
+                                / top_students_len
+                                - option[1].option_stats["bottom_selected"]
+                                / bottom_students_len
+                            ),
+                            3,
+                        )
                         # option[1].students.append(student)
                     option_stats[option[0]] = option[1].option_stats
         return chosen_by, option_stats
@@ -139,9 +158,10 @@ class CttAnalysis:
             for student in bottom_students
             if self.examResult.is_correct_answer(student, question_id)
         )
-        return round((top_correct / len(top_students)) - (
-            bottom_correct / len(bottom_students)
-        ),3)
+        return round(
+            (top_correct / len(top_students)) - (bottom_correct / len(bottom_students)),
+            3,
+        )
 
     def _categorize_difficulty(self, difficulty_index):
         """
@@ -209,10 +229,7 @@ class CttAnalysis:
             / total_std
             * np.sqrt(correct_proportion * incorrect_proportion)
         )
-        return round(rpbis,3)
-    
-    
-    
-        
-            
-        
+        return round(rpbis, 3)
+
+    def get_general_detail(self):
+        return self.general_detail
