@@ -68,10 +68,26 @@ def get_general_detail(analysis_id):
     """
     try:
         general_detail = ctt_service.get_general_detail()
+        score_historgram = ctt_service.get_score_histogram()
+        discrimination_histogram = ctt_service.get_discrimination_histogram()
+        difficulty_histogram = ctt_service.get_difficultiy_histogram()
+        r_pbis_histogram = ctt_service.get_rpbis_histogram()
+        average = ctt_service.get_average_indexes()
+        histogram = {
+            "score": score_historgram,
+            "discrimination": discrimination_histogram,
+            "difficulty": difficulty_histogram,
+            "r_pbis": r_pbis_histogram,
+        }
+
         return jsonify(
             {
                 "message": f"Analysis {analysis_id} general detail retrieved successfully.",
-                "data": general_detail,
+                "data": {
+                    "general": general_detail,
+                    "histogram": histogram,
+                    "average": average,
+                },
                 "code": 200,
             }
         ), 200
@@ -100,29 +116,6 @@ def get_question_stats(question_id):
         ), 200
     except FileNotFoundError:
         raise InvalidAPIUsage(f"Stats for question {question_id} not found.", code=404)
-    except Exception as e:
-        logging.error(f"Unexpected error: {str(e)}")
-        raise InvalidAPIUsage("An unexpected error occurred", code=500, error=e)
-
-
-@ctt_analyze.route("/ctt/<analysis_id>/average-detail", methods=["GET"])
-def get_average_indexes(analysis_id):
-    """
-    Endpoint to retrieve average indexes from the analysis.
-    """
-    try:
-        average_indexes = ctt_service.get_average_indexes()
-        return jsonify(
-            {
-                "message": f"{analysis_id} average indexes retrieved successfully.",
-                "data": average_indexes,
-                "code": 200,
-            }
-        ), 200
-    except FileNotFoundError:
-        raise InvalidAPIUsage(
-            f"Average indexes for analysis {analysis_id} not found.", code=404
-        )
     except Exception as e:
         logging.error(f"Unexpected error: {str(e)}")
         raise InvalidAPIUsage("An unexpected error occurred", code=500, error=e)

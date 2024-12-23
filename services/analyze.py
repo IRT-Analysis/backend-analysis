@@ -122,6 +122,7 @@ from itertools import groupby
 import pandas as pd
 
 from analysis.ctt_analysis import CttAnalysis
+from analysis.method import Method
 from config import UPLOAD_FOLDER
 from models.exam import Exam
 from models.exam_result import ExamResult
@@ -133,6 +134,8 @@ from utils.file_handling import save_uploaded_file
 class CttService:
     def __init__(self):
         self.analysis = None
+        self.getData = None
+        self.exam_result = None
         print("CttService initialized.")
 
     def analyze_uploaded_file(self, file):
@@ -146,8 +149,9 @@ class CttService:
         exam_df = pd.read_csv(os.path.join(UPLOAD_FOLDER, "mock_exam_items.csv"))
         exams = self._process_exam(exam_df.to_dict(orient="records"), question_bank)
 
-        exam_result = ExamResult(exams, students)
-        self.analysis = CttAnalysis(exam_result)
+        self.exam_result = ExamResult(exams, students)
+        self.analysis = CttAnalysis(self.exam_result)
+        self.getData = Method()
         self.analysis.analyze_questions_ctt()
 
     def get_analysis_results(self):
@@ -265,3 +269,33 @@ class CttService:
             exams.append(Exam(exam_code, question_bank, question_order, answer_order))
 
         return exams
+
+    def get_score_histogram(self):
+        """
+        Retrieve the score histogram.
+        """
+
+        return self.getData.get_score_list(self.exam_result.scores)
+
+    def get_discrimination_histogram(self):
+        """
+        Retrieve the discrimination values.
+        """
+
+        return self.getData.get_result_list(
+            "discrimination", self.analysis.question_stats
+        )
+
+    def get_difficultiy_histogram(self):
+        """
+        Retrieve the discrimination values.
+        """
+
+        return self.getData.get_result_list("difficulty", self.analysis.question_stats)
+
+    def get_rpbis_histogram(self):
+        """
+        Retrieve the discrimination values.
+        """
+
+        return self.getData.get_result_list("r_pbis", self.analysis.question_stats)
