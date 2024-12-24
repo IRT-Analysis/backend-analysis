@@ -136,7 +136,6 @@ class CttService:
         self.analysis = None
         self.getData = None
         self.exam_result = None
-        print("CttService initialized.")
 
     def analyze_uploaded_file(self, file):
         """
