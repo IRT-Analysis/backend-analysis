@@ -6,27 +6,41 @@ from models.student import Student
 
 class DataProcessing:
     def result_file_process(self, file_path: str):
-        # """Reads the Excel file and prepares it for processing."""
-        # return pd.read_excel(file_path)
         """
         Process an Excel file and convert each row into a Student object.
 
         Args:
-            input_file (str): Path to the input Excel file.
+            file_path (str): Path to the input Excel file.
 
         Returns:
             list of Student: A list of Student objects.
+
+        Raises:
+            ValueError: If the file is invalid or missing required columns.
         """
-        # Load the Excel file into a DataFrame
-        df = pd.read_excel(file_path)
 
+        # 1. Check if the file is an Excel file (invalid file type handling)
+        if not file_path.endswith((".xlsx", ".xls")):
+            raise ValueError(
+                "Invalid file type. Expected an Excel file (.xlsx or .xls)."
+            )
+
+        # 2. Attempt to load the Excel file into a DataFrame
+        try:
+            df = pd.read_excel(file_path)
+        except Exception as e:
+            raise ValueError(f"Failed to read the Excel file: {e}")
+
+        # 3. Validate required columns (invalid content handling)
+        required_columns = ["F_MASV", "F_HOLOT", "F_TEN", "MADE"]
+        missing_columns = [col for col in required_columns if col not in df.columns]
+        if missing_columns:
+            raise ValueError(
+                f"Missing required columns: {', '.join(missing_columns)} in {file_path}"
+            )
+
+        # Process the file if it passes all validations
         students = []
-
-        # Identify the last three columns as ID, Name, and Exam_Code
-        id_col = "F_MASV"
-        firstName_col = "F_HOLOT"
-        lastName_col = "F_TEN"
-        exam_code_col = "MADE"
 
         # All other columns are considered as answers
         answer_columns = df.columns[:-11]
@@ -34,10 +48,10 @@ class DataProcessing:
         # Iterate through each row in the DataFrame
         for _, row in df.iterrows():
             # Extract student information
-            student_id = row[id_col]
-            firstName = row[firstName_col]
-            lastName = row[lastName_col]
-            exam_code = row[exam_code_col]
+            student_id = row["F_MASV"]
+            firstName = row["F_HOLOT"]
+            lastName = row["F_TEN"]
+            exam_code = row["MADE"]
 
             # Extract answers as a dictionary
             answers = {}
@@ -50,7 +64,7 @@ class DataProcessing:
                             "correct": True,
                         }
                     elif response.endswith("S"):
-                        # Edge case where the response is "*S" ???
+                        # Edge case where the response is "*S"
                         if response.startswith("*"):
                             answers[col] = {"answer": -1, "correct": None}
                         else:
