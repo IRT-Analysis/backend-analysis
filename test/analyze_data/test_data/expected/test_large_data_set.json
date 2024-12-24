@@ -1,0 +1,2462 @@
+{
+    "C1": {
+        "difficulty": 0.528,
+        "difficulty_category": "Easy",
+        "discrimination": 0.516,
+        "discrimination_category": "Good",
+        "r_pbis": 0.442,
+        "options": {
+            "0": {
+                "selected_by": 7,
+                "top_selected": 0,
+                "bottom_selected": 5,
+                "ratio": 0.049,
+                "discrimination": -0.104,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 23,
+                "top_selected": 4,
+                "bottom_selected": 15,
+                "ratio": 0.162,
+                "discrimination": -0.227,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 75,
+                "top_selected": 35,
+                "bottom_selected": 11,
+                "ratio": 0.528,
+                "discrimination": 0.516,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 37,
+                "top_selected": 8,
+                "bottom_selected": 17,
+                "ratio": 0.261,
+                "discrimination": -0.184,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C2": {
+        "difficulty": 0.261,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.327,
+        "discrimination_category": "Good",
+        "r_pbis": 0.275,
+        "options": {
+            "0": {
+                "selected_by": 69,
+                "top_selected": 32,
+                "bottom_selected": 17,
+                "ratio": 0.486,
+                "discrimination": 0.327,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 19,
+                "top_selected": 5,
+                "bottom_selected": 6,
+                "ratio": 0.134,
+                "discrimination": -0.019,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 37,
+                "top_selected": 5,
+                "bottom_selected": 18,
+                "ratio": 0.261,
+                "discrimination": -0.269,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 17,
+                "top_selected": 5,
+                "bottom_selected": 7,
+                "ratio": 0.12,
+                "discrimination": -0.039,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C3": {
+        "difficulty": 0.366,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.43,
+        "discrimination_category": "Good",
+        "r_pbis": 0.39,
+        "options": {
+            "0": {
+                "selected_by": 52,
+                "top_selected": 10,
+                "bottom_selected": 24,
+                "ratio": 0.366,
+                "discrimination": -0.287,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 55,
+                "top_selected": 30,
+                "bottom_selected": 10,
+                "ratio": 0.387,
+                "discrimination": 0.43,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 26,
+                "top_selected": 7,
+                "bottom_selected": 10,
+                "ratio": 0.183,
+                "discrimination": -0.059,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 9,
+                "top_selected": 0,
+                "bottom_selected": 4,
+                "ratio": 0.063,
+                "discrimination": -0.083,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C4": {
+        "difficulty": 0.592,
+        "difficulty_category": "Easy",
+        "discrimination": 0.287,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.31,
+        "options": {
+            "0": {
+                "selected_by": 11,
+                "top_selected": 1,
+                "bottom_selected": 6,
+                "ratio": 0.077,
+                "discrimination": -0.104,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 84,
+                "top_selected": 36,
+                "bottom_selected": 23,
+                "ratio": 0.592,
+                "discrimination": 0.287,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 36,
+                "top_selected": 6,
+                "bottom_selected": 14,
+                "ratio": 0.254,
+                "discrimination": -0.164,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 11,
+                "top_selected": 4,
+                "bottom_selected": 5,
+                "ratio": 0.077,
+                "discrimination": -0.019,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C5": {
+        "difficulty": 0.641,
+        "difficulty_category": "Easy",
+        "discrimination": -0.122,
+        "discrimination_category": "Bad",
+        "r_pbis": -0.097,
+        "options": {
+            "0": {
+                "selected_by": 37,
+                "top_selected": 7,
+                "bottom_selected": 13,
+                "ratio": 0.261,
+                "discrimination": -0.122,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 91,
+                "top_selected": 35,
+                "bottom_selected": 31,
+                "ratio": 0.641,
+                "discrimination": 0.099,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 8,
+                "top_selected": 3,
+                "bottom_selected": 2,
+                "ratio": 0.056,
+                "discrimination": 0.022,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 6,
+                "top_selected": 2,
+                "bottom_selected": 2,
+                "ratio": 0.042,
+                "discrimination": 0.001,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C6": {
+        "difficulty": 0.169,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.195,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.24,
+        "options": {
+            "0": {
+                "selected_by": 48,
+                "top_selected": 11,
+                "bottom_selected": 20,
+                "ratio": 0.338,
+                "discrimination": -0.183,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 24,
+                "top_selected": 10,
+                "bottom_selected": 7,
+                "ratio": 0.169,
+                "discrimination": 0.067,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 31,
+                "top_selected": 8,
+                "bottom_selected": 12,
+                "ratio": 0.218,
+                "discrimination": -0.08,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 39,
+                "top_selected": 18,
+                "bottom_selected": 9,
+                "ratio": 0.275,
+                "discrimination": 0.195,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C7": {
+        "difficulty": 0.225,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.202,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.198,
+        "options": {
+            "0": {
+                "selected_by": 86,
+                "top_selected": 33,
+                "bottom_selected": 24,
+                "ratio": 0.606,
+                "discrimination": 0.202,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 32,
+                "top_selected": 9,
+                "bottom_selected": 13,
+                "ratio": 0.225,
+                "discrimination": -0.079,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 18,
+                "top_selected": 4,
+                "bottom_selected": 8,
+                "ratio": 0.127,
+                "discrimination": -0.082,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 5,
+                "top_selected": 1,
+                "bottom_selected": 2,
+                "ratio": 0.035,
+                "discrimination": -0.02,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C8": {
+        "difficulty": 0.789,
+        "difficulty_category": "Very Easy",
+        "discrimination": 0.079,
+        "discrimination_category": "Bad",
+        "r_pbis": 0.107,
+        "options": {
+            "0": {
+                "selected_by": 112,
+                "top_selected": 38,
+                "bottom_selected": 35,
+                "ratio": 0.789,
+                "discrimination": 0.079,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 3,
+                "top_selected": 0,
+                "bottom_selected": 3,
+                "ratio": 0.021,
+                "discrimination": -0.062,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 17,
+                "top_selected": 7,
+                "bottom_selected": 8,
+                "ratio": 0.12,
+                "discrimination": -0.018,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 10,
+                "top_selected": 2,
+                "bottom_selected": 2,
+                "ratio": 0.07,
+                "discrimination": 0.001,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C9": {
+        "difficulty": 0.648,
+        "difficulty_category": "Easy",
+        "discrimination": 0.023,
+        "discrimination_category": "Bad",
+        "r_pbis": 0.058,
+        "options": {
+            "0": {
+                "selected_by": 25,
+                "top_selected": 7,
+                "bottom_selected": 10,
+                "ratio": 0.176,
+                "discrimination": -0.059,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 15,
+                "top_selected": 2,
+                "bottom_selected": 7,
+                "ratio": 0.106,
+                "discrimination": -0.103,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 92,
+                "top_selected": 33,
+                "bottom_selected": 27,
+                "ratio": 0.648,
+                "discrimination": 0.14,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 9,
+                "top_selected": 5,
+                "bottom_selected": 4,
+                "ratio": 0.063,
+                "discrimination": 0.023,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C10": {
+        "difficulty": 0.141,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.28,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.294,
+        "options": {
+            "0": {
+                "selected_by": 45,
+                "top_selected": 20,
+                "bottom_selected": 7,
+                "ratio": 0.317,
+                "discrimination": 0.28,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 49,
+                "top_selected": 14,
+                "bottom_selected": 23,
+                "ratio": 0.345,
+                "discrimination": -0.181,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 28,
+                "top_selected": 5,
+                "bottom_selected": 11,
+                "ratio": 0.197,
+                "discrimination": -0.123,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 20,
+                "top_selected": 8,
+                "bottom_selected": 7,
+                "ratio": 0.141,
+                "discrimination": 0.024,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C11": {
+        "difficulty": 0.542,
+        "difficulty_category": "Easy",
+        "discrimination": -0.016,
+        "discrimination_category": "Bad",
+        "r_pbis": -0.039,
+        "options": {
+            "0": {
+                "selected_by": 34,
+                "top_selected": 12,
+                "bottom_selected": 13,
+                "ratio": 0.239,
+                "discrimination": -0.016,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 77,
+                "top_selected": 32,
+                "bottom_selected": 19,
+                "ratio": 0.542,
+                "discrimination": 0.285,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 20,
+                "top_selected": 2,
+                "bottom_selected": 11,
+                "ratio": 0.141,
+                "discrimination": -0.187,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 11,
+                "top_selected": 1,
+                "bottom_selected": 5,
+                "ratio": 0.077,
+                "discrimination": -0.083,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C12": {
+        "difficulty": 0.803,
+        "difficulty_category": "Very Easy",
+        "discrimination": 0.227,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.256,
+        "options": {
+            "0": {
+                "selected_by": 3,
+                "top_selected": 0,
+                "bottom_selected": 3,
+                "ratio": 0.021,
+                "discrimination": -0.062,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 18,
+                "top_selected": 5,
+                "bottom_selected": 9,
+                "ratio": 0.127,
+                "discrimination": -0.081,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 7,
+                "top_selected": 0,
+                "bottom_selected": 4,
+                "ratio": 0.049,
+                "discrimination": -0.083,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 114,
+                "top_selected": 42,
+                "bottom_selected": 32,
+                "ratio": 0.803,
+                "discrimination": 0.227,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C13": {
+        "difficulty": 0.754,
+        "difficulty_category": "Very Easy",
+        "discrimination": 0.1,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.093,
+        "options": {
+            "0": {
+                "selected_by": 15,
+                "top_selected": 7,
+                "bottom_selected": 5,
+                "ratio": 0.106,
+                "discrimination": 0.045,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 14,
+                "top_selected": 2,
+                "bottom_selected": 7,
+                "ratio": 0.099,
+                "discrimination": -0.103,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 6,
+                "top_selected": 1,
+                "bottom_selected": 3,
+                "ratio": 0.042,
+                "discrimination": -0.041,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 107,
+                "top_selected": 37,
+                "bottom_selected": 33,
+                "ratio": 0.754,
+                "discrimination": 0.1,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C14": {
+        "difficulty": 0.859,
+        "difficulty_category": "Very Easy",
+        "discrimination": 0.165,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.246,
+        "options": {
+            "0": {
+                "selected_by": 5,
+                "top_selected": 1,
+                "bottom_selected": 3,
+                "ratio": 0.035,
+                "discrimination": -0.041,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 9,
+                "top_selected": 1,
+                "bottom_selected": 5,
+                "ratio": 0.063,
+                "discrimination": -0.083,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 122,
+                "top_selected": 44,
+                "bottom_selected": 37,
+                "ratio": 0.859,
+                "discrimination": 0.165,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 6,
+                "top_selected": 1,
+                "bottom_selected": 3,
+                "ratio": 0.042,
+                "discrimination": -0.041,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C15": {
+        "difficulty": 0.831,
+        "difficulty_category": "Very Easy",
+        "discrimination": 0.228,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.265,
+        "options": {
+            "0": {
+                "selected_by": 16,
+                "top_selected": 1,
+                "bottom_selected": 11,
+                "ratio": 0.113,
+                "discrimination": -0.208,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 5,
+                "top_selected": 0,
+                "bottom_selected": 2,
+                "ratio": 0.035,
+                "discrimination": -0.042,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 118,
+                "top_selected": 45,
+                "bottom_selected": 35,
+                "ratio": 0.831,
+                "discrimination": 0.228,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 2,
+                "top_selected": 1,
+                "bottom_selected": 0,
+                "ratio": 0.014,
+                "discrimination": 0.021,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C16": {
+        "difficulty": 0.634,
+        "difficulty_category": "Easy",
+        "discrimination": 0.412,
+        "discrimination_category": "Good",
+        "r_pbis": 0.362,
+        "options": {
+            "0": {
+                "selected_by": 90,
+                "top_selected": 37,
+                "bottom_selected": 18,
+                "ratio": 0.634,
+                "discrimination": 0.412,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 16,
+                "top_selected": 3,
+                "bottom_selected": 7,
+                "ratio": 0.113,
+                "discrimination": -0.082,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 33,
+                "top_selected": 6,
+                "bottom_selected": 21,
+                "ratio": 0.232,
+                "discrimination": -0.31,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 3,
+                "top_selected": 1,
+                "bottom_selected": 2,
+                "ratio": 0.021,
+                "discrimination": -0.02,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C17": {
+        "difficulty": 0.225,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.258,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.244,
+        "options": {
+            "0": {
+                "selected_by": 26,
+                "top_selected": 9,
+                "bottom_selected": 8,
+                "ratio": 0.183,
+                "discrimination": 0.025,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 59,
+                "top_selected": 16,
+                "bottom_selected": 23,
+                "ratio": 0.415,
+                "discrimination": -0.139,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 32,
+                "top_selected": 17,
+                "bottom_selected": 5,
+                "ratio": 0.225,
+                "discrimination": 0.258,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 23,
+                "top_selected": 5,
+                "bottom_selected": 12,
+                "ratio": 0.162,
+                "discrimination": -0.144,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C18": {
+        "difficulty": 0.669,
+        "difficulty_category": "Easy",
+        "discrimination": 0.434,
+        "discrimination_category": "Good",
+        "r_pbis": 0.449,
+        "options": {
+            "0": {
+                "selected_by": 4,
+                "top_selected": 1,
+                "bottom_selected": 1,
+                "ratio": 0.028,
+                "discrimination": 0.0,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 32,
+                "top_selected": 3,
+                "bottom_selected": 22,
+                "ratio": 0.225,
+                "discrimination": -0.395,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 10,
+                "top_selected": 3,
+                "bottom_selected": 5,
+                "ratio": 0.07,
+                "discrimination": -0.04,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 95,
+                "top_selected": 40,
+                "bottom_selected": 20,
+                "ratio": 0.669,
+                "discrimination": 0.434,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C19": {
+        "difficulty": 0.725,
+        "difficulty_category": "Easy",
+        "discrimination": 0.372,
+        "discrimination_category": "Good",
+        "r_pbis": 0.335,
+        "options": {
+            "0": {
+                "selected_by": 25,
+                "top_selected": 6,
+                "bottom_selected": 15,
+                "ratio": 0.176,
+                "discrimination": -0.185,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 8,
+                "top_selected": 0,
+                "bottom_selected": 3,
+                "ratio": 0.056,
+                "discrimination": -0.062,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 103,
+                "top_selected": 41,
+                "bottom_selected": 24,
+                "ratio": 0.725,
+                "discrimination": 0.372,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 6,
+                "top_selected": 0,
+                "bottom_selected": 6,
+                "ratio": 0.042,
+                "discrimination": -0.125,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C20": {
+        "difficulty": 0.394,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.008,
+        "discrimination_category": "Bad",
+        "r_pbis": 0.054,
+        "options": {
+            "0": {
+                "selected_by": 17,
+                "top_selected": 4,
+                "bottom_selected": 9,
+                "ratio": 0.12,
+                "discrimination": -0.102,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 56,
+                "top_selected": 18,
+                "bottom_selected": 15,
+                "ratio": 0.394,
+                "discrimination": 0.07,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 53,
+                "top_selected": 19,
+                "bottom_selected": 19,
+                "ratio": 0.373,
+                "discrimination": 0.008,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 14,
+                "top_selected": 5,
+                "bottom_selected": 5,
+                "ratio": 0.099,
+                "discrimination": 0.002,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C21": {
+        "difficulty": 0.5,
+        "difficulty_category": "Easy",
+        "discrimination": 0.158,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.177,
+        "options": {
+            "0": {
+                "selected_by": 19,
+                "top_selected": 4,
+                "bottom_selected": 7,
+                "ratio": 0.134,
+                "discrimination": -0.061,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 43,
+                "top_selected": 13,
+                "bottom_selected": 19,
+                "ratio": 0.303,
+                "discrimination": -0.119,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 71,
+                "top_selected": 27,
+                "bottom_selected": 20,
+                "ratio": 0.5,
+                "discrimination": 0.158,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 9,
+                "top_selected": 3,
+                "bottom_selected": 2,
+                "ratio": 0.063,
+                "discrimination": 0.022,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C22": {
+        "difficulty": 0.345,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.348,
+        "discrimination_category": "Good",
+        "r_pbis": 0.328,
+        "options": {
+            "0": {
+                "selected_by": 67,
+                "top_selected": 32,
+                "bottom_selected": 16,
+                "ratio": 0.472,
+                "discrimination": 0.348,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 49,
+                "top_selected": 12,
+                "bottom_selected": 19,
+                "ratio": 0.345,
+                "discrimination": -0.141,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 20,
+                "top_selected": 2,
+                "bottom_selected": 9,
+                "ratio": 0.141,
+                "discrimination": -0.145,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 5,
+                "top_selected": 1,
+                "bottom_selected": 3,
+                "ratio": 0.035,
+                "discrimination": -0.041,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C23": {
+        "difficulty": 0.38,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.135,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.157,
+        "options": {
+            "0": {
+                "selected_by": 70,
+                "top_selected": 22,
+                "bottom_selected": 22,
+                "ratio": 0.493,
+                "discrimination": 0.01,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 13,
+                "top_selected": 1,
+                "bottom_selected": 6,
+                "ratio": 0.092,
+                "discrimination": -0.104,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 5,
+                "top_selected": 1,
+                "bottom_selected": 3,
+                "ratio": 0.035,
+                "discrimination": -0.041,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 54,
+                "top_selected": 23,
+                "bottom_selected": 17,
+                "ratio": 0.38,
+                "discrimination": 0.135,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C24": {
+        "difficulty": 0.444,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.115,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.143,
+        "options": {
+            "0": {
+                "selected_by": 29,
+                "top_selected": 12,
+                "bottom_selected": 8,
+                "ratio": 0.204,
+                "discrimination": 0.089,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 25,
+                "top_selected": 5,
+                "bottom_selected": 9,
+                "ratio": 0.176,
+                "discrimination": -0.081,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 24,
+                "top_selected": 5,
+                "bottom_selected": 11,
+                "ratio": 0.169,
+                "discrimination": -0.123,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 63,
+                "top_selected": 25,
+                "bottom_selected": 20,
+                "ratio": 0.444,
+                "discrimination": 0.115,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C25": {
+        "difficulty": 0.12,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.065,
+        "discrimination_category": "Bad",
+        "r_pbis": 0.125,
+        "options": {
+            "0": {
+                "selected_by": 17,
+                "top_selected": 4,
+                "bottom_selected": 5,
+                "ratio": 0.12,
+                "discrimination": -0.019,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 104,
+                "top_selected": 36,
+                "bottom_selected": 33,
+                "ratio": 0.732,
+                "discrimination": 0.078,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 10,
+                "top_selected": 1,
+                "bottom_selected": 7,
+                "ratio": 0.07,
+                "discrimination": -0.125,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 11,
+                "top_selected": 6,
+                "bottom_selected": 3,
+                "ratio": 0.077,
+                "discrimination": 0.065,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C26": {
+        "difficulty": 0.528,
+        "difficulty_category": "Easy",
+        "discrimination": 0.284,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.272,
+        "options": {
+            "0": {
+                "selected_by": 11,
+                "top_selected": 2,
+                "bottom_selected": 7,
+                "ratio": 0.077,
+                "discrimination": -0.103,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 45,
+                "top_selected": 11,
+                "bottom_selected": 21,
+                "ratio": 0.317,
+                "discrimination": -0.203,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 11,
+                "top_selected": 4,
+                "bottom_selected": 3,
+                "ratio": 0.077,
+                "discrimination": 0.023,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 75,
+                "top_selected": 30,
+                "bottom_selected": 17,
+                "ratio": 0.528,
+                "discrimination": 0.284,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C27": {
+        "difficulty": 0.711,
+        "difficulty_category": "Easy",
+        "discrimination": 0.457,
+        "discrimination_category": "Good",
+        "r_pbis": 0.417,
+        "options": {
+            "0": {
+                "selected_by": 15,
+                "top_selected": 2,
+                "bottom_selected": 10,
+                "ratio": 0.106,
+                "discrimination": -0.166,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 6,
+                "top_selected": 0,
+                "bottom_selected": 3,
+                "ratio": 0.042,
+                "discrimination": -0.062,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 101,
+                "top_selected": 45,
+                "bottom_selected": 24,
+                "ratio": 0.711,
+                "discrimination": 0.457,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 19,
+                "top_selected": 0,
+                "bottom_selected": 10,
+                "ratio": 0.134,
+                "discrimination": -0.208,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C28": {
+        "difficulty": 0.739,
+        "difficulty_category": "Easy",
+        "discrimination": 0.352,
+        "discrimination_category": "Good",
+        "r_pbis": 0.34,
+        "options": {
+            "0": {
+                "selected_by": 6,
+                "top_selected": 2,
+                "bottom_selected": 3,
+                "ratio": 0.042,
+                "discrimination": -0.02,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 105,
+                "top_selected": 41,
+                "bottom_selected": 25,
+                "ratio": 0.739,
+                "discrimination": 0.352,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 6,
+                "top_selected": 1,
+                "bottom_selected": 4,
+                "ratio": 0.042,
+                "discrimination": -0.062,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 24,
+                "top_selected": 3,
+                "bottom_selected": 16,
+                "ratio": 0.169,
+                "discrimination": -0.27,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C29": {
+        "difficulty": 0.711,
+        "difficulty_category": "Easy",
+        "discrimination": 0.331,
+        "discrimination_category": "Good",
+        "r_pbis": 0.282,
+        "options": {
+            "0": {
+                "selected_by": 101,
+                "top_selected": 42,
+                "bottom_selected": 27,
+                "ratio": 0.711,
+                "discrimination": 0.331,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 12,
+                "top_selected": 1,
+                "bottom_selected": 6,
+                "ratio": 0.085,
+                "discrimination": -0.104,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 15,
+                "top_selected": 2,
+                "bottom_selected": 7,
+                "ratio": 0.106,
+                "discrimination": -0.103,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 14,
+                "top_selected": 2,
+                "bottom_selected": 8,
+                "ratio": 0.099,
+                "discrimination": -0.124,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C30": {
+        "difficulty": 0.359,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.241,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.213,
+        "options": {
+            "0": {
+                "selected_by": 23,
+                "top_selected": 1,
+                "bottom_selected": 15,
+                "ratio": 0.162,
+                "discrimination": -0.291,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 51,
+                "top_selected": 17,
+                "bottom_selected": 16,
+                "ratio": 0.359,
+                "discrimination": 0.028,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 61,
+                "top_selected": 26,
+                "bottom_selected": 15,
+                "ratio": 0.43,
+                "discrimination": 0.241,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 7,
+                "top_selected": 3,
+                "bottom_selected": 2,
+                "ratio": 0.049,
+                "discrimination": 0.022,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C31": {
+        "difficulty": 0.162,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.286,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.258,
+        "options": {
+            "0": {
+                "selected_by": 87,
+                "top_selected": 35,
+                "bottom_selected": 22,
+                "ratio": 0.613,
+                "discrimination": 0.286,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 19,
+                "top_selected": 2,
+                "bottom_selected": 10,
+                "ratio": 0.134,
+                "discrimination": -0.166,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 23,
+                "top_selected": 6,
+                "bottom_selected": 9,
+                "ratio": 0.162,
+                "discrimination": -0.06,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 12,
+                "top_selected": 4,
+                "bottom_selected": 6,
+                "ratio": 0.085,
+                "discrimination": -0.04,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C32": {
+        "difficulty": 0.134,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.245,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.18,
+        "options": {
+            "0": {
+                "selected_by": 19,
+                "top_selected": 3,
+                "bottom_selected": 6,
+                "ratio": 0.134,
+                "discrimination": -0.061,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 24,
+                "top_selected": 7,
+                "bottom_selected": 9,
+                "ratio": 0.169,
+                "discrimination": -0.039,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 82,
+                "top_selected": 35,
+                "bottom_selected": 24,
+                "ratio": 0.577,
+                "discrimination": 0.245,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 17,
+                "top_selected": 2,
+                "bottom_selected": 9,
+                "ratio": 0.12,
+                "discrimination": -0.145,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C33": {
+        "difficulty": 0.782,
+        "difficulty_category": "Very Easy",
+        "discrimination": 0.227,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.29,
+        "options": {
+            "0": {
+                "selected_by": 2,
+                "top_selected": 0,
+                "bottom_selected": 2,
+                "ratio": 0.014,
+                "discrimination": -0.042,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 111,
+                "top_selected": 42,
+                "bottom_selected": 32,
+                "ratio": 0.782,
+                "discrimination": 0.227,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 15,
+                "top_selected": 1,
+                "bottom_selected": 8,
+                "ratio": 0.106,
+                "discrimination": -0.145,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 14,
+                "top_selected": 4,
+                "bottom_selected": 6,
+                "ratio": 0.099,
+                "discrimination": -0.04,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C34": {
+        "difficulty": 0.19,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.426,
+        "discrimination_category": "Good",
+        "r_pbis": 0.474,
+        "options": {
+            "0": {
+                "selected_by": 90,
+                "top_selected": 23,
+                "bottom_selected": 30,
+                "ratio": 0.634,
+                "discrimination": -0.136,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 11,
+                "top_selected": 1,
+                "bottom_selected": 9,
+                "ratio": 0.077,
+                "discrimination": -0.166,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 14,
+                "top_selected": 2,
+                "bottom_selected": 8,
+                "ratio": 0.099,
+                "discrimination": -0.124,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 27,
+                "top_selected": 21,
+                "bottom_selected": 1,
+                "ratio": 0.19,
+                "discrimination": 0.426,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C35": {
+        "difficulty": 0.408,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.557,
+        "discrimination_category": "Good",
+        "r_pbis": 0.451,
+        "options": {
+            "0": {
+                "selected_by": 49,
+                "top_selected": 9,
+                "bottom_selected": 21,
+                "ratio": 0.345,
+                "discrimination": -0.246,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 22,
+                "top_selected": 3,
+                "bottom_selected": 14,
+                "ratio": 0.155,
+                "discrimination": -0.228,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 13,
+                "top_selected": 1,
+                "bottom_selected": 5,
+                "ratio": 0.092,
+                "discrimination": -0.083,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 58,
+                "top_selected": 34,
+                "bottom_selected": 8,
+                "ratio": 0.408,
+                "discrimination": 0.557,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C36": {
+        "difficulty": 0.613,
+        "difficulty_category": "Easy",
+        "discrimination": 0.287,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.264,
+        "options": {
+            "0": {
+                "selected_by": 20,
+                "top_selected": 6,
+                "bottom_selected": 9,
+                "ratio": 0.141,
+                "discrimination": -0.06,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 20,
+                "top_selected": 2,
+                "bottom_selected": 8,
+                "ratio": 0.141,
+                "discrimination": -0.124,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 87,
+                "top_selected": 36,
+                "bottom_selected": 23,
+                "ratio": 0.613,
+                "discrimination": 0.287,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 15,
+                "top_selected": 3,
+                "bottom_selected": 8,
+                "ratio": 0.106,
+                "discrimination": -0.103,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C37": {
+        "difficulty": 0.352,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.047,
+        "discrimination_category": "Bad",
+        "r_pbis": 0.08,
+        "options": {
+            "0": {
+                "selected_by": 27,
+                "top_selected": 7,
+                "bottom_selected": 12,
+                "ratio": 0.19,
+                "discrimination": -0.101,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 38,
+                "top_selected": 12,
+                "bottom_selected": 10,
+                "ratio": 0.268,
+                "discrimination": 0.047,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 50,
+                "top_selected": 24,
+                "bottom_selected": 13,
+                "ratio": 0.352,
+                "discrimination": 0.24,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 27,
+                "top_selected": 4,
+                "bottom_selected": 13,
+                "ratio": 0.19,
+                "discrimination": -0.186,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C38": {
+        "difficulty": 0.092,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.495,
+        "discrimination_category": "Good",
+        "r_pbis": 0.44,
+        "options": {
+            "0": {
+                "selected_by": 13,
+                "top_selected": 2,
+                "bottom_selected": 6,
+                "ratio": 0.092,
+                "discrimination": -0.082,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 47,
+                "top_selected": 7,
+                "bottom_selected": 21,
+                "ratio": 0.331,
+                "discrimination": -0.289,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 18,
+                "top_selected": 3,
+                "bottom_selected": 9,
+                "ratio": 0.127,
+                "discrimination": -0.124,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 62,
+                "top_selected": 35,
+                "bottom_selected": 11,
+                "ratio": 0.437,
+                "discrimination": 0.516,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C39": {
+        "difficulty": 0.655,
+        "difficulty_category": "Easy",
+        "discrimination": 0.456,
+        "discrimination_category": "Good",
+        "r_pbis": 0.461,
+        "options": {
+            "0": {
+                "selected_by": 32,
+                "top_selected": 4,
+                "bottom_selected": 16,
+                "ratio": 0.225,
+                "discrimination": -0.248,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 8,
+                "top_selected": 0,
+                "bottom_selected": 6,
+                "ratio": 0.056,
+                "discrimination": -0.125,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 93,
+                "top_selected": 41,
+                "bottom_selected": 20,
+                "ratio": 0.655,
+                "discrimination": 0.456,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 9,
+                "top_selected": 2,
+                "bottom_selected": 6,
+                "ratio": 0.063,
+                "discrimination": -0.082,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C40": {
+        "difficulty": 0.718,
+        "difficulty_category": "Easy",
+        "discrimination": 0.54,
+        "discrimination_category": "Good",
+        "r_pbis": 0.452,
+        "options": {
+            "0": {
+                "selected_by": 10,
+                "top_selected": 1,
+                "bottom_selected": 6,
+                "ratio": 0.07,
+                "discrimination": -0.104,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 17,
+                "top_selected": 2,
+                "bottom_selected": 12,
+                "ratio": 0.12,
+                "discrimination": -0.207,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 102,
+                "top_selected": 44,
+                "bottom_selected": 19,
+                "ratio": 0.718,
+                "discrimination": 0.54,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 9,
+                "top_selected": 0,
+                "bottom_selected": 8,
+                "ratio": 0.063,
+                "discrimination": -0.167,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C41": {
+        "difficulty": 0.627,
+        "difficulty_category": "Easy",
+        "discrimination": 0.267,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.297,
+        "options": {
+            "0": {
+                "selected_by": 22,
+                "top_selected": 3,
+                "bottom_selected": 9,
+                "ratio": 0.155,
+                "discrimination": -0.124,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 89,
+                "top_selected": 38,
+                "bottom_selected": 26,
+                "ratio": 0.627,
+                "discrimination": 0.267,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 21,
+                "top_selected": 3,
+                "bottom_selected": 8,
+                "ratio": 0.148,
+                "discrimination": -0.103,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 9,
+                "top_selected": 3,
+                "bottom_selected": 4,
+                "ratio": 0.063,
+                "discrimination": -0.02,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C42": {
+        "difficulty": 0.373,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.24,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.218,
+        "options": {
+            "0": {
+                "selected_by": 14,
+                "top_selected": 3,
+                "bottom_selected": 6,
+                "ratio": 0.099,
+                "discrimination": -0.061,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 55,
+                "top_selected": 25,
+                "bottom_selected": 14,
+                "ratio": 0.387,
+                "discrimination": 0.24,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 53,
+                "top_selected": 15,
+                "bottom_selected": 19,
+                "ratio": 0.373,
+                "discrimination": -0.077,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 18,
+                "top_selected": 4,
+                "bottom_selected": 8,
+                "ratio": 0.127,
+                "discrimination": -0.082,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C43": {
+        "difficulty": 0.239,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.262,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.27,
+        "options": {
+            "0": {
+                "selected_by": 25,
+                "top_selected": 6,
+                "bottom_selected": 7,
+                "ratio": 0.176,
+                "discrimination": -0.018,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 56,
+                "top_selected": 26,
+                "bottom_selected": 14,
+                "ratio": 0.394,
+                "discrimination": 0.262,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 24,
+                "top_selected": 9,
+                "bottom_selected": 10,
+                "ratio": 0.169,
+                "discrimination": -0.017,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 34,
+                "top_selected": 6,
+                "bottom_selected": 16,
+                "ratio": 0.239,
+                "discrimination": -0.206,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C44": {
+        "difficulty": 0.148,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.162,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.235,
+        "options": {
+            "0": {
+                "selected_by": 21,
+                "top_selected": 3,
+                "bottom_selected": 7,
+                "ratio": 0.148,
+                "discrimination": -0.082,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 90,
+                "top_selected": 37,
+                "bottom_selected": 30,
+                "ratio": 0.634,
+                "discrimination": 0.162,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 17,
+                "top_selected": 5,
+                "bottom_selected": 4,
+                "ratio": 0.12,
+                "discrimination": 0.023,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 12,
+                "top_selected": 1,
+                "bottom_selected": 6,
+                "ratio": 0.085,
+                "discrimination": -0.104,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C45": {
+        "difficulty": 0.479,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.368,
+        "discrimination_category": "Good",
+        "r_pbis": 0.32,
+        "options": {
+            "0": {
+                "selected_by": 35,
+                "top_selected": 8,
+                "bottom_selected": 13,
+                "ratio": 0.246,
+                "discrimination": -0.101,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 68,
+                "top_selected": 31,
+                "bottom_selected": 14,
+                "ratio": 0.479,
+                "discrimination": 0.368,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 18,
+                "top_selected": 6,
+                "bottom_selected": 9,
+                "ratio": 0.127,
+                "discrimination": -0.06,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 20,
+                "top_selected": 2,
+                "bottom_selected": 11,
+                "ratio": 0.141,
+                "discrimination": -0.187,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C46": {
+        "difficulty": 0.211,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.454,
+        "discrimination_category": "Good",
+        "r_pbis": 0.436,
+        "options": {
+            "0": {
+                "selected_by": 30,
+                "top_selected": 6,
+                "bottom_selected": 12,
+                "ratio": 0.211,
+                "discrimination": -0.122,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 20,
+                "top_selected": 3,
+                "bottom_selected": 11,
+                "ratio": 0.141,
+                "discrimination": -0.165,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 14,
+                "top_selected": 1,
+                "bottom_selected": 9,
+                "ratio": 0.099,
+                "discrimination": -0.166,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 77,
+                "top_selected": 37,
+                "bottom_selected": 15,
+                "ratio": 0.542,
+                "discrimination": 0.475,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C47": {
+        "difficulty": 0.12,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.41,
+        "discrimination_category": "Good",
+        "r_pbis": 0.401,
+        "options": {
+            "0": {
+                "selected_by": 18,
+                "top_selected": 4,
+                "bottom_selected": 8,
+                "ratio": 0.127,
+                "discrimination": -0.082,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 68,
+                "top_selected": 33,
+                "bottom_selected": 14,
+                "ratio": 0.479,
+                "discrimination": 0.41,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 37,
+                "top_selected": 7,
+                "bottom_selected": 17,
+                "ratio": 0.261,
+                "discrimination": -0.205,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 17,
+                "top_selected": 3,
+                "bottom_selected": 7,
+                "ratio": 0.12,
+                "discrimination": -0.082,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C48": {
+        "difficulty": 0.521,
+        "difficulty_category": "Easy",
+        "discrimination": 0.327,
+        "discrimination_category": "Good",
+        "r_pbis": 0.264,
+        "options": {
+            "0": {
+                "selected_by": 15,
+                "top_selected": 1,
+                "bottom_selected": 10,
+                "ratio": 0.106,
+                "discrimination": -0.187,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 34,
+                "top_selected": 8,
+                "bottom_selected": 12,
+                "ratio": 0.239,
+                "discrimination": -0.08,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 74,
+                "top_selected": 33,
+                "bottom_selected": 18,
+                "ratio": 0.521,
+                "discrimination": 0.327,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 18,
+                "top_selected": 5,
+                "bottom_selected": 8,
+                "ratio": 0.127,
+                "discrimination": -0.06,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C49": {
+        "difficulty": 0.246,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.307,
+        "discrimination_category": "Good",
+        "r_pbis": 0.297,
+        "options": {
+            "0": {
+                "selected_by": 35,
+                "top_selected": 8,
+                "bottom_selected": 15,
+                "ratio": 0.246,
+                "discrimination": -0.142,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 83,
+                "top_selected": 34,
+                "bottom_selected": 20,
+                "ratio": 0.585,
+                "discrimination": 0.307,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 15,
+                "top_selected": 4,
+                "bottom_selected": 6,
+                "ratio": 0.106,
+                "discrimination": -0.04,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 8,
+                "top_selected": 1,
+                "bottom_selected": 7,
+                "ratio": 0.056,
+                "discrimination": -0.125,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C50": {
+        "difficulty": 0.106,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.499,
+        "discrimination_category": "Good",
+        "r_pbis": 0.436,
+        "options": {
+            "0": {
+                "selected_by": 94,
+                "top_selected": 44,
+                "bottom_selected": 21,
+                "ratio": 0.662,
+                "discrimination": 0.499,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 9,
+                "top_selected": 1,
+                "bottom_selected": 4,
+                "ratio": 0.063,
+                "discrimination": -0.062,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 24,
+                "top_selected": 2,
+                "bottom_selected": 12,
+                "ratio": 0.169,
+                "discrimination": -0.207,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 15,
+                "top_selected": 0,
+                "bottom_selected": 11,
+                "ratio": 0.106,
+                "discrimination": -0.229,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C51": {
+        "difficulty": 0.211,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.302,
+        "discrimination_category": "Good",
+        "r_pbis": 0.283,
+        "options": {
+            "0": {
+                "selected_by": 30,
+                "top_selected": 3,
+                "bottom_selected": 15,
+                "ratio": 0.211,
+                "discrimination": -0.249,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 44,
+                "top_selected": 23,
+                "bottom_selected": 9,
+                "ratio": 0.31,
+                "discrimination": 0.302,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 55,
+                "top_selected": 21,
+                "bottom_selected": 17,
+                "ratio": 0.387,
+                "discrimination": 0.093,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 13,
+                "top_selected": 0,
+                "bottom_selected": 7,
+                "ratio": 0.092,
+                "discrimination": -0.146,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C52": {
+        "difficulty": 0.218,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.072,
+        "discrimination_category": "Bad",
+        "r_pbis": 0.11,
+        "options": {
+            "0": {
+                "selected_by": 48,
+                "top_selected": 17,
+                "bottom_selected": 12,
+                "ratio": 0.338,
+                "discrimination": 0.112,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 31,
+                "top_selected": 9,
+                "bottom_selected": 14,
+                "ratio": 0.218,
+                "discrimination": -0.1,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 56,
+                "top_selected": 21,
+                "bottom_selected": 18,
+                "ratio": 0.394,
+                "discrimination": 0.072,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 6,
+                "top_selected": 0,
+                "bottom_selected": 4,
+                "ratio": 0.042,
+                "discrimination": -0.083,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C53": {
+        "difficulty": 0.176,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.41,
+        "discrimination_category": "Good",
+        "r_pbis": 0.363,
+        "options": {
+            "0": {
+                "selected_by": 25,
+                "top_selected": 7,
+                "bottom_selected": 9,
+                "ratio": 0.176,
+                "discrimination": -0.039,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 20,
+                "top_selected": 5,
+                "bottom_selected": 12,
+                "ratio": 0.141,
+                "discrimination": -0.144,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 33,
+                "top_selected": 4,
+                "bottom_selected": 15,
+                "ratio": 0.232,
+                "discrimination": -0.227,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 63,
+                "top_selected": 31,
+                "bottom_selected": 12,
+                "ratio": 0.444,
+                "discrimination": 0.41,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C54": {
+        "difficulty": 0.261,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.283,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.271,
+        "options": {
+            "0": {
+                "selected_by": 25,
+                "top_selected": 9,
+                "bottom_selected": 12,
+                "ratio": 0.176,
+                "discrimination": -0.059,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 54,
+                "top_selected": 28,
+                "bottom_selected": 15,
+                "ratio": 0.38,
+                "discrimination": 0.283,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 37,
+                "top_selected": 6,
+                "bottom_selected": 14,
+                "ratio": 0.261,
+                "discrimination": -0.164,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 25,
+                "top_selected": 4,
+                "bottom_selected": 7,
+                "ratio": 0.176,
+                "discrimination": -0.061,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C55": {
+        "difficulty": 0.218,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.26,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.219,
+        "options": {
+            "0": {
+                "selected_by": 49,
+                "top_selected": 22,
+                "bottom_selected": 10,
+                "ratio": 0.345,
+                "discrimination": 0.26,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 34,
+                "top_selected": 6,
+                "bottom_selected": 12,
+                "ratio": 0.239,
+                "discrimination": -0.122,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 26,
+                "top_selected": 8,
+                "bottom_selected": 13,
+                "ratio": 0.183,
+                "discrimination": -0.101,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 31,
+                "top_selected": 11,
+                "bottom_selected": 12,
+                "ratio": 0.218,
+                "discrimination": -0.016,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C56": {
+        "difficulty": 0.296,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.41,
+        "discrimination_category": "Good",
+        "r_pbis": 0.351,
+        "options": {
+            "0": {
+                "selected_by": 42,
+                "top_selected": 8,
+                "bottom_selected": 13,
+                "ratio": 0.296,
+                "discrimination": -0.101,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 15,
+                "top_selected": 3,
+                "bottom_selected": 12,
+                "ratio": 0.106,
+                "discrimination": -0.186,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 68,
+                "top_selected": 33,
+                "bottom_selected": 14,
+                "ratio": 0.479,
+                "discrimination": 0.41,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 16,
+                "top_selected": 3,
+                "bottom_selected": 9,
+                "ratio": 0.113,
+                "discrimination": -0.124,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C57": {
+        "difficulty": 0.423,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.263,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.234,
+        "options": {
+            "0": {
+                "selected_by": 12,
+                "top_selected": 1,
+                "bottom_selected": 6,
+                "ratio": 0.085,
+                "discrimination": -0.104,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 60,
+                "top_selected": 29,
+                "bottom_selected": 17,
+                "ratio": 0.423,
+                "discrimination": 0.263,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 49,
+                "top_selected": 13,
+                "bottom_selected": 15,
+                "ratio": 0.345,
+                "discrimination": -0.036,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 20,
+                "top_selected": 4,
+                "bottom_selected": 10,
+                "ratio": 0.141,
+                "discrimination": -0.123,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C58": {
+        "difficulty": 0.303,
+        "difficulty_category": "Difficult",
+        "discrimination": -0.019,
+        "discrimination_category": "Bad",
+        "r_pbis": -0.007,
+        "options": {
+            "0": {
+                "selected_by": 34,
+                "top_selected": 12,
+                "bottom_selected": 12,
+                "ratio": 0.239,
+                "discrimination": 0.005,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 47,
+                "top_selected": 15,
+                "bottom_selected": 19,
+                "ratio": 0.331,
+                "discrimination": -0.077,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 43,
+                "top_selected": 15,
+                "bottom_selected": 11,
+                "ratio": 0.303,
+                "discrimination": 0.09,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 17,
+                "top_selected": 5,
+                "bottom_selected": 6,
+                "ratio": 0.12,
+                "discrimination": -0.019,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C59": {
+        "difficulty": 0.31,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.47,
+        "discrimination_category": "Good",
+        "r_pbis": 0.385,
+        "options": {
+            "0": {
+                "selected_by": 27,
+                "top_selected": 7,
+                "bottom_selected": 15,
+                "ratio": 0.19,
+                "discrimination": -0.164,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 39,
+                "top_selected": 7,
+                "bottom_selected": 20,
+                "ratio": 0.275,
+                "discrimination": -0.268,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 30,
+                "top_selected": 7,
+                "bottom_selected": 9,
+                "ratio": 0.211,
+                "discrimination": -0.039,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 44,
+                "top_selected": 26,
+                "bottom_selected": 4,
+                "ratio": 0.31,
+                "discrimination": 0.47,
+                "r_pbis": 0
+            }
+        }
+    },
+    "C60": {
+        "difficulty": 0.155,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.051,
+        "discrimination_category": "Bad",
+        "r_pbis": 0.09,
+        "options": {
+            "0": {
+                "selected_by": 21,
+                "top_selected": 10,
+                "bottom_selected": 6,
+                "ratio": 0.148,
+                "discrimination": 0.088,
+                "r_pbis": 0
+            },
+            "1": {
+                "selected_by": 22,
+                "top_selected": 7,
+                "bottom_selected": 8,
+                "ratio": 0.155,
+                "discrimination": -0.018,
+                "r_pbis": 0
+            },
+            "2": {
+                "selected_by": 54,
+                "top_selected": 20,
+                "bottom_selected": 18,
+                "ratio": 0.38,
+                "discrimination": 0.051,
+                "r_pbis": 0
+            },
+            "3": {
+                "selected_by": 44,
+                "top_selected": 10,
+                "bottom_selected": 16,
+                "ratio": 0.31,
+                "discrimination": -0.121,
+                "r_pbis": 0
+            }
+        }
+    }
+}
