@@ -137,19 +137,20 @@ class CttService:
         self.getData = None
         self.exam_result = None
 
-    def analyze_uploaded_file(self, file):
+    def analyze_uploaded_file(self, result_file, question_bank_file, exam_file):
         """
         Process the uploaded file, initialize the exam results, and perform CTT analysis.
         """
-        file_path = save_uploaded_file(file)
-        question_bank = self._load_question_bank()
+        file_path = save_uploaded_file(result_file)
+        question_bank = self._load_question_bank(question_bank_file)
         students = DataProcessing().result_file_process(file_path)
 
-        exam_df = pd.read_csv(os.path.join(UPLOAD_FOLDER, "mock_exam_items.csv"))
+        exam_df = pd.read_csv(exam_file)
         exams = self._process_exam(exam_df.to_dict(orient="records"), question_bank)
 
         self.exam_result = ExamResult(exams, students)
         self.analysis = CttAnalysis(self.exam_result)
+        print("analyze_uploaded_file")
         self.getData = Method()
         self.analysis.analyze_questions_ctt()
 
@@ -197,14 +198,12 @@ class CttService:
             return self.analysis.average_indexes
         raise ValueError("CTT analysis not initialized.")
 
-    def _load_question_bank(self):
+    def _load_question_bank(self, file):
         """
         Load question bank data from a predefined file.
         """
         question_bank = QuestionBank()
-        question_bank_df = pd.read_csv(
-            os.path.join(UPLOAD_FOLDER, "mock_question_bank_items.csv")
-        )
+        question_bank_df = pd.read_csv(file)
         for question in question_bank_df.to_dict(orient="records"):
             correct_answer_index = ["A", "B", "C", "D"].index(
                 question["Correct_Option"]
