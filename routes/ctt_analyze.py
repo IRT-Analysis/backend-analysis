@@ -9,19 +9,31 @@ ctt_service = CttService()
 
 @ctt_analyze.route("/ctt", methods=["POST"])
 def analyze_file():
-    if "file" not in request.files:
-        raise InvalidAPIUsage("No file uploaded", code=400)
+    required_files = ["result_file", "exam_file", "question_bank_file"]
 
-    file = request.files["file"]
-    if not file.filename.endswith((".xls", ".xlsx")):
-        raise InvalidAPIUsage(
-            "Invalid file type. Only Excel files are allowed.", code=400
-        )
+    # Check if all required files are present in the request
+    for file_key in required_files:
+        if file_key not in request.files:
+            raise InvalidAPIUsage(f"Missing file: {file_key}", code=400)
+
+    # Validate file extensions and collect files
+    uploaded_files = {}
+    for file_key in required_files:
+        file = request.files[file_key]
+        # if not file.filename.endswith((".xls", ".xlsx")):
+        #     raise InvalidAPIUsage(
+        #         f"Invalid file type for {file_key}. Only Excel files are allowed.",
+        #         code=400,
+        #     )
+        uploaded_files[file_key] = file
 
     try:
-        # Delegate to the service layer
-        ctt_service.analyze_uploaded_file(file)
-
+        # Delegate to the service layer and pass all files
+        ctt_service.analyze_uploaded_file(
+            result_file=uploaded_files["result_file"],
+            exam_file=uploaded_files["exam_file"],
+            question_bank_file=uploaded_files["question_bank_file"],
+        )
         return jsonify(
             {
                 "message": "File uploaded and processed successfully.",
