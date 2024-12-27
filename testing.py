@@ -19,26 +19,33 @@ def analyze_uploaded_file():
 
     # Load Question Bank
     question_bank = QuestionBank()
-    question_bank_df = pd.read_csv(
-        os.path.join(UPLOAD_FOLDER, "mock_question_bank_items.csv")
-    )
-    question_bank_data = question_bank_df.to_dict(orient="records")
+    # question_bank_df = pd.read_csv(
+    #     os.path.join(UPLOAD_FOLDER, "mock_question_bank_items.csv")
+    # )
+    # question_bank_data = question_bank_df.to_dict(orient="records")
+    exam_df = pd.read_csv(os.path.join(UPLOAD_FOLDER, "mock_exam_items.csv"))
+    exam_data = exam_df.to_dict(orient="records")
+    question_id = 0
+    exam_code = exam_data[1]["Exam_code"]
+    
+    for question in exam_data:
+        if question["Exam_code"] == exam_code:
+            question_id = question_id + 1
+            question_content = question["Content"]
+            options = [
+                Option(question["Option_A"]),
+                Option(question["Option_B"]),
+                Option(question["Option_C"]),
+                Option(question["Option_D"]),
+            ]
+            correct_answer = question["Correct_Option"]
+            correct_answer_index = ["A", "B", "C", "D"].index(correct_answer)
 
-    for question in question_bank_data:
-        question_id = question["Question_ID"]
-        question_content = question["Content"]
-        options = [
-            Option(question["Option_A"]),
-            Option(question["Option_B"]),
-            Option(question["Option_C"]),
-            Option(question["Option_D"]),
-        ]
-        correct_answer = question["Correct_Option"]
-        correct_answer_index = ["A", "B", "C", "D"].index(correct_answer)
-
-        question_bank.add_question(
-            question_id, question_content, options, correct_answer_index
-        )
+            question_bank.add_question(
+                question_id, question_content, options, correct_answer_index
+            )
+        else: 
+            break
 
     # Process Students' Results
     students = DataProcessing().result_file_process(
@@ -46,8 +53,8 @@ def analyze_uploaded_file():
     )
 
     # Process Exam Data
-    exam_df = pd.read_csv(os.path.join(UPLOAD_FOLDER, "mock_exam_items.csv"))
-    exam_data = exam_df.to_dict(orient="records")
+    # exam_df = pd.read_csv(os.path.join(UPLOAD_FOLDER, "mock_exam_items.csv"))
+    # exam_data = exam_df.to_dict(orient="records")
     exams = process_exam(exam_data, question_bank)
 
     # Generate Exam Results and Analysis
@@ -56,8 +63,8 @@ def analyze_uploaded_file():
     getData = Method()
     
     writeJson(analysis.analyze_questions_ctt())
-    print(getData.get_score_list(exam_result.scores))
-    # print(getData.get_result_list("discrimination", analysis.question_stats))
+    # print(getData.get_score_list(exam_result.scores))
+    print(getData.get_result_list("r_pbis", analysis.question_stats))
 
 def process_exam(file_path, question_bank):
     # Group data by Exam_code

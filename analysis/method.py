@@ -14,7 +14,7 @@ class Method:
     def get_result_list(self, name, dict):
         list = []
         for key, value in dict.items():
-            index = value[name]
+            index = value[name] if value[name] is not None else 0
             list.append(index)
         step = 0.050
         max_value = max(list)

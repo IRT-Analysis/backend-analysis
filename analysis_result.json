@@ -1,5 +1,5 @@
 {
-    "C1": {
+    "1": {
         "difficulty": 0.528,
         "difficulty_category": "Easy",
         "discrimination": 0.516,
@@ -40,7 +40,7 @@
             }
         }
     },
-    "C2": {
+    "2": {
         "difficulty": 0.261,
         "difficulty_category": "Difficult",
         "discrimination": 0.327,
@@ -81,7 +81,7 @@
             }
         }
     },
-    "C3": {
+    "3": {
         "difficulty": 0.366,
         "difficulty_category": "Difficult",
         "discrimination": 0.43,
@@ -122,7 +122,7 @@
             }
         }
     },
-    "C4": {
+    "4": {
         "difficulty": 0.592,
         "difficulty_category": "Easy",
         "discrimination": 0.287,
@@ -163,7 +163,7 @@
             }
         }
     },
-    "C5": {
+    "5": {
         "difficulty": 0.641,
         "difficulty_category": "Easy",
         "discrimination": -0.122,
@@ -204,7 +204,7 @@
             }
         }
     },
-    "C6": {
+    "6": {
         "difficulty": 0.169,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.195,
@@ -245,7 +245,7 @@
             }
         }
     },
-    "C7": {
+    "7": {
         "difficulty": 0.225,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.202,
@@ -286,7 +286,7 @@
             }
         }
     },
-    "C8": {
+    "8": {
         "difficulty": 0.789,
         "difficulty_category": "Very Easy",
         "discrimination": 0.079,
@@ -327,7 +327,7 @@
             }
         }
     },
-    "C9": {
+    "9": {
         "difficulty": 0.648,
         "difficulty_category": "Easy",
         "discrimination": 0.023,
@@ -368,7 +368,7 @@
             }
         }
     },
-    "C10": {
+    "10": {
         "difficulty": 0.141,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.28,
@@ -409,7 +409,7 @@
             }
         }
     },
-    "C11": {
+    "11": {
         "difficulty": 0.542,
         "difficulty_category": "Easy",
         "discrimination": -0.016,
@@ -450,7 +450,7 @@
             }
         }
     },
-    "C12": {
+    "12": {
         "difficulty": 0.803,
         "difficulty_category": "Very Easy",
         "discrimination": 0.227,
@@ -491,7 +491,7 @@
             }
         }
     },
-    "C13": {
+    "13": {
         "difficulty": 0.754,
         "difficulty_category": "Very Easy",
         "discrimination": 0.1,
@@ -532,7 +532,7 @@
             }
         }
     },
-    "C14": {
+    "14": {
         "difficulty": 0.859,
         "difficulty_category": "Very Easy",
         "discrimination": 0.165,
@@ -573,7 +573,7 @@
             }
         }
     },
-    "C15": {
+    "15": {
         "difficulty": 0.831,
         "difficulty_category": "Very Easy",
         "discrimination": 0.228,
@@ -614,7 +614,7 @@
             }
         }
     },
-    "C16": {
+    "16": {
         "difficulty": 0.634,
         "difficulty_category": "Easy",
         "discrimination": 0.412,
@@ -655,7 +655,7 @@
             }
         }
     },
-    "C17": {
+    "17": {
         "difficulty": 0.225,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.258,
@@ -696,7 +696,7 @@
             }
         }
     },
-    "C18": {
+    "18": {
         "difficulty": 0.669,
         "difficulty_category": "Easy",
         "discrimination": 0.434,
@@ -737,7 +737,7 @@
             }
         }
     },
-    "C19": {
+    "19": {
         "difficulty": 0.725,
         "difficulty_category": "Easy",
         "discrimination": 0.372,
@@ -778,7 +778,7 @@
             }
         }
     },
-    "C20": {
+    "20": {
         "difficulty": 0.394,
         "difficulty_category": "Difficult",
         "discrimination": 0.008,
@@ -819,7 +819,7 @@
             }
         }
     },
-    "C21": {
+    "21": {
         "difficulty": 0.5,
         "difficulty_category": "Easy",
         "discrimination": 0.158,
@@ -860,7 +860,7 @@
             }
         }
     },
-    "C22": {
+    "22": {
         "difficulty": 0.345,
         "difficulty_category": "Difficult",
         "discrimination": 0.348,
@@ -901,7 +901,7 @@
             }
         }
     },
-    "C23": {
+    "23": {
         "difficulty": 0.38,
         "difficulty_category": "Difficult",
         "discrimination": 0.135,
@@ -942,7 +942,7 @@
             }
         }
     },
-    "C24": {
+    "24": {
         "difficulty": 0.444,
         "difficulty_category": "Difficult",
         "discrimination": 0.115,
@@ -983,7 +983,7 @@
             }
         }
     },
-    "C25": {
+    "25": {
         "difficulty": 0.12,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.065,
@@ -1024,7 +1024,7 @@
             }
         }
     },
-    "C26": {
+    "26": {
         "difficulty": 0.528,
         "difficulty_category": "Easy",
         "discrimination": 0.284,
@@ -1065,7 +1065,7 @@
             }
         }
     },
-    "C27": {
+    "27": {
         "difficulty": 0.711,
         "difficulty_category": "Easy",
         "discrimination": 0.457,
@@ -1106,7 +1106,7 @@
             }
         }
     },
-    "C28": {
+    "28": {
         "difficulty": 0.739,
         "difficulty_category": "Easy",
         "discrimination": 0.352,
@@ -1147,7 +1147,7 @@
             }
         }
     },
-    "C29": {
+    "29": {
         "difficulty": 0.711,
         "difficulty_category": "Easy",
         "discrimination": 0.331,
@@ -1188,7 +1188,7 @@
             }
         }
     },
-    "C30": {
+    "30": {
         "difficulty": 0.359,
         "difficulty_category": "Difficult",
         "discrimination": 0.241,
@@ -1229,7 +1229,7 @@
             }
         }
     },
-    "C31": {
+    "31": {
         "difficulty": 0.162,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.286,
@@ -1270,7 +1270,7 @@
             }
         }
     },
-    "C32": {
+    "32": {
         "difficulty": 0.134,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.245,
@@ -1311,7 +1311,7 @@
             }
         }
     },
-    "C33": {
+    "33": {
         "difficulty": 0.782,
         "difficulty_category": "Very Easy",
         "discrimination": 0.227,
@@ -1352,7 +1352,7 @@
             }
         }
     },
-    "C34": {
+    "34": {
         "difficulty": 0.19,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.426,
@@ -1393,7 +1393,7 @@
             }
         }
     },
-    "C35": {
+    "35": {
         "difficulty": 0.408,
         "difficulty_category": "Difficult",
         "discrimination": 0.557,
@@ -1434,7 +1434,7 @@
             }
         }
     },
-    "C36": {
+    "36": {
         "difficulty": 0.613,
         "difficulty_category": "Easy",
         "discrimination": 0.287,
@@ -1475,7 +1475,7 @@
             }
         }
     },
-    "C37": {
+    "37": {
         "difficulty": 0.352,
         "difficulty_category": "Difficult",
         "discrimination": 0.047,
@@ -1516,7 +1516,7 @@
             }
         }
     },
-    "C38": {
+    "38": {
         "difficulty": 0.092,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.495,
@@ -1557,7 +1557,7 @@
             }
         }
     },
-    "C39": {
+    "39": {
         "difficulty": 0.655,
         "difficulty_category": "Easy",
         "discrimination": 0.456,
@@ -1598,7 +1598,7 @@
             }
         }
     },
-    "C40": {
+    "40": {
         "difficulty": 0.718,
         "difficulty_category": "Easy",
         "discrimination": 0.54,
@@ -1639,7 +1639,7 @@
             }
         }
     },
-    "C41": {
+    "41": {
         "difficulty": 0.627,
         "difficulty_category": "Easy",
         "discrimination": 0.267,
@@ -1680,7 +1680,7 @@
             }
         }
     },
-    "C42": {
+    "42": {
         "difficulty": 0.373,
         "difficulty_category": "Difficult",
         "discrimination": 0.24,
@@ -1721,7 +1721,7 @@
             }
         }
     },
-    "C43": {
+    "43": {
         "difficulty": 0.239,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.262,
@@ -1762,7 +1762,7 @@
             }
         }
     },
-    "C44": {
+    "44": {
         "difficulty": 0.148,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.162,
@@ -1803,7 +1803,7 @@
             }
         }
     },
-    "C45": {
+    "45": {
         "difficulty": 0.479,
         "difficulty_category": "Difficult",
         "discrimination": 0.368,
@@ -1844,7 +1844,7 @@
             }
         }
     },
-    "C46": {
+    "46": {
         "difficulty": 0.211,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.454,
@@ -1885,7 +1885,7 @@
             }
         }
     },
-    "C47": {
+    "47": {
         "difficulty": 0.12,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.41,
@@ -1926,7 +1926,7 @@
             }
         }
     },
-    "C48": {
+    "48": {
         "difficulty": 0.521,
         "difficulty_category": "Easy",
         "discrimination": 0.327,
@@ -1967,7 +1967,7 @@
             }
         }
     },
-    "C49": {
+    "49": {
         "difficulty": 0.246,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.307,
@@ -2008,7 +2008,7 @@
             }
         }
     },
-    "C50": {
+    "50": {
         "difficulty": 0.106,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.499,
@@ -2049,7 +2049,7 @@
             }
         }
     },
-    "C51": {
+    "51": {
         "difficulty": 0.211,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.302,
@@ -2090,7 +2090,7 @@
             }
         }
     },
-    "C52": {
+    "52": {
         "difficulty": 0.218,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.072,
@@ -2131,7 +2131,7 @@
             }
         }
     },
-    "C53": {
+    "53": {
         "difficulty": 0.176,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.41,
@@ -2172,7 +2172,7 @@
             }
         }
     },
-    "C54": {
+    "54": {
         "difficulty": 0.261,
         "difficulty_category": "Difficult",
         "discrimination": 0.283,
@@ -2213,7 +2213,7 @@
             }
         }
     },
-    "C55": {
+    "55": {
         "difficulty": 0.218,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.26,
@@ -2254,7 +2254,7 @@
             }
         }
     },
-    "C56": {
+    "56": {
         "difficulty": 0.296,
         "difficulty_category": "Difficult",
         "discrimination": 0.41,
@@ -2295,7 +2295,7 @@
             }
         }
     },
-    "C57": {
+    "57": {
         "difficulty": 0.423,
         "difficulty_category": "Difficult",
         "discrimination": 0.263,
@@ -2336,7 +2336,7 @@
             }
         }
     },
-    "C58": {
+    "58": {
         "difficulty": 0.303,
         "difficulty_category": "Difficult",
         "discrimination": -0.019,
@@ -2377,7 +2377,7 @@
             }
         }
     },
-    "C59": {
+    "59": {
         "difficulty": 0.31,
         "difficulty_category": "Difficult",
         "discrimination": 0.47,
@@ -2418,7 +2418,7 @@
             }
         }
     },
-    "C60": {
+    "60": {
         "difficulty": 0.155,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.051,

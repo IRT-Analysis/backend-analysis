@@ -16,6 +16,8 @@ class CttAnalysis:
         
     def _get_average_value(self, name, list):
         temp = [question[name] for question in list]
+        if None in temp:
+            return 0
         average = np.mean(temp)
         return round(average, 3)
 
@@ -209,6 +211,8 @@ class CttAnalysis:
             / total_std
             * np.sqrt(correct_proportion * incorrect_proportion)
         )
+        if rpbis is None:
+            return 0
         return round(rpbis,3)
     
     
