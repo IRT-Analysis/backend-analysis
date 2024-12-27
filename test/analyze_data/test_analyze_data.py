@@ -79,23 +79,28 @@ def process_exam(file_path, question_bank):
 def analyze_data(filename, exam_items, question_bank_path):
     question_bank = QuestionBank()
     question_bank_df = pd.read_csv(os.path.join(UPLOAD_FOLDER, question_bank_path))
+    question_bank_df = question_bank_df.question_bank_df.groupby('Exam_code')
     question_bank_data = question_bank_df.to_dict(orient="records")
-
+    question_id = 0
+    exam_code = question_bank_df[1]["Exam_code"]
     for question in question_bank_data:
-        question_id = question["Question_ID"]
-        question_content = question["Content"]
-        options = [
-            Option(question["Option_A"]),
-            Option(question["Option_B"]),
-            Option(question["Option_C"]),
-            Option(question["Option_D"]),
-        ]
-        correct_answer = question["Correct_Option"]
-        correct_answer_index = ["A", "B", "C", "D"].index(correct_answer)
+        if question["Exam_code"] == exam_code:
+            question_id = question_id + 1
+            question_content = question["Content"]
+            options = [
+                Option(question["Option_A"]),
+                Option(question["Option_B"]),
+                Option(question["Option_C"]),
+                Option(question["Option_D"]),
+            ]
+            correct_answer = question["Correct_Option"]
+            correct_answer_index = ["A", "B", "C", "D"].index(correct_answer)
 
-        question_bank.add_question(
-            question_id, question_content, options, correct_answer_index
-        )
+            question_bank.add_question(
+                question_id, question_content, options, correct_answer_index
+            )
+        else:
+            break
 
     students = DataProcessing().result_file_process(
         os.path.join(UPLOAD_FOLDER, filename)

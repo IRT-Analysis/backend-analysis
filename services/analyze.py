@@ -203,14 +203,11 @@ class CttService:
         Load question bank data from a predefined file.
         """
         question_bank = QuestionBank()
-        question_bank_df = pd.read_csv(
-            os.path.join(UPLOAD_FOLDER, "mock_exam_items.csv")
-        )
+        question_bank_df = pd.read_csv(file)
         question_bank_df = question_bank_df.groupby('Exam_code')
-        question_bank_df = question_bank_df.to_dict(orient="records")
         question_id = 0
         exam_code = question_bank_df[1]["Exam_code"]
-        for question in question_bank_df:
+        for question in question_bank_df.to_dict(orient="records"):
             if question["Exam_code"] == exam_code:
                 question_id = question_id + 1
                 correct_answer_index = ["A", "B", "C", "D"].index(
