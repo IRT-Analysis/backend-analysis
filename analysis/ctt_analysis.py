@@ -87,7 +87,9 @@ class CttAnalysis:
         difficulty_category = self._categorize_difficulty(difficulty_index)
         discrimination_category = self._categorize_discrimination(discrimination_index)
         r_pbis = self._calculate_rpbis(question_id, sorted_students)
+        content = self.examResult.exams[0].question_bank.get_content(question_id)
         return {
+            "content": content,
             "difficulty": difficulty_index,
             "difficulty_category": difficulty_category,
             "discrimination": discrimination_index,
@@ -142,6 +144,9 @@ class CttAnalysis:
                         # option[1].students.append(student)
                     option_stats[option[0]] = option[1].option_stats
         return chosen_by, option_stats
+    
+    def _calculate_option_rpbis(self, top_student):
+        return 0
 
     def _compute_discrimination_index(self, question_id, top_students, bottom_students):
         """
@@ -199,7 +204,6 @@ class CttAnalysis:
             self.examResult.scores[i] for i, student in enumerate(all_students)
         ]
         all_scores = [score["score"] for score in all_scores]
-        # print("all score ", all_scores)
 
         correct_students = [
             student
@@ -215,7 +219,7 @@ class CttAnalysis:
         #     print(student['score'])
 
         if len(correct_students) == 0 or len(incorrect_students) == 0:
-            return None
+            return 0
 
         correct_scores = [student["score"] for student in correct_students]
         incorrect_scores = [student["score"] for student in incorrect_students]

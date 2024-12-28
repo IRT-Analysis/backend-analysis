@@ -28,5 +28,6 @@ class Method:
             ranges.append({round(current_range,3): count})
             current_range += step
         return ranges
+    
 
     
