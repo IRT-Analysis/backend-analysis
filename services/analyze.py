@@ -4,7 +4,6 @@ import pandas as pd
 
 from analysis.ctt_analysis import CttAnalysis
 from analysis.method import Method
-from config import UPLOAD_FOLDER
 from models.exam import Exam
 from models.exam_result import ExamResult
 from models.question import Option, QuestionBank
@@ -49,7 +48,7 @@ class CttService:
         Retrieve general details from the CTT analysis.
         """
         if self.analysis:
-            return self.analysis.get_general_detail()
+            return self.analysis.general_detail
         raise ValueError("CTT analysis not initialized.")
 
     def get_question_stats(self, question_id):
