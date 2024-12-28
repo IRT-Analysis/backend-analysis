@@ -1,5 +1,5 @@
 import pandas as pd
-
+import re
 from models.question import QuestionBank
 from models.student import Student
 
@@ -55,8 +55,10 @@ class DataProcessing:
 
             # Extract answers as a dictionary
             answers = {}
-            for col in answer_columns:
-                response = row[col]
+            for colOrder in answer_columns:
+                col = colOrder[1:]
+                col = int(col)
+                response = row[colOrder]
                 if pd.notnull(response):  # Skip if the response is missing
                     if response.endswith("1"):
                         answers[col] = {
@@ -114,7 +116,7 @@ class DataProcessing:
 
         # Ensure the file has the required columns
         required_columns = [
-            "Question_ID",
+            "Exam_code",
             "Content",
             "Option_A",
             "Option_B",
@@ -129,26 +131,30 @@ class DataProcessing:
 
         # Create a QuestionBank object
         question_bank = QuestionBank()
-
+        question_id = 0
+        exam_code = df[1]["Exam_code"]
         # Iterate through the DataFrame and add questions to the QuestionBank
         for _, row in df.iterrows():
-            question_id = row["Question_ID"]
-            content = row["Content"]
-            options = [
-                row["Option_A"],
-                row["Option_B"],
-                row["Option_C"],
-                row["Option_D"],
-            ]
-            correct_option = row["Correct_Option"]
+            if row["Exam_code"] == exam_code:
+                question_id = question_id + 1
+                content = row["Content"]
+                options = [
+                    row["Option_A"],
+                    row["Option_B"],
+                    row["Option_C"],
+                    row["Option_D"],
+                ]
+                correct_option = row["Correct_Option"]
 
-            # Determine the correct answer index (0-based)
-            correct_answer_index = ["A", "B", "C", "D"].index(correct_option)
+                # Determine the correct answer index (0-based)
+                correct_answer_index = ["A", "B", "C", "D"].index(correct_option)
 
-            # Add the question to the question bank
-            question_bank.add_question(
-                question_id, content, options, correct_answer_index
-            )
+                # Add the question to the question bank
+                question_bank.add_question(
+                    question_id, content, options, correct_answer_index
+                )
+            else:
+                break
 
         return question_bank
 
