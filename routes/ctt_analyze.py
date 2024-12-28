@@ -9,7 +9,7 @@ ctt_service = CttService()
 
 @ctt_analyze.route("/ctt", methods=["POST"])
 def analyze_file():
-    required_files = ["result_file", "exam_file", "question_bank_file"]
+    required_files = ["result_file", "exam_file"]
 
     # Check if all required files are present in the request
     for file_key in required_files:
@@ -32,7 +32,6 @@ def analyze_file():
         ctt_service.analyze_uploaded_file(
             result_file=uploaded_files["result_file"],
             exam_file=uploaded_files["exam_file"],
-            question_bank_file=uploaded_files["question_bank_file"],
         )
         return jsonify(
             {
