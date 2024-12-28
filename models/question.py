@@ -42,3 +42,11 @@ class QuestionBank:
     def get_all_questions(self):
         """Trả về toàn bộ bộ câu hỏi chuẩn"""
         return self.questions
+    
+    def get_content(self, question_id):
+        options = [option.content for option in self.questions[question_id]["options"]]
+        content = {
+            "question": self.questions[question_id]["content"],
+            "option": options
+        }  
+        return content
