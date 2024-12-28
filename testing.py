@@ -27,7 +27,7 @@ def analyze_uploaded_file():
     exam_data = exam_df.to_dict(orient="records")
     question_id = 0
     exam_code = exam_data[1]["Exam_code"]
-    
+
     for question in exam_data:
         if question["Exam_code"] == exam_code:
             question_id = question_id + 1
@@ -44,7 +44,7 @@ def analyze_uploaded_file():
             question_bank.add_question(
                 question_id, question_content, options, correct_answer_index
             )
-        else: 
+        else:
             break
 
     # Process Students' Results
@@ -61,14 +61,13 @@ def analyze_uploaded_file():
     exam_result = ExamResult(exams, students)
     analysis = CttAnalysis(exam_result)
     getData = Method()
-    
-    getData = Method()
-    
+
     writeJson(analysis.analyze_questions_ctt())
-    print(getData.get_score_list(exam_result.scores))
+    # print(getData.get_score_list(exam_result.scores))
     # print(getData.get_result_list("discrimination", analysis.question_stats))
     # print(getData.get_score_list(exam_result.scores))
     print(getData.get_result_list("r_pbis", analysis.question_stats))
+
 
 def process_exam(file_path, question_bank):
     # Group data by Exam_code
