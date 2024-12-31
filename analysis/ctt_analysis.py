@@ -88,6 +88,13 @@ class CttAnalysis:
         discrimination_category = self._categorize_discrimination(discrimination_index)
         r_pbis = self._calculate_rpbis(question_id, sorted_students)
         content = self.examResult.exams[0].question_bank.get_content(question_id)
+        correct_index = self.examResult.exams[0].question_bank.get_correct_answer_index(
+            question_id
+        )
+        group_choice_percentages = self._compute_group_choice_percentages(
+            question_id, question_data, sorted_students
+        )
+
         return {
             "content": content,
             "difficulty": difficulty_index,
@@ -96,7 +103,53 @@ class CttAnalysis:
             "discrimination_category": discrimination_category,
             "r_pbis": r_pbis,
             "options": option_stats,
+            "correct_index": correct_index,
+            "group_choice_percentages": group_choice_percentages,
         }
+
+    def _compute_group_choice_percentages(
+        self, question_id, question_data, sorted_students
+    ):
+        """
+        Divides students into 5 groups based on their scores and calculates
+        the percentage of choices for the given question in each group.
+        """
+        # Divide students into 5 groups
+        total_students = len(sorted_students)
+        group_size = total_students // 5
+        student_groups = [
+            sorted_students[i * group_size : (i + 1) * group_size]
+            for i in reversed(range(5))
+        ]
+
+        # Handle leftover students (if total_students is not divisible by 5)
+        leftover = total_students % 5
+        if leftover > 0:
+            student_groups[0].extend(sorted_students[-leftover:])
+
+        # Calculate choice percentages for each group
+        group_choice_percentages = []
+        for group in student_groups:
+            group_choices = {index: 0 for index in range(len(question_data["options"]))}
+            # print(group_choices)
+            for student in group:
+                # Ensure you're accessing the correct level of the nested dictionary
+                student_answers = student["student"].answers
+                answer_data = student_answers[question_id]
+                # print(answer_data)
+                if answer_data and "answer" in answer_data:
+                    answer = answer_data["answer"]
+                    if answer in group_choices:
+                        group_choices[answer] += 1
+                # print(group_choices)
+            # Convert counts to percentages
+            group_percentages = {
+                option: round(count / len(group), 3) if len(group) > 0 else 0
+                for option, count in group_choices.items()
+            }
+            group_choice_percentages.append(group_percentages)
+
+        return group_choice_percentages
 
     def _compute_option_stats(
         self, question_id, question_data, top_students, bottom_students
@@ -144,7 +197,7 @@ class CttAnalysis:
                         # option[1].students.append(student)
                     option_stats[option[0]] = option[1].option_stats
         return chosen_by, option_stats
-    
+
     def _calculate_option_rpbis(self, top_student):
         return 0
 
@@ -237,10 +290,4 @@ class CttAnalysis:
         )
         if rpbis is None:
             return 0
-        return round(rpbis,3)
-    
-    
-    
-        
-            
-        
+        return round(rpbis, 3)

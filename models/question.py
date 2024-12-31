@@ -42,11 +42,14 @@ class QuestionBank:
     def get_all_questions(self):
         """Trả về toàn bộ bộ câu hỏi chuẩn"""
         return self.questions
-    
+
     def get_content(self, question_id):
         options = [option.content for option in self.questions[question_id]["options"]]
         content = {
             "question": self.questions[question_id]["content"],
-            "option": options
-        }  
+            "option": options,
+        }
         return content
+
+    def get_correct_answer_index(self, question_id):
+        return self.questions[question_id]["correct_answer_index"]
