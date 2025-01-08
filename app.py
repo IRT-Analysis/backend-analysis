@@ -14,4 +14,4 @@ register_error_handlers(app)
 app.register_blueprint(ctt_analyze, url_prefix="/api/analyze")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True)
