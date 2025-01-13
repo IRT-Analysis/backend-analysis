@@ -43,3 +43,5 @@ class ExamResult:
             student_answer = answer_order[student.answers[question_id]['answer']]
             return student_answer.content == correct_answer.content
         return False
+    
+    

@@ -5,6 +5,7 @@ class Option:
         "bottom_selected": 0,
         "ratio": 0,
     }
+    selected_students = []
 
     def __init__(self, content):
         self.content = content
@@ -16,6 +17,7 @@ class Option:
             "discrimination": 0,
             "r_pbis": 0,
         }
+        self.selected_students = []
 
 
 class QuestionBank:

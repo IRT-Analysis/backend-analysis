@@ -78,7 +78,7 @@ class CttAnalysis:
         Analyzes a single question to compute difficulty and discrimination indices.
         """
         chosen_by, option_stats = self._compute_option_stats(
-            question_id, question_data, top_students, bottom_students
+            question_id, question_data, top_students, bottom_students, sorted_students
         )
         difficulty_index = round(chosen_by / len(self.examResult.students), 3)
         discrimination_index = self._compute_discrimination_index(
@@ -152,7 +152,7 @@ class CttAnalysis:
         return group_choice_percentages
 
     def _compute_option_stats(
-        self, question_id, question_data, top_students, bottom_students
+        self, question_id, question_data, top_students, bottom_students, sorted_students
     ):
         """
         Computes statistics for each option of a question.
@@ -177,6 +177,7 @@ class CttAnalysis:
                         # Increment the value
                         # Update the dictionary with the new value
                         option[1].option_stats["selected_by"] += 1
+                        option[1].selected_students.append(student)
                         chosen_by = option[1].option_stats["selected_by"]
                         option[1].option_stats["ratio"] = round(
                             option[1].option_stats["selected_by"] / total_student, 3
@@ -194,12 +195,53 @@ class CttAnalysis:
                             ),
                             3,
                         )
+                        option[1].option_stats["r_pbis"] = self._calculate_option_rpbis(sorted_students, option[1].selected_students)
                         # option[1].students.append(student)
                     option_stats[option[0]] = option[1].option_stats
         return chosen_by, option_stats
+    
+    def _calculate_option_rpbis(self, all_students, selected_list):
+        if len(all_students) == 0:
+            return None
 
-    def _calculate_option_rpbis(self, top_student):
-        return 0
+        all_scores = [
+            self.examResult.scores[i] for i, student in enumerate(all_students)
+        ]
+        all_scores = [score["score"] for score in all_scores]
+
+        selected_students = [
+            student
+            for student in all_students
+            if student["student"] in selected_list
+        ]
+        
+        not_selected_students = [
+            student
+            for student in all_students
+            if student["student"] not in selected_list
+        ]
+
+
+        if len(selected_students) == 0 or len(not_selected_students) == 0:
+            return 0
+
+        selected_scores = [student["score"] for student in selected_students]
+        not_selected_scores = [student["score"] for student in not_selected_students]
+        selected_mean = np.mean(selected_scores)
+        not_selected_mean = np.mean(not_selected_scores)
+
+        total_std = np.std(all_scores)
+        selected_proportion = len(selected_students) / len(all_students)
+        not_selected_proportion = 1 - selected_proportion
+
+        rpbis = (
+            (selected_mean - not_selected_mean)
+            / total_std
+            * np.sqrt(selected_proportion * not_selected_proportion)
+        )
+        if rpbis is None:
+            return 0
+        return round(rpbis,3)
 
     def _compute_discrimination_index(self, question_id, top_students, bottom_students):
         """
@@ -268,8 +310,6 @@ class CttAnalysis:
             for student in all_students
             if not self.examResult.is_correct_answer(student["student"], question_id)
         ]
-        # for student in incorrect_students:
-        #     print(student['score'])
 
         if len(correct_students) == 0 or len(incorrect_students) == 0:
             return 0
