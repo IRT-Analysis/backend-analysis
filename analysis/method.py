@@ -29,6 +29,4 @@ class Method:
             current_range += step
         return ranges
 
-    def question_mapping(self):
-        return None
     

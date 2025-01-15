@@ -86,7 +86,7 @@ class CttAnalysis:
         )
         difficulty_category = self._categorize_difficulty(difficulty_index)
         discrimination_category = self._categorize_discrimination(discrimination_index)
-        r_pbis = self._calculate_rpbis(question_id, sorted_students)
+        r_pbis = self._get_rpbis_of_answer(option_stats,question_id)
         content = self.examResult.exams[0].question_bank.get_content(question_id)
         correct_index = self.examResult.exams[0].question_bank.get_correct_answer_index(
             question_id
@@ -290,44 +290,7 @@ class CttAnalysis:
             return "Normal"
         else:
             return "Bad"
-
-    def _calculate_rpbis(self, question_id, all_students):
-        if len(all_students) == 0:
-            return None
-
-        all_scores = [
-            self.examResult.scores[i] for i, student in enumerate(all_students)
-        ]
-        all_scores = [score["score"] for score in all_scores]
-
-        correct_students = [
-            student
-            for student in all_students
-            if self.examResult.is_correct_answer(student["student"], question_id)
-        ]
-        incorrect_students = [
-            student
-            for student in all_students
-            if not self.examResult.is_correct_answer(student["student"], question_id)
-        ]
-
-        if len(correct_students) == 0 or len(incorrect_students) == 0:
-            return 0
-
-        correct_scores = [student["score"] for student in correct_students]
-        incorrect_scores = [student["score"] for student in incorrect_students]
-        correct_mean = np.mean(correct_scores)
-        incorrect_mean = np.mean(incorrect_scores)
-
-        total_std = np.std(all_scores)
-        correct_proportion = len(correct_students) / len(all_students)
-        incorrect_proportion = 1 - correct_proportion
-
-        rpbis = (
-            (correct_mean - incorrect_mean)
-            / total_std
-            * np.sqrt(correct_proportion * incorrect_proportion)
-        )
-        if rpbis is None:
-            return 0
-        return round(rpbis, 3)
+    
+    def _get_rpbis_of_answer(self, option_stats, question_id):
+        answer_index = self.examResult.exams[0].question_bank.get_correct_answer_index(question_id)
+        return option_stats[answer_index]["r_pbis"]
