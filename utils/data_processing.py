@@ -2,6 +2,8 @@ import pandas as pd
 import re
 from models.question import QuestionBank
 from models.student import Student
+from models.exam import Exam
+import itertools
 
 
 class DataProcessing:

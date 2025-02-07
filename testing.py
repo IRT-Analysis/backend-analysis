@@ -75,7 +75,7 @@ def process_exam(file_path, question_bank):
 
     # Group the data by 'Exam_code'
     grouped = {
-        key: list(file_path)
+        key: list(group)
         for key, group in groupby(file_path, key=lambda x: x["Exam_code"])
     }
 
@@ -102,11 +102,12 @@ def process_exam(file_path, question_bank):
             for question_id, question_data in question_bank.get_all_questions().items():
                 if question_data["content"] == content:
                     matched_question_id = question_id
-                    matched_answer_order = question_data["options"]
-                    # for idx, option in enumerate(options):
-                    #     # if option in question_data['options']:
-                    #     matched_answer_order[idx] = question_data['options'].index(option)
-                    # break
+                    for index, option in enumerate(options):
+                        for option_bank in question_data["options"]:
+                            # print(option, " " , option_bank.content)
+                            if option == option_bank.content:
+                                matched_answer_order[index] = option_bank
+                                break
 
             if matched_question_id is None:
                 print(
@@ -125,8 +126,13 @@ def process_exam(file_path, question_bank):
             question_order=question_order,
             answer_order=answer_order,
         )
+    
 
         exams.append(exam)
+        for exam in exams:
+            print("--------", exam.code, "------")
+            print(exam.question_order)
+            print(exam.answer_order)
 
     return exams
 
