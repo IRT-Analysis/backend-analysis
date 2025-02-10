@@ -11,6 +11,7 @@ from utils.data_processing import DataProcessing
 from analysis.ctt_analysis import CttAnalysis
 from analysis.method import Method
 
+
 UPLOAD_FOLDER = "uploads/"
 
 
@@ -63,10 +64,11 @@ def analyze_uploaded_file():
     getData = Method()
 
     writeJson(analysis.analyze_questions_ctt())
+    print(json.dumps(analysis.get_student_detail(), indent=4))
     # print(getData.get_score_list(exam_result.scores))
     # print(getData.get_result_list("discrimination", analysis.question_stats))
     # print(getData.get_score_list(exam_result.scores))
-    print(getData.get_result_list("r_pbis", analysis.question_stats))
+    # print(getData.get_result_list("r_pbis", analysis.question_stats))
 
 
 def process_exam(file_path, question_bank):
@@ -126,14 +128,7 @@ def process_exam(file_path, question_bank):
             question_order=question_order,
             answer_order=answer_order,
         )
-    
-
         exams.append(exam)
-        for exam in exams:
-            print("--------", exam.code, "------")
-            print(exam.question_order)
-            print(exam.answer_order)
-
     return exams
 
 

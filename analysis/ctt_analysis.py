@@ -1,20 +1,7 @@
 import numpy as np
+from analysis.method import Model
 
-
-class CttAnalysis:
-    examResult = None
-    question_stats = {}
-    average_indexes = {}
-    general_detail = {}
-
-    def __init__(self, examResult):
-        self.examResult = examResult
-        self.general_detail = {
-            "total_students": 0,
-            "total_questions": 0,
-            "total_option": 4,
-        }
-
+class CttAnalysis(Model):  
     def _get_average_value(self, name, list):
         temp = [question[name] for question in list]
         if None in temp:

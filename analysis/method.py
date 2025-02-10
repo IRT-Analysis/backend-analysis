@@ -28,5 +28,30 @@ class Method:
             ranges.append({round(current_range,3): count})
             current_range += step
         return ranges
-
     
+class Model:
+    examResult = None
+    question_stats = {}
+    average_indexes = {}
+    general_detail = {}
+    
+    def __init__(self, examResult):
+        self.examResult = examResult
+        self.general_detail = {
+            "total_students": 0,
+            "total_questions": 0,
+            "total_option": 4,
+        }
+        
+    def get_student_detail(self):
+        student_detail = []
+        for student in self.examResult.scores:
+            student_detail.append({
+                "id": student["student"].id,
+                "firstName": student["student"].firstName,
+                "lastName": student["student"].lastName,
+                "exam_code": student["student"].exam_code,
+                "answers": student["student"].answers,
+                "score": student["score"], 
+            })
+        return student_detail

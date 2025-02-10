@@ -13,14 +13,3 @@ class Student:
         # -1: Not answer - 0, 1, 2, 3,...: A, B, C, D,..
         self.answers = answers
 
-    def to_dict(self):
-        """
-        Convert the Student object to a dictionary for JSON serialization.
-        """
-        return {
-            "id": self.id,
-            "firstName": self.firstName,
-            "lastName": self.lastName,
-            "exam_code": self.exam_code,
-            "answers": self.answers,
-        }
