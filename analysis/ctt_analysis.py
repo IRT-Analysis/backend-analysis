@@ -1,7 +1,7 @@
 import numpy as np
 from analysis.method import Model
 
-class CttAnalysis(Model):  
+class CttAnalysis(Model):     
     def _get_average_value(self, name, list):
         temp = [question[name] for question in list]
         if None in temp:
@@ -14,32 +14,35 @@ class CttAnalysis(Model):
         Main function to analyze questions.
         """
         all_questions = self.examResult.exams[0].question_bank.get_all_questions()
-        self.general_detail["total_students"] = len(self.examResult.students)
-        self.general_detail["total_questions"] = len(
-            self.examResult.exams[0].question_bank.questions
-        )
+        total_students = len(self.examResult.students)
+        self.general_detail.update({
+            "total_students": total_students,
+            "total_questions": len(all_questions)
+        })
+
         sorted_students, top_students, bottom_students = self._split_students()
-        list = []
-        for question_id, question_data in all_questions.items():
-            self.question_stats[question_id] = self._analyze_single_question(
+  
+        question_stats_list = [
+            self._analyze_single_question(
                 question_id,
                 question_data,
                 sorted_students,
                 top_students,
-                bottom_students,
-            )
-            list.append(self.question_stats[question_id])
+                bottom_students
+            ) for question_id, question_data in all_questions.items()
+        ]
 
-        self.average_indexes["average_score"] = self._get_average_value(
-            "score", self.examResult.scores
-        )
-        self.average_indexes["average_discrimination"] = self._get_average_value(
-            "discrimination", list
-        )
-        self.average_indexes["average_difficulty"] = self._get_average_value(
-            "difficulty", list
-        )
-        self.average_indexes["average_rpbis"] = self._get_average_value("r_pbis", list)
+        self.average_indexes.update({
+            "average_score": self._get_average_value("score", self.examResult.scores),
+            "average_discrimination": self._get_average_value("discrimination", question_stats_list),
+            "average_difficulty": self._get_average_value("difficulty", question_stats_list),
+            "average_rpbis": self._get_average_value("r_pbis", question_stats_list)
+        })
+
+        self.question_stats.update({
+            question_id: stat for question_id, stat in zip(all_questions.keys(), question_stats_list)
+        })
+        
         return self.question_stats
 
     def _split_students(self):
@@ -67,17 +70,23 @@ class CttAnalysis(Model):
         chosen_by, option_stats = self._compute_option_stats(
             question_id, question_data, top_students, bottom_students, sorted_students
         )
-        difficulty_index = round(chosen_by / len(self.examResult.students), 3)
+
+        total_students = len(self.examResult.students)
+        difficulty_index = round(chosen_by / total_students, 3)
+
         discrimination_index = self._compute_discrimination_index(
             question_id, top_students, bottom_students
         )
+
         difficulty_category = self._categorize_difficulty(difficulty_index)
         discrimination_category = self._categorize_discrimination(discrimination_index)
-        r_pbis = self._get_rpbis_of_answer(option_stats,question_id)
-        content = self.examResult.exams[0].question_bank.get_content(question_id)
-        correct_index = self.examResult.exams[0].question_bank.get_correct_answer_index(
-            question_id
-        )
+        
+        r_pbis = self._get_rpbis_of_answer(option_stats, question_id)
+        question_bank = self.examResult.exams[0].question_bank
+
+        content = question_bank.get_content(question_id)
+        correct_index = question_bank.get_correct_answer_index(question_id)
+        
         group_choice_percentages = self._compute_group_choice_percentages(
             question_id, question_data, sorted_students
         )
@@ -93,6 +102,7 @@ class CttAnalysis(Model):
             "correct_index": correct_index,
             "group_choice_percentages": group_choice_percentages,
         }
+
 
     def _compute_group_choice_percentages(
         self, question_id, question_data, sorted_students
@@ -150,41 +160,55 @@ class CttAnalysis(Model):
         top_students_len = len(top_students)
         bottom_students_len = len(bottom_students)
 
+        # Precompute dictionaries for quick lookup
+        exam_dict = {exam.code: exam for exam in self.examResult.exams}
+        top_students_set = set(top_students)
+        bottom_students_set = set(bottom_students)
+
         for student in self.examResult.students:
-            exam = next(
-                (ex for ex in self.examResult.exams if ex.code == student.exam_code),
-                None,
-            )
+            exam = exam_dict.get(student.exam_code)
+            if not exam:
+                continue
+
             answer_order = exam.answer_order.get(question_id)
-            if question_id in student.answers and answer_order is not None:
-                correct_answer_index = exam.get_correct_answer(question_id)
-                student_answer = student.answers[question_id]["answer"]
-                for option in enumerate(answer_order):
-                    if student_answer == option[0]:
-                        # Increment the value
-                        # Update the dictionary with the new value
-                        option[1].option_stats["selected_by"] += 1
-                        option[1].selected_students.append(student)
-                        chosen_by = option[1].option_stats["selected_by"]
-                        option[1].option_stats["ratio"] = round(
-                            option[1].option_stats["selected_by"] / total_student, 3
-                        )
-                        if student in top_students:
-                            option[1].option_stats["top_selected"] += 1
-                        if student in bottom_students:
-                            option[1].option_stats["bottom_selected"] += 1
-                        option[1].option_stats["discrimination"] = round(
-                            (
-                                option[1].option_stats["top_selected"]
-                                / top_students_len
-                                - option[1].option_stats["bottom_selected"]
-                                / bottom_students_len
-                            ),
-                            3,
-                        )
-                        option[1].option_stats["r_pbis"] = self._calculate_option_rpbis(sorted_students, option[1].selected_students)
-                        # option[1].students.append(student)
-                    option_stats[option[0]] = option[1].option_stats
+            if question_id not in student.answers or not answer_order:
+                continue
+
+            correct_answer_index = exam.get_correct_answer(question_id)
+            student_answer = student.answers[question_id]["answer"]
+
+            for index, option in enumerate(answer_order):
+                if student_answer != index:
+                    option_stats[index] = option.option_stats
+                    continue
+
+                option.option_stats["selected_by"] += 1
+                option.selected_students.append(student)
+                option.option_stats["ratio"] = round(
+                    option.option_stats["selected_by"] / total_student, 3
+                )
+
+                if student in top_students_set:
+                    option.option_stats["top_selected"] += 1
+                if student in bottom_students_set:
+                    option.option_stats["bottom_selected"] += 1
+
+                option.option_stats["discrimination"] = round(
+                    (
+                        option.option_stats["top_selected"] / top_students_len
+                        - option.option_stats["bottom_selected"] / bottom_students_len
+                    ),
+                    3,
+                )
+
+                option.option_stats["r_pbis"] = self._calculate_option_rpbis(
+                    sorted_students, option.selected_students
+                )
+
+                option_stats[index] = option.option_stats
+
+        # Determine chosen_by
+        chosen_by = max(option_stats, key=lambda x: option_stats[x]["selected_by"])
         return chosen_by, option_stats
     
     def _calculate_option_rpbis(self, all_students, selected_list):

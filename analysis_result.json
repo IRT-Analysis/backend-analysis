@@ -9,8 +9,8 @@
                 "Option D for question 1"
             ]
         },
-        "difficulty": 0.528,
-        "difficulty_category": "Easy",
+        "difficulty": 0.014,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.516,
         "discrimination_category": "Good",
         "r_pbis": 0.442,
@@ -92,8 +92,8 @@
                 "Option D for question 2"
             ]
         },
-        "difficulty": 0.261,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.327,
         "discrimination_category": "Good",
         "r_pbis": 0.275,
@@ -175,8 +175,8 @@
                 "Option D for question 3"
             ]
         },
-        "difficulty": 0.366,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.007,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.43,
         "discrimination_category": "Good",
         "r_pbis": 0.39,
@@ -258,8 +258,8 @@
                 "Option D for question 4"
             ]
         },
-        "difficulty": 0.592,
-        "difficulty_category": "Easy",
+        "difficulty": 0.007,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.287,
         "discrimination_category": "Normal",
         "r_pbis": 0.31,
@@ -341,8 +341,8 @@
                 "Option D for question 5"
             ]
         },
-        "difficulty": 0.641,
-        "difficulty_category": "Easy",
+        "difficulty": 0.007,
+        "difficulty_category": "Very Difficult",
         "discrimination": -0.122,
         "discrimination_category": "Bad",
         "r_pbis": -0.097,
@@ -424,7 +424,7 @@
                 "Option D for question 6"
             ]
         },
-        "difficulty": 0.169,
+        "difficulty": 0.0,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.195,
         "discrimination_category": "Normal",
@@ -507,7 +507,7 @@
                 "Option D for question 7"
             ]
         },
-        "difficulty": 0.225,
+        "difficulty": 0.0,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.202,
         "discrimination_category": "Normal",
@@ -590,8 +590,8 @@
                 "Option D for question 8"
             ]
         },
-        "difficulty": 0.789,
-        "difficulty_category": "Very Easy",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.079,
         "discrimination_category": "Bad",
         "r_pbis": 0.107,
@@ -673,8 +673,8 @@
                 "Option D for question 9"
             ]
         },
-        "difficulty": 0.648,
-        "difficulty_category": "Easy",
+        "difficulty": 0.014,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.023,
         "discrimination_category": "Bad",
         "r_pbis": 0.072,
@@ -756,7 +756,7 @@
                 "Option D for question 10"
             ]
         },
-        "difficulty": 0.141,
+        "difficulty": 0.007,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.28,
         "discrimination_category": "Normal",
@@ -839,8 +839,8 @@
                 "Option D for question 11"
             ]
         },
-        "difficulty": 0.542,
-        "difficulty_category": "Easy",
+        "difficulty": 0.007,
+        "difficulty_category": "Very Difficult",
         "discrimination": -0.016,
         "discrimination_category": "Bad",
         "r_pbis": -0.039,
@@ -922,8 +922,8 @@
                 "Option D for question 12"
             ]
         },
-        "difficulty": 0.803,
-        "difficulty_category": "Very Easy",
+        "difficulty": 0.021,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.227,
         "discrimination_category": "Normal",
         "r_pbis": 0.256,
@@ -1005,8 +1005,8 @@
                 "Option D for question 13"
             ]
         },
-        "difficulty": 0.754,
-        "difficulty_category": "Very Easy",
+        "difficulty": 0.021,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.1,
         "discrimination_category": "Normal",
         "r_pbis": 0.093,
@@ -1088,8 +1088,8 @@
                 "Option D for question 14"
             ]
         },
-        "difficulty": 0.859,
-        "difficulty_category": "Very Easy",
+        "difficulty": 0.014,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.165,
         "discrimination_category": "Normal",
         "r_pbis": 0.246,
@@ -1171,8 +1171,8 @@
                 "Option D for question 15"
             ]
         },
-        "difficulty": 0.831,
-        "difficulty_category": "Very Easy",
+        "difficulty": 0.014,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.228,
         "discrimination_category": "Normal",
         "r_pbis": 0.265,
@@ -1254,8 +1254,8 @@
                 "Option D for question 16"
             ]
         },
-        "difficulty": 0.634,
-        "difficulty_category": "Easy",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.412,
         "discrimination_category": "Good",
         "r_pbis": 0.362,
@@ -1337,7 +1337,7 @@
                 "Option D for question 17"
             ]
         },
-        "difficulty": 0.225,
+        "difficulty": 0.007,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.258,
         "discrimination_category": "Normal",
@@ -1420,8 +1420,8 @@
                 "Option D for question 18"
             ]
         },
-        "difficulty": 0.669,
-        "difficulty_category": "Easy",
+        "difficulty": 0.021,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.434,
         "discrimination_category": "Good",
         "r_pbis": 0.443,
@@ -1503,8 +1503,8 @@
                 "Option D for question 19"
             ]
         },
-        "difficulty": 0.725,
-        "difficulty_category": "Easy",
+        "difficulty": 0.014,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.372,
         "discrimination_category": "Good",
         "r_pbis": 0.335,
@@ -1586,8 +1586,8 @@
                 "Option D for question 20"
             ]
         },
-        "difficulty": 0.394,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.007,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.008,
         "discrimination_category": "Bad",
         "r_pbis": 0.054,
@@ -1669,8 +1669,8 @@
                 "Option D for question 21"
             ]
         },
-        "difficulty": 0.5,
-        "difficulty_category": "Easy",
+        "difficulty": 0.014,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.158,
         "discrimination_category": "Normal",
         "r_pbis": 0.177,
@@ -1752,8 +1752,8 @@
                 "Option D for question 22"
             ]
         },
-        "difficulty": 0.345,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.348,
         "discrimination_category": "Good",
         "r_pbis": 0.328,
@@ -1835,8 +1835,8 @@
                 "Option D for question 23"
             ]
         },
-        "difficulty": 0.38,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.135,
         "discrimination_category": "Normal",
         "r_pbis": 0.157,
@@ -1918,8 +1918,8 @@
                 "Option D for question 24"
             ]
         },
-        "difficulty": 0.444,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.021,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.115,
         "discrimination_category": "Normal",
         "r_pbis": 0.146,
@@ -2001,7 +2001,7 @@
                 "Option D for question 25"
             ]
         },
-        "difficulty": 0.12,
+        "difficulty": 0.007,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.065,
         "discrimination_category": "Bad",
@@ -2084,8 +2084,8 @@
                 "Option D for question 26"
             ]
         },
-        "difficulty": 0.528,
-        "difficulty_category": "Easy",
+        "difficulty": 0.021,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.284,
         "discrimination_category": "Normal",
         "r_pbis": 0.272,
@@ -2167,8 +2167,8 @@
                 "Option D for question 27"
             ]
         },
-        "difficulty": 0.711,
-        "difficulty_category": "Easy",
+        "difficulty": 0.014,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.457,
         "discrimination_category": "Good",
         "r_pbis": 0.417,
@@ -2250,8 +2250,8 @@
                 "Option D for question 28"
             ]
         },
-        "difficulty": 0.739,
-        "difficulty_category": "Easy",
+        "difficulty": 0.007,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.352,
         "discrimination_category": "Good",
         "r_pbis": 0.34,
@@ -2333,8 +2333,8 @@
                 "Option D for question 29"
             ]
         },
-        "difficulty": 0.711,
-        "difficulty_category": "Easy",
+        "difficulty": 0.0,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.331,
         "discrimination_category": "Good",
         "r_pbis": 0.282,
@@ -2416,8 +2416,8 @@
                 "Option D for question 30"
             ]
         },
-        "difficulty": 0.359,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.014,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.241,
         "discrimination_category": "Normal",
         "r_pbis": 0.213,
@@ -2499,7 +2499,7 @@
                 "Option D for question 31"
             ]
         },
-        "difficulty": 0.162,
+        "difficulty": 0.0,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.286,
         "discrimination_category": "Normal",
@@ -2582,7 +2582,7 @@
                 "Option D for question 32"
             ]
         },
-        "difficulty": 0.134,
+        "difficulty": 0.014,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.245,
         "discrimination_category": "Normal",
@@ -2665,8 +2665,8 @@
                 "Option D for question 33"
             ]
         },
-        "difficulty": 0.782,
-        "difficulty_category": "Very Easy",
+        "difficulty": 0.007,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.227,
         "discrimination_category": "Normal",
         "r_pbis": 0.29,
@@ -2748,7 +2748,7 @@
                 "Option D for question 34"
             ]
         },
-        "difficulty": 0.19,
+        "difficulty": 0.0,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.426,
         "discrimination_category": "Good",
@@ -2831,8 +2831,8 @@
                 "Option D for question 35"
             ]
         },
-        "difficulty": 0.408,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.021,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.557,
         "discrimination_category": "Good",
         "r_pbis": 0.451,
@@ -2914,8 +2914,8 @@
                 "Option D for question 36"
             ]
         },
-        "difficulty": 0.613,
-        "difficulty_category": "Easy",
+        "difficulty": 0.014,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.287,
         "discrimination_category": "Normal",
         "r_pbis": 0.264,
@@ -2997,8 +2997,8 @@
                 "Option D for question 37"
             ]
         },
-        "difficulty": 0.352,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.014,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.047,
         "discrimination_category": "Bad",
         "r_pbis": 0.08,
@@ -3080,7 +3080,7 @@
                 "Option D for question 38"
             ]
         },
-        "difficulty": 0.092,
+        "difficulty": 0.021,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.495,
         "discrimination_category": "Good",
@@ -3163,8 +3163,8 @@
                 "Option D for question 39"
             ]
         },
-        "difficulty": 0.655,
-        "difficulty_category": "Easy",
+        "difficulty": 0.014,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.456,
         "discrimination_category": "Good",
         "r_pbis": 0.461,
@@ -3246,8 +3246,8 @@
                 "Option D for question 40"
             ]
         },
-        "difficulty": 0.718,
-        "difficulty_category": "Easy",
+        "difficulty": 0.014,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.54,
         "discrimination_category": "Good",
         "r_pbis": 0.452,
@@ -3329,8 +3329,8 @@
                 "Option D for question 41"
             ]
         },
-        "difficulty": 0.627,
-        "difficulty_category": "Easy",
+        "difficulty": 0.007,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.267,
         "discrimination_category": "Normal",
         "r_pbis": 0.297,
@@ -3412,8 +3412,8 @@
                 "Option D for question 42"
             ]
         },
-        "difficulty": 0.373,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.007,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.24,
         "discrimination_category": "Normal",
         "r_pbis": 0.218,
@@ -3495,7 +3495,7 @@
                 "Option D for question 43"
             ]
         },
-        "difficulty": 0.239,
+        "difficulty": 0.007,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.262,
         "discrimination_category": "Normal",
@@ -3578,7 +3578,7 @@
                 "Option D for question 44"
             ]
         },
-        "difficulty": 0.148,
+        "difficulty": 0.007,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.162,
         "discrimination_category": "Normal",
@@ -3661,8 +3661,8 @@
                 "Option D for question 45"
             ]
         },
-        "difficulty": 0.479,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.007,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.368,
         "discrimination_category": "Good",
         "r_pbis": 0.32,
@@ -3744,7 +3744,7 @@
                 "Option D for question 46"
             ]
         },
-        "difficulty": 0.211,
+        "difficulty": 0.021,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.454,
         "discrimination_category": "Good",
@@ -3827,7 +3827,7 @@
                 "Option D for question 47"
             ]
         },
-        "difficulty": 0.12,
+        "difficulty": 0.007,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.41,
         "discrimination_category": "Good",
@@ -3910,8 +3910,8 @@
                 "Option D for question 48"
             ]
         },
-        "difficulty": 0.521,
-        "difficulty_category": "Easy",
+        "difficulty": 0.014,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.327,
         "discrimination_category": "Good",
         "r_pbis": 0.264,
@@ -3993,7 +3993,7 @@
                 "Option D for question 49"
             ]
         },
-        "difficulty": 0.246,
+        "difficulty": 0.007,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.307,
         "discrimination_category": "Good",
@@ -4076,7 +4076,7 @@
                 "Option D for question 50"
             ]
         },
-        "difficulty": 0.106,
+        "difficulty": 0.0,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.499,
         "discrimination_category": "Good",
@@ -4159,7 +4159,7 @@
                 "Option D for question 51"
             ]
         },
-        "difficulty": 0.211,
+        "difficulty": 0.014,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.302,
         "discrimination_category": "Good",
@@ -4242,7 +4242,7 @@
                 "Option D for question 52"
             ]
         },
-        "difficulty": 0.218,
+        "difficulty": 0.014,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.072,
         "discrimination_category": "Bad",
@@ -4325,7 +4325,7 @@
                 "Option D for question 53"
             ]
         },
-        "difficulty": 0.176,
+        "difficulty": 0.021,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.41,
         "discrimination_category": "Good",
@@ -4408,8 +4408,8 @@
                 "Option D for question 54"
             ]
         },
-        "difficulty": 0.261,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.007,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.283,
         "discrimination_category": "Normal",
         "r_pbis": 0.271,
@@ -4491,7 +4491,7 @@
                 "Option D for question 55"
             ]
         },
-        "difficulty": 0.218,
+        "difficulty": 0.0,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.26,
         "discrimination_category": "Normal",
@@ -4574,8 +4574,8 @@
                 "Option D for question 56"
             ]
         },
-        "difficulty": 0.296,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.014,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.41,
         "discrimination_category": "Good",
         "r_pbis": 0.351,
@@ -4657,8 +4657,8 @@
                 "Option D for question 57"
             ]
         },
-        "difficulty": 0.423,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.007,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.263,
         "discrimination_category": "Normal",
         "r_pbis": 0.234,
@@ -4740,8 +4740,8 @@
                 "Option D for question 58"
             ]
         },
-        "difficulty": 0.303,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.007,
+        "difficulty_category": "Very Difficult",
         "discrimination": -0.019,
         "discrimination_category": "Bad",
         "r_pbis": 0.004,
@@ -4823,8 +4823,8 @@
                 "Option D for question 59"
             ]
         },
-        "difficulty": 0.31,
-        "difficulty_category": "Difficult",
+        "difficulty": 0.021,
+        "difficulty_category": "Very Difficult",
         "discrimination": 0.47,
         "discrimination_category": "Good",
         "r_pbis": 0.4,
@@ -4906,7 +4906,7 @@
                 "Option D for question 60"
             ]
         },
-        "difficulty": 0.155,
+        "difficulty": 0.014,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.051,
         "discrimination_category": "Bad",

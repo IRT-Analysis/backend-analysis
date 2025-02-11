@@ -64,12 +64,7 @@ def analyze_uploaded_file():
     getData = Method()
 
     writeJson(analysis.analyze_questions_ctt())
-    print(json.dumps(analysis.get_student_detail(), indent=4))
-    # print(getData.get_score_list(exam_result.scores))
-    # print(getData.get_result_list("discrimination", analysis.question_stats))
-    # print(getData.get_score_list(exam_result.scores))
-    # print(getData.get_result_list("r_pbis", analysis.question_stats))
-
+    # print(json.dumps(analysis.get_student_detail(), indent=4))
 
 def process_exam(file_path, question_bank):
     # Group data by Exam_code
