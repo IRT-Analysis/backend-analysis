@@ -1,3 +1,14 @@
+from typing import Any, Dict, List, TypedDict
+
+from models.question import Option
+
+
+class ExamDictType(TypedDict):
+    code: str
+    question_order: List
+    answer_order: Dict[str, List[Option]]
+
+
 class Exam:
     def __init__(self, code, question_bank, question_order=None, answer_order=None):
         """
@@ -18,7 +29,7 @@ class Exam:
         # Ánh xạ câu hỏi trong mã đề đến câu hỏi chuẩn
         # self.question_mapping = {f'Q{i+1}': self.question_order[i] for i in range(len(self.question_order))}
 
-    def to_dict(self):
+    def to_dict(self) -> ExamDictType:
         return {
             "code": self.code,
             "question_order": self.question_order,

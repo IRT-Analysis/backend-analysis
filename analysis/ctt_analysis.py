@@ -1,41 +1,52 @@
-import numpy as np
 from analysis.method import Model
 
-class CttAnalysis(Model):     
+
+class CttAnalysis(Model):
     def analyze_questions_ctt(self):
         """
         Main function to analyze questions.
         """
         all_questions = self.examResult.exams[0].question_bank.get_all_questions()
         total_students = len(self.examResult.students)
-        self.general_detail.update({
-            "total_students": total_students,
-            "total_questions": len(all_questions)
-        })
+        self.general_detail.update(
+            {"total_students": total_students, "total_questions": len(all_questions)}
+        )
 
         sorted_students, top_students, bottom_students = self.split_students()
-  
+
         question_stats_list = [
             self._analyze_single_question(
                 question_id,
                 question_data,
                 sorted_students,
                 top_students,
-                bottom_students
-            ) for question_id, question_data in all_questions.items()
+                bottom_students,
+            )
+            for question_id, question_data in all_questions.items()
         ]
 
-        self.average_indexes.update({
-            "average_score": self.get_average_value("score", self.examResult.scores),
-            "average_discrimination": self.get_average_value("discrimination", question_stats_list),
-            "average_difficulty": self.get_average_value("difficulty", question_stats_list),
-            "average_rpbis": self.get_average_value("r_pbis", question_stats_list)
-        })
+        self.average_indexes.update(
+            {
+                "average_score": self.get_average_value(
+                    "score", self.examResult.scores
+                ),
+                "average_discrimination": self.get_average_value(
+                    "discrimination", question_stats_list
+                ),
+                "average_difficulty": self.get_average_value(
+                    "difficulty", question_stats_list
+                ),
+                "average_rpbis": self.get_average_value("r_pbis", question_stats_list),
+            }
+        )
 
-        self.question_stats.update({
-            question_id: stat for question_id, stat in zip(all_questions.keys(), question_stats_list)
-        })
-        
+        self.question_stats.update(
+            {
+                question_id: stat
+                for question_id, stat in zip(all_questions.keys(), question_stats_list)
+            }
+        )
+
         return self.question_stats
 
     def _analyze_single_question(
@@ -57,13 +68,13 @@ class CttAnalysis(Model):
 
         difficulty_category = self._categorize_difficulty(difficulty_index)
         discrimination_category = self._categorize_discrimination(discrimination_index)
-        
+
         r_pbis = self._get_rpbis_of_answer(option_stats, question_id)
         question_bank = self.examResult.exams[0].question_bank
 
         content = question_bank.get_content(question_id)
         correct_index = question_bank.get_correct_answer_index(question_id)
-        
+
         group_choice_percentages = self._compute_group_choice_percentages(
             question_id, question_data, sorted_students
         )
@@ -79,7 +90,6 @@ class CttAnalysis(Model):
             "correct_index": correct_index,
             "group_choice_percentages": group_choice_percentages,
         }
-
 
     def _compute_group_choice_percentages(
         self, question_id, question_data, sorted_students
@@ -172,7 +182,9 @@ class CttAnalysis(Model):
             return "Normal"
         else:
             return "Bad"
-    
+
     def _get_rpbis_of_answer(self, option_stats, question_id):
-        answer_index = self.examResult.exams[0].question_bank.get_correct_answer_index(question_id)
+        answer_index = self.examResult.exams[0].question_bank.get_correct_answer_index(
+            question_id
+        )
         return option_stats[answer_index]["r_pbis"]

@@ -1,8 +1,26 @@
+from typing import List, TypedDict
+
+from models.exam import ExamDictType
+from models.student import StudentDictType
+
+
+class ScoreDictType(TypedDict):
+    student: StudentDictType
+    score: int
+
+
+class ExamResultDictType(TypedDict):
+    exams: List[ExamDictType]
+    students: List[StudentDictType]
+    scores: List[ScoreDictType]
+
+
 class ExamResult:
     def __init__(self, exams, students):
         """
         exams: danh sách các đối tượng Exam (nhiều mã đề)
         students: danh sách các đối tượng Student
+        scores: danh sách các điểm của từng thí sinh
         """
         self.exams = exams
         self.students = students
@@ -65,15 +83,13 @@ class ExamResult:
             return student.answers[question_id]["answer"]
         return None
 
-    def to_dict(self):
+    def to_dict(self) -> ExamResultDictType:
         return {
             "exams": [exam.to_dict() for exam in self.exams],
             "students": [student.to_dict() for student in self.students],
             "scores": [
                 {
-                    "student": score[
-                        "student"
-                    ].to_dict(),  # Ensure `student` has `to_dict()`
+                    "student": score["student"].to_dict(),
                     "score": score["score"],
                 }
                 for score in self.scores
