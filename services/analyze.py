@@ -58,7 +58,7 @@ class CttService:
         if not self.analysis:
             raise ValueError("CTT analysis not initialized.")
 
-        sorted_students, top_students, bottom_students = self.analysis._split_students()
+        sorted_students, top_students, bottom_students = self.analysis.split_students()
         all_questions = self.analysis.examResult.exams[
             0
         ].question_bank.get_all_questions()

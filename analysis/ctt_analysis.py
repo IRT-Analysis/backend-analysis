@@ -2,13 +2,6 @@ import numpy as np
 from analysis.method import Model
 
 class CttAnalysis(Model):     
-    def _get_average_value(self, name, list):
-        temp = [question[name] for question in list]
-        if None in temp:
-            return 0
-        average = np.mean(temp)
-        return round(average, 3)
-
     def analyze_questions_ctt(self):
         """
         Main function to analyze questions.
@@ -20,7 +13,7 @@ class CttAnalysis(Model):
             "total_questions": len(all_questions)
         })
 
-        sorted_students, top_students, bottom_students = self._split_students()
+        sorted_students, top_students, bottom_students = self.split_students()
   
         question_stats_list = [
             self._analyze_single_question(
@@ -33,10 +26,10 @@ class CttAnalysis(Model):
         ]
 
         self.average_indexes.update({
-            "average_score": self._get_average_value("score", self.examResult.scores),
-            "average_discrimination": self._get_average_value("discrimination", question_stats_list),
-            "average_difficulty": self._get_average_value("difficulty", question_stats_list),
-            "average_rpbis": self._get_average_value("r_pbis", question_stats_list)
+            "average_score": self.get_average_value("score", self.examResult.scores),
+            "average_discrimination": self.get_average_value("discrimination", question_stats_list),
+            "average_difficulty": self.get_average_value("difficulty", question_stats_list),
+            "average_rpbis": self.get_average_value("r_pbis", question_stats_list)
         })
 
         self.question_stats.update({
@@ -44,22 +37,6 @@ class CttAnalysis(Model):
         })
         
         return self.question_stats
-
-    def _split_students(self):
-        """
-        Splits students into top and bottom groups based on scores.
-        """
-        sorted_students = sorted(
-            self.examResult.scores, key=lambda x: x["score"], reverse=True
-        )
-
-        top_students = [
-            s["student"] for s in sorted_students[: len(sorted_students) // 3]
-        ]
-        bottom_students = [
-            s["student"] for s in sorted_students[-len(sorted_students) // 3 :]
-        ]
-        return sorted_students, top_students, bottom_students
 
     def _analyze_single_question(
         self, question_id, question_data, sorted_students, top_students, bottom_students
@@ -174,7 +151,7 @@ class CttAnalysis(Model):
             if question_id not in student.answers or not answer_order:
                 continue
 
-            correct_answer_index = exam.get_correct_answer(question_id)
+            # correct_answer_index = exam.get_correct_answer(question_id)
             student_answer = student.answers[question_id]["answer"]
 
             for index, option in enumerate(answer_order):

@@ -16,11 +16,7 @@ class Exam:
 
     def get_correct_answer(self, question_id):
         """Trả về chỉ số đáp án đúng trong câu hỏi chuẩn"""
-        # question_mapping = self.question_mapping.get(question_id)
-        # if question_mapping:
-        # return self.question_bank.get_question(question_mapping)['correct_answer_index']
         return self.question_bank.get_question(question_id)['correct_answer_index']
-        # return None
 
     def get_question_content(self, question_id):
         """Trả về nội dung câu hỏi trong mã đề (theo thứ tự câu hỏi)"""

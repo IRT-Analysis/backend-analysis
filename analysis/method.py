@@ -42,6 +42,13 @@ class Model:
             "total_questions": 0,
             "total_option": 4,
         }
+    
+    def get_average_value(self, name, list):
+        temp = [question[name] for question in list]
+        if None in temp:
+            return 0
+        average = np.mean(temp)
+        return round(average, 3)
         
     def get_student_detail(self):
         student_detail = []
@@ -55,3 +62,19 @@ class Model:
                 "score": student["score"], 
             })
         return student_detail
+    
+    def split_students(self):
+        """
+        Splits students into top and bottom groups based on scores.
+        """
+        sorted_students = sorted(
+            self.examResult.scores, key=lambda x: x["score"], reverse=True
+        )
+
+        top_students = [
+            s["student"] for s in sorted_students[: len(sorted_students) // 3]
+        ]
+        bottom_students = [
+            s["student"] for s in sorted_students[-len(sorted_students) // 3 :]
+        ]
+        return sorted_students, top_students, bottom_students

@@ -9,6 +9,7 @@ from models.exam_result import ExamResult
 from models.question import Option, QuestionBank
 from utils.data_processing import DataProcessing
 from analysis.ctt_analysis import CttAnalysis
+from analysis.irt_analysis import IrtAnalysis
 from analysis.method import Method
 
 
@@ -60,10 +61,14 @@ def analyze_uploaded_file():
 
     # Generate Exam Results and Analysis
     exam_result = ExamResult(exams, students)
-    analysis = CttAnalysis(exam_result)
+    analysis = IrtAnalysis(exam_result)
+    # analysis = CttAnalysis(exam_result)
     getData = Method()
 
-    writeJson(analysis.analyze_questions_ctt())
+    # writeJson(analysis.rasch_analysis())
+    result = analysis.rasch_analysis()
+    writeJson(analysis.average_indexes)
+    # writeJson(analysis.analyze_questions_ctt())
     # print(json.dumps(analysis.get_student_detail(), indent=4))
 
 def process_exam(file_path, question_bank):
