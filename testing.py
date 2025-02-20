@@ -65,9 +65,9 @@ def analyze_uploaded_file():
     # analysis = CttAnalysis(exam_result)
     getData = Method()
 
-    # writeJson(analysis.rasch_analysis())
-    result = analysis.rasch_analysis()
-    writeJson(analysis.average_indexes)
+    writeJson(analysis.rasch_analysis())
+    # result = analysis.rasch_analysis()
+    # writeJson(analysis.average_indexes)
     # writeJson(analysis.analyze_questions_ctt())
     # print(json.dumps(analysis.get_student_detail(), indent=4))
 

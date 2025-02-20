@@ -1,5 +1,5 @@
 from analysis.method import Model
-from irt import two_parameter_model
+# from irt import two_parameter_model
 import numpy as np
 from scipy.optimize import minimize
 from models.student import Student
@@ -138,6 +138,10 @@ class IrtAnalysis(Model):
         """
         Analyze a single question using Rasch model.
         """
+        chosen_by, option_stats = self._compute_option_stats(
+            question_id, question_data, top_students, bottom_students, sorted_students
+        )
+        
         response_data = self._get_response_data(question_id, sorted_students)
         response_data_top = self._get_response_data(question_id, top_students)
         response_data_bottom = self._get_response_data(question_id, bottom_students)
@@ -154,14 +158,19 @@ class IrtAnalysis(Model):
         # Calculate the separation and reliability
         separation, reliability = model.get_separation_reliability(response_data_top, response_data_bottom)
 
+        question_bank = self.examResult.exams[0].question_bank
+        content = question_bank.get_content(question_id)
+        
         return {
-            # "model": model,
+            "content": content,
             "difficulty": item_difficulty,
             "separation": separation,
             "personal_ability": person_ability,
+            "logit": item_difficulty-person_ability,
             "infit": infit,
             "outfit": outfit,
-            "reliability": reliability
+            "reliability": reliability,
+            "options": option_stats
         }
         
 class RaschModel:
@@ -210,7 +219,9 @@ class RaschModel:
     
     def calculate_outfit(self, prob, response_data):
         return np.sum((response_data - prob)**2) / (prob * (1 - prob)*len(response_data))
-    
+
+    def calculate_person_outfit(self, prob, response_data):
+        return 0
         
     
     
