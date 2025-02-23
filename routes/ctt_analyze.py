@@ -1,6 +1,7 @@
 import logging
 from flask import Blueprint, request, jsonify
 from services.analyze import CttService
+from testing import writeJson
 from utils.exceptions import InvalidAPIUsage
 
 ctt_analyze = Blueprint("ctt_analyze", __name__)
@@ -33,13 +34,20 @@ def analyze_file():
             result_file=uploaded_files["result_file"],
             exam_file=uploaded_files["exam_file"],
         )
+        analysis_data = ctt_service.get_analysis_results()
+        student_answer_data = ctt_service.get_student_answer()
+        ctt_service.save_analysis_to_supabase(
+            analysis_data, student_answer_data, ctt_service.get_average_indexes()
+        )
+
         return jsonify(
             {
-                "message": "File uploaded and processed successfully.",
-                "data": "asb2s",
-                "code": 201,
+                "message": "File uploaded and saved successfully.",
+                "data": "asns",
+                # "data": {"analysis": result, "student_answer": student_answer},
+                "code": 200,
             }
-        ), 201
+        ), 200
 
     except FileNotFoundError as e:
         logging.error(f"File not found: {str(e)}")

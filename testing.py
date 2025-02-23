@@ -72,6 +72,7 @@ def analyze_uploaded_file():
     # writeJson(analysis.analyze_questions_ctt())
     # print(json.dumps(analysis.get_student_detail(), indent=4))
 
+
 def process_exam(file_path, question_bank):
     # Group data by Exam_code
     file_path.sort(key=lambda x: x["Exam_code"])
@@ -133,8 +134,8 @@ def process_exam(file_path, question_bank):
     return exams
 
 
-def writeJson(data):
-    output_file = "./analysis_result.json"
+def writeJson(data, output_file="analysis_result.json"):
+    output_file = output_file
 
     with open(output_file, "w") as json_file:
         json.dump(data, json_file, indent=4)  # indent=4 for pretty-printing the JSON
