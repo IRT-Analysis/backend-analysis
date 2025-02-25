@@ -9,13 +9,11 @@
                 "Option D for question 1"
             ]
         },
-        "difficulty": 0.4435992985025398,
+        "difficulty": 0.5709524362375566,
+        "discrimination": 1.0034832572973258,
+        "guessing": 0.08876413113181096,
         "separation": 0.5155141843971631,
-        "personal_ability": 0.5563947694008788,
-        "logit": -0.11279547089833902,
-        "infit": 0.9999999995298074,
-        "outfit": 0.9999999995298117,
-        "reliability": 0.2099576147858503,
+        "reliability": 0.3401579409183972,
         "options": {
             "0": {
                 "selected_by": 7,
@@ -61,13 +59,11 @@
                 "Option D for question 2"
             ]
         },
-        "difficulty": 0.5281750910465245,
+        "difficulty": -0.1236000678441169,
+        "discrimination": 0.7942433575350129,
+        "guessing": -0.3576840487198932,
         "separation": 0.32668439716312053,
-        "personal_ability": 0.4718221414509661,
-        "logit": 0.056352949595558366,
-        "infit": 0.9999999999476956,
-        "outfit": 0.999999999947698,
-        "reliability": 0.09643128834192449,
+        "reliability": 0.246241229535583,
         "options": {
             "0": {
                 "selected_by": 69,
@@ -113,13 +109,11 @@
                 "Option D for question 3"
             ]
         },
-        "difficulty": 0.7292864771797879,
+        "difficulty": 0.7102647397822144,
+        "discrimination": 1.062158637570554,
+        "guessing": -0.1027233377962905,
         "separation": 0.4299645390070922,
-        "personal_ability": 0.2707116373639567,
-        "logit": 0.4585748398158312,
-        "infit": 0.9999999755476253,
-        "outfit": 0.9999999755476245,
-        "reliability": 0.15602520282115595,
+        "reliability": 0.30068195908245504,
         "options": {
             "0": {
                 "selected_by": 52,
@@ -165,13 +159,11 @@
                 "Option D for question 4"
             ]
         },
-        "difficulty": 0.3148117018935347,
+        "difficulty": 0.5211865738396078,
+        "discrimination": 0.9997546561016879,
+        "guessing": 0.1916591338111555,
         "separation": 0.28679078014184395,
-        "personal_ability": 0.6851853884986352,
-        "logit": -0.3703736866051005,
-        "infit": 0.9999999841087617,
-        "outfit": 0.9999999841087615,
-        "reliability": 0.0759981808757757,
+        "reliability": 0.2228728901136755,
         "options": {
             "0": {
                 "selected_by": 11,
@@ -217,13 +209,11 @@
                 "Option D for question 5"
             ]
         },
-        "difficulty": 1.0215230599545042,
+        "difficulty": 6963.216111639964,
+        "discrimination": 4036.608620837113,
+        "guessing": 1783.4068950629733,
         "separation": -0.12189716312056736,
-        "personal_ability": -0.021519623730000548,
-        "logit": 1.0430426836845048,
-        "infit": 1.0000001107490635,
-        "outfit": 1.0000001107490624,
-        "reliability": 0.0146413635509135,
+        "reliability": -0.13881877839475013,
         "options": {
             "0": {
                 "selected_by": 37,
@@ -269,13 +259,11 @@
                 "Option D for question 6"
             ]
         },
-        "difficulty": 0.9855815236336924,
+        "difficulty": 6220.248413703735,
+        "discrimination": 3583.362896764036,
+        "guessing": 1638.1381180861795,
         "separation": 0.19547872340425532,
-        "personal_ability": 0.014414174550324304,
-        "logit": 0.9711673490833681,
-        "infit": 0.9999999964314157,
-        "outfit": 0.9999999964314221,
-        "reliability": 0.036805521254000606,
+        "reliability": 0.1635150166852058,
         "options": {
             "0": {
                 "selected_by": 48,
@@ -321,13 +309,11 @@
                 "Option D for question 7"
             ]
         },
-        "difficulty": 0.28549983085310776,
+        "difficulty": 0.5120562553165681,
+        "discrimination": 0.9997606124347094,
+        "guessing": 0.21599256827995772,
         "separation": 0.2021276595744681,
-        "personal_ability": 0.7144953182739918,
-        "logit": -0.42899548742088406,
-        "infit": 0.9999999781979656,
-        "outfit": 0.9999999781979675,
-        "reliability": 0.03925192997716653,
+        "reliability": 0.168141592920354,
         "options": {
             "0": {
                 "selected_by": 86,
@@ -373,13 +359,11 @@
                 "Option D for question 8"
             ]
         },
-        "difficulty": -0.1586498271857778,
+        "difficulty": 0.5,
+        "discrimination": 1.0,
+        "guessing": 0.25,
         "separation": 0.07934397163120566,
-        "personal_ability": 1.1586516931758366,
-        "logit": -1.3173015203616143,
-        "infit": 1.0000000263496285,
-        "outfit": 1.0000000263496247,
-        "reliability": 0.0062560808907100585,
+        "reliability": 0.0735112936344969,
         "options": {
             "0": {
                 "selected_by": 112,
@@ -425,13 +409,11 @@
                 "Option D for question 9"
             ]
         },
-        "difficulty": 1.7901032463784892,
+        "difficulty": 5.214128994123832,
+        "discrimination": 4.646324211834222,
+        "guessing": 0.07042252845072197,
         "separation": 0.023049645390070927,
-        "personal_ability": -0.7901135087685281,
-        "logit": 2.5802167551470174,
-        "infit": 0.9999999232375439,
-        "outfit": 0.9999999232375448,
-        "reliability": 0.0005310040375160474,
+        "reliability": 0.02253032928942808,
         "options": {
             "0": {
                 "selected_by": 25,
@@ -477,13 +459,11 @@
                 "Option D for question 10"
             ]
         },
-        "difficulty": 0.884025288578545,
+        "difficulty": 0.8974714870674733,
+        "discrimination": 1.2793521801794938,
+        "guessing": -0.09390955651746109,
         "separation": 0.2796985815602837,
-        "personal_ability": 0.11597673727886268,
-        "logit": 0.7680485512996823,
-        "infit": 1.0000000174549588,
-        "outfit": 1.0000000174549577,
-        "reliability": 0.07255520849638741,
+        "reliability": 0.21856598545202635,
         "options": {
             "0": {
                 "selected_by": 45,
@@ -529,13 +509,11 @@
                 "Option D for question 11"
             ]
         },
-        "difficulty": 1.0778831825622863,
+        "difficulty": 6481.227658582923,
+        "discrimination": 3797.1592876651393,
+        "guessing": 1589.2994258362091,
         "separation": -0.015514184397163122,
-        "personal_ability": -0.07788760333648617,
-        "logit": 1.1557707858987725,
-        "infit": 1.000000035691743,
-        "outfit": 1.0000000356917413,
-        "reliability": 0.0002406319998129458,
+        "reliability": -0.01575866726699685,
         "options": {
             "0": {
                 "selected_by": 34,
@@ -581,13 +559,11 @@
                 "Option D for question 12"
             ]
         },
-        "difficulty": -0.2019978613127213,
+        "difficulty": 0.5,
+        "discrimination": 1.0,
+        "guessing": 0.25,
         "separation": 0.22695035460992907,
-        "personal_ability": 1.2019961836303101,
-        "logit": -1.4039940449430315,
-        "infit": 1.0000000736601575,
-        "outfit": 1.0000000736601586,
-        "reliability": 0.04898349677110747,
+        "reliability": 0.18497109826589597,
         "options": {
             "0": {
                 "selected_by": 3,
@@ -633,13 +609,11 @@
                 "Option D for question 13"
             ]
         },
-        "difficulty": -0.05874143021045507,
+        "difficulty": 0.5,
+        "discrimination": 1.0,
+        "guessing": 0.25,
         "separation": 0.09973404255319152,
-        "personal_ability": 1.058739491251867,
-        "logit": -1.117480921462322,
-        "infit": 1.0000000828461522,
-        "outfit": 1.00000008284615,
-        "reliability": 0.009848913292793804,
+        "reliability": 0.09068923821039906,
         "options": {
             "0": {
                 "selected_by": 15,
@@ -685,13 +659,11 @@
                 "Option D for question 14"
             ]
         },
-        "difficulty": -0.40414326083786206,
+        "difficulty": 0.5,
+        "discrimination": 1.0,
+        "guessing": 0.25,
         "separation": 0.1653368794326241,
-        "personal_ability": 1.404145577190396,
-        "logit": -1.808288838028258,
-        "infit": 1.0000000587219406,
-        "outfit": 1.0000000587219446,
-        "reliability": 0.02660889538725464,
+        "reliability": 0.1418790414606314,
         "options": {
             "0": {
                 "selected_by": 5,
@@ -737,13 +709,11 @@
                 "Option D for question 15"
             ]
         },
-        "difficulty": -0.29631327390452966,
+        "difficulty": 0.5,
+        "discrimination": 1.0,
+        "guessing": 0.25,
         "separation": 0.22828014184397172,
-        "personal_ability": 1.2963174637906645,
-        "logit": -1.592630737695194,
-        "infit": 0.999999972514031,
-        "outfit": 0.9999999725140277,
-        "reliability": 0.049530688671259204,
+        "reliability": 0.18585348249729344,
         "options": {
             "0": {
                 "selected_by": 16,
@@ -789,13 +759,11 @@
                 "Option D for question 16"
             ]
         },
-        "difficulty": 0.22572002389168694,
+        "difficulty": 0.5,
+        "discrimination": 1.0,
+        "guessing": 0.25,
         "separation": 0.4122340425531915,
-        "personal_ability": 0.7742859034859197,
-        "logit": -0.5485658795942328,
-        "infit": 0.9999999846786566,
-        "outfit": 0.999999984678657,
-        "reliability": 0.1452530516744156,
+        "reliability": 0.29190207156308856,
         "options": {
             "0": {
                 "selected_by": 90,
@@ -841,13 +809,11 @@
                 "Option D for question 17"
             ]
         },
-        "difficulty": 1.1173757996644433,
+        "difficulty": 6234.556119165988,
+        "discrimination": 3681.659949405023,
+        "guessing": 1483.4968702819233,
         "separation": 0.2575354609929078,
-        "personal_ability": -0.11736869151333472,
-        "logit": 1.234744491177778,
-        "infit": 1.0000000072968034,
-        "outfit": 1.0000000072968052,
-        "reliability": 0.062199183099178046,
+        "reliability": 0.20479379626365882,
         "options": {
             "0": {
                 "selected_by": 26,
@@ -893,13 +859,11 @@
                 "Option D for question 18"
             ]
         },
-        "difficulty": 0.13214851960639024,
+        "difficulty": 0.5,
+        "discrimination": 1.0,
+        "guessing": 0.25,
         "separation": 0.43439716312056736,
-        "personal_ability": 0.8678551343709953,
-        "logit": -0.735706614764605,
-        "infit": 0.9999999417912149,
-        "outfit": 0.9999999417912192,
-        "reliability": 0.1587454809439306,
+        "reliability": 0.30284301606922126,
         "options": {
             "0": {
                 "selected_by": 4,
@@ -945,13 +909,11 @@
                 "Option D for question 19"
             ]
         },
-        "difficulty": 0.014410768433543225,
+        "difficulty": 0.5,
+        "discrimination": 1.0,
+        "guessing": 0.25,
         "separation": 0.37234042553191493,
-        "personal_ability": 0.9855781003979233,
-        "logit": -0.97116733196438,
-        "infit": 1.0000000021478528,
-        "outfit": 1.0000000021478548,
-        "reliability": 0.12175728058841073,
+        "reliability": 0.2713178294573644,
         "options": {
             "0": {
                 "selected_by": 25,
@@ -997,13 +959,11 @@
                 "Option D for question 20"
             ]
         },
-        "difficulty": 0.7591731679697508,
+        "difficulty": 0.7359525770836818,
+        "discrimination": 1.1593620625460648,
+        "guessing": -0.10351913347574704,
         "separation": 0.008421985815602828,
-        "personal_ability": 0.24082882553522225,
-        "logit": 0.5183443424345285,
-        "infit": 0.9999999673853668,
-        "outfit": 0.9999999673853645,
-        "reliability": 7.092481439219256e-05,
+        "reliability": 0.008351648351648344,
         "options": {
             "0": {
                 "selected_by": 17,
@@ -1049,13 +1009,11 @@
                 "Option D for question 21"
             ]
         },
-        "difficulty": 0.5,
+        "difficulty": -0.18486733991109194,
+        "discrimination": 0.8169511581389732,
+        "guessing": -0.37490133080828586,
         "separation": 0.15780141843971635,
-        "personal_ability": 0.5,
-        "logit": 0.0,
-        "infit": 1.0,
-        "outfit": 1.0,
-        "reliability": 0.024296279028394152,
+        "reliability": 0.13629402756508427,
         "options": {
             "0": {
                 "selected_by": 19,
@@ -1101,13 +1059,11 @@
                 "Option D for question 22"
             ]
         },
-        "difficulty": 0.5563948006218916,
+        "difficulty": -0.028638290177347033,
+        "discrimination": 0.7816992585440954,
+        "guessing": -0.3266031698546633,
         "separation": 0.3475177304964539,
-        "personal_ability": 0.4435993069057335,
-        "logit": 0.1127954937161581,
-        "infit": 0.9999999991363191,
-        "outfit": 0.9999999991363184,
-        "reliability": 0.10775513867695896,
+        "reliability": 0.2578947368421053,
         "options": {
             "0": {
                 "selected_by": 67,
@@ -1153,13 +1109,11 @@
                 "Option D for question 23"
             ]
         },
-        "difficulty": 0.7441762941598468,
+        "difficulty": 0.7093788942801406,
+        "discrimination": 1.1296327764384861,
+        "guessing": -0.10890482583371819,
         "separation": 0.13519503546099287,
-        "personal_ability": 0.2558236483543118,
-        "logit": 0.48835264580553495,
-        "infit": 0.9999999671949032,
-        "outfit": 0.9999999671949038,
-        "reliability": 0.01794961988869992,
+        "reliability": 0.11909410386567745,
         "options": {
             "0": {
                 "selected_by": 70,
@@ -1205,13 +1159,11 @@
                 "Option D for question 24"
             ]
         },
-        "difficulty": 0.5989128922954806,
+        "difficulty": 0.08081980026390416,
+        "discrimination": 0.7121587498378928,
+        "guessing": -0.28967304025083396,
         "separation": 0.11524822695035458,
-        "personal_ability": 0.40108716089346563,
-        "logit": 0.19782573140201498,
-        "infit": 0.9999999973548825,
-        "outfit": 0.9999999973548813,
-        "reliability": 0.013108050669984217,
+        "reliability": 0.10333863275039744,
         "options": {
             "0": {
                 "selected_by": 29,
@@ -1257,13 +1209,11 @@
                 "Option D for question 25"
             ]
         },
-        "difficulty": 1.738652182478187,
+        "difficulty": 4.259212153965523,
+        "discrimination": 3.326846578503905,
+        "guessing": 0.09011374133144145,
         "separation": 0.0651595744680851,
-        "personal_ability": -0.7386498106258065,
-        "logit": 2.4773019931039935,
-        "infit": 0.9999999389859602,
-        "outfit": 0.9999999389859614,
-        "reliability": 0.0042278197938036,
+        "reliability": 0.06117353308364543,
         "options": {
             "0": {
                 "selected_by": 17,
@@ -1309,13 +1259,11 @@
                 "Option D for question 26"
             ]
         },
-        "difficulty": 0.4435978470902656,
+        "difficulty": 0.5709507064800735,
+        "discrimination": 1.0034855492826384,
+        "guessing": 0.08876343044504152,
         "separation": 0.2841312056737589,
-        "personal_ability": 0.5563933538122263,
-        "logit": -0.1127955067219607,
-        "infit": 1.000000001548041,
-        "outfit": 1.000000001548044,
-        "reliability": 0.07469997274752083,
+        "reliability": 0.22126337590610978,
         "options": {
             "0": {
                 "selected_by": 11,
@@ -1361,13 +1309,11 @@
                 "Option D for question 27"
             ]
         },
-        "difficulty": 0.04922853063677123,
+        "difficulty": 0.5,
+        "discrimination": 1.0,
+        "guessing": 0.25,
         "separation": 0.45744680851063835,
-        "personal_ability": 0.9507769878510146,
-        "logit": -0.9015484572142434,
-        "infit": 1.0000000092866734,
-        "outfit": 1.0000000092866708,
-        "reliability": 0.1730463266261114,
+        "reliability": 0.31386861313868614,
         "options": {
             "0": {
                 "selected_by": 15,
@@ -1413,13 +1359,11 @@
                 "Option D for question 28"
             ]
         },
-        "difficulty": -0.021521810397591226,
+        "difficulty": 0.5,
+        "discrimination": 1.0,
+        "guessing": 0.25,
         "separation": 0.35150709219858156,
-        "personal_ability": 1.0215208732704484,
-        "logit": -1.0430426836680395,
-        "infit": 1.000000125012717,
-        "outfit": 1.0000001250127195,
-        "reliability": 0.10996968549686659,
+        "reliability": 0.2600852738602821,
         "options": {
             "0": {
                 "selected_by": 6,
@@ -1465,13 +1409,11 @@
                 "Option D for question 29"
             ]
         },
-        "difficulty": 0.04922038978727012,
+        "difficulty": 0.5,
+        "discrimination": 1.0,
+        "guessing": 0.25,
         "separation": 0.3311170212765957,
-        "personal_ability": 0.9507688251183125,
-        "logit": -0.9015484353310423,
-        "infit": 1.0000000000402478,
-        "outfit": 1.000000000040247,
-        "reliability": 0.09880558720647636,
+        "reliability": 0.24875124875124874,
         "options": {
             "0": {
                 "selected_by": 101,
@@ -1517,13 +1459,11 @@
                 "Option D for question 30"
             ]
         },
-        "difficulty": 0.6417885809515695,
+        "difficulty": -0.160840766762273,
+        "discrimination": 0.522155461237156,
+        "guessing": -0.37590304258922885,
         "separation": 0.24069148936170215,
-        "personal_ability": 0.3582133637794849,
-        "logit": 0.28357521717208467,
-        "infit": 0.999999987573495,
-        "outfit": 0.9999999875734962,
-        "reliability": 0.054760014374900745,
+        "reliability": 0.1939978563772776,
         "options": {
             "0": {
                 "selected_by": 23,
@@ -1569,13 +1509,11 @@
                 "Option D for question 31"
             ]
         },
-        "difficulty": 0.2707130810299132,
+        "difficulty": 0.507728954380844,
+        "discrimination": 0.999868008445358,
+        "guessing": 0.22833379143393856,
         "separation": 0.28634751773049644,
-        "personal_ability": 0.7292879061973438,
-        "logit": -0.45857482516743064,
-        "infit": 0.9999999789625919,
-        "outfit": 0.9999999789625912,
-        "reliability": 0.07578122673353127,
+        "reliability": 0.22260509993108202,
         "options": {
             "0": {
                 "selected_by": 87,
@@ -1621,13 +1559,11 @@
                 "Option D for question 32"
             ]
         },
-        "difficulty": 0.34381073598510115,
+        "difficulty": 0.531283096390095,
+        "discrimination": 1.0001884037498594,
+        "guessing": 0.1679455407643694,
         "separation": 0.24468085106382975,
-        "personal_ability": 0.6561853671893995,
-        "logit": -0.3123746312042983,
-        "infit": 0.9999999939675557,
-        "outfit": 0.9999999939675552,
-        "reliability": 0.05648691938067285,
+        "reliability": 0.19658119658119655,
         "options": {
             "0": {
                 "selected_by": 19,
@@ -1673,13 +1609,11 @@
                 "Option D for question 33"
             ]
         },
-        "difficulty": -0.1377727309629567,
+        "difficulty": 0.5,
+        "discrimination": 1.0,
+        "guessing": 0.25,
         "separation": 0.22695035460992907,
-        "personal_ability": 1.1377702681989288,
-        "logit": -1.2755429991618854,
-        "infit": 1.000000009710344,
-        "outfit": 1.000000009710343,
-        "reliability": 0.04898349677110747,
+        "reliability": 0.18497109826589597,
         "options": {
             "0": {
                 "selected_by": 2,
@@ -1725,13 +1659,11 @@
                 "Option D for question 34"
             ]
         },
-        "difficulty": 1.2245497482395493,
+        "difficulty": 2.7747073856826585,
+        "discrimination": 2.2597065707949575,
+        "guessing": 0.2000978849345098,
         "separation": 0.42597517730496454,
-        "personal_ability": -0.22454544689406827,
-        "logit": 1.4490951951336175,
-        "infit": 0.9999999491047338,
-        "outfit": 0.9999999491047296,
-        "reliability": 0.15358593806777476,
+        "reliability": 0.29872552067143304,
         "options": {
             "0": {
                 "selected_by": 90,
@@ -1777,13 +1709,11 @@
                 "Option D for question 35"
             ]
         },
-        "difficulty": 0.6851878309810564,
+        "difficulty": 0.5981606588963808,
+        "discrimination": 0.9786393697012604,
+        "guessing": -0.12891619730466006,
         "separation": 0.5567375886524824,
-        "personal_ability": 0.3148141115307622,
-        "logit": 0.3703737194502942,
-        "infit": 0.9999999846659033,
-        "outfit": 0.9999999846659064,
-        "reliability": 0.2366160137463642,
+        "reliability": 0.3576309794988611,
         "options": {
             "0": {
                 "selected_by": 49,
@@ -1829,13 +1759,11 @@
                 "Option D for question 36"
             ]
         },
-        "difficulty": 0.27071354507691514,
+        "difficulty": 0.5077292805347863,
+        "discrimination": 0.9998689513085482,
+        "guessing": 0.22833392238620598,
         "separation": 0.28679078014184395,
-        "personal_ability": 0.7292883848811511,
-        "logit": -0.45857483980423597,
-        "infit": 0.9999999822610229,
-        "outfit": 0.9999999822610248,
-        "reliability": 0.0759981808757757,
+        "reliability": 0.2228728901136755,
         "options": {
             "0": {
                 "selected_by": 20,
@@ -1881,13 +1809,11 @@
                 "Option D for question 37"
             ]
         },
-        "difficulty": 1.0034007784731815,
+        "difficulty": 6685.659758123434,
+        "discrimination": 3863.2906595207646,
+        "guessing": 1736.5424893277582,
         "separation": 0.04698581560283685,
-        "personal_ability": -0.0034039630448858805,
-        "logit": 1.0068047415180674,
-        "infit": 0.9999999940516012,
-        "outfit": 0.9999999940515962,
-        "reliability": 0.002202803810874232,
+        "reliability": 0.044877222692633334,
         "options": {
             "0": {
                 "selected_by": 27,
@@ -1933,13 +1859,11 @@
                 "Option D for question 38"
             ]
         },
-        "difficulty": 0.5989118909733672,
+        "difficulty": 0.0808169211795579,
+        "discrimination": 0.7121585095099121,
+        "guessing": -0.2896745120592555,
         "separation": 0.49468085106382975,
-        "personal_ability": 0.401086162825791,
-        "logit": 0.19782572814757615,
-        "infit": 0.9999999970340213,
-        "outfit": 0.9999999970340208,
-        "reliability": 0.19659945900484166,
+        "reliability": 0.3309608540925266,
         "options": {
             "0": {
                 "selected_by": 13,
@@ -1985,13 +1909,11 @@
                 "Option D for question 39"
             ]
         },
-        "difficulty": 0.17960885427613157,
+        "difficulty": 0.5,
+        "discrimination": 1.0,
+        "guessing": 0.25,
         "separation": 0.45567375886524825,
-        "personal_ability": 0.8203880848096036,
-        "logit": -0.640779230533472,
-        "infit": 1.000000015614423,
-        "outfit": 1.000000015614425,
-        "reliability": 0.17193767978237384,
+        "reliability": 0.31303288672350793,
         "options": {
             "0": {
                 "selected_by": 32,
@@ -2037,13 +1959,11 @@
                 "Option D for question 40"
             ]
         },
-        "difficulty": 0.031954990450888524,
+        "difficulty": 0.5,
+        "discrimination": 1.0,
+        "guessing": 0.25,
         "separation": 0.5403368794326242,
-        "personal_ability": 0.9680483202738227,
-        "logit": -0.9360933298229341,
-        "infit": 0.9999999936924829,
-        "outfit": 0.9999999936924869,
-        "reliability": 0.2259845909746443,
+        "reliability": 0.35079136690647483,
         "options": {
             "0": {
                 "selected_by": 10,
@@ -2089,13 +2009,11 @@
                 "Option D for question 41"
             ]
         },
-        "difficulty": 0.24082681338136888,
+        "difficulty": 0.49884093899308285,
+        "discrimination": 1.0000019075953503,
+        "guessing": 0.253088260693798,
         "separation": 0.26684397163120566,
-        "personal_ability": 0.7591711930838426,
-        "logit": -0.5183443797024737,
-        "infit": 0.9999999843890839,
-        "outfit": 0.999999984389088,
-        "reliability": 0.06647248502367953,
+        "reliability": 0.2106368089573128,
         "options": {
             "0": {
                 "selected_by": 22,
@@ -2141,13 +2059,11 @@
                 "Option D for question 42"
             ]
         },
-        "difficulty": 0.7292883824547292,
+        "difficulty": 0.7102650771238144,
+        "discrimination": 1.0621589329100114,
+        "guessing": -0.10272311694584188,
         "separation": 0.24024822695035458,
-        "personal_ability": 0.2707135475033372,
-        "logit": 0.45857483495139195,
-        "infit": 0.9999999744514136,
-        "outfit": 0.9999999744514132,
-        "reliability": 0.05456950197834043,
+        "reliability": 0.1937097927090779,
         "options": {
             "0": {
                 "selected_by": 14,
@@ -2193,13 +2109,11 @@
                 "Option D for question 43"
             ]
         },
-        "difficulty": 0.7144992166555438,
+        "difficulty": 0.682474273557249,
+        "discrimination": 1.0268263594629996,
+        "guessing": -0.10778741967757094,
         "separation": 0.26152482269503546,
-        "personal_ability": 0.2855037002705022,
-        "logit": 0.42899551638504163,
-        "infit": 0.9999999780208934,
-        "outfit": 0.9999999780208905,
-        "reliability": 0.06401678964903124,
+        "reliability": 0.2073085031623331,
         "options": {
             "0": {
                 "selected_by": 25,
@@ -2245,13 +2159,11 @@
                 "Option D for question 44"
             ]
         },
-        "difficulty": 0.22571902322865459,
+        "difficulty": 0.5,
+        "discrimination": 1.0,
+        "guessing": 0.25,
         "separation": 0.16223404255319152,
-        "personal_ability": 0.774284900004641,
-        "logit": -0.5485658767759864,
-        "infit": 0.9999999839244816,
-        "outfit": 0.9999999839244793,
-        "reliability": 0.025644913402758096,
+        "reliability": 0.13958810068649888,
         "options": {
             "0": {
                 "selected_by": 21,
@@ -2297,13 +2209,11 @@
                 "Option D for question 45"
             ]
         },
-        "difficulty": 0.5422772971463631,
+        "difficulty": -0.07554458412258491,
+        "discrimination": 0.789802674772126,
+        "guessing": -0.3421570414443468,
         "separation": 0.36790780141843965,
-        "personal_ability": 0.45771988211505144,
-        "logit": 0.08455741503131164,
-        "infit": 1.000000000511353,
-        "outfit": 1.0000000005113558,
-        "reliability": 0.11921911049979605,
+        "reliability": 0.26895657809462087,
         "options": {
             "0": {
                 "selected_by": 35,
@@ -2349,13 +2259,11 @@
                 "Option D for question 46"
             ]
         },
-        "difficulty": 0.4010832430885636,
+        "difficulty": 0.5537709042162868,
+        "discrimination": 1.002072042552043,
+        "guessing": 0.12223378816380237,
         "separation": 0.4539007092198582,
-        "personal_ability": 0.5989089721321194,
-        "logit": -0.19782572904355578,
-        "infit": 1.0000000000606122,
-        "outfit": 1.0000000000606137,
-        "reliability": 0.170830379113317,
+        "reliability": 0.31219512195121957,
         "options": {
             "0": {
                 "selected_by": 30,
@@ -2401,13 +2309,11 @@
                 "Option D for question 47"
             ]
         },
-        "difficulty": 0.5422791932462926,
+        "difficulty": -0.0755435441792551,
+        "discrimination": 0.7898027912706268,
+        "guessing": -0.34215647940997923,
         "separation": 0.4104609929078014,
-        "personal_ability": 0.4577218052105206,
-        "logit": 0.08455738803577201,
-        "infit": 0.9999999993706996,
-        "outfit": 0.9999999993706996,
-        "reliability": 0.14418602148440263,
+        "reliability": 0.29101194217473286,
         "options": {
             "0": {
                 "selected_by": 18,
@@ -2453,13 +2359,11 @@
                 "Option D for question 48"
             ]
         },
-        "difficulty": 0.4577232198522101,
+        "difficulty": 0.6195853804882188,
+        "discrimination": 1.0262948096031967,
+        "guessing": 0.0975621141910047,
         "separation": 0.3271276595744681,
-        "personal_ability": 0.5422805992892576,
-        "logit": -0.08455737943704755,
-        "infit": 1.0000000002666274,
-        "outfit": 1.0000000002666258,
-        "reliability": 0.09666783808823998,
+        "reliability": 0.24649298597194388,
         "options": {
             "0": {
                 "selected_by": 15,
@@ -2505,13 +2409,11 @@
                 "Option D for question 49"
             ]
         },
-        "difficulty": 0.3293484646541501,
+        "difficulty": 0.5261057943704661,
+        "discrimination": 0.9999117310531953,
+        "guessing": 0.17971956040250248,
         "separation": 0.3067375886524823,
-        "personal_ability": 0.67065153534585,
-        "logit": -0.3413030706916999,
-        "infit": 0.9999999867665365,
-        "outfit": 0.9999999867665353,
-        "reliability": 0.08599669563968104,
+        "reliability": 0.23473541383989147,
         "options": {
             "0": {
                 "selected_by": 35,
@@ -2557,13 +2459,11 @@
                 "Option D for question 50"
             ]
         },
-        "difficulty": 0.16395213329483704,
+        "difficulty": 0.5,
+        "discrimination": 1.0,
+        "guessing": 0.25,
         "separation": 0.49867021276595747,
-        "personal_ability": 0.8360458870229317,
-        "logit": -0.6720937537280947,
-        "infit": 0.9999999991147043,
-        "outfit": 0.999999999114708,
-        "reliability": 0.19914916396295868,
+        "reliability": 0.33274179236912155,
         "options": {
             "0": {
                 "selected_by": 94,
@@ -2609,13 +2509,11 @@
                 "Option D for question 51"
             ]
         },
-        "difficulty": 0.9003863512060865,
+        "difficulty": 2.2025278026782713,
+        "discrimination": 1.9435321062557072,
+        "guessing": 0.2846305561531455,
         "separation": 0.30186170212765956,
-        "personal_ability": 0.09960852734884185,
-        "logit": 0.8007778238572446,
-        "infit": 0.9999999863873537,
-        "outfit": 0.9999999863873509,
-        "reliability": 0.08351093053369907,
+        "reliability": 0.23186925434116445,
         "options": {
             "0": {
                 "selected_by": 30,
@@ -2661,13 +2559,11 @@
                 "Option D for question 52"
             ]
         },
-        "difficulty": 0.7144962906912004,
+        "difficulty": 0.6824746619143477,
+        "discrimination": 1.0268263158578774,
+        "guessing": -0.10778723811900315,
         "separation": 0.07180851063829785,
-        "personal_ability": 0.2855007923827343,
-        "logit": 0.42899549830846606,
-        "infit": 0.9999999742018995,
-        "outfit": 0.9999999742018976,
-        "reliability": 0.005130009500017629,
+        "reliability": 0.06699751861042183,
         "options": {
             "0": {
                 "selected_by": 48,
@@ -2713,13 +2609,11 @@
                 "Option D for question 53"
             ]
         },
-        "difficulty": 0.5989138501219777,
+        "difficulty": 0.0808178284096695,
+        "discrimination": 0.7121583431393935,
+        "guessing": -0.2896740182432597,
         "separation": 0.40957446808510634,
-        "personal_ability": 0.4010881492673701,
-        "logit": 0.19782570085460766,
-        "infit": 0.9999999943431671,
-        "outfit": 0.9999999943431664,
-        "reliability": 0.14365323577156985,
+        "reliability": 0.29056603773584905,
         "options": {
             "0": {
                 "selected_by": 25,
@@ -2765,13 +2659,11 @@
                 "Option D for question 54"
             ]
         },
-        "difficulty": 0.7441777892262215,
+        "difficulty": 0.709376934443332,
+        "discrimination": 1.1296361800601018,
+        "guessing": -0.10890552143000683,
         "separation": 0.2832446808510638,
-        "personal_ability": 0.2558251000069913,
-        "logit": 0.48835268921923014,
-        "infit": 0.9999999775897263,
-        "outfit": 0.9999999775897271,
-        "reliability": 0.0742691197679386,
+        "reliability": 0.22072538860103624,
         "options": {
             "0": {
                 "selected_by": 25,
@@ -2817,13 +2709,11 @@
                 "Option D for question 55"
             ]
         },
-        "difficulty": 0.8203909633990616,
+        "difficulty": 0.8250873654692095,
+        "discrimination": 1.2286517865078177,
+        "guessing": -0.09419706647413507,
         "separation": 0.25975177304964536,
-        "personal_ability": 0.17961183657372706,
-        "logit": 0.6407791268253346,
-        "infit": 0.9999999742449873,
-        "outfit": 0.9999999742449887,
-        "reliability": 0.06320638653309119,
+        "reliability": 0.20619282195636876,
         "options": {
             "0": {
                 "selected_by": 49,
@@ -2869,13 +2759,11 @@
                 "Option D for question 56"
             ]
         },
-        "difficulty": 0.5422827090615089,
+        "difficulty": -0.07554433993878786,
+        "discrimination": 0.7898030023122431,
+        "guessing": -0.34215704013232384,
         "separation": 0.4104609929078014,
-        "personal_ability": 0.4577252785968706,
-        "logit": 0.08455743046463826,
-        "infit": 1.0000000011634682,
-        "outfit": 1.0000000011634687,
-        "reliability": 0.14418602148440263,
+        "reliability": 0.29101194217473286,
         "options": {
             "0": {
                 "selected_by": 42,
@@ -2921,13 +2809,11 @@
                 "Option D for question 57"
             ]
         },
-        "difficulty": 0.6561887755227794,
+        "difficulty": 0.49528270980317846,
+        "discrimination": 0.9089592172024143,
+        "guessing": -0.15741097239404864,
         "separation": 0.262854609929078,
-        "personal_ability": 0.34381413854468773,
-        "logit": 0.3123746369780917,
-        "infit": 0.9999999902448237,
-        "outfit": 0.9999999902448267,
-        "reliability": 0.06462728247615179,
+        "reliability": 0.20814320814320814,
         "options": {
             "0": {
                 "selected_by": 12,
@@ -2973,13 +2859,11 @@
                 "Option D for question 58"
             ]
         },
-        "difficulty": 1.464953822880622,
+        "difficulty": 6887.1292825129,
+        "discrimination": 4617.478529177306,
+        "guessing": 1483.5565058820007,
         "separation": -0.018617021276595744,
-        "personal_ability": -0.46495599415952094,
-        "logit": 1.929909817040143,
-        "infit": 0.999999995842199,
-        "outfit": 0.9999999958421945,
-        "reliability": 0.00034647339579285674,
+        "reliability": -0.018970189701897018,
         "options": {
             "0": {
                 "selected_by": 34,
@@ -3025,13 +2909,11 @@
                 "Option D for question 59"
             ]
         },
-        "difficulty": 0.8678581963176035,
+        "difficulty": 0.8929875749597302,
+        "discrimination": 1.25457626439361,
+        "guessing": -0.0889720885323889,
         "separation": 0.46985815602836883,
-        "personal_ability": 0.132151571126454,
-        "logit": 0.7357066251911495,
-        "infit": 0.9999999349687653,
-        "outfit": 0.999999934968766,
-        "reliability": 0.1808426533718238,
+        "reliability": 0.3196622436670688,
         "options": {
             "0": {
                 "selected_by": 27,
@@ -3077,13 +2959,11 @@
                 "Option D for question 60"
             ]
         },
-        "difficulty": 0.7441762941598468,
+        "difficulty": 0.7093771679404062,
+        "discrimination": 1.1296333629471795,
+        "guessing": -0.10890566962471676,
         "separation": 0.050531914893617025,
-        "personal_ability": 0.2558236483543118,
-        "logit": 0.48835264580553495,
-        "infit": 0.9999999671949036,
-        "outfit": 0.9999999671949038,
-        "reliability": 0.002546970798027348,
+        "reliability": 0.04810126582278482,
         "options": {
             "0": {
                 "selected_by": 21,
