@@ -1,7 +1,48 @@
+from typing import Dict, TypedDict
+import numpy as np
 from analysis.method import Model
 
 
+class QuestionStatsType(TypedDict):
+    content: str
+    difficulty: float
+    difficulty_category: str
+    discrimination: float
+    discrimination_category: str
+    r_pbis: float
+    options: dict
+    correct_index: int
+    group_choice_percentages: list
+
+
+class AverageIndexesType(TypedDict):
+    average_score: float
+    average_discrimination: float
+    average_difficulty: float
+    average_rpbis: float
+
+
 class CttAnalysis(Model):
+    examResult = None
+    question_stats: Dict[str, QuestionStatsType] = {}
+    average_indexes: AverageIndexesType = {}
+    general_detail = {}
+
+    def __init__(self, examResult):
+        self.examResult = examResult
+        self.general_detail = {
+            "total_students": 0,
+            "total_questions": 0,
+            "total_option": 4,
+        }
+
+    def _get_average_value(self, name, list):
+        temp = [question[name] for question in list]
+        if None in temp:
+            return 0
+        average = np.mean(temp)
+        return round(average, 3)
+
     def analyze_questions_ctt(self):
         """
         Main function to analyze questions.
