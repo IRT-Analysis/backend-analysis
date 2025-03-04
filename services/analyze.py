@@ -10,18 +10,18 @@ from dotenv import load_dotenv
 from supabase import Client, create_client
 
 from analysis.ctt_analysis import AverageIndexesType, CttAnalysis, QuestionStatsType
+from analysis.irt_analysis import IrtAnalysis
 from models.exam import Exam
 from models.exam_result import ExamResult
 from models.question import Option, QuestionBank
 from models.student import StudentDictType
-from testing import writeJson
 from utils.data_processing import DataProcessing
 from utils.file_handling import save_uploaded_file
 
 load_dotenv()
 
 
-class CttService:
+class AnalysisService:
     def __init__(self):
         self.analysis = None
         # self.getData = None
@@ -30,7 +30,7 @@ class CttService:
             os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_ANON_KEY")
         )
 
-    def analyze_uploaded_file(self, result_file, exam_file):
+    def analyze_uploaded_file(self, result_file, exam_file, analysis_method="CTT"):
         # Save the uploaded file, might be removed in the future, as the file is read directly
         file_path = save_uploaded_file(result_file)
 
@@ -49,10 +49,20 @@ class CttService:
 
         self.exam_result = ExamResult(exams, students)
 
-        # Initialize the CTT analysis -> Analyze the questions
-        self.analysis = CttAnalysis(self.exam_result)
-        self.analysis.analyze_questions_ctt()
-        # self.getData = Method()
+        analysis_methods = {
+            "CTT": CttAnalysis,
+            "IRT": IrtAnalysis,
+            # "Rasch": RaschAnalysis,
+        }
+
+        if analysis_method not in analysis_methods:
+            raise ValueError(f"Unsupported analysis method: {analysis_method}")
+
+        # Perform the chosen analysis
+        self.analysis = analysis_methods[analysis_method](self.exam_result)
+        self.analysis.analyze_questions()
+
+    # self.getData = Method()
 
     def get_analysis_results(self):
         """
@@ -345,7 +355,11 @@ class CttService:
                     student_answers_to_upsert,
                 ).execute()
 
-            return {"message": "File uploaded and data saved successfully."}
+            return {
+                "message": "File uploaded and data saved successfully.",
+                "data": project_id,
+                "code": 201,
+            }
 
         except Exception as e:
             raise ValueError(f"Error saving data to Supabase: {str(e)}")

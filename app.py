@@ -1,6 +1,6 @@
 from flask import Flask
 
-from routes.ctt_analyze import ctt_analyze
+from routes.analyze import analyze
 from utils.error_handlers import register_error_handlers
 
 import logging
@@ -22,7 +22,7 @@ app.json.sort_keys = False
 register_error_handlers(app)
 
 # Register Blueprints or routes
-app.register_blueprint(ctt_analyze, url_prefix="/api/analyze")
+app.register_blueprint(analyze, url_prefix="/api/analyze")
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)

@@ -43,7 +43,7 @@ class CttAnalysis(Model):
         average = np.mean(temp)
         return round(average, 3)
 
-    def analyze_questions_ctt(self):
+    def analyze_questions(self):
         """
         Main function to analyze questions.
         """
