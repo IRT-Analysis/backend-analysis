@@ -50,17 +50,28 @@ class Model:
         average = np.mean(temp)
         return round(average, 3)
         
-    def get_student_detail(self):
+    def get_student_detail(self, model):
         student_detail = []
         for student in self.examResult.scores:
-            student_detail.append({
-                "id": student["student"].id,
-                "firstName": student["student"].firstName,
-                "lastName": student["student"].lastName,
-                "exam_code": student["student"].exam_code,
-                "answers": student["student"].answers,
-                "score": student["score"], 
-            })
+            if model == "CTT":
+                student_detail.append({
+                    "id": student["student"].id,
+                    "firstName": student["student"].firstName,
+                    "lastName": student["student"].lastName,
+                    "exam_code": student["student"].exam_code,
+                    "answers": student["student"].answers,
+                    "score": student["score"], 
+                })
+            else:
+                student_detail.append({
+                    "id": student["student"].id,
+                    "firstName": student["student"].firstName,
+                    "lastName": student["student"].lastName,
+                    "exam_code": student["student"].exam_code,
+                    "ability": student["student"].ability,
+                    "answers": student["student"].answers,
+                    "score": student["score"], 
+                })
         return student_detail
     
     def split_students(self):

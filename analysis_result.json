@@ -9,9 +9,8 @@
                 "Option D for question 1"
             ]
         },
-        "difficulty": 0.5709524362375566,
-        "discrimination": 1.0034832572973258,
-        "guessing": 0.08876413113181096,
+        "difficulty": 0.12534125280126535,
+        "discrimination": 0.9048343094172341,
         "separation": 0.5155141843971631,
         "reliability": 0.3401579409183972,
         "options": {
@@ -59,9 +58,8 @@
                 "Option D for question 2"
             ]
         },
-        "difficulty": -0.1236000678441169,
-        "discrimination": 0.7942433575350129,
-        "guessing": -0.3576840487198932,
+        "difficulty": 0.3092342525307765,
+        "discrimination": 0.9513565565525129,
         "separation": 0.32668439716312053,
         "reliability": 0.246241229535583,
         "options": {
@@ -109,9 +107,8 @@
                 "Option D for question 3"
             ]
         },
-        "difficulty": 0.7102647397822144,
-        "discrimination": 1.062158637570554,
-        "guessing": -0.1027233377962905,
+        "difficulty": 0.6866737359260503,
+        "discrimination": 1.0501540689326683,
         "separation": 0.4299645390070922,
         "reliability": 0.30068195908245504,
         "options": {
@@ -159,9 +156,8 @@
                 "Option D for question 4"
             ]
         },
-        "difficulty": 0.5211865738396078,
-        "discrimination": 0.9997546561016879,
-        "guessing": 0.1916591338111555,
+        "difficulty": -0.34436319642032853,
+        "discrimination": 0.6231437940686915,
         "separation": 0.28679078014184395,
         "reliability": 0.2228728901136755,
         "options": {
@@ -209,9 +205,8 @@
                 "Option D for question 5"
             ]
         },
-        "difficulty": 6963.216111639964,
-        "discrimination": 4036.608620837113,
-        "guessing": 1783.4068950629733,
+        "difficulty": 1.2241166251676476,
+        "discrimination": 1.0707572154653653,
         "separation": -0.12189716312056736,
         "reliability": -0.13881877839475013,
         "options": {
@@ -259,9 +254,8 @@
                 "Option D for question 6"
             ]
         },
-        "difficulty": 6220.248413703735,
-        "discrimination": 3583.362896764036,
-        "guessing": 1638.1381180861795,
+        "difficulty": 1.1744547700899834,
+        "discrimination": 1.0505299225923455,
         "separation": 0.19547872340425532,
         "reliability": 0.1635150166852058,
         "options": {
@@ -309,9 +303,8 @@
                 "Option D for question 7"
             ]
         },
-        "difficulty": 0.5120562553165681,
-        "discrimination": 0.9997606124347094,
-        "guessing": 0.21599256827995772,
+        "difficulty": -0.3881567610360989,
+        "discrimination": 0.6722413991151956,
         "separation": 0.2021276595744681,
         "reliability": 0.168141592920354,
         "options": {
@@ -359,9 +352,8 @@
                 "Option D for question 8"
             ]
         },
-        "difficulty": 0.5,
-        "discrimination": 1.0,
-        "guessing": 0.25,
+        "difficulty": -1.0194173427289954,
+        "discrimination": 1.0377210443487999,
         "separation": 0.07934397163120566,
         "reliability": 0.0735112936344969,
         "options": {
@@ -409,9 +401,8 @@
                 "Option D for question 9"
             ]
         },
-        "difficulty": 5.214128994123832,
-        "discrimination": 4.646324211834222,
-        "guessing": 0.07042252845072197,
+        "difficulty": 1.8394379656285313,
+        "discrimination": 1.6233516886647148,
         "separation": 0.023049645390070927,
         "reliability": 0.02253032928942808,
         "options": {
@@ -459,9 +450,8 @@
                 "Option D for question 10"
             ]
         },
-        "difficulty": 0.8974714870674733,
-        "discrimination": 1.2793521801794938,
-        "guessing": -0.09390955651746109,
+        "difficulty": 0.9385773617731722,
+        "discrimination": 1.1154134824255695,
         "separation": 0.2796985815602837,
         "reliability": 0.21856598545202635,
         "options": {
@@ -509,9 +499,8 @@
                 "Option D for question 11"
             ]
         },
-        "difficulty": 6481.227658582923,
-        "discrimination": 3797.1592876651393,
-        "guessing": 1589.2994258362091,
+        "difficulty": 1.2944607413729505,
+        "discrimination": 1.1065717295192374,
         "separation": -0.015514184397163122,
         "reliability": -0.01575866726699685,
         "options": {
@@ -559,9 +548,8 @@
                 "Option D for question 12"
             ]
         },
-        "difficulty": 0.5,
-        "discrimination": 1.0,
-        "guessing": 0.25,
+        "difficulty": -1.0795213070038738,
+        "discrimination": 1.0560145001318395,
         "separation": 0.22695035460992907,
         "reliability": 0.18497109826589597,
         "options": {
@@ -609,9 +597,8 @@
                 "Option D for question 13"
             ]
         },
-        "difficulty": 0.5,
-        "discrimination": 1.0,
-        "guessing": 0.25,
+        "difficulty": -0.8776836814905296,
+        "discrimination": 0.9909522918815086,
         "separation": 0.09973404255319152,
         "reliability": 0.09068923821039906,
         "options": {
@@ -659,9 +646,8 @@
                 "Option D for question 14"
             ]
         },
-        "difficulty": 0.5,
-        "discrimination": 1.0,
-        "guessing": 0.25,
+        "difficulty": -1.3454883713436707,
+        "discrimination": 1.1333763194529365,
         "separation": 0.1653368794326241,
         "reliability": 0.1418790414606314,
         "options": {
@@ -709,9 +695,8 @@
                 "Option D for question 15"
             ]
         },
-        "difficulty": 0.5,
-        "discrimination": 1.0,
-        "guessing": 0.25,
+        "difficulty": -1.2067164129207892,
+        "discrimination": 1.0933018480150136,
         "separation": 0.22828014184397172,
         "reliability": 0.18585348249729344,
         "options": {
@@ -759,9 +744,8 @@
                 "Option D for question 16"
             ]
         },
-        "difficulty": 0.5,
-        "discrimination": 1.0,
-        "guessing": 0.25,
+        "difficulty": -0.47228065481578524,
+        "discrimination": 0.7594913756030697,
         "separation": 0.4122340425531915,
         "reliability": 0.29190207156308856,
         "options": {
@@ -809,9 +793,8 @@
                 "Option D for question 17"
             ]
         },
-        "difficulty": 6234.556119165988,
-        "discrimination": 3681.659949405023,
-        "guessing": 1483.4968702819233,
+        "difficulty": 1.3387384312692778,
+        "discrimination": 1.1341057206407335,
         "separation": 0.2575354609929078,
         "reliability": 0.20479379626365882,
         "options": {
@@ -859,9 +842,8 @@
                 "Option D for question 18"
             ]
         },
-        "difficulty": 0.5,
-        "discrimination": 1.0,
-        "guessing": 0.25,
+        "difficulty": -0.6030192659585295,
+        "discrimination": 0.8624737695787111,
         "separation": 0.43439716312056736,
         "reliability": 0.30284301606922126,
         "options": {
@@ -909,9 +891,8 @@
                 "Option D for question 19"
             ]
         },
-        "difficulty": 0.5,
-        "discrimination": 1.0,
-        "guessing": 0.25,
+        "difficulty": -0.7721220112504901,
+        "discrimination": 0.9501481609565469,
         "separation": 0.37234042553191493,
         "reliability": 0.2713178294573644,
         "options": {
@@ -959,9 +940,8 @@
                 "Option D for question 20"
             ]
         },
-        "difficulty": 0.7359525770836818,
-        "discrimination": 1.1593620625460648,
-        "guessing": -0.10351913347574704,
+        "difficulty": 0.7371614129905154,
+        "discrimination": 1.0640097899685985,
         "separation": 0.008421985815602828,
         "reliability": 0.008351648351648344,
         "options": {
@@ -1009,9 +989,8 @@
                 "Option D for question 21"
             ]
         },
-        "difficulty": -0.18486733991109194,
-        "discrimination": 0.8169511581389732,
-        "guessing": -0.37490133080828586,
+        "difficulty": 0.2500000582977972,
+        "discrimination": 0.9361559131822391,
         "separation": 0.15780141843971635,
         "reliability": 0.13629402756508427,
         "options": {
@@ -1059,9 +1038,8 @@
                 "Option D for question 22"
             ]
         },
-        "difficulty": -0.028638290177347033,
-        "discrimination": 0.7816992585440954,
-        "guessing": -0.3266031698546633,
+        "difficulty": 0.3667471899033498,
+        "discrimination": 0.9661517179745077,
         "separation": 0.3475177304964539,
         "reliability": 0.2578947368421053,
         "options": {
@@ -1109,9 +1087,8 @@
                 "Option D for question 23"
             ]
         },
-        "difficulty": 0.7093788942801406,
-        "discrimination": 1.1296327764384861,
-        "guessing": -0.10890482583371819,
+        "difficulty": 0.7119659225881444,
+        "discrimination": 1.0571178815023832,
         "separation": 0.13519503546099287,
         "reliability": 0.11909410386567745,
         "options": {
@@ -1159,9 +1136,8 @@
                 "Option D for question 24"
             ]
         },
-        "difficulty": 0.08081980026390416,
-        "discrimination": 0.7121587498378928,
-        "guessing": -0.28967304025083396,
+        "difficulty": 0.45033040371985,
+        "discrimination": 0.9874969481730362,
         "separation": 0.11524822695035458,
         "reliability": 0.10333863275039744,
         "options": {
@@ -1209,9 +1185,8 @@
                 "Option D for question 25"
             ]
         },
-        "difficulty": 4.259212153965523,
-        "discrimination": 3.326846578503905,
-        "guessing": 0.09011374133144145,
+        "difficulty": 1.8051677259572554,
+        "discrimination": 1.5929484383977293,
         "separation": 0.0651595744680851,
         "reliability": 0.06117353308364543,
         "options": {
@@ -1259,9 +1234,8 @@
                 "Option D for question 26"
             ]
         },
-        "difficulty": 0.5709507064800735,
-        "discrimination": 1.0034855492826384,
-        "guessing": 0.08876343044504152,
+        "difficulty": 0.12534125837810825,
+        "discrimination": 0.9048343295726753,
         "separation": 0.2841312056737589,
         "reliability": 0.22126337590610978,
         "options": {
@@ -1309,9 +1283,8 @@
                 "Option D for question 27"
             ]
         },
-        "difficulty": 0.5,
-        "discrimination": 1.0,
-        "guessing": 0.25,
+        "difficulty": -0.7218000355804448,
+        "discrimination": 0.9277095665157902,
         "separation": 0.45744680851063835,
         "reliability": 0.31386861313868614,
         "options": {
@@ -1359,9 +1332,8 @@
                 "Option D for question 28"
             ]
         },
-        "difficulty": 0.5,
-        "discrimination": 1.0,
-        "guessing": 0.25,
+        "difficulty": -0.8240736673684179,
+        "discrimination": 0.9711088203273215,
         "separation": 0.35150709219858156,
         "reliability": 0.2600852738602821,
         "options": {
@@ -1409,9 +1381,8 @@
                 "Option D for question 29"
             ]
         },
-        "difficulty": 0.5,
-        "discrimination": 1.0,
-        "guessing": 0.25,
+        "difficulty": -0.7218000773172089,
+        "discrimination": 0.9277094755032903,
         "separation": 0.3311170212765957,
         "reliability": 0.24875124875124874,
         "options": {
@@ -1459,9 +1430,8 @@
                 "Option D for question 30"
             ]
         },
-        "difficulty": -0.160840766762273,
-        "discrimination": 0.522155461237156,
-        "guessing": -0.37590304258922885,
+        "difficulty": 0.5313295671584337,
+        "discrimination": 1.0079827081607644,
         "separation": 0.24069148936170215,
         "reliability": 0.1939978563772776,
         "options": {
@@ -1509,9 +1479,8 @@
                 "Option D for question 31"
             ]
         },
-        "difficulty": 0.507728954380844,
-        "discrimination": 0.999868008445358,
-        "guessing": 0.22833379143393856,
+        "difficulty": -0.409363585739359,
+        "discrimination": 0.6954810386008682,
         "separation": 0.28634751773049644,
         "reliability": 0.22260509993108202,
         "options": {
@@ -1559,9 +1528,8 @@
                 "Option D for question 32"
             ]
         },
-        "difficulty": 0.531283096390095,
-        "discrimination": 1.0001884037498594,
-        "guessing": 0.1679455407643694,
+        "difficulty": -0.29680086378499354,
+        "discrimination": 0.5712774649264963,
         "separation": 0.24468085106382975,
         "reliability": 0.19658119658119655,
         "options": {
@@ -1609,9 +1577,8 @@
                 "Option D for question 33"
             ]
         },
-        "difficulty": 0.5,
-        "discrimination": 1.0,
-        "guessing": 0.25,
+        "difficulty": -0.9901362786501602,
+        "discrimination": 1.028550670059566,
         "separation": 0.22695035460992907,
         "reliability": 0.18497109826589597,
         "options": {
@@ -1659,9 +1626,8 @@
                 "Option D for question 34"
             ]
         },
-        "difficulty": 2.7747073856826585,
-        "discrimination": 2.2597065707949575,
-        "guessing": 0.2000978849345098,
+        "difficulty": 1.4419327941218798,
+        "discrimination": 1.2157524590902369,
         "separation": 0.42597517730496454,
         "reliability": 0.29872552067143304,
         "options": {
@@ -1709,9 +1675,8 @@
                 "Option D for question 35"
             ]
         },
-        "difficulty": 0.5981606588963808,
-        "discrimination": 0.9786393697012604,
-        "guessing": -0.12891619730466006,
+        "difficulty": 0.609933898076234,
+        "discrimination": 1.0290050775766182,
         "separation": 0.5567375886524824,
         "reliability": 0.3576309794988611,
         "options": {
@@ -1759,9 +1724,8 @@
                 "Option D for question 36"
             ]
         },
-        "difficulty": 0.5077292805347863,
-        "discrimination": 0.9998689513085482,
-        "guessing": 0.22833392238620598,
+        "difficulty": -0.40936392175249464,
+        "discrimination": 0.6954806249518451,
         "separation": 0.28679078014184395,
         "reliability": 0.2228728901136755,
         "options": {
@@ -1809,9 +1773,8 @@
                 "Option D for question 37"
             ]
         },
-        "difficulty": 6685.659758123434,
-        "discrimination": 3863.2906595207646,
-        "guessing": 1736.5424893277582,
+        "difficulty": 1.1995655074680052,
+        "discrimination": 1.0602793359533642,
         "separation": 0.04698581560283685,
         "reliability": 0.044877222692633334,
         "options": {
@@ -1859,9 +1822,8 @@
                 "Option D for question 38"
             ]
         },
-        "difficulty": 0.0808169211795579,
-        "discrimination": 0.7121585095099121,
-        "guessing": -0.2896745120592555,
+        "difficulty": 0.4503305297594089,
+        "discrimination": 0.9874969595020036,
         "separation": 0.49468085106382975,
         "reliability": 0.3309608540925266,
         "options": {
@@ -1909,9 +1871,8 @@
                 "Option D for question 39"
             ]
         },
-        "difficulty": 0.5,
-        "discrimination": 1.0,
-        "guessing": 0.25,
+        "difficulty": -0.5363086672179218,
+        "discrimination": 0.8149211503011182,
         "separation": 0.45567375886524825,
         "reliability": 0.31303288672350793,
         "options": {
@@ -1959,9 +1920,8 @@
                 "Option D for question 40"
             ]
         },
-        "difficulty": 0.5,
-        "discrimination": 1.0,
-        "guessing": 0.25,
+        "difficulty": -0.746758526614839,
+        "discrimination": 0.9391375783419729,
         "separation": 0.5403368794326242,
         "reliability": 0.35079136690647483,
         "options": {
@@ -2009,9 +1969,8 @@
                 "Option D for question 41"
             ]
         },
-        "difficulty": 0.49884093899308285,
-        "discrimination": 1.0000019075953503,
-        "guessing": 0.253088260693798,
+        "difficulty": -0.4512992675767318,
+        "discrimination": 0.7391202340650544,
         "separation": 0.26684397163120566,
         "reliability": 0.2106368089573128,
         "options": {
@@ -2059,9 +2018,8 @@
                 "Option D for question 42"
             ]
         },
-        "difficulty": 0.7102650771238144,
-        "discrimination": 1.0621589329100114,
-        "guessing": -0.10272311694584188,
+        "difficulty": 0.6866737792905211,
+        "discrimination": 1.0501542322732738,
         "separation": 0.24024822695035458,
         "reliability": 0.1937097927090779,
         "options": {
@@ -2109,9 +2067,8 @@
                 "Option D for question 43"
             ]
         },
-        "difficulty": 0.682474273557249,
-        "discrimination": 1.0268263594629996,
-        "guessing": -0.10778741967757094,
+        "difficulty": 0.6612563719237728,
+        "discrimination": 1.0431340127136342,
         "separation": 0.26152482269503546,
         "reliability": 0.2073085031623331,
         "options": {
@@ -2159,9 +2116,8 @@
                 "Option D for question 44"
             ]
         },
-        "difficulty": 0.5,
-        "discrimination": 1.0,
-        "guessing": 0.25,
+        "difficulty": -0.4722804530070773,
+        "discrimination": 0.759491634800934,
         "separation": 0.16223404255319152,
         "reliability": 0.13958810068649888,
         "options": {
@@ -2209,9 +2165,8 @@
                 "Option D for question 45"
             ]
         },
-        "difficulty": -0.07554458412258491,
-        "discrimination": 0.789802674772126,
-        "guessing": -0.3421570414443468,
+        "difficulty": 0.33819013064182823,
+        "discrimination": 0.9588079585541098,
         "separation": 0.36790780141843965,
         "reliability": 0.26895657809462087,
         "options": {
@@ -2259,9 +2214,8 @@
                 "Option D for question 46"
             ]
         },
-        "difficulty": 0.5537709042162868,
-        "discrimination": 1.002072042552043,
-        "guessing": 0.12223378816380237,
+        "difficulty": -0.16824391459255708,
+        "discrimination": 0.4729913303509341,
         "separation": 0.4539007092198582,
         "reliability": 0.31219512195121957,
         "options": {
@@ -2309,9 +2263,8 @@
                 "Option D for question 47"
             ]
         },
-        "difficulty": -0.0755435441792551,
-        "discrimination": 0.7898027912706268,
-        "guessing": -0.34215647940997923,
+        "difficulty": 0.3381901498364356,
+        "discrimination": 0.9588082014100221,
         "separation": 0.4104609929078014,
         "reliability": 0.29101194217473286,
         "options": {
@@ -2359,9 +2312,8 @@
                 "Option D for question 48"
             ]
         },
-        "difficulty": 0.6195853804882188,
-        "discrimination": 1.0262948096031967,
-        "guessing": 0.0975621141910047,
+        "difficulty": 0.15736001150903323,
+        "discrimination": 0.9127529852539653,
         "separation": 0.3271276595744681,
         "reliability": 0.24649298597194388,
         "options": {
@@ -2409,9 +2361,8 @@
                 "Option D for question 49"
             ]
         },
-        "difficulty": 0.5261057943704661,
-        "discrimination": 0.9999117310531953,
-        "guessing": 0.17971956040250248,
+        "difficulty": -0.3212461746449817,
+        "discrimination": 0.597471267706136,
         "separation": 0.3067375886524823,
         "reliability": 0.23473541383989147,
         "options": {
@@ -2459,9 +2410,8 @@
                 "Option D for question 50"
             ]
         },
-        "difficulty": 0.5,
-        "discrimination": 1.0,
-        "guessing": 0.25,
+        "difficulty": -0.5582001277751223,
+        "discrimination": 0.8315932710754931,
         "separation": 0.49867021276595747,
         "reliability": 0.33274179236912155,
         "options": {
@@ -2509,9 +2459,8 @@
                 "Option D for question 51"
             ]
         },
-        "difficulty": 2.2025278026782713,
-        "discrimination": 1.9435321062557072,
-        "guessing": 0.2846305561531455,
+        "difficulty": 0.9641435717505644,
+        "discrimination": 1.1213114107747435,
         "separation": 0.30186170212765956,
         "reliability": 0.23186925434116445,
         "options": {
@@ -2559,9 +2508,8 @@
                 "Option D for question 52"
             ]
         },
-        "difficulty": 0.6824746619143477,
-        "discrimination": 1.0268263158578774,
-        "guessing": -0.10778723811900315,
+        "difficulty": 0.661256375946755,
+        "discrimination": 1.0431338895502809,
         "separation": 0.07180851063829785,
         "reliability": 0.06699751861042183,
         "options": {
@@ -2609,9 +2557,8 @@
                 "Option D for question 53"
             ]
         },
-        "difficulty": 0.0808178284096695,
-        "discrimination": 0.7121583431393935,
-        "guessing": -0.2896740182432597,
+        "difficulty": 0.4503305312943014,
+        "discrimination": 0.9874971207699981,
         "separation": 0.40957446808510634,
         "reliability": 0.29056603773584905,
         "options": {
@@ -2659,9 +2606,8 @@
                 "Option D for question 54"
             ]
         },
-        "difficulty": 0.709376934443332,
-        "discrimination": 1.1296361800601018,
-        "guessing": -0.10890552143000683,
+        "difficulty": 0.7119659668981366,
+        "discrimination": 1.057117949696179,
         "separation": 0.2832446808510638,
         "reliability": 0.22072538860103624,
         "options": {
@@ -2709,9 +2655,8 @@
                 "Option D for question 55"
             ]
         },
-        "difficulty": 0.8250873654692095,
-        "discrimination": 1.2286517865078177,
-        "guessing": -0.09419706647413507,
+        "difficulty": 0.837535035568387,
+        "discrimination": 1.0906230033330648,
         "separation": 0.25975177304964536,
         "reliability": 0.20619282195636876,
         "options": {
@@ -2759,9 +2704,8 @@
                 "Option D for question 56"
             ]
         },
-        "difficulty": -0.07554433993878786,
-        "discrimination": 0.7898030023122431,
-        "guessing": -0.34215704013232384,
+        "difficulty": 0.33819002806192777,
+        "discrimination": 0.9588081157450631,
         "separation": 0.4104609929078014,
         "reliability": 0.29101194217473286,
         "options": {
@@ -2809,9 +2753,8 @@
                 "Option D for question 57"
             ]
         },
-        "difficulty": 0.49528270980317846,
-        "discrimination": 0.9089592172024143,
-        "guessing": -0.15741097239404864,
+        "difficulty": 0.5577808080055788,
+        "discrimination": 1.0149259103731638,
         "separation": 0.262854609929078,
         "reliability": 0.20814320814320814,
         "options": {
@@ -2859,9 +2802,8 @@
                 "Option D for question 58"
             ]
         },
-        "difficulty": 6887.1292825129,
-        "discrimination": 4617.478529177306,
-        "guessing": 1483.5565058820007,
+        "difficulty": 1.6216255175863818,
+        "discrimination": 1.407023848522108,
         "separation": -0.018617021276595744,
         "reliability": -0.018970189701897018,
         "options": {
@@ -2909,9 +2851,8 @@
                 "Option D for question 59"
             ]
         },
-        "difficulty": 0.8929875749597302,
-        "discrimination": 1.25457626439361,
-        "guessing": -0.0889720885323889,
+        "difficulty": 0.9131596444043842,
+        "discrimination": 1.1093961932041276,
         "separation": 0.46985815602836883,
         "reliability": 0.3196622436670688,
         "options": {
@@ -2959,9 +2900,8 @@
                 "Option D for question 60"
             ]
         },
-        "difficulty": 0.7093771679404062,
-        "discrimination": 1.1296333629471795,
-        "guessing": -0.10890566962471676,
+        "difficulty": 0.7119658585144097,
+        "discrimination": 1.0571179292210962,
         "separation": 0.050531914893617025,
         "reliability": 0.04810126582278482,
         "options": {

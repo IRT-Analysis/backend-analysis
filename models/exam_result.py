@@ -25,12 +25,12 @@ class ExamResult:
                         student_answer = answer_order[answer_index['answer']]
                         if student_answer == correct_answer:
                             score += 1
-                            student.answers[question_id]["correct_answer"] = True
+                            student.answers[question_id]["correct"] = True
                         else:
-                            student.answers[question_id]["correct_answer"] = False
+                            student.answers[question_id]["correct"] = False
                     # Not prvode answer in the question bank
                     else:
-                        student_answer = student.answers[question_id]["correct_answer"]
+                        student_answer = student.answers[question_id]["correct"]
                         exam.questions[question_id].correct_answer = student_answer
                         if student_answer is True:
                             score += 1
