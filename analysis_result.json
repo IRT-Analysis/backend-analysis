@@ -9,6 +9,10 @@
                 "O(1)"
             ]
         },
+        "difficulty": 0.12534125280126535,
+        "discrimination": 0.9048343094172341,
+        "separation": 0.5155141843971631,
+        "reliability": 0.3401579409183972,
         "difficulty": 0.528,
         "difficulty_category": "Easy",
         "discrimination": -0.164,
@@ -92,6 +96,10 @@
                 "Ph\u1ea7n t\u1eed cu\u1ed1i c\u00f9ng"
             ]
         },
+        "difficulty": 0.3092342525307765,
+        "discrimination": 0.9513565565525129,
+        "separation": 0.32668439716312053,
+        "reliability": 0.246241229535583,
         "difficulty": 0.261,
         "difficulty_category": "Difficult",
         "discrimination": 0.264,
@@ -175,6 +183,10 @@
                 "Ng\u0103n x\u1ebfp"
             ]
         },
+        "difficulty": 0.6866737359260503,
+        "discrimination": 1.0501540689326683,
+        "separation": 0.4299645390070922,
+        "reliability": 0.30068195908245504,
         "difficulty": 0.366,
         "difficulty_category": "Difficult",
         "discrimination": 0.024,
@@ -258,6 +270,10 @@
                 "Danh s\u00e1ch li\u00ean k\u1ebft kh\u00f4ng c\u00f3 th\u1ee9 t\u1ef1"
             ]
         },
+        "difficulty": -0.34436319642032853,
+        "discrimination": 0.6231437940686915,
+        "separation": 0.28679078014184395,
+        "reliability": 0.2228728901136755,
         "difficulty": 0.592,
         "difficulty_category": "Easy",
         "discrimination": 0.022,
@@ -341,6 +357,10 @@
                 "T\u1ea5t c\u1ea3 c\u00e1c c\u00e2y tr\u00ean"
             ]
         },
+        "difficulty": 1.2241166251676476,
+        "discrimination": 1.0707572154653653,
+        "separation": -0.12189716312056736,
+        "reliability": -0.13881877839475013,
         "difficulty": 0.641,
         "difficulty_category": "Easy",
         "discrimination": 0.043,
@@ -424,6 +444,10 @@
                 "O(n log n)"
             ]
         },
+        "difficulty": 1.1744547700899834,
+        "discrimination": 1.0505299225923455,
+        "separation": 0.19547872340425532,
+        "reliability": 0.1635150166852058,
         "difficulty": 0.169,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.129,
@@ -507,6 +531,10 @@
                 "T\u1ea5t c\u1ea3 c\u00e1c ph\u01b0\u01a1ng ph\u00e1p tr\u00ean"
             ]
         },
+        "difficulty": -0.3881567610360989,
+        "discrimination": 0.6722413991151956,
+        "separation": 0.2021276595744681,
+        "reliability": 0.168141592920354,
         "difficulty": 0.225,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.022,
@@ -590,6 +618,10 @@
                 "O(n log n)"
             ]
         },
+        "difficulty": -1.0194173427289954,
+        "discrimination": 1.0377210443487999,
+        "separation": 0.07934397163120566,
+        "reliability": 0.0735112936344969,
         "difficulty": 0.789,
         "difficulty_category": "Very Easy",
         "discrimination": -0.004,
@@ -673,6 +705,10 @@
                 "Thu\u1eadt to\u00e1n heap sort"
             ]
         },
+        "difficulty": 1.8394379656285313,
+        "discrimination": 1.6233516886647148,
+        "separation": 0.023049645390070927,
+        "reliability": 0.02253032928942808,
         "difficulty": 0.648,
         "difficulty_category": "Easy",
         "discrimination": 0.245,
@@ -756,6 +792,10 @@
                 "O(n^2)"
             ]
         },
+        "difficulty": 0.9385773617731722,
+        "discrimination": 1.1154134824255695,
+        "separation": 0.2796985815602837,
+        "reliability": 0.21856598545202635,
         "difficulty": 0.141,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.087,
@@ -839,6 +879,10 @@
                 " O(n log n)"
             ]
         },
+        "difficulty": 1.2944607413729505,
+        "discrimination": 1.1065717295192374,
+        "separation": -0.015514184397163122,
+        "reliability": -0.01575866726699685,
         "difficulty": 0.542,
         "difficulty_category": "Easy",
         "discrimination": 0.005,
@@ -922,6 +966,10 @@
                 " T\u1ea5t c\u1ea3 c\u00e1c n\u00fat con \u0111\u1ec1u b\u1eb1ng nhau"
             ]
         },
+        "difficulty": -1.0795213070038738,
+        "discrimination": 1.0560145001318395,
+        "separation": 0.22695035460992907,
+        "reliability": 0.18497109826589597,
         "difficulty": 0.803,
         "difficulty_category": "Very Easy",
         "discrimination": 0.185,
@@ -1005,6 +1053,10 @@
                 " Heap sort"
             ]
         },
+        "difficulty": -0.8776836814905296,
+        "discrimination": 0.9909522918815086,
+        "separation": 0.09973404255319152,
+        "reliability": 0.09068923821039906,
         "difficulty": 0.754,
         "difficulty_category": "Very Easy",
         "discrimination": 0.079,
@@ -1088,6 +1140,10 @@
                 " Ch\u1ec9 ch\u1ee9a li\u00ean k\u1ebft t\u1edbi n\u00fat \u0111\u1ea7u ti\u00ean"
             ]
         },
+        "difficulty": -1.3454883713436707,
+        "discrimination": 1.1333763194529365,
+        "separation": 0.1653368794326241,
+        "reliability": 0.1418790414606314,
         "difficulty": 0.859,
         "difficulty_category": "Very Easy",
         "discrimination": 0.186,
@@ -1171,6 +1227,10 @@
                 " Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o"
             ]
         },
+        "difficulty": -1.2067164129207892,
+        "discrimination": 1.0933018480150136,
+        "separation": 0.22828014184397172,
+        "reliability": 0.18585348249729344,
         "difficulty": 0.831,
         "difficulty_category": "Very Easy",
         "discrimination": 0.27,
@@ -1254,6 +1314,10 @@
                 " O(n log n)"
             ]
         },
+        "difficulty": -0.47228065481578524,
+        "discrimination": 0.7594913756030697,
+        "separation": 0.4122340425531915,
+        "reliability": 0.29190207156308856,
         "difficulty": 0.634,
         "difficulty_category": "Easy",
         "discrimination": 0.413,
@@ -1337,6 +1401,10 @@
                 " C\u00e2y nh\u1ecb ph\u00e2n kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o"
             ]
         },
+        "difficulty": 1.3387384312692778,
+        "discrimination": 1.1341057206407335,
+        "separation": 0.2575354609929078,
+        "reliability": 0.20479379626365882,
         "difficulty": 0.225,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.258,
@@ -1420,6 +1488,10 @@
                 " DFS"
             ]
         },
+        "difficulty": -0.6030192659585295,
+        "discrimination": 0.8624737695787111,
+        "separation": 0.43439716312056736,
+        "reliability": 0.30284301606922126,
         "difficulty": 0.669,
         "difficulty_category": "Easy",
         "discrimination": 0.54,
@@ -1503,6 +1575,10 @@
                 " Ch\u1ec9 h\u1ed7 tr\u1ee3 truy c\u1eadp tu\u1ea7n t\u1ef1"
             ]
         },
+        "difficulty": -0.7721220112504901,
+        "discrimination": 0.9501481609565469,
+        "separation": 0.37234042553191493,
+        "reliability": 0.2713178294573644,
         "difficulty": 0.725,
         "difficulty_category": "Easy",
         "discrimination": 0.372,
@@ -1586,6 +1662,10 @@
                 " C\u00f3 hai \u0111\u1ea7u nh\u01b0ng kh\u00f4ng k\u1ebft n\u1ed1i v\u1edbi nhau"
             ]
         },
+        "difficulty": 0.7371614129905154,
+        "discrimination": 1.0640097899685985,
+        "separation": 0.008421985815602828,
+        "reliability": 0.008351648351648344,
         "difficulty": 0.394,
         "difficulty_category": "Difficult",
         "discrimination": 0.071,
@@ -1669,6 +1749,10 @@
                 " Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o"
             ]
         },
+        "difficulty": 0.2500000582977972,
+        "discrimination": 0.9361559131822391,
+        "separation": 0.15780141843971635,
+        "reliability": 0.13629402756508427,
         "difficulty": 0.5,
         "difficulty_category": "Easy",
         "discrimination": 0.158,
@@ -1752,6 +1836,10 @@
                 " Kh\u00f4ng li\u00ean k\u1ebft v\u1edbi b\u1ea5t k\u1ef3 n\u00fat n\u00e0o"
             ]
         },
+        "difficulty": 0.3667471899033498,
+        "discrimination": 0.9661517179745077,
+        "separation": 0.3475177304964539,
+        "reliability": 0.2578947368421053,
         "difficulty": 0.345,
         "difficulty_category": "Difficult",
         "discrimination": 0.348,
@@ -1835,6 +1923,10 @@
                 " O(n^2)"
             ]
         },
+        "difficulty": 0.7119659225881444,
+        "discrimination": 1.0571178815023832,
+        "separation": 0.13519503546099287,
+        "reliability": 0.11909410386567745,
         "difficulty": 0.38,
         "difficulty_category": "Difficult",
         "discrimination": 0.156,
@@ -1918,6 +2010,10 @@
                 " Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o"
             ]
         },
+        "difficulty": 0.45033040371985,
+        "discrimination": 0.9874969481730362,
+        "separation": 0.11524822695035458,
+        "reliability": 0.10333863275039744,
         "difficulty": 0.444,
         "difficulty_category": "Difficult",
         "discrimination": 0.094,
@@ -2001,6 +2097,10 @@
                 " Pre-order traversal"
             ]
         },
+        "difficulty": 1.8051677259572554,
+        "discrimination": 1.5929484383977293,
+        "separation": 0.0651595744680851,
+        "reliability": 0.06117353308364543,
         "difficulty": 0.12,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.086,
@@ -2084,6 +2184,10 @@
                 " Ph\u00e2n v\u00f9ng d\u1eef li\u1ec7u"
             ]
         },
+        "difficulty": 0.12534125837810825,
+        "discrimination": 0.9048343295726753,
+        "separation": 0.2841312056737589,
+        "reliability": 0.22126337590610978,
         "difficulty": 0.528,
         "difficulty_category": "Easy",
         "discrimination": 0.285,
@@ -2167,6 +2271,10 @@
                 " C\u00f3 li\u00ean k\u1ebft ng\u1eabu nhi\u00ean"
             ]
         },
+        "difficulty": -0.7218000355804448,
+        "discrimination": 0.9277095665157902,
+        "separation": 0.45744680851063835,
+        "reliability": 0.31386861313868614,
         "difficulty": 0.711,
         "difficulty_category": "Easy",
         "discrimination": 0.478,
@@ -2250,6 +2358,10 @@
                 " Quick sort"
             ]
         },
+        "difficulty": -0.8240736673684179,
+        "discrimination": 0.9711088203273215,
+        "separation": 0.35150709219858156,
+        "reliability": 0.2600852738602821,
         "difficulty": 0.739,
         "difficulty_category": "Easy",
         "discrimination": 0.331,
@@ -2333,6 +2445,10 @@
                 " O(n log n)"
             ]
         },
+        "difficulty": -0.7218000773172089,
+        "discrimination": 0.9277094755032903,
+        "separation": 0.3311170212765957,
+        "reliability": 0.24875124875124874,
         "difficulty": 0.711,
         "difficulty_category": "Easy",
         "discrimination": 0.373,
@@ -2416,6 +2532,10 @@
                 " Quick sort"
             ]
         },
+        "difficulty": 0.5313295671584337,
+        "discrimination": 1.0079827081607644,
+        "separation": 0.24069148936170215,
+        "reliability": 0.1939978563772776,
         "difficulty": 0.359,
         "difficulty_category": "Difficult",
         "discrimination": 0.199,
@@ -2499,6 +2619,10 @@
                 " Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o"
             ]
         },
+        "difficulty": -0.409363585739359,
+        "discrimination": 0.6954810386008682,
+        "separation": 0.28634751773049644,
+        "reliability": 0.22260509993108202,
         "difficulty": 0.162,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.203,
@@ -2582,6 +2706,10 @@
                 " Kh\u00f4ng c\u00f3 h\u01b0\u1edbng"
             ]
         },
+        "difficulty": -0.29680086378499354,
+        "discrimination": 0.5712774649264963,
+        "separation": 0.24468085106382975,
+        "reliability": 0.19658119658119655,
         "difficulty": 0.134,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.244,
@@ -2665,6 +2793,10 @@
                 " O(n log n)"
             ]
         },
+        "difficulty": -0.9901362786501602,
+        "discrimination": 1.028550670059566,
+        "separation": 0.22695035460992907,
+        "reliability": 0.18497109826589597,
         "difficulty": 0.782,
         "difficulty_category": "Very Easy",
         "discrimination": 0.248,
@@ -2748,6 +2880,10 @@
                 " Ph\u00e2n ho\u1ea1ch \u0111\u1ed3 th\u1ecb"
             ]
         },
+        "difficulty": 1.4419327941218798,
+        "discrimination": 1.2157524590902369,
+        "separation": 0.42597517730496454,
+        "reliability": 0.29872552067143304,
         "difficulty": 0.19,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.384,
@@ -2831,6 +2967,10 @@
                 " Kh\u00f4ng x\u00e1c \u0111\u1ecbnh"
             ]
         },
+        "difficulty": 0.609933898076234,
+        "discrimination": 1.0290050775766182,
+        "separation": 0.5567375886524824,
+        "reliability": 0.3576309794988611,
         "difficulty": 0.408,
         "difficulty_category": "Difficult",
         "discrimination": 0.578,
@@ -2914,6 +3054,10 @@
                 " Ch\u1ec9 c\u00f3 c\u00e1c s\u1ed1 nguy\u00ean"
             ]
         },
+        "difficulty": -0.40936392175249464,
+        "discrimination": 0.6954806249518451,
+        "separation": 0.28679078014184395,
+        "reliability": 0.2228728901136755,
         "difficulty": 0.613,
         "difficulty_category": "Easy",
         "discrimination": 0.413,
@@ -2997,6 +3141,10 @@
                 " Kh\u00f4ng th\u1ec3 thao t\u00e1c g\u00ec"
             ]
         },
+        "difficulty": 1.1995655074680052,
+        "discrimination": 1.0602793359533642,
+        "separation": 0.04698581560283685,
+        "reliability": 0.044877222692633334,
         "difficulty": 0.352,
         "difficulty_category": "Difficult",
         "discrimination": 0.11,
@@ -3080,6 +3228,10 @@
                 " Floyd-Warshall"
             ]
         },
+        "difficulty": 0.4503305297594089,
+        "discrimination": 0.9874969595020036,
+        "separation": 0.49468085106382975,
+        "reliability": 0.3309608540925266,
         "difficulty": 0.092,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.515,
@@ -3163,6 +3315,10 @@
                 " O(n^2)"
             ]
         },
+        "difficulty": -0.5363086672179218,
+        "discrimination": 0.8149211503011182,
+        "separation": 0.45567375886524825,
+        "reliability": 0.31303288672350793,
         "difficulty": 0.655,
         "difficulty_category": "Easy",
         "discrimination": 0.477,
@@ -3246,6 +3402,10 @@
                 " Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o"
             ]
         },
+        "difficulty": -0.746758526614839,
+        "discrimination": 0.9391375783419729,
+        "separation": 0.5403368794326242,
+        "reliability": 0.35079136690647483,
         "difficulty": 0.718,
         "difficulty_category": "Easy",
         "discrimination": 0.52,
@@ -3329,6 +3489,10 @@
                 " C\u1ea3 hai \u0111\u1ec1u sai"
             ]
         },
+        "difficulty": -0.4512992675767318,
+        "discrimination": 0.7391202340650544,
+        "separation": 0.26684397163120566,
+        "reliability": 0.2106368089573128,
         "difficulty": 0.627,
         "difficulty_category": "Easy",
         "discrimination": 0.329,
@@ -3412,6 +3576,10 @@
                 " Prim"
             ]
         },
+        "difficulty": 0.6866737792905211,
+        "discrimination": 1.0501542322732738,
+        "separation": 0.24024822695035458,
+        "reliability": 0.1937097927090779,
         "difficulty": 0.373,
         "difficulty_category": "Difficult",
         "discrimination": 0.198,
@@ -3495,6 +3663,10 @@
                 " Ch\u1ec9 ch\u1ee9a s\u1ed1 nguy\u00ean"
             ]
         },
+        "difficulty": 0.6612563719237728,
+        "discrimination": 1.0431340127136342,
+        "separation": 0.26152482269503546,
+        "reliability": 0.2073085031623331,
         "difficulty": 0.239,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.262,
@@ -3578,6 +3750,10 @@
                 " Kh\u00f4ng thao t\u00e1c n\u00e0o \u0111\u00fang"
             ]
         },
+        "difficulty": -0.4722804530070773,
+        "discrimination": 0.759491634800934,
+        "separation": 0.16223404255319152,
+        "reliability": 0.13958810068649888,
         "difficulty": 0.148,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.309,
@@ -3661,6 +3837,10 @@
                 " S\u1eed d\u1ee5ng b\u1ea3ng b\u0103m \u0111\u1ec3 s\u1eafp x\u1ebfp"
             ]
         },
+        "difficulty": 0.33819013064182823,
+        "discrimination": 0.9588079585541098,
+        "separation": 0.36790780141843965,
+        "reliability": 0.26895657809462087,
         "difficulty": 0.479,
         "difficulty_category": "Difficult",
         "discrimination": 0.326,
@@ -3744,6 +3924,10 @@
                 " Kh\u00f4ng th\u1ec3 t\u00ecm \u0111\u01b0\u1eddng \u0111i ng\u1eafn nh\u1ea5t"
             ]
         },
+        "difficulty": -0.16824391459255708,
+        "discrimination": 0.4729913303509341,
+        "separation": 0.4539007092198582,
+        "reliability": 0.31219512195121957,
         "difficulty": 0.211,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.496,
@@ -3827,6 +4011,10 @@
                 " S\u1eed d\u1ee5ng b\u1ea3ng b\u0103m"
             ]
         },
+        "difficulty": 0.3381901498364356,
+        "discrimination": 0.9588082014100221,
+        "separation": 0.4104609929078014,
+        "reliability": 0.29101194217473286,
         "difficulty": 0.12,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.411,
@@ -3910,6 +4098,10 @@
                 " Kh\u00f4ng c\u00f3 li\u00ean k\u1ebft n\u00e0o"
             ]
         },
+        "difficulty": 0.15736001150903323,
+        "discrimination": 0.9127529852539653,
+        "separation": 0.3271276595744681,
+        "reliability": 0.24649298597194388,
         "difficulty": 0.521,
         "difficulty_category": "Easy",
         "discrimination": 0.327,
@@ -3993,6 +4185,10 @@
                 " O(n log n)"
             ]
         },
+        "difficulty": -0.3212461746449817,
+        "discrimination": 0.597471267706136,
+        "separation": 0.3067375886524823,
+        "reliability": 0.23473541383989147,
         "difficulty": 0.246,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.328,
@@ -4076,6 +4272,10 @@
                 " G\u1ed1c"
             ]
         },
+        "difficulty": -0.5582001277751223,
+        "discrimination": 0.8315932710754931,
+        "separation": 0.49867021276595747,
+        "reliability": 0.33274179236912155,
         "difficulty": 0.106,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.456,
@@ -4159,6 +4359,10 @@
                 " T\u1ed5ng s\u1ed1 c\u1ea1nh trong c\u00e2y con"
             ]
         },
+        "difficulty": 0.9641435717505644,
+        "discrimination": 1.1213114107747435,
+        "separation": 0.30186170212765956,
+        "reliability": 0.23186925434116445,
         "difficulty": 0.211,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.302,
@@ -4242,6 +4446,10 @@
                 " Kh\u00f4ng th\u1ec3 th\u1ef1c hi\u1ec7n \u0111\u01b0\u1ee3c"
             ]
         },
+        "difficulty": 0.661256375946755,
+        "discrimination": 1.0431338895502809,
+        "separation": 0.07180851063829785,
+        "reliability": 0.06699751861042183,
         "difficulty": 0.218,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.072,
@@ -4325,6 +4533,10 @@
                 " C\u1ea3 hai Kruskal v\u00e0 Prim"
             ]
         },
+        "difficulty": 0.4503305312943014,
+        "discrimination": 0.9874971207699981,
+        "separation": 0.40957446808510634,
+        "reliability": 0.29056603773584905,
         "difficulty": 0.176,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.305,
@@ -4408,6 +4620,10 @@
                 " S\u1eed d\u1ee5ng b\u1ea3ng b\u0103m"
             ]
         },
+        "difficulty": 0.7119659668981366,
+        "discrimination": 1.057117949696179,
+        "separation": 0.2832446808510638,
+        "reliability": 0.22072538860103624,
         "difficulty": 0.261,
         "difficulty_category": "Difficult",
         "discrimination": 0.242,
@@ -4491,6 +4707,10 @@
                 " Kh\u00f4ng c\u00f3 li\u00ean k\u1ebft n\u00e0o \u0111\u00fang"
             ]
         },
+        "difficulty": 0.837535035568387,
+        "discrimination": 1.0906230033330648,
+        "separation": 0.25975177304964536,
+        "reliability": 0.20619282195636876,
         "difficulty": 0.218,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.176,
@@ -4574,6 +4794,10 @@
                 " T\u1ea5t c\u1ea3 c\u00e1c n\u00fat \u0111\u1ec1u l\u00e0 n\u00fat l\u00e1"
             ]
         },
+        "difficulty": 0.33819002806192777,
+        "discrimination": 0.9588081157450631,
+        "separation": 0.4104609929078014,
+        "reliability": 0.29101194217473286,
         "difficulty": 0.296,
         "difficulty_category": "Difficult",
         "discrimination": 0.368,
@@ -4657,6 +4881,10 @@
                 " O(n log n)"
             ]
         },
+        "difficulty": 0.5577808080055788,
+        "discrimination": 1.0149259103731638,
+        "separation": 0.262854609929078,
+        "reliability": 0.20814320814320814,
         "difficulty": 0.423,
         "difficulty_category": "Difficult",
         "discrimination": 0.157,
@@ -4740,6 +4968,10 @@
                 " Kh\u00f4ng c\u00f3 \u0111\u00e1p \u00e1n \u0111\u00fang"
             ]
         },
+        "difficulty": 1.6216255175863818,
+        "discrimination": 1.407023848522108,
+        "separation": -0.018617021276595744,
+        "reliability": -0.018970189701897018,
         "difficulty": 0.303,
         "difficulty_category": "Difficult",
         "discrimination": 0.002,
@@ -4823,6 +5055,10 @@
                 " Merge sort"
             ]
         },
+        "difficulty": 0.9131596444043842,
+        "discrimination": 1.1093961932041276,
+        "separation": 0.46985815602836883,
+        "reliability": 0.3196622436670688,
         "difficulty": 0.31,
         "difficulty_category": "Difficult",
         "discrimination": 0.429,
@@ -4906,6 +5142,10 @@
                 " Kh\u00f4ng c\u00f3 li\u00ean k\u1ebft n\u00e0o \u0111\u00fang"
             ]
         },
+        "difficulty": 0.7119658585144097,
+        "discrimination": 1.0571179292210962,
+        "separation": 0.050531914893617025,
+        "reliability": 0.04810126582278482,
         "difficulty": 0.155,
         "difficulty_category": "Very Difficult",
         "discrimination": 0.113,

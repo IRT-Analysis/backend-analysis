@@ -65,14 +65,15 @@ def analyze_uploaded_file():
     # analysis = CttAnalysis(exam_result)
     getData = Method()
 
-    res = analysis.analyze_questions()
-    writeJson(res)
-    # writeJson(getData.get_result_list("difficulty", analysis.question_stats))
+    writeJson(analysis.get_model("2PL"))
+    # irt_analysis_1pl = TestModel(exam_result, model_type='1PL')
+    # question_stats_1pl = irt_analysis_1pl.analyze_questions_irt()
+    # print("1PL Analysis:", question_stats_1pl)
     # result = analysis.rasch_analysis()
     # writeJson(result)
     # writeJson(analysis.average_indexes)
     # writeJson(analysis.analyze_questions_ctt())
-    # print(json.dumps(analysis.get_student_detail(), indent=4))
+    # writeJson(analysis.get_student_detail("Rasch"))
 
 
 def process_exam(file_path, question_bank):
