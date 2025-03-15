@@ -10,7 +10,7 @@ analysis_service = AnalysisService()
 @analyze.route("/", methods=["POST"])
 def analyze_file():
     required_files = ["result_file", "exam_file"]
-    method = request.args.get("method")
+    method = request.args.get("type")
 
     # Check if all required files are present in the request
     for file_key in required_files:
@@ -27,6 +27,11 @@ def analyze_file():
         #         code=400,
         #     )
         uploaded_files[file_key] = file
+    # Extract additional data from request form
+    project_name = request.form.get("projectName")
+    number_of_group = request.form.get("numberOfGroup")
+    group_percentage = request.form.get("groupPercentage")
+    correlation_rpbis = request.form.get("correlationRpbis")
 
     try:
         # Delegate to the service layer and pass all files
@@ -38,18 +43,17 @@ def analyze_file():
         analysis_data = analysis_service.get_analysis_results()
         student_answer_data = analysis_service.get_student_answer()
 
-        # res = analysis_service.save_analysis_to_supabase(
-        #     analysis_data, student_answer_data, analysis_service.get_average_indexes()
-        # )'
+        res = analysis_service.save_analysis_to_supabase(
+            project_name,
+            number_of_group,
+            group_percentage,
+            correlation_rpbis,
+            analysis_data,
+            student_answer_data,
+            analysis_service.get_average_indexes(),
+        )
 
-        return jsonify(
-            {
-                "message": "File uploaded and saved successfully.",
-                # "data": "asns",
-                "data": analysis_data,
-                "code": 200,
-            }
-        ), 200
+        return jsonify(res), 200
 
     except FileNotFoundError as e:
         logging.error(f"File not found: {str(e)}")

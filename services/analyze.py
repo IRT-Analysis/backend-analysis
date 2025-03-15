@@ -1,6 +1,5 @@
 import logging
 import os
-import time
 from itertools import groupby
 from typing import List, Dict
 import uuid
@@ -11,6 +10,7 @@ from supabase import Client, create_client
 
 from analysis.ctt_analysis import AverageIndexesType, CttAnalysis, QuestionStatsType
 from analysis.irt_analysis import IrtAnalysis
+from analysis.method import Method
 from models.exam import Exam
 from models.exam_result import ExamResult
 from models.question import Option, QuestionBank
@@ -24,13 +24,18 @@ load_dotenv()
 class AnalysisService:
     def __init__(self):
         self.analysis = None
-        # self.getData = None
+        self.getData = None
         self.exam_result = None
         self.supabase: Client = create_client(
             os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_ANON_KEY")
         )
 
-    def analyze_uploaded_file(self, result_file, exam_file, analysis_method="CTT"):
+    def analyze_uploaded_file(
+        self,
+        result_file,
+        exam_file,
+        analysis_method="CTT",
+    ):
         # Save the uploaded file, might be removed in the future, as the file is read directly
         file_path = save_uploaded_file(result_file)
 
@@ -61,8 +66,7 @@ class AnalysisService:
         # Perform the chosen analysis
         self.analysis = analysis_methods[analysis_method](self.exam_result)
         self.analysis.analyze_questions()
-
-    # self.getData = Method()
+        self.getData = Method()
 
     def get_analysis_results(self):
         """
@@ -181,6 +185,10 @@ class AnalysisService:
 
     def save_analysis_to_supabase(
         self,
+        project_name,
+        number_of_group,
+        group_percentage,
+        correlation_rpbis,
         analysis_data: Dict[str, QuestionStatsType],
         student_answer_data: List[StudentDictType],
         average_indexes: AverageIndexesType,
@@ -196,7 +204,8 @@ class AnalysisService:
                     [
                         {
                             "user_id": "f00f2d4e-9339-4c84-b293-5a02ac20294b",
-                            "name": f"Project {int(time.time())}",
+                            "name": project_name,
+                            "description": "TBD",
                         }
                     ]
                 )
@@ -204,6 +213,15 @@ class AnalysisService:
                 .data[0]
             )
             project_id = project_data["id"]
+
+            histogram = {
+                "score": self.get_score_histogram(),
+                "discrimination": self.get_discrimination_histogram(),
+                "difficulty": self.get_difficultiy_histogram(),
+                "r_pbis": self.get_rpbis_histogram(),
+            }
+
+            self.handle_insert_histogram(project_id, histogram)
 
             # Insert exam
             exam_id = self.handle_insert_exams("Test exam")
@@ -227,6 +245,7 @@ class AnalysisService:
                 discrimination = value["discrimination"]
                 r_pbis = value["r_pbis"]
                 options = value["options"]
+                group_choice_percentage = value["group_choice_percentages"]
 
                 # Step 1: Create question with a temporary correct_option_id (initially None)
                 question_id = str(uuid.uuid4())
@@ -248,6 +267,7 @@ class AnalysisService:
                         "difficulty_index": difficulty,
                         "discrimination_index": discrimination,
                         "rpbis": r_pbis,
+                        "group_choice_percentages": group_choice_percentage,
                     }
                 )
 
@@ -278,9 +298,21 @@ class AnalysisService:
             if questions_to_insert:
                 self.supabase.table("questions").insert(questions_to_insert).execute()
 
+            # Perform bulk inserts for question analysis
+            if question_analysis_to_insert:
+                self.supabase.table("question_analysis").insert(
+                    question_analysis_to_insert
+                ).execute()
+
             # Perform bulk inserts for options
             if options_to_insert:
                 self.supabase.table("options").insert(options_to_insert).execute()
+
+            # Perform bulk inserts for options analysis
+            if options_analysis_to_insert:
+                self.supabase.table("option_analysis").insert(
+                    options_analysis_to_insert
+                ).execute()
 
             # Step 4: Update questions with correct_option_ids after options have been inserted
             for i, question in enumerate(questions_to_insert):
@@ -403,5 +435,47 @@ class AnalysisService:
                     }
                 ]
             )
+            .execute()
+        )
+
+    def get_score_histogram(self):
+        """
+        Retrieve the score histogram.
+        """
+
+        return self.getData.get_score_list(self.exam_result.scores)
+
+    def get_discrimination_histogram(self):
+        """
+        Retrieve the discrimination values.
+        """
+
+        return self.getData.get_result_list(
+            "discrimination", self.analysis.question_stats
+        )
+
+    def get_difficultiy_histogram(self):
+        """
+        Retrieve the discrimination values.
+        """
+
+        return self.getData.get_result_list("difficulty", self.analysis.question_stats)
+
+    def get_rpbis_histogram(self):
+        """
+        Retrieve the discrimination values.
+        """
+
+        return self.getData.get_result_list("r_pbis", self.analysis.question_stats)
+
+    def handle_insert_histogram(self, project_id: str, data: List[Dict[str, float]]):
+        """
+        Insert histogram data into the 'histograms' table.
+        """
+        logging.info("Inserting histogram data")
+        (
+            self.supabase.table("projects")
+            .update({"histogram": data})
+            .eq("id", project_id)
             .execute()
         )

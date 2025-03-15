@@ -61,11 +61,13 @@ def analyze_uploaded_file():
 
     # Generate Exam Results and Analysis
     exam_result = ExamResult(exams, students)
-    analysis = IrtAnalysis(exam_result)
+    analysis = CttAnalysis(exam_result)
     # analysis = CttAnalysis(exam_result)
     getData = Method()
 
-    writeJson(analysis.three_pl_analysis())
+    res = analysis.analyze_questions()
+    writeJson(res)
+    # writeJson(getData.get_result_list("difficulty", analysis.question_stats))
     # result = analysis.rasch_analysis()
     # writeJson(result)
     # writeJson(analysis.average_indexes)
