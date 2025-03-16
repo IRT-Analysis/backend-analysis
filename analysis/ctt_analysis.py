@@ -156,17 +156,14 @@ class CttAnalysis(Model):
         group_choice_percentages = []
         for group in student_groups:
             group_choices = {index: 0 for index in range(len(question_data["options"]))}
-            # print(group_choices)
             for student in group:
                 # Ensure you're accessing the correct level of the nested dictionary
                 student_answers = student["student"].answers
                 answer_data = student_answers[question_id]
-                # print(answer_data)
                 if answer_data and "answer" in answer_data:
                     answer = answer_data["answer"]
                     if answer in group_choices:
                         group_choices[answer] += 1
-                # print(group_choices)
             # Convert counts to percentages
             group_percentages = {
                 option: round(count / len(group), 3) if len(group) > 0 else 0

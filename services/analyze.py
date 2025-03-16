@@ -1,8 +1,8 @@
 import logging
 import os
-from itertools import groupby
-from typing import List, Dict
 import uuid
+from itertools import groupby
+from typing import Dict, List
 
 import pandas as pd
 from dotenv import load_dotenv
@@ -192,6 +192,7 @@ class AnalysisService:
         analysis_data: Dict[str, QuestionStatsType],
         student_answer_data: List[StudentDictType],
         average_indexes: AverageIndexesType,
+        user_id: str,
     ):
         """
         Save analysis data and student answers to Supabase.
@@ -203,7 +204,7 @@ class AnalysisService:
                 .insert(
                     [
                         {
-                            "user_id": "f00f2d4e-9339-4c84-b293-5a02ac20294b",
+                            "user_id": user_id,
                             "name": project_name,
                             "description": "TBD",
                         }
@@ -363,8 +364,6 @@ class AnalysisService:
                         else False
                     )
 
-                    print(is_correct)
-
                     student_answers_to_upsert.append(
                         {
                             "student_exam_id": student_exam_id,
@@ -389,7 +388,7 @@ class AnalysisService:
 
             return {
                 "message": "File uploaded and data saved successfully.",
-                "data": project_id,
+                "data": {"projectId": project_id, "examId": [exam_id]},
                 "code": 201,
             }
 

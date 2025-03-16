@@ -13,12 +13,10 @@ class Method:
         return array_of_score
 
     def get_result_list(self, name, dict):
-        print(name)
         list = []
         for key, value in dict.items():
             index = value[name] if value[name] is not None else 0
             list.append(index)
-            print(key, index)
         step = 0.050
         max_value = max(list)
 

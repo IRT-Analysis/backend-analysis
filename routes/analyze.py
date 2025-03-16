@@ -1,5 +1,7 @@
 import logging
+import os
 from flask import Blueprint, request, jsonify
+import jwt
 from services.analyze import AnalysisService
 from utils.exceptions import InvalidAPIUsage
 
@@ -32,8 +34,18 @@ def analyze_file():
     number_of_group = request.form.get("numberOfGroup")
     group_percentage = request.form.get("groupPercentage")
     correlation_rpbis = request.form.get("correlationRpbis")
+    token = request.cookies.get("auth_token")
+    if not token:
+        raise InvalidAPIUsage("Unauthorized: Missing authentication token", code=401)
 
     try:
+        decoded_token = jwt.decode(
+            token,
+            os.getenv("SUPABASE_JWT_SECRET"),
+            algorithms=["HS256"],
+            audience="authenticated",
+        )
+        user_id = decoded_token.get("sub")
         # Delegate to the service layer and pass all files
         analysis_service.analyze_uploaded_file(
             result_file=uploaded_files["result_file"],
@@ -51,6 +63,7 @@ def analyze_file():
             analysis_data,
             student_answer_data,
             analysis_service.get_average_indexes(),
+            user_id,
         )
 
         return jsonify(res), 200
