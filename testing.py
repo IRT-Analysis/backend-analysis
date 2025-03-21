@@ -65,7 +65,7 @@ def analyze_uploaded_file():
     # analysis = CttAnalysis(exam_result)
     getData = Method()
 
-    writeJson(analysis.get_model("2PL"))
+    writeJson(analysis.get_model("Rasch"))
     # irt_analysis_1pl = TestModel(exam_result, model_type='1PL')
     # question_stats_1pl = irt_analysis_1pl.analyze_questions_irt()
     # print("1PL Analysis:", question_stats_1pl)
