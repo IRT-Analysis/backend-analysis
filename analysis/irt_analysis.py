@@ -30,6 +30,9 @@ class IrtAnalysis(Model):
                 else:
                     response_data.append(0)
         return response_data
+    
+    def _init_difficulty(self, response_data, total_student):
+        return sum(response_data) / total_student
 
     def get_model(self, model):
         if model == "Rasch":
@@ -41,49 +44,6 @@ class IrtAnalysis(Model):
         else:
             return None
 
-    # def rasch_analysis(self):
-    #     all_questions = self.examResult.exams[0].question_bank.get_all_questions()
-    #     total_students = len(self.examResult.students)
-    #     self.general_detail.update({
-    #         "total_students": total_students,
-    #         "total_questions": len(all_questions)
-    #     })
-
-    #     sorted_students, top_students, bottom_students = self.split_students()
-
-    #     question_stats_list = [
-    #         self._analysis_single_question_rasch(
-    #             question_id,
-    #             question_data,
-    #             sorted_students,
-    #             top_students,
-    #             bottom_students,
-    #             difficulty=0.5
-    #         ) for question_id, question_data in all_questions.items()
-    #     ]
-
-    #     self.question_stats.update({
-    #         question_id: stat for question_id, stat in zip(all_questions.keys(), question_stats_list)
-    #     })
-
-    #     self.average_indexes.update({
-    #         "average_score": self.get_average_value("score", self.examResult.scores),
-    #         "average_difficulty": self.get_average_value("difficulty", question_stats_list),
-    #         "average_separation": self.get_average_value("separation", question_stats_list),
-    #         "average_reliability": self.get_average_value("reliability", question_stats_list),
-    #         "item_infit": self.get_average_value("infit", question_stats_list),
-    #         "item_outfit": self.get_average_value("outfit", question_stats_list),
-    #     })
-
-    #     # Calculate ability for each participant
-    #     for student in sorted_students:
-    #         response_data = [1 if self.examResult.is_correct_answer(student['student'], question_id) else 0 for question_id in all_questions]
-    #         ability_estimate = RaschModel([q["difficulty"] for q in self.question_stats.values()]).estimate_ability(response_data)
-    #         self.participant_abilities[student['student']] = ability_estimate
-    #         student['student'].ability = ability_estimate 
-
-    #     return self.question_stats
-    
     def rasch_analysis(self):
         all_questions = self.examResult.exams[0].question_bank.get_all_questions()
         total_students = len(self.examResult.students)
@@ -95,8 +55,10 @@ class IrtAnalysis(Model):
 
         sorted_students, top_students, bottom_students = self.split_students()
         
+        
         # Initialize difficulties
-        question_difficulties = {q_id: 0.5 for q_id in all_questions.keys()}
+        # question_difficulties = {q_id: 0.5 for q_id in all_questions.keys()}
+        question_difficulties = {q_id: self._init_difficulty(self._get_response_data(q_id, sorted_students), total_students) for q_id in all_questions.keys()}
         
         # Iterate to refine difficulties and abilities
         max_iterations = 20
@@ -145,42 +107,6 @@ class IrtAnalysis(Model):
 
         return self.question_stats
 
-    # def _analysis_single_question_rasch(self, question_id, question_data, sorted_students, top_students, bottom_students, difficulty=0.5):
-    #     chosen_by, option_stats = self._compute_option_stats(
-    #         question_id, question_data, top_students, bottom_students, sorted_students
-    #     )
-
-    #     response_data = self._get_response_data(question_id, sorted_students)
-    #     response_data_top = self._get_response_data(question_id, top_students)
-    #     response_data_bottom = self._get_response_data(question_id, bottom_students)
-
-    #     # Fit the Rasch model
-    #     model = RaschModel(0.5, 0.5)
-    #     model.fit(response_data)
-
-    #     # Calculate the difficulty for the question
-    #     item_difficulty, person_ability, infit, outfit = model.get_params()
-    #     self.prob_list.append(1 / (1 + np.exp(item_difficulty - person_ability)))
-    #     self.response_list.append(response_data)
-
-    #     # Calculate the separation and reliability
-    #     separation, reliability = model.calculate_separation_reliability(response_data_top, response_data_bottom)
-
-    #     question_bank = self.examResult.exams[0].question_bank
-    #     content = question_bank.get_content(question_id)
-
-    #     return {
-    #         "content": content,
-    #         "difficulty": item_difficulty,
-    #         "separation": separation,
-    #         "personal_ability": person_ability,
-    #         "logit": item_difficulty - person_ability,
-    #         "infit": infit,
-    #         "outfit": outfit,
-    #         "reliability": reliability,
-    #         "options": option_stats
-    #     }
-    
     def _analysis_single_question_rasch(self, question_id, question_data, sorted_students, top_students, bottom_students, difficulty):
         chosen_by, option_stats = self._compute_option_stats(
             question_id, question_data, top_students, bottom_students, sorted_students
@@ -192,11 +118,6 @@ class IrtAnalysis(Model):
 
         # Use precomputed student abilities from rasch_analysis
         ability_levels = np.array([student['student'].ability for student in sorted_students])
-
-        # Compute probability of correct response using the estimated difficulty
-        # prob_correct = 1 / (1 + np.exp(difficulty - ability_levels.mean()))
-        # self.prob_list.append(prob_correct)
-        # self.response_list.append(response_data)
 
         # Compute separation and reliability
         separation, reliability = self.calculate_separation_reliability(response_data_top, response_data_bottom)
@@ -385,65 +306,8 @@ class IrtAnalysis(Model):
         outfit = np.mean([z ** 2 for z in z_list])
 
         return infit, outfit
-
     
 class RaschModel:
-    # def __init__(self, item_difficulty=0.5, person_ability=0.5):
-    #     self.item_difficulty = item_difficulty
-    #     self.person_ability = person_ability
-
-    # def calculate_prob(self, theta, beta):
-    #     return 1 / (1 + np.exp(beta - theta))
-
-    # def negative_log_likelihood(self, theta, response_data):
-    #     likelihood = 0
-    #     for response, beta in zip(response_data, self.item_difficulty):
-    #         prob = self.calculate_prob(theta, beta)
-    #         likelihood += response * np.log(prob + 1e-10) + (1 - response) * np.log(1 - prob + 1e-10)
-    #     return -likelihood
-
-    # def estimate_ability(self, response_data):
-    #     initial_theta = 0
-    #     result = minimize(self.negative_log_likelihood, initial_theta, args=(response_data,), method='BFGS')
-    #     return result.x[0] if result.success else None
-
-    # def fit(self, response_data):
-    #     def likelihood(params, *args):
-    #         item_difficulty, person_ability = params
-    #         response_data = np.array(args[0], dtype=np.float64)
-    #         prob = 1 / (1 + np.exp(item_difficulty - person_ability))
-    #         self.infit = self.calculate_infit(prob, response_data)
-    #         self.outfit = self.calculate_outfit(prob, response_data)
-    #         epsilon = 1e-10
-    #         likelihood = np.sum(response_data * np.log(prob + epsilon) + (1 - response_data) * np.log(1 - prob + epsilon))
-    #         return -likelihood
-
-    #     initial_params = [self.item_difficulty, self.person_ability]
-    #     result = minimize(likelihood, initial_params, args=(response_data,), method='BFGS')
-
-    #     # Check for successful convergence
-    #     if result.success:
-    #         self.item_difficulty, self.person_ability = result.x
-    #     else:
-    #         print("Optimization did not converge")
-
-    # def get_params(self):
-    #     return self.item_difficulty, self.person_ability, self.infit, self.outfit
-
-    # def calculate_infit(self, prob, response_data):
-    #     weighted_residuals = (response_data - prob) ** 2
-    #     expected_variance = prob * (1 - prob)
-    #     infit = np.sum(weighted_residuals) / np.sum(expected_variance)
-    #     return infit
-
-    # def calculate_outfit(self, prob, response_data):
-    #     outfit = np.sum((response_data - prob) ** 2) / np.sum(prob * (1 - prob))
-    #     return outfit
-
-    # def calculate_separation_reliability(self, response_data_top, response_data_bottom):
-    #     separation = np.mean(response_data_top) - np.mean(response_data_bottom)
-    #     reliability = 1 - (1 / (1 + separation ** 2))
-    #     return separation, reliability
     def __init__(self, difficulty_init=0.5):
         self.difficulty = difficulty_init
 
