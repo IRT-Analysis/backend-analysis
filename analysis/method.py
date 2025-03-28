@@ -29,6 +29,21 @@ class Method:
             current_range += step
         return ranges
     
+    def calculate_kr20(response_matrix):
+        """
+        Tính hệ số tin cậy KR-20 cho một bài kiểm tra.
+        
+        :param response_matrix: Ma trận phản hồi (hàng là học sinh, cột là câu hỏi, giá trị 0/1).
+        :return: Hệ số KR-20
+        """
+        num_students, num_questions = response_matrix.shape
+        p_values = np.mean(response_matrix, axis=0)  # Tỷ lệ trả lời đúng mỗi câu hỏi
+        q_values = 1 - p_values  # Tỷ lệ trả lời sai
+        sigma_squared = np.var(np.sum(response_matrix, axis=1), ddof=1)  # Phương sai tổng điểm
+
+        kr20 = (num_questions / (num_questions - 1)) * (1 - np.sum(p_values * q_values) / sigma_squared)
+        return kr20
+    
 class Model:
     examResult = None
     question_stats = {}

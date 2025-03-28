@@ -3,7 +3,6 @@ from analysis.method import Model
 import numpy as np
 from scipy.optimize import minimize
 from models.student import Student
-from math import sqrt
 
 class IrtAnalysis(Model):
     response_list = []
@@ -120,7 +119,7 @@ class IrtAnalysis(Model):
         ability_levels = np.array([student['student'].ability for student in sorted_students])
 
         # Compute separation and reliability
-        separation, reliability = self.calculate_separation_reliability(response_data_top, response_data_bottom)
+        discrimination, reliability = self.calculate_discrimination_reliability(response_data_top, response_data_bottom)
 
         # Get question content
         question_bank = self.examResult.exams[0].question_bank
@@ -132,7 +131,7 @@ class IrtAnalysis(Model):
         return {
             "content": content,
             "difficulty": difficulty,  # Directly use the precomputed difficulty
-            "separation": separation,
+            "discrimination": discrimination,
             "personal_ability": ability_levels.mean(),
             "logit": difficulty - ability_levels.mean(),
             "infit": infit,  # Remove redundant infit/outfit computation
@@ -144,7 +143,7 @@ class IrtAnalysis(Model):
     def get_average_value(self, key, data):
         return np.mean([d[key] for d in data if key in d])
     
-    def calculate_separation_reliability(self, response_data_top, response_data_bottom):
+    def calculate_discrimination_reliability(self, response_data_top, response_data_bottom):
         separation = np.mean(response_data_top) - np.mean(response_data_bottom)
         reliability = 1 - (1 / (1 + separation ** 2))
         return separation, reliability
@@ -306,6 +305,9 @@ class IrtAnalysis(Model):
         outfit = np.mean([z ** 2 for z in z_list])
 
         return infit, outfit
+    
+    def _calculate_infit_outfit_ability(self):
+        pass
     
 class RaschModel:
     def __init__(self, difficulty_init=0.5):
