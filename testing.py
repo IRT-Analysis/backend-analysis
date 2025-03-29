@@ -9,7 +9,9 @@ from models.exam_result import ExamResult
 from models.question import Option, QuestionBank
 from utils.data_processing import DataProcessing
 from analysis.ctt_analysis import CttAnalysis
+from analysis.irt_analysis import IrtAnalysis
 from analysis.method import Method
+
 
 UPLOAD_FOLDER = "uploads/"
 
@@ -60,13 +62,18 @@ def analyze_uploaded_file():
     # Generate Exam Results and Analysis
     exam_result = ExamResult(exams, students)
     analysis = CttAnalysis(exam_result)
+    # analysis = CttAnalysis(exam_result)
     getData = Method()
 
-    writeJson(analysis.analyze_questions_ctt())
-    # print(getData.get_score_list(exam_result.scores))
-    # print(getData.get_result_list("discrimination", analysis.question_stats))
-    # print(getData.get_score_list(exam_result.scores))
-    print(getData.get_result_list("r_pbis", analysis.question_stats))
+    writeJson(analysis.get_model("Rasch"))
+    # irt_analysis_1pl = TestModel(exam_result, model_type='1PL')
+    # question_stats_1pl = irt_analysis_1pl.analyze_questions_irt()
+    # print("1PL Analysis:", question_stats_1pl)
+    # result = analysis.rasch_analysis()
+    # writeJson(result)
+    # writeJson(analysis.average_indexes)
+    # writeJson(analysis.analyze_questions_ctt())
+    # writeJson(analysis.get_student_detail("Rasch"))
 
 
 def process_exam(file_path, question_bank):
@@ -75,7 +82,7 @@ def process_exam(file_path, question_bank):
 
     # Group the data by 'Exam_code'
     grouped = {
-        key: list(file_path)
+        key: list(group)
         for key, group in groupby(file_path, key=lambda x: x["Exam_code"])
     }
 
@@ -102,11 +109,12 @@ def process_exam(file_path, question_bank):
             for question_id, question_data in question_bank.get_all_questions().items():
                 if question_data["content"] == content:
                     matched_question_id = question_id
-                    matched_answer_order = question_data["options"]
-                    # for idx, option in enumerate(options):
-                    #     # if option in question_data['options']:
-                    #     matched_answer_order[idx] = question_data['options'].index(option)
-                    # break
+                    for index, option in enumerate(options):
+                        for option_bank in question_data["options"]:
+                            # print(option, " " , option_bank.content)
+                            if option == option_bank.content:
+                                matched_answer_order[index] = option_bank
+                                break
 
             if matched_question_id is None:
                 print(
@@ -125,14 +133,12 @@ def process_exam(file_path, question_bank):
             question_order=question_order,
             answer_order=answer_order,
         )
-
         exams.append(exam)
-
     return exams
 
 
-def writeJson(data):
-    output_file = "./analysis_result.json"
+def writeJson(data, output_file="analysis_result.json"):
+    output_file = output_file
 
     with open(output_file, "w") as json_file:
         json.dump(data, json_file, indent=4)  # indent=4 for pretty-printing the JSON

@@ -19,6 +19,12 @@ class Option:
         }
         self.selected_students = []
 
+    def to_dict(self):
+        return {
+            "content": self.content,
+            "option_stats": self.option_stats,
+        }
+
 
 class QuestionBank:
     def __init__(self):

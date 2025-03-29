@@ -1,0 +1,31 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+
+# Environment variables file (if sensitive)
+*.env
+
+# Flask session and database files
+instance/
+*.sqlite3
+
+# Logs and temporary files
+*.log
+*.pid
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Git files
+.git/
+.gitignore
+
+# Docker-specific files
+docker-compose.override.yml

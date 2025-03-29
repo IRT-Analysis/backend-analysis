@@ -1,3 +1,19 @@
+from typing import TypedDict, Dict
+
+
+class AnswerType(TypedDict):
+    answer: int
+    correct: bool
+
+
+class StudentDictType(TypedDict):
+    id: str
+    firstName: str
+    lastName: str
+    exam_code: str
+    answers: Dict[int, AnswerType]
+
+
 class Student:
     def __init__(self, id, firstName, lastName, exam_code, answers):
         """
@@ -13,7 +29,7 @@ class Student:
         # -1: Not answer - 0, 1, 2, 3,...: A, B, C, D,..
         self.answers = answers
 
-    def to_dict(self):
+    def to_dict(self) -> StudentDictType:
         """
         Convert the Student object to a dictionary for JSON serialization.
         """

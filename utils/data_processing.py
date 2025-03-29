@@ -1,8 +1,7 @@
 import pandas as pd
-import re
 from models.question import QuestionBank
 from models.student import Student
-
+from models.exam import Exam
 
 class DataProcessing:
     def result_file_process(self, file_path: str):
@@ -158,79 +157,6 @@ class DataProcessing:
 
         return question_bank
 
-    # def process_exam(file_path, question_bank):
-    #     """
-    #     Reads an exam file, matches questions and options to the question bank,
-    #     and processes exams into Exam objects.
-
-    #     Args:
-    #         file_path (str): Path to the exam file (Excel or CSV).
-    #         question_bank (QuestionBank): The question bank to compare against.
-
-    #     Returns:
-    #         dict: A dictionary with Exam_code as keys and Exam objects as values.
-    #     """
-    #     # Read the file
-    #     if file_path.endswith('.xlsx'):
-    #         df = pd.read_excel(file_path)
-    #     elif file_path.endswith('.csv'):
-    #         df = pd.read_csv(file_path)
-    #     else:
-    #         raise ValueError("Unsupported file format. Please use an Excel or CSV file.")
-
-    #     # Ensure required columns are present
-    #     required_columns = ['Exam_code', 'Content', 'Option_A', 'Option_B', 'Option_C', 'Option_D', 'Correct_Option']
-    #     for col in required_columns:
-    #         if col not in df.columns:
-    #             raise ValueError(f"Missing required column: {col}")
-
-    #     # Group data by Exam_code
-    #     grouped = df.groupby('Exam_code')
-
-    #     exams = []
-
-    #     for exam_code, group in grouped:
-    #         question_order = []
-    #         answer_order = {}
-
-    #         for _, row in group.iterrows():
-    #             content = row['Content']
-    #             options = [row['Option_A'], row['Option_B'], row['Option_C'], row['Option_D']]
-    #             correct_option = row['Correct_Option']  # Expected to be 'A', 'B', 'C', 'D'
-
-    #             # Match content with the question bank
-    #             matched_question_id = None
-    #             matched_answer_order = [None] * 4
-
-    #             for question_id, question_data in question_bank.get_all_questions().items():
-    #                 if question_data['content'] == content:
-    #                     matched_question_id = question_id
-    #                     for idx, option in enumerate(options):
-    #                         if option in question_data['options']:
-    #                             matched_answer_order[idx] = question_data['options'].index(option)
-    #                     break
-
-    #             if matched_question_id is None:
-    #                 print(f"Warning: Question not found in question bank for Exam Code {exam_code}: {content}")
-    #                 continue
-
-    #             # Append question order and answer order
-    #             question_order.append(matched_question_id)
-    #             answer_order[matched_question_id] = matched_answer_order
-
-    #         # Initialize Exam object
-    #         exam = Exam(
-    #             code=exam_code,
-    #             question_bank=question_bank,
-    #             question_order=question_order,
-    #             answer_order=answer_order
-    #         )
-
-    #         exams.append(exam)
-
-    #     return exams
-
-
 def process_exam(file_path, question_bank):
     # Load the file into a DataFrame
     if file_path.endswith(".xlsx"):
@@ -268,7 +194,7 @@ def process_exam(file_path, question_bank):
         question_order = []
         answer_order = {}
 
-        for _, row in group.iterrows():
+        for _, question in group.iterrows():
             content = question["Content"]
             options = [
                 question["Option_A"],
@@ -285,11 +211,12 @@ def process_exam(file_path, question_bank):
             for question_id, question_data in question_bank.get_all_questions().items():
                 if question_data["content"] == content:
                     matched_question_id = question_id
-                    matched_answer_order = question_data["options"]
-                    # for idx, option in enumerate(options):
-                    #     # if option in question_data['options']:
-                    #     matched_answer_order[idx] = question_data['options'].index(option)
-                    # break
+                    for index, option in enumerate(options):
+                        for option_bank in question_data["options"]:
+                            # print(option, " " , option_bank.content)
+                            if option == option_bank.content:
+                                matched_answer_order[index] = option_bank
+                                break
 
             if matched_question_id is None:
                 print(
@@ -313,9 +240,3 @@ def process_exam(file_path, question_bank):
 
     return exams
 
-
-# file_path = "/Users/thtienn12/Desktop/KQCO2003_DT.xlsx"
-# students = result_file_process(file_path)
-# for student in students:
-#     print(f"ID: {student.id}, lastName: {student.lastName}, Exam Code: {student.exam_code}")
-#     print(f"Answers: {student.answers}")
