@@ -1,41 +1,93 @@
+from typing import Dict, TypedDict
 import numpy as np
 from analysis.method import Model
 
-class CttAnalysis(Model):     
-    def analyze_questions_ctt(self):
+
+class QuestionStatsType(TypedDict):
+    content: str
+    difficulty: float
+    difficulty_category: str
+    discrimination: float
+    discrimination_category: str
+    r_pbis: float
+    options: dict
+    correct_index: int
+    group_choice_percentages: list
+
+
+class AverageIndexesType(TypedDict):
+    average_score: float
+    average_discrimination: float
+    average_difficulty: float
+    average_rpbis: float
+
+
+class CttAnalysis(Model):
+    examResult = None
+    question_stats: Dict[str, QuestionStatsType] = {}
+    average_indexes: AverageIndexesType = {}
+    general_detail = {}
+
+    def __init__(self, examResult):
+        self.examResult = examResult
+        self.general_detail = {
+            "total_students": 0,
+            "total_questions": 0,
+            "total_option": 4,
+        }
+
+    def _get_average_value(self, name, list):
+        temp = [question[name] for question in list]
+        if None in temp:
+            return 0
+        average = np.mean(temp)
+        return round(average, 3)
+
+    def analyze_questions(self):
         """
         Main function to analyze questions.
         """
         all_questions = self.examResult.exams[0].question_bank.get_all_questions()
         total_students = len(self.examResult.students)
-        self.general_detail.update({
-            "total_students": total_students,
-            "total_questions": len(all_questions)
-        })
+        self.general_detail.update(
+            {"total_students": total_students, "total_questions": len(all_questions)}
+        )
 
         sorted_students, top_students, bottom_students = self.split_students()
-  
+
         question_stats_list = [
             self._analyze_single_question(
                 question_id,
                 question_data,
                 sorted_students,
                 top_students,
-                bottom_students
-            ) for question_id, question_data in all_questions.items()
+                bottom_students,
+            )
+            for question_id, question_data in all_questions.items()
         ]
 
-        self.average_indexes.update({
-            "average_score": self.get_average_value("score", self.examResult.scores),
-            "average_discrimination": self.get_average_value("discrimination", question_stats_list),
-            "average_difficulty": self.get_average_value("difficulty", question_stats_list),
-            "average_rpbis": self.get_average_value("r_pbis", question_stats_list)
-        })
+        self.average_indexes.update(
+            {
+                "average_score": self.get_average_value(
+                    "score", self.examResult.scores
+                ),
+                "average_discrimination": self.get_average_value(
+                    "discrimination", question_stats_list
+                ),
+                "average_difficulty": self.get_average_value(
+                    "difficulty", question_stats_list
+                ),
+                "average_rpbis": self.get_average_value("r_pbis", question_stats_list),
+            }
+        )
 
-        self.question_stats.update({
-            question_id: stat for question_id, stat in zip(all_questions.keys(), question_stats_list)
-        })
-        
+        self.question_stats.update(
+            {
+                question_id: stat
+                for question_id, stat in zip(all_questions.keys(), question_stats_list)
+            }
+        )
+
         return self.question_stats
 
     def _analyze_single_question(
@@ -57,13 +109,13 @@ class CttAnalysis(Model):
 
         difficulty_category = self._categorize_difficulty(difficulty_index)
         discrimination_category = self._categorize_discrimination(discrimination_index)
-        
+
         r_pbis = self._get_rpbis_of_answer(option_stats, question_id)
         question_bank = self.examResult.exams[0].question_bank
 
         content = question_bank.get_content(question_id)
         correct_index = question_bank.get_correct_answer_index(question_id)
-        
+
         group_choice_percentages = self._compute_group_choice_percentages(
             question_id, question_data, sorted_students
         )
@@ -79,7 +131,6 @@ class CttAnalysis(Model):
             "correct_index": correct_index,
             "group_choice_percentages": group_choice_percentages,
         }
-
 
     def _compute_group_choice_percentages(
         self, question_id, question_data, sorted_students
@@ -105,17 +156,14 @@ class CttAnalysis(Model):
         group_choice_percentages = []
         for group in student_groups:
             group_choices = {index: 0 for index in range(len(question_data["options"]))}
-            # print(group_choices)
             for student in group:
                 # Ensure you're accessing the correct level of the nested dictionary
                 student_answers = student["student"].answers
                 answer_data = student_answers[question_id]
-                # print(answer_data)
                 if answer_data and "answer" in answer_data:
                     answer = answer_data["answer"]
                     if answer in group_choices:
                         group_choices[answer] += 1
-                # print(group_choices)
             # Convert counts to percentages
             group_percentages = {
                 option: round(count / len(group), 3) if len(group) > 0 else 0
@@ -172,7 +220,9 @@ class CttAnalysis(Model):
             return "Normal"
         else:
             return "Bad"
-    
+
     def _get_rpbis_of_answer(self, option_stats, question_id):
-        answer_index = self.examResult.exams[0].question_bank.get_correct_answer_index(question_id)
+        answer_index = self.examResult.exams[0].question_bank.get_correct_answer_index(
+            question_id
+        )
         return option_stats[answer_index]["r_pbis"]

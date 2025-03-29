@@ -1,12 +1,12 @@
 {
     "1": {
         "content": {
-            "question": "This is the content for question 1.",
+            "question": "\u0110\u1ed9 ph\u1ee9c t\u1ea1p th\u1eddi gian c\u1ee7a t\u00ecm ki\u1ebfm nh\u1ecb ph\u00e2n l\u00e0 g\u00ec?",
             "option": [
-                "Option A for question 1",
-                "Option B for question 1",
-                "Option C for question 1",
-                "Option D for question 1"
+                "O(n)",
+                "O(log n)",
+                "O(n log n)",
+                "O(1)"
             ]
         },
         "difficulty": 0.3107889836509357,
@@ -20,45 +20,78 @@
             "0": {
                 "selected_by": 7,
                 "top_selected": 0,
-                "bottom_selected": 5,
+                "bottom_selected": 4,
                 "ratio": 0.049,
-                "discrimination": -0.104,
-                "r_pbis": -0.165
+                "discrimination": -0.083,
+                "r_pbis": -0.187
             },
             "1": {
                 "selected_by": 23,
-                "top_selected": 4,
-                "bottom_selected": 15,
+                "top_selected": 5,
+                "bottom_selected": 13,
                 "ratio": 0.162,
-                "discrimination": -0.227,
-                "r_pbis": -0.265
+                "discrimination": -0.164,
+                "r_pbis": -0.17
             },
             "2": {
                 "selected_by": 75,
-                "top_selected": 35,
-                "bottom_selected": 11,
+                "top_selected": 33,
+                "bottom_selected": 14,
                 "ratio": 0.528,
-                "discrimination": 0.516,
-                "r_pbis": 0.442
+                "discrimination": 0.41,
+                "r_pbis": 0.352
             },
             "3": {
                 "selected_by": 37,
-                "top_selected": 8,
+                "top_selected": 9,
                 "bottom_selected": 17,
                 "ratio": 0.261,
-                "discrimination": -0.184,
-                "r_pbis": -0.199
+                "discrimination": -0.163,
+                "r_pbis": -0.164
             }
-        }
+        },
+        "correct_index": 1,
+        "group_choice_percentages": [
+            {
+                "0": 0.133,
+                "1": 0.233,
+                "2": 0.3,
+                "3": 0.333
+            },
+            {
+                "0": 0.036,
+                "1": 0.25,
+                "2": 0.321,
+                "3": 0.393
+            },
+            {
+                "0": 0.071,
+                "1": 0.071,
+                "2": 0.679,
+                "3": 0.179
+            },
+            {
+                "0": 0.0,
+                "1": 0.214,
+                "2": 0.571,
+                "3": 0.214
+            },
+            {
+                "0": 0.0,
+                "1": 0.036,
+                "2": 0.786,
+                "3": 0.179
+            }
+        ]
     },
     "2": {
         "content": {
-            "question": "This is the content for question 2.",
+            "question": "Trong max heap ph\u1ea7n t\u1eed n\u00e0o \u1edf g\u1ed1c?",
             "option": [
-                "Option A for question 2",
-                "Option B for question 2",
-                "Option C for question 2",
-                "Option D for question 2"
+                "Ph\u1ea7n t\u1eed l\u1edbn nh\u1ea5t",
+                "Ph\u1ea7n t\u1eed nh\u1ecf nh\u1ea5t",
+                "Ph\u1ea7n t\u1eed \u0111\u1ea7u ti\u00ean",
+                "Ph\u1ea7n t\u1eed cu\u1ed1i c\u00f9ng"
             ]
         },
         "difficulty": 0.4804668092732044,
@@ -71,46 +104,79 @@
         "options": {
             "0": {
                 "selected_by": 69,
-                "top_selected": 32,
-                "bottom_selected": 17,
+                "top_selected": 31,
+                "bottom_selected": 19,
                 "ratio": 0.486,
-                "discrimination": 0.327,
-                "r_pbis": 0.275
+                "discrimination": 0.264,
+                "r_pbis": 0.272
             },
             "1": {
                 "selected_by": 19,
                 "top_selected": 5,
-                "bottom_selected": 6,
+                "bottom_selected": 7,
                 "ratio": 0.134,
-                "discrimination": -0.019,
-                "r_pbis": -0.101
+                "discrimination": -0.039,
+                "r_pbis": -0.103
             },
             "2": {
                 "selected_by": 37,
-                "top_selected": 5,
-                "bottom_selected": 18,
+                "top_selected": 6,
+                "bottom_selected": 16,
                 "ratio": 0.261,
-                "discrimination": -0.269,
-                "r_pbis": -0.212
+                "discrimination": -0.206,
+                "r_pbis": -0.179
             },
             "3": {
                 "selected_by": 17,
                 "top_selected": 5,
-                "bottom_selected": 7,
+                "bottom_selected": 6,
                 "ratio": 0.12,
-                "discrimination": -0.039,
-                "r_pbis": -0.032
+                "discrimination": -0.019,
+                "r_pbis": -0.069
             }
-        }
+        },
+        "correct_index": 0,
+        "group_choice_percentages": [
+            {
+                "0": 0.367,
+                "1": 0.167,
+                "2": 0.333,
+                "3": 0.133
+            },
+            {
+                "0": 0.357,
+                "1": 0.071,
+                "2": 0.357,
+                "3": 0.214
+            },
+            {
+                "0": 0.536,
+                "1": 0.214,
+                "2": 0.214,
+                "3": 0.036
+            },
+            {
+                "0": 0.393,
+                "1": 0.179,
+                "2": 0.286,
+                "3": 0.143
+            },
+            {
+                "0": 0.786,
+                "1": 0.036,
+                "2": 0.107,
+                "3": 0.071
+            }
+        ]
     },
     "3": {
         "content": {
-            "question": "This is the content for question 3.",
+            "question": "C\u1ea5u tr\u00fac d\u1eef li\u1ec7u n\u00e0o sau \u0111\u00e2y l\u00e0 v\u00ed d\u1ee5 c\u1ee7a c\u1ea5u tr\u00fac d\u1eef li\u1ec7u phi tuy\u1ebfn t\u00ednh?",
             "option": [
-                "Option A for question 3",
-                "Option B for question 3",
-                "Option C for question 3",
-                "Option D for question 3"
+                "M\u1ea3ng",
+                "Danh s\u00e1ch li\u00ean k\u1ebft",
+                "\u0110\u1ed3 th\u1ecb",
+                "Ng\u0103n x\u1ebfp"
             ]
         },
         "difficulty": 0.8807650181416407,
@@ -123,46 +189,79 @@
         "options": {
             "0": {
                 "selected_by": 52,
-                "top_selected": 10,
-                "bottom_selected": 24,
+                "top_selected": 9,
+                "bottom_selected": 25,
                 "ratio": 0.366,
-                "discrimination": -0.287,
-                "r_pbis": -0.291
+                "discrimination": -0.329,
+                "r_pbis": -0.294
             },
             "1": {
                 "selected_by": 55,
                 "top_selected": 30,
-                "bottom_selected": 10,
+                "bottom_selected": 14,
                 "ratio": 0.387,
-                "discrimination": 0.43,
-                "r_pbis": 0.39
+                "discrimination": 0.347,
+                "r_pbis": 0.296
             },
             "2": {
                 "selected_by": 26,
                 "top_selected": 7,
-                "bottom_selected": 10,
+                "bottom_selected": 6,
                 "ratio": 0.183,
-                "discrimination": -0.059,
-                "r_pbis": -0.08
+                "discrimination": 0.024,
+                "r_pbis": 0.028
             },
             "3": {
                 "selected_by": 9,
-                "top_selected": 0,
-                "bottom_selected": 4,
+                "top_selected": 1,
+                "bottom_selected": 3,
                 "ratio": 0.063,
-                "discrimination": -0.083,
-                "r_pbis": -0.077
+                "discrimination": -0.041,
+                "r_pbis": -0.054
             }
-        }
+        },
+        "correct_index": 2,
+        "group_choice_percentages": [
+            {
+                "0": 0.533,
+                "1": 0.3,
+                "2": 0.133,
+                "3": 0.033
+            },
+            {
+                "0": 0.464,
+                "1": 0.25,
+                "2": 0.179,
+                "3": 0.107
+            },
+            {
+                "0": 0.357,
+                "1": 0.25,
+                "2": 0.286,
+                "3": 0.107
+            },
+            {
+                "0": 0.286,
+                "1": 0.5,
+                "2": 0.143,
+                "3": 0.071
+            },
+            {
+                "0": 0.179,
+                "1": 0.643,
+                "2": 0.179,
+                "3": 0.0
+            }
+        ]
     },
     "4": {
         "content": {
-            "question": "This is the content for question 4.",
+            "question": "C\u1ea5u tr\u00fac d\u1eef li\u1ec7u n\u00e0o sau \u0111\u00e2y kh\u00f4ng ph\u1ea3i l\u00e0 ki\u1ec3u danh s\u00e1ch li\u00ean k\u1ebft?",
             "option": [
-                "Option A for question 4",
-                "Option B for question 4",
-                "Option C for question 4",
-                "Option D for question 4"
+                "Danh s\u00e1ch li\u00ean k\u1ebft \u0111\u00f4i",
+                "Danh s\u00e1ch m\u1ea3ng",
+                "Danh s\u00e1ch li\u00ean k\u1ebft v\u00f2ng",
+                "Danh s\u00e1ch li\u00ean k\u1ebft kh\u00f4ng c\u00f3 th\u1ee9 t\u1ef1"
             ]
         },
         "difficulty": 0.054784756120903215,
@@ -176,45 +275,78 @@
             "0": {
                 "selected_by": 11,
                 "top_selected": 1,
-                "bottom_selected": 6,
+                "bottom_selected": 7,
                 "ratio": 0.077,
-                "discrimination": -0.104,
-                "r_pbis": -0.214
+                "discrimination": -0.125,
+                "r_pbis": -0.173
             },
             "1": {
                 "selected_by": 84,
                 "top_selected": 36,
-                "bottom_selected": 23,
+                "bottom_selected": 27,
                 "ratio": 0.592,
-                "discrimination": 0.287,
-                "r_pbis": 0.31
+                "discrimination": 0.203,
+                "r_pbis": 0.199
             },
             "2": {
                 "selected_by": 36,
-                "top_selected": 6,
-                "bottom_selected": 14,
+                "top_selected": 7,
+                "bottom_selected": 12,
                 "ratio": 0.254,
-                "discrimination": -0.164,
-                "r_pbis": -0.19
+                "discrimination": -0.101,
+                "r_pbis": -0.146
             },
             "3": {
                 "selected_by": 11,
-                "top_selected": 4,
-                "bottom_selected": 5,
+                "top_selected": 3,
+                "bottom_selected": 2,
                 "ratio": 0.077,
-                "discrimination": -0.019,
-                "r_pbis": -0.046
+                "discrimination": 0.022,
+                "r_pbis": 0.045
             }
-        }
+        },
+        "correct_index": 3,
+        "group_choice_percentages": [
+            {
+                "0": 0.167,
+                "1": 0.567,
+                "2": 0.233,
+                "3": 0.033
+            },
+            {
+                "0": 0.107,
+                "1": 0.5,
+                "2": 0.286,
+                "3": 0.107
+            },
+            {
+                "0": 0.0,
+                "1": 0.464,
+                "2": 0.429,
+                "3": 0.107
+            },
+            {
+                "0": 0.107,
+                "1": 0.607,
+                "2": 0.25,
+                "3": 0.036
+            },
+            {
+                "0": 0.0,
+                "1": 0.821,
+                "2": 0.071,
+                "3": 0.107
+            }
+        ]
     },
     "5": {
         "content": {
-            "question": "This is the content for question 5.",
+            "question": "C\u1ea5u tr\u00fac c\u00e2y n\u00e0o sau \u0111\u00e2y l\u00e0 c\u00e2y c\u00e2n b\u1eb1ng?",
             "option": [
-                "Option A for question 5",
-                "Option B for question 5",
-                "Option C for question 5",
-                "Option D for question 5"
+                "C\u00e2y t\u00ecm ki\u1ebfm nh\u1ecb ph\u00e2n",
+                "C\u00e2y AVL",
+                "C\u00e2y \u0111\u1ecf \u0111en",
+                "T\u1ea5t c\u1ea3 c\u00e1c c\u00e2y tr\u00ean"
             ]
         },
         "difficulty": 1.4248913717741345,
@@ -228,45 +360,78 @@
             "0": {
                 "selected_by": 37,
                 "top_selected": 7,
-                "bottom_selected": 13,
+                "bottom_selected": 19,
                 "ratio": 0.261,
-                "discrimination": -0.122,
-                "r_pbis": -0.097
+                "discrimination": -0.247,
+                "r_pbis": -0.224
             },
             "1": {
                 "selected_by": 91,
-                "top_selected": 35,
-                "bottom_selected": 31,
+                "top_selected": 34,
+                "bottom_selected": 27,
                 "ratio": 0.641,
-                "discrimination": 0.099,
-                "r_pbis": 0.114
+                "discrimination": 0.161,
+                "r_pbis": 0.203
             },
             "2": {
                 "selected_by": 8,
                 "top_selected": 3,
-                "bottom_selected": 2,
+                "bottom_selected": 1,
                 "ratio": 0.056,
-                "discrimination": 0.022,
-                "r_pbis": 0.004
+                "discrimination": 0.043,
+                "r_pbis": -0.002
             },
             "3": {
                 "selected_by": 6,
-                "top_selected": 2,
-                "bottom_selected": 2,
+                "top_selected": 3,
+                "bottom_selected": 1,
                 "ratio": 0.042,
-                "discrimination": 0.001,
-                "r_pbis": -0.065
+                "discrimination": 0.043,
+                "r_pbis": 0.008
             }
-        }
+        },
+        "correct_index": 3,
+        "group_choice_percentages": [
+            {
+                "0": 0.433,
+                "1": 0.5,
+                "2": 0.033,
+                "3": 0.033
+            },
+            {
+                "0": 0.286,
+                "1": 0.607,
+                "2": 0.071,
+                "3": 0.036
+            },
+            {
+                "0": 0.321,
+                "1": 0.571,
+                "2": 0.071,
+                "3": 0.036
+            },
+            {
+                "0": 0.107,
+                "1": 0.786,
+                "2": 0.036,
+                "3": 0.071
+            },
+            {
+                "0": 0.143,
+                "1": 0.75,
+                "2": 0.071,
+                "3": 0.036
+            }
+        ]
     },
     "6": {
         "content": {
-            "question": "This is the content for question 6.",
+            "question": "\u0110\u1ed9 ph\u1ee9c t\u1ea1p kh\u00f4ng gian c\u1ee7a thu\u1eadt to\u00e1n s\u1eafp x\u1ebfp tr\u1ed9n l\u00e0 g\u00ec?",
             "option": [
-                "Option A for question 6",
-                "Option B for question 6",
-                "Option C for question 6",
-                "Option D for question 6"
+                "O(1)",
+                "O(n)",
+                "O(log n)",
+                "O(n log n)"
             ]
         },
         "difficulty": 1.3618799985097176,
@@ -279,46 +444,79 @@
         "options": {
             "0": {
                 "selected_by": 48,
-                "top_selected": 11,
+                "top_selected": 10,
                 "bottom_selected": 20,
                 "ratio": 0.338,
-                "discrimination": -0.183,
-                "r_pbis": -0.184
+                "discrimination": -0.204,
+                "r_pbis": -0.176
             },
             "1": {
                 "selected_by": 24,
                 "top_selected": 10,
-                "bottom_selected": 7,
+                "bottom_selected": 4,
                 "ratio": 0.169,
-                "discrimination": 0.067,
-                "r_pbis": -0.001
+                "discrimination": 0.129,
+                "r_pbis": 0.089
             },
             "2": {
                 "selected_by": 31,
-                "top_selected": 8,
+                "top_selected": 9,
                 "bottom_selected": 12,
                 "ratio": 0.218,
-                "discrimination": -0.08,
-                "r_pbis": -0.048
+                "discrimination": -0.059,
+                "r_pbis": -0.033
             },
             "3": {
                 "selected_by": 39,
                 "top_selected": 18,
-                "bottom_selected": 9,
+                "bottom_selected": 12,
                 "ratio": 0.275,
-                "discrimination": 0.195,
-                "r_pbis": 0.24
+                "discrimination": 0.133,
+                "r_pbis": 0.143
             }
-        }
+        },
+        "correct_index": 1,
+        "group_choice_percentages": [
+            {
+                "0": 0.367,
+                "1": 0.133,
+                "2": 0.233,
+                "3": 0.267
+            },
+            {
+                "0": 0.429,
+                "1": 0.143,
+                "2": 0.25,
+                "3": 0.179
+            },
+            {
+                "0": 0.393,
+                "1": 0.179,
+                "2": 0.25,
+                "3": 0.179
+            },
+            {
+                "0": 0.393,
+                "1": 0.107,
+                "2": 0.143,
+                "3": 0.357
+            },
+            {
+                "0": 0.107,
+                "1": 0.286,
+                "2": 0.214,
+                "3": 0.393
+            }
+        ]
     },
     "7": {
         "content": {
-            "question": "This is the content for question 7.",
+            "question": "Ph\u01b0\u01a1ng ph\u00e1p duy\u1ec7t n\u00e0o sau \u0111\u00e2y \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng trong t\u00ecm ki\u1ebfm theo chi\u1ec1u s\u00e2u?",
             "option": [
-                "Option A for question 7",
-                "Option B for question 7",
-                "Option C for question 7",
-                "Option D for question 7"
+                "Duy\u1ec7t theo th\u1ee9 t\u1ef1 in-order",
+                "Duy\u1ec7t theo th\u1ee9 t\u1ef1 pre-order",
+                "Duy\u1ec7t theo th\u1ee9 t\u1ef1 post-order",
+                "T\u1ea5t c\u1ea3 c\u00e1c ph\u01b0\u01a1ng ph\u00e1p tr\u00ean"
             ]
         },
         "difficulty": -0.002693794330783523,
@@ -331,46 +529,79 @@
         "options": {
             "0": {
                 "selected_by": 86,
-                "top_selected": 33,
-                "bottom_selected": 24,
+                "top_selected": 32,
+                "bottom_selected": 27,
                 "ratio": 0.606,
-                "discrimination": 0.202,
-                "r_pbis": 0.198
+                "discrimination": 0.118,
+                "r_pbis": 0.131
             },
             "1": {
                 "selected_by": 32,
-                "top_selected": 9,
-                "bottom_selected": 13,
+                "top_selected": 10,
+                "bottom_selected": 12,
                 "ratio": 0.225,
-                "discrimination": -0.079,
-                "r_pbis": -0.081
+                "discrimination": -0.037,
+                "r_pbis": -0.025
             },
             "2": {
                 "selected_by": 18,
-                "top_selected": 4,
+                "top_selected": 3,
                 "bottom_selected": 8,
                 "ratio": 0.127,
-                "discrimination": -0.082,
-                "r_pbis": -0.139
+                "discrimination": -0.103,
+                "r_pbis": -0.156
             },
             "3": {
                 "selected_by": 5,
-                "top_selected": 1,
-                "bottom_selected": 2,
+                "top_selected": 2,
+                "bottom_selected": 1,
                 "ratio": 0.035,
-                "discrimination": -0.02,
-                "r_pbis": -0.058
+                "discrimination": 0.022,
+                "r_pbis": 0.004
             }
-        }
+        },
+        "correct_index": 3,
+        "group_choice_percentages": [
+            {
+                "0": 0.567,
+                "1": 0.167,
+                "2": 0.233,
+                "3": 0.033
+            },
+            {
+                "0": 0.607,
+                "1": 0.286,
+                "2": 0.071,
+                "3": 0.036
+            },
+            {
+                "0": 0.5,
+                "1": 0.25,
+                "2": 0.179,
+                "3": 0.036
+            },
+            {
+                "0": 0.679,
+                "1": 0.214,
+                "2": 0.071,
+                "3": 0.036
+            },
+            {
+                "0": 0.679,
+                "1": 0.214,
+                "2": 0.071,
+                "3": 0.036
+            }
+        ]
     },
     "8": {
         "content": {
-            "question": "This is the content for question 8.",
+            "question": "\u0110\u1ed9 ph\u1ee9c t\u1ea1p th\u1eddi gian c\u1ee7a vi\u1ec7c truy c\u1eadp m\u1ed9t ph\u1ea7n t\u1eed trong m\u1ea3ng l\u00e0 g\u00ec?",
             "option": [
-                "Option A for question 8",
-                "Option B for question 8",
-                "Option C for question 8",
-                "Option D for question 8"
+                "O(1)",
+                "O(n)",
+                "O(log n)",
+                "O(n log n)"
             ]
         },
         "difficulty": -0.7950973329237158,
@@ -384,10 +615,10 @@
             "0": {
                 "selected_by": 112,
                 "top_selected": 38,
-                "bottom_selected": 35,
+                "bottom_selected": 39,
                 "ratio": 0.789,
-                "discrimination": 0.079,
-                "r_pbis": 0.107
+                "discrimination": -0.004,
+                "r_pbis": 0.075
             },
             "1": {
                 "selected_by": 3,
@@ -395,15 +626,15 @@
                 "bottom_selected": 3,
                 "ratio": 0.021,
                 "discrimination": -0.062,
-                "r_pbis": -0.231
+                "r_pbis": -0.192
             },
             "2": {
                 "selected_by": 17,
                 "top_selected": 7,
-                "bottom_selected": 8,
+                "bottom_selected": 4,
                 "ratio": 0.12,
-                "discrimination": -0.018,
-                "r_pbis": -0.023
+                "discrimination": 0.066,
+                "r_pbis": 0.032
             },
             "3": {
                 "selected_by": 10,
@@ -411,18 +642,51 @@
                 "bottom_selected": 2,
                 "ratio": 0.07,
                 "discrimination": 0.001,
-                "r_pbis": -0.012
+                "r_pbis": -0.052
             }
-        }
+        },
+        "correct_index": 0,
+        "group_choice_percentages": [
+            {
+                "0": 0.733,
+                "1": 0.067,
+                "2": 0.133,
+                "3": 0.067
+            },
+            {
+                "0": 0.75,
+                "1": 0.036,
+                "2": 0.143,
+                "3": 0.071
+            },
+            {
+                "0": 0.821,
+                "1": 0.0,
+                "2": 0.071,
+                "3": 0.107
+            },
+            {
+                "0": 0.893,
+                "1": 0.0,
+                "2": 0.036,
+                "3": 0.071
+            },
+            {
+                "0": 0.75,
+                "1": 0.0,
+                "2": 0.214,
+                "3": 0.036
+            }
+        ]
     },
     "9": {
         "content": {
-            "question": "This is the content for question 9.",
+            "question": "Thu\u1eadt to\u00e1n n\u00e0o \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 t\u00ecm \u0111\u01b0\u1eddng \u0111i ng\u1eafn nh\u1ea5t trong \u0111\u1ed3 th\u1ecb?",
             "option": [
-                "Option A for question 9",
-                "Option B for question 9",
-                "Option C for question 9",
-                "Option D for question 9"
+                "Thu\u1eadt to\u00e1n quick sort",
+                "Thu\u1eadt to\u00e1n merge sort",
+                "Thu\u1eadt to\u00e1n Dijkstra",
+                "Thu\u1eadt to\u00e1n heap sort"
             ]
         },
         "difficulty": 2.3715709587790363,
@@ -435,46 +699,79 @@
         "options": {
             "0": {
                 "selected_by": 25,
-                "top_selected": 7,
+                "top_selected": 6,
                 "bottom_selected": 10,
                 "ratio": 0.176,
-                "discrimination": -0.059,
-                "r_pbis": -0.052
+                "discrimination": -0.081,
+                "r_pbis": -0.115
             },
             "1": {
                 "selected_by": 15,
-                "top_selected": 2,
-                "bottom_selected": 7,
+                "top_selected": 1,
+                "bottom_selected": 9,
                 "ratio": 0.106,
-                "discrimination": -0.103,
-                "r_pbis": -0.206
+                "discrimination": -0.166,
+                "r_pbis": -0.264
             },
             "2": {
                 "selected_by": 92,
-                "top_selected": 33,
-                "bottom_selected": 27,
+                "top_selected": 36,
+                "bottom_selected": 25,
                 "ratio": 0.648,
-                "discrimination": 0.14,
-                "r_pbis": 0.143
+                "discrimination": 0.245,
+                "r_pbis": 0.261
             },
             "3": {
                 "selected_by": 9,
-                "top_selected": 5,
+                "top_selected": 4,
                 "bottom_selected": 4,
                 "ratio": 0.063,
-                "discrimination": 0.023,
-                "r_pbis": 0.072
+                "discrimination": 0.002,
+                "r_pbis": 0.011
             }
-        }
+        },
+        "correct_index": 2,
+        "group_choice_percentages": [
+            {
+                "0": 0.2,
+                "1": 0.267,
+                "2": 0.433,
+                "3": 0.1
+            },
+            {
+                "0": 0.321,
+                "1": 0.071,
+                "2": 0.571,
+                "3": 0.036
+            },
+            {
+                "0": 0.071,
+                "1": 0.107,
+                "2": 0.75,
+                "3": 0.036
+            },
+            {
+                "0": 0.25,
+                "1": 0.071,
+                "2": 0.643,
+                "3": 0.036
+            },
+            {
+                "0": 0.036,
+                "1": 0.0,
+                "2": 0.857,
+                "3": 0.107
+            }
+        ]
     },
     "10": {
         "content": {
-            "question": "This is the content for question 10.",
+            "question": "\u0110\u1ed9 ph\u1ee9c t\u1ea1p th\u1eddi gian tr\u01b0\u1eddng h\u1ee3p x\u1ea5u nh\u1ea5t c\u1ee7a thu\u1eadt to\u00e1n quicksort l\u00e0 g\u00ec?",
             "option": [
-                "Option A for question 10",
-                "Option B for question 10",
-                "Option C for question 10",
-                "Option D for question 10"
+                "O(n)",
+                "O(n log n)",
+                "O(log n)",
+                "O(n^2)"
             ]
         },
         "difficulty": 1.1771400589743484,
@@ -487,46 +784,79 @@
         "options": {
             "0": {
                 "selected_by": 45,
-                "top_selected": 20,
-                "bottom_selected": 7,
+                "top_selected": 18,
+                "bottom_selected": 12,
                 "ratio": 0.317,
-                "discrimination": 0.28,
-                "r_pbis": 0.294
+                "discrimination": 0.133,
+                "r_pbis": 0.205
             },
             "1": {
                 "selected_by": 49,
                 "top_selected": 14,
-                "bottom_selected": 23,
+                "bottom_selected": 21,
                 "ratio": 0.345,
-                "discrimination": -0.181,
-                "r_pbis": -0.195
+                "discrimination": -0.14,
+                "r_pbis": -0.156
             },
             "2": {
                 "selected_by": 28,
-                "top_selected": 5,
-                "bottom_selected": 11,
+                "top_selected": 6,
+                "bottom_selected": 10,
                 "ratio": 0.197,
-                "discrimination": -0.123,
-                "r_pbis": -0.086
+                "discrimination": -0.081,
+                "r_pbis": -0.092
             },
             "3": {
                 "selected_by": 20,
-                "top_selected": 8,
-                "bottom_selected": 7,
+                "top_selected": 9,
+                "bottom_selected": 5,
                 "ratio": 0.141,
-                "discrimination": 0.024,
-                "r_pbis": -0.029
+                "discrimination": 0.087,
+                "r_pbis": 0.045
             }
-        }
+        },
+        "correct_index": 3,
+        "group_choice_percentages": [
+            {
+                "0": 0.233,
+                "1": 0.467,
+                "2": 0.167,
+                "3": 0.133
+            },
+            {
+                "0": 0.25,
+                "1": 0.357,
+                "2": 0.321,
+                "3": 0.071
+            },
+            {
+                "0": 0.286,
+                "1": 0.357,
+                "2": 0.25,
+                "3": 0.107
+            },
+            {
+                "0": 0.321,
+                "1": 0.286,
+                "2": 0.143,
+                "3": 0.25
+            },
+            {
+                "0": 0.5,
+                "1": 0.25,
+                "2": 0.107,
+                "3": 0.143
+            }
+        ]
     },
     "11": {
         "content": {
-            "question": "This is the content for question 11.",
+            "question": "\u0110\u1ed9 ph\u1ee9c t\u1ea1p th\u1eddi gian c\u1ee7a thu\u1eadt to\u00e1n t\u00ecm ki\u1ebfm nh\u1ecb ph\u00e2n l\u00e0 g\u00ec?",
             "option": [
-                "Option A for question 11",
-                "Option B for question 11",
-                "Option C for question 11",
-                "Option D for question 11"
+                "O(1)",
+                " O(n)",
+                " O(log n)",
+                " O(n log n)"
             ]
         },
         "difficulty": 1.5209109799025957,
@@ -540,45 +870,78 @@
             "0": {
                 "selected_by": 34,
                 "top_selected": 12,
-                "bottom_selected": 13,
+                "bottom_selected": 12,
                 "ratio": 0.239,
-                "discrimination": -0.016,
-                "r_pbis": -0.039
+                "discrimination": 0.005,
+                "r_pbis": -0.01
             },
             "1": {
                 "selected_by": 77,
-                "top_selected": 32,
-                "bottom_selected": 19,
+                "top_selected": 30,
+                "bottom_selected": 21,
                 "ratio": 0.542,
-                "discrimination": 0.285,
-                "r_pbis": 0.274
+                "discrimination": 0.201,
+                "r_pbis": 0.244
             },
             "2": {
                 "selected_by": 20,
-                "top_selected": 2,
-                "bottom_selected": 11,
+                "top_selected": 3,
+                "bottom_selected": 10,
                 "ratio": 0.141,
-                "discrimination": -0.187,
-                "r_pbis": -0.251
+                "discrimination": -0.145,
+                "r_pbis": -0.231
             },
             "3": {
                 "selected_by": 11,
-                "top_selected": 1,
+                "top_selected": 2,
                 "bottom_selected": 5,
                 "ratio": 0.077,
-                "discrimination": -0.083,
-                "r_pbis": -0.121
+                "discrimination": -0.062,
+                "r_pbis": -0.137
             }
-        }
+        },
+        "correct_index": 0,
+        "group_choice_percentages": [
+            {
+                "0": 0.267,
+                "1": 0.367,
+                "2": 0.267,
+                "3": 0.1
+            },
+            {
+                "0": 0.214,
+                "1": 0.464,
+                "2": 0.179,
+                "3": 0.143
+            },
+            {
+                "0": 0.214,
+                "1": 0.571,
+                "2": 0.143,
+                "3": 0.071
+            },
+            {
+                "0": 0.286,
+                "1": 0.536,
+                "2": 0.107,
+                "3": 0.071
+            },
+            {
+                "0": 0.214,
+                "1": 0.786,
+                "2": 0.0,
+                "3": 0.0
+            }
+        ]
     },
     "12": {
         "content": {
-            "question": "This is the content for question 12.",
+            "question": "Trong m\u1ed9t c\u00e2y nh\u1ecb ph\u00e2n t\u00ecm ki\u1ebfm \u0111\u1eb7c \u0111i\u1ec3m n\u00e0o l\u00e0 \u0111\u00fang?",
             "option": [
-                "Option A for question 12",
-                "Option B for question 12",
-                "Option C for question 12",
-                "Option D for question 12"
+                "C\u00e1c n\u00fat con tr\u00e1i lu\u00f4n nh\u1ecf h\u01a1n n\u00fat cha",
+                " C\u00e1c n\u00fat con ph\u1ea3i lu\u00f4n nh\u1ecf h\u01a1n n\u00fat cha",
+                " Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o",
+                " T\u1ea5t c\u1ea3 c\u00e1c n\u00fat con \u0111\u1ec1u b\u1eb1ng nhau"
             ]
         },
         "difficulty": -0.8611690034671227,
@@ -595,42 +958,75 @@
                 "bottom_selected": 3,
                 "ratio": 0.021,
                 "discrimination": -0.062,
-                "r_pbis": -0.139
+                "r_pbis": -0.156
             },
             "1": {
                 "selected_by": 18,
                 "top_selected": 5,
-                "bottom_selected": 9,
+                "bottom_selected": 8,
                 "ratio": 0.127,
-                "discrimination": -0.081,
-                "r_pbis": -0.127
+                "discrimination": -0.06,
+                "r_pbis": -0.153
             },
             "2": {
                 "selected_by": 7,
                 "top_selected": 0,
-                "bottom_selected": 4,
+                "bottom_selected": 3,
                 "ratio": 0.049,
-                "discrimination": -0.083,
-                "r_pbis": -0.183
+                "discrimination": -0.062,
+                "r_pbis": -0.173
             },
             "3": {
                 "selected_by": 114,
                 "top_selected": 42,
-                "bottom_selected": 32,
+                "bottom_selected": 34,
                 "ratio": 0.803,
-                "discrimination": 0.227,
-                "r_pbis": 0.256
+                "discrimination": 0.185,
+                "r_pbis": 0.278
             }
-        }
+        },
+        "correct_index": 3,
+        "group_choice_percentages": [
+            {
+                "0": 0.033,
+                "1": 0.267,
+                "2": 0.1,
+                "3": 0.6
+            },
+            {
+                "0": 0.071,
+                "1": 0.036,
+                "2": 0.036,
+                "3": 0.857
+            },
+            {
+                "0": 0.0,
+                "1": 0.107,
+                "2": 0.107,
+                "3": 0.786
+            },
+            {
+                "0": 0.0,
+                "1": 0.107,
+                "2": 0.0,
+                "3": 0.893
+            },
+            {
+                "0": 0.0,
+                "1": 0.107,
+                "2": 0.0,
+                "3": 0.893
+            }
+        ]
     },
     "13": {
         "content": {
-            "question": "This is the content for question 13.",
+            "question": "Thu\u1eadt to\u00e1n n\u00e0o \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 t\u00ecm \u0111\u01b0\u1eddng \u0111i ng\u1eafn nh\u1ea5t?",
             "option": [
-                "Option A for question 13",
-                "Option B for question 13",
-                "Option C for question 13",
-                "Option D for question 13"
+                "Quick sort",
+                " Merge sort",
+                " Thu\u1eadt to\u00e1n Dijkstra",
+                " Heap sort"
             ]
         },
         "difficulty": -0.6338392520876993,
@@ -647,15 +1043,15 @@
                 "bottom_selected": 5,
                 "ratio": 0.106,
                 "discrimination": 0.045,
-                "r_pbis": 0.039
+                "r_pbis": 0.045
             },
             "1": {
                 "selected_by": 14,
                 "top_selected": 2,
-                "bottom_selected": 7,
+                "bottom_selected": 6,
                 "ratio": 0.099,
-                "discrimination": -0.103,
-                "r_pbis": -0.118
+                "discrimination": -0.082,
+                "r_pbis": -0.12
             },
             "2": {
                 "selected_by": 6,
@@ -663,26 +1059,59 @@
                 "bottom_selected": 3,
                 "ratio": 0.042,
                 "discrimination": -0.041,
-                "r_pbis": -0.084
+                "r_pbis": -0.07
             },
             "3": {
                 "selected_by": 107,
                 "top_selected": 37,
-                "bottom_selected": 33,
+                "bottom_selected": 34,
                 "ratio": 0.754,
-                "discrimination": 0.1,
-                "r_pbis": 0.093
+                "discrimination": 0.079,
+                "r_pbis": 0.084
             }
-        }
+        },
+        "correct_index": 3,
+        "group_choice_percentages": [
+            {
+                "0": 0.067,
+                "1": 0.2,
+                "2": 0.033,
+                "3": 0.7
+            },
+            {
+                "0": 0.143,
+                "1": 0.036,
+                "2": 0.107,
+                "3": 0.714
+            },
+            {
+                "0": 0.071,
+                "1": 0.143,
+                "2": 0.036,
+                "3": 0.75
+            },
+            {
+                "0": 0.036,
+                "1": 0.071,
+                "2": 0.0,
+                "3": 0.893
+            },
+            {
+                "0": 0.214,
+                "1": 0.036,
+                "2": 0.036,
+                "3": 0.714
+            }
+        ]
     },
     "14": {
         "content": {
-            "question": "This is the content for question 14.",
+            "question": "Danh s\u00e1ch li\u00ean k\u1ebft \u0111\u00f4i c\u00f3 \u0111\u1eb7c \u0111i\u1ec3m g\u00ec?",
             "option": [
-                "Option A for question 14",
-                "Option B for question 14",
-                "Option C for question 14",
-                "Option D for question 14"
+                "M\u1ed7i n\u00fat ch\u1ee9a m\u1ed9t li\u00ean k\u1ebft t\u1edbi n\u00fat cha",
+                " M\u1ed7i n\u00fat ch\u1ee9a m\u1ed9t li\u00ean k\u1ebft t\u1edbi n\u00fat con",
+                " M\u1ed7i n\u00fat ch\u1ee9a li\u00ean k\u1ebft t\u1edbi c\u1ea3 n\u00fat cha v\u00e0 con",
+                " Ch\u1ec9 ch\u1ee9a li\u00ean k\u1ebft t\u1edbi n\u00fat \u0111\u1ea7u ti\u00ean"
             ]
         },
         "difficulty": -1.1355660426176155,
@@ -699,42 +1128,75 @@
                 "bottom_selected": 3,
                 "ratio": 0.035,
                 "discrimination": -0.041,
-                "r_pbis": -0.084
+                "r_pbis": -0.122
             },
             "1": {
                 "selected_by": 9,
                 "top_selected": 1,
-                "bottom_selected": 5,
+                "bottom_selected": 7,
                 "ratio": 0.063,
-                "discrimination": -0.083,
-                "r_pbis": -0.21
+                "discrimination": -0.125,
+                "r_pbis": -0.236
             },
             "2": {
                 "selected_by": 122,
                 "top_selected": 44,
-                "bottom_selected": 37,
+                "bottom_selected": 36,
                 "ratio": 0.859,
-                "discrimination": 0.165,
-                "r_pbis": 0.246
+                "discrimination": 0.186,
+                "r_pbis": 0.268
             },
             "3": {
                 "selected_by": 6,
                 "top_selected": 1,
-                "bottom_selected": 3,
+                "bottom_selected": 2,
                 "ratio": 0.042,
-                "discrimination": -0.041,
-                "r_pbis": -0.094
+                "discrimination": -0.02,
+                "r_pbis": -0.065
             }
-        }
+        },
+        "correct_index": 2,
+        "group_choice_percentages": [
+            {
+                "0": 0.1,
+                "1": 0.2,
+                "2": 0.633,
+                "3": 0.067
+            },
+            {
+                "0": 0.0,
+                "1": 0.036,
+                "2": 0.929,
+                "3": 0.036
+            },
+            {
+                "0": 0.036,
+                "1": 0.036,
+                "2": 0.893,
+                "3": 0.036
+            },
+            {
+                "0": 0.0,
+                "1": 0.0,
+                "2": 0.964,
+                "3": 0.036
+            },
+            {
+                "0": 0.036,
+                "1": 0.036,
+                "2": 0.893,
+                "3": 0.036
+            }
+        ]
     },
     "15": {
         "content": {
-            "question": "This is the content for question 15.",
+            "question": "\u0110\u1eb7c \u0111i\u1ec3m ch\u00ednh c\u1ee7a c\u1ea5u tr\u00fac d\u1eef li\u1ec7u h\u00e0ng \u0111\u1ee3i l\u00e0 g\u00ec?",
             "option": [
-                "Option A for question 15",
-                "Option B for question 15",
-                "Option C for question 15",
-                "Option D for question 15"
+                "Truy c\u1eadp ng\u1eabu nhi\u00ean",
+                " FIFO (First In First Out)",
+                " LIFO (Last In First Out)",
+                " Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o"
             ]
         },
         "difficulty": -0.9962557049648565,
@@ -748,26 +1210,26 @@
             "0": {
                 "selected_by": 16,
                 "top_selected": 1,
-                "bottom_selected": 11,
+                "bottom_selected": 12,
                 "ratio": 0.113,
-                "discrimination": -0.208,
-                "r_pbis": -0.257
+                "discrimination": -0.229,
+                "r_pbis": -0.277
             },
             "1": {
                 "selected_by": 5,
                 "top_selected": 0,
-                "bottom_selected": 2,
+                "bottom_selected": 3,
                 "ratio": 0.035,
-                "discrimination": -0.042,
-                "r_pbis": -0.115
+                "discrimination": -0.062,
+                "r_pbis": -0.151
             },
             "2": {
                 "selected_by": 118,
                 "top_selected": 45,
-                "bottom_selected": 35,
+                "bottom_selected": 33,
                 "ratio": 0.831,
-                "discrimination": 0.228,
-                "r_pbis": 0.265
+                "discrimination": 0.27,
+                "r_pbis": 0.297
             },
             "3": {
                 "selected_by": 2,
@@ -775,18 +1237,51 @@
                 "bottom_selected": 0,
                 "ratio": 0.014,
                 "discrimination": 0.021,
-                "r_pbis": 0.046
+                "r_pbis": 0.053
             }
-        }
+        },
+        "correct_index": 2,
+        "group_choice_percentages": [
+            {
+                "0": 0.233,
+                "1": 0.1,
+                "2": 0.667,
+                "3": 0.0
+            },
+            {
+                "0": 0.214,
+                "1": 0.0,
+                "2": 0.786,
+                "3": 0.0
+            },
+            {
+                "0": 0.036,
+                "1": 0.071,
+                "2": 0.821,
+                "3": 0.036
+            },
+            {
+                "0": 0.071,
+                "1": 0.0,
+                "2": 0.929,
+                "3": 0.0
+            },
+            {
+                "0": 0.0,
+                "1": 0.0,
+                "2": 0.964,
+                "3": 0.036
+            }
+        ]
     },
     "16": {
         "content": {
-            "question": "This is the content for question 16.",
+            "question": "\u0110\u1ed9 ph\u1ee9c t\u1ea1p kh\u00f4ng gian c\u1ee7a thu\u1eadt to\u00e1n merge sort l\u00e0 g\u00ec?",
             "option": [
-                "Option A for question 16",
-                "Option B for question 16",
-                "Option C for question 16",
-                "Option D for question 16"
+                "O(n)",
+                " O(1)",
+                " O(log n)",
+                " O(n log n)"
             ]
         },
         "difficulty": -0.11863079292872554,
@@ -799,11 +1294,11 @@
         "options": {
             "0": {
                 "selected_by": 90,
-                "top_selected": 37,
-                "bottom_selected": 18,
+                "top_selected": 38,
+                "bottom_selected": 19,
                 "ratio": 0.634,
-                "discrimination": 0.412,
-                "r_pbis": 0.362
+                "discrimination": 0.413,
+                "r_pbis": 0.38
             },
             "1": {
                 "selected_by": 16,
@@ -811,34 +1306,67 @@
                 "bottom_selected": 7,
                 "ratio": 0.113,
                 "discrimination": -0.082,
-                "r_pbis": -0.187
+                "r_pbis": -0.164
             },
             "2": {
                 "selected_by": 33,
                 "top_selected": 6,
-                "bottom_selected": 21,
+                "bottom_selected": 20,
                 "ratio": 0.232,
-                "discrimination": -0.31,
-                "r_pbis": -0.237
+                "discrimination": -0.289,
+                "r_pbis": -0.273
             },
             "3": {
                 "selected_by": 3,
-                "top_selected": 1,
+                "top_selected": 0,
                 "bottom_selected": 2,
                 "ratio": 0.021,
-                "discrimination": -0.02,
-                "r_pbis": -0.105
+                "discrimination": -0.042,
+                "r_pbis": -0.111
             }
-        }
+        },
+        "correct_index": 0,
+        "group_choice_percentages": [
+            {
+                "0": 0.333,
+                "1": 0.167,
+                "2": 0.433,
+                "3": 0.067
+            },
+            {
+                "0": 0.536,
+                "1": 0.107,
+                "2": 0.357,
+                "3": 0.0
+            },
+            {
+                "0": 0.75,
+                "1": 0.107,
+                "2": 0.143,
+                "3": 0.0
+            },
+            {
+                "0": 0.643,
+                "1": 0.179,
+                "2": 0.143,
+                "3": 0.036
+            },
+            {
+                "0": 0.929,
+                "1": 0.0,
+                "2": 0.071,
+                "3": 0.0
+            }
+        ]
     },
     "17": {
         "content": {
-            "question": "This is the content for question 17.",
+            "question": "C\u00e2y AVL l\u00e0 m\u1ed9t d\u1ea1ng c\u00e2y g\u00ec?",
             "option": [
-                "Option A for question 17",
-                "Option B for question 17",
-                "Option C for question 17",
-                "Option D for question 17"
+                "C\u00e2y nh\u1ecb ph\u00e2n t\u00ecm ki\u1ebfm kh\u00f4ng c\u00e2n b\u1eb1ng",
+                " C\u00e2y nh\u1ecb ph\u00e2n t\u00ecm ki\u1ebfm c\u00e2n b\u1eb1ng",
+                " \u0110\u1ed3 th\u1ecb c\u00f3 tr\u1ecdng s\u1ed1",
+                " C\u00e2y nh\u1ecb ph\u00e2n kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o"
             ]
         },
         "difficulty": 1.5859936671791959,
@@ -851,18 +1379,18 @@
         "options": {
             "0": {
                 "selected_by": 26,
-                "top_selected": 9,
+                "top_selected": 8,
                 "bottom_selected": 8,
                 "ratio": 0.183,
-                "discrimination": 0.025,
-                "r_pbis": 0.028
+                "discrimination": 0.004,
+                "r_pbis": -0.007
             },
             "1": {
                 "selected_by": 59,
-                "top_selected": 16,
-                "bottom_selected": 23,
+                "top_selected": 18,
+                "bottom_selected": 24,
                 "ratio": 0.415,
-                "discrimination": -0.139,
+                "discrimination": -0.117,
                 "r_pbis": -0.036
             },
             "2": {
@@ -871,26 +1399,59 @@
                 "bottom_selected": 5,
                 "ratio": 0.225,
                 "discrimination": 0.258,
-                "r_pbis": 0.244
+                "r_pbis": 0.242
             },
             "3": {
                 "selected_by": 23,
-                "top_selected": 5,
-                "bottom_selected": 12,
+                "top_selected": 4,
+                "bottom_selected": 11,
                 "ratio": 0.162,
                 "discrimination": -0.144,
-                "r_pbis": -0.258
+                "r_pbis": -0.225
             }
-        }
+        },
+        "correct_index": 2,
+        "group_choice_percentages": [
+            {
+                "0": 0.133,
+                "1": 0.533,
+                "2": 0.1,
+                "3": 0.233
+            },
+            {
+                "0": 0.214,
+                "1": 0.393,
+                "2": 0.179,
+                "3": 0.214
+            },
+            {
+                "0": 0.214,
+                "1": 0.286,
+                "2": 0.214,
+                "3": 0.214
+            },
+            {
+                "0": 0.179,
+                "1": 0.571,
+                "2": 0.143,
+                "3": 0.107
+            },
+            {
+                "0": 0.179,
+                "1": 0.286,
+                "2": 0.5,
+                "3": 0.036
+            }
+        ]
     },
     "18": {
         "content": {
-            "question": "This is the content for question 18.",
+            "question": "Thu\u1eadt to\u00e1n n\u00e0o \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 duy\u1ec7t \u0111\u1ed3 th\u1ecb theo chi\u1ec1u s\u00e2u?",
             "option": [
-                "Option A for question 18",
-                "Option B for question 18",
-                "Option C for question 18",
-                "Option D for question 18"
+                "In-order traversal",
+                " Pre-order traversal",
+                " Post-order traversal",
+                " DFS"
             ]
         },
         "difficulty": -0.29567276676287974,
@@ -904,45 +1465,78 @@
             "0": {
                 "selected_by": 4,
                 "top_selected": 1,
-                "bottom_selected": 1,
+                "bottom_selected": 3,
                 "ratio": 0.028,
-                "discrimination": 0.0,
-                "r_pbis": -0.101
+                "discrimination": -0.041,
+                "r_pbis": -0.104
             },
             "1": {
                 "selected_by": 32,
-                "top_selected": 3,
-                "bottom_selected": 22,
+                "top_selected": 1,
+                "bottom_selected": 23,
                 "ratio": 0.225,
-                "discrimination": -0.395,
-                "r_pbis": -0.375
+                "discrimination": -0.458,
+                "r_pbis": -0.442
             },
             "2": {
                 "selected_by": 10,
-                "top_selected": 3,
-                "bottom_selected": 5,
+                "top_selected": 2,
+                "bottom_selected": 4,
                 "ratio": 0.07,
-                "discrimination": -0.04,
+                "discrimination": -0.041,
                 "r_pbis": -0.143
             },
             "3": {
                 "selected_by": 95,
-                "top_selected": 40,
-                "bottom_selected": 20,
+                "top_selected": 43,
+                "bottom_selected": 18,
                 "ratio": 0.669,
-                "discrimination": 0.434,
-                "r_pbis": 0.443
+                "discrimination": 0.54,
+                "r_pbis": 0.502
             }
-        }
+        },
+        "correct_index": 3,
+        "group_choice_percentages": [
+            {
+                "0": 0.033,
+                "1": 0.633,
+                "2": 0.1,
+                "3": 0.233
+            },
+            {
+                "0": 0.071,
+                "1": 0.25,
+                "2": 0.071,
+                "3": 0.607
+            },
+            {
+                "0": 0.0,
+                "1": 0.143,
+                "2": 0.071,
+                "3": 0.786
+            },
+            {
+                "0": 0.036,
+                "1": 0.036,
+                "2": 0.071,
+                "3": 0.821
+            },
+            {
+                "0": 0.0,
+                "1": 0.036,
+                "2": 0.036,
+                "3": 0.929
+            }
+        ]
     },
     "19": {
         "content": {
-            "question": "This is the content for question 19.",
+            "question": "\u0110\u1eb7c \u0111i\u1ec3m n\u00e0o c\u1ee7a stack l\u00e0 ch\u00ednh x\u00e1c nh\u1ea5t?",
             "option": [
-                "Option A for question 19",
-                "Option B for question 19",
-                "Option C for question 19",
-                "Option D for question 19"
+                "FIFO (First In First Out)",
+                " LIFO (Last In First Out)",
+                " Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o",
+                " Ch\u1ec9 h\u1ed7 tr\u1ee3 truy c\u1eadp tu\u1ea7n t\u1ef1"
             ]
         },
         "difficulty": -0.5084773490179276,
@@ -956,18 +1550,18 @@
             "0": {
                 "selected_by": 25,
                 "top_selected": 6,
-                "bottom_selected": 15,
+                "bottom_selected": 14,
                 "ratio": 0.176,
-                "discrimination": -0.185,
-                "r_pbis": -0.155
+                "discrimination": -0.164,
+                "r_pbis": -0.151
             },
             "1": {
                 "selected_by": 8,
                 "top_selected": 0,
-                "bottom_selected": 3,
+                "bottom_selected": 4,
                 "ratio": 0.056,
-                "discrimination": -0.062,
-                "r_pbis": -0.124
+                "discrimination": -0.083,
+                "r_pbis": -0.163
             },
             "2": {
                 "selected_by": 103,
@@ -975,7 +1569,7 @@
                 "bottom_selected": 24,
                 "ratio": 0.725,
                 "discrimination": 0.372,
-                "r_pbis": 0.335
+                "r_pbis": 0.344
             },
             "3": {
                 "selected_by": 6,
@@ -983,18 +1577,51 @@
                 "bottom_selected": 6,
                 "ratio": 0.042,
                 "discrimination": -0.125,
-                "r_pbis": -0.307
+                "r_pbis": -0.291
             }
-        }
+        },
+        "correct_index": 2,
+        "group_choice_percentages": [
+            {
+                "0": 0.367,
+                "1": 0.1,
+                "2": 0.4,
+                "3": 0.133
+            },
+            {
+                "0": 0.179,
+                "1": 0.107,
+                "2": 0.643,
+                "3": 0.071
+            },
+            {
+                "0": 0.107,
+                "1": 0.036,
+                "2": 0.857,
+                "3": 0.0
+            },
+            {
+                "0": 0.071,
+                "1": 0.036,
+                "2": 0.893,
+                "3": 0.0
+            },
+            {
+                "0": 0.143,
+                "1": 0.0,
+                "2": 0.857,
+                "3": 0.0
+            }
+        ]
     },
     "20": {
         "content": {
-            "question": "This is the content for question 20.",
+            "question": "\u0110\u1eb7c \u0111i\u1ec3m c\u1ee7a danh s\u00e1ch li\u00ean k\u1ebft v\u00f2ng l\u00e0 g\u00ec?",
             "option": [
-                "Option A for question 20",
-                "Option B for question 20",
-                "Option C for question 20",
-                "Option D for question 20"
+                "Kh\u00f4ng c\u00f3 n\u00fat cu\u1ed1i",
+                " C\u00f3 m\u1ed9t n\u00fat \u0111\u1ea7u v\u00e0 cu\u1ed1i \u0111\u01b0\u1ee3c li\u00ean k\u1ebft l\u1ea1i v\u1edbi nhau",
+                " T\u1ea5t c\u1ea3 c\u00e1c n\u00fat c\u00f3 th\u1ec3 li\u00ean k\u1ebft ng\u1eabu nhi\u00ean",
+                " C\u00f3 hai \u0111\u1ea7u nh\u01b0ng kh\u00f4ng k\u1ebft n\u1ed1i v\u1edbi nhau"
             ]
         },
         "difficulty": 0.9391026529896558,
@@ -1008,45 +1635,78 @@
             "0": {
                 "selected_by": 17,
                 "top_selected": 4,
-                "bottom_selected": 9,
+                "bottom_selected": 10,
                 "ratio": 0.12,
-                "discrimination": -0.102,
-                "r_pbis": -0.129
+                "discrimination": -0.123,
+                "r_pbis": -0.176
             },
             "1": {
                 "selected_by": 56,
                 "top_selected": 18,
-                "bottom_selected": 15,
+                "bottom_selected": 16,
                 "ratio": 0.394,
-                "discrimination": 0.07,
-                "r_pbis": 0.03
+                "discrimination": 0.05,
+                "r_pbis": 0.01
             },
             "2": {
                 "selected_by": 53,
-                "top_selected": 19,
-                "bottom_selected": 19,
+                "top_selected": 20,
+                "bottom_selected": 17,
                 "ratio": 0.373,
-                "discrimination": 0.008,
-                "r_pbis": 0.054
+                "discrimination": 0.071,
+                "r_pbis": 0.087
             },
             "3": {
                 "selected_by": 14,
-                "top_selected": 5,
+                "top_selected": 4,
                 "bottom_selected": 5,
                 "ratio": 0.099,
-                "discrimination": 0.002,
-                "r_pbis": -0.035
+                "discrimination": -0.019,
+                "r_pbis": -0.01
             }
-        }
+        },
+        "correct_index": 2,
+        "group_choice_percentages": [
+            {
+                "0": 0.267,
+                "1": 0.267,
+                "2": 0.367,
+                "3": 0.1
+            },
+            {
+                "0": 0.107,
+                "1": 0.429,
+                "2": 0.321,
+                "3": 0.143
+            },
+            {
+                "0": 0.0,
+                "1": 0.536,
+                "2": 0.357,
+                "3": 0.071
+            },
+            {
+                "0": 0.107,
+                "1": 0.5,
+                "2": 0.286,
+                "3": 0.107
+            },
+            {
+                "0": 0.107,
+                "1": 0.25,
+                "2": 0.536,
+                "3": 0.071
+            }
+        ]
     },
     "21": {
         "content": {
-            "question": "This is the content for question 21.",
+            "question": "\u0110\u1eb7c \u0111i\u1ec3m c\u1ee7a c\u1ea5u tr\u00fac d\u1eef li\u1ec7u c\u00e2y nh\u1ecb ph\u00e2n t\u00ecm ki\u1ebfm l\u00e0 g\u00ec?",
             "option": [
-                "Option A for question 21",
-                "Option B for question 21",
-                "Option C for question 21",
-                "Option D for question 21"
+                "M\u1ed7i n\u00fat con tr\u00e1i nh\u1ecf h\u01a1n ho\u1eb7c b\u1eb1ng n\u00fat cha",
+                " M\u1ed7i n\u00fat con ph\u1ea3i nh\u1ecf h\u01a1n ho\u1eb7c b\u1eb1ng n\u00fat cha",
+                " C\u00e1c n\u00fat con tr\u00e1i nh\u1ecf h\u01a1n ho\u1eb7c b\u1eb1ng n\u00fat cha",
+                " Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o"
             ]
         },
         "difficulty": 0.4238999780719114,
@@ -1059,11 +1719,11 @@
         "options": {
             "0": {
                 "selected_by": 19,
-                "top_selected": 4,
+                "top_selected": 5,
                 "bottom_selected": 7,
                 "ratio": 0.134,
-                "discrimination": -0.061,
-                "r_pbis": -0.101
+                "discrimination": -0.039,
+                "r_pbis": -0.087
             },
             "1": {
                 "selected_by": 43,
@@ -1071,7 +1731,7 @@
                 "bottom_selected": 19,
                 "ratio": 0.303,
                 "discrimination": -0.119,
-                "r_pbis": -0.123
+                "r_pbis": -0.103
             },
             "2": {
                 "selected_by": 71,
@@ -1079,26 +1739,59 @@
                 "bottom_selected": 20,
                 "ratio": 0.5,
                 "discrimination": 0.158,
-                "r_pbis": 0.177
+                "r_pbis": 0.155
             },
             "3": {
                 "selected_by": 9,
-                "top_selected": 3,
+                "top_selected": 2,
                 "bottom_selected": 2,
                 "ratio": 0.063,
-                "discrimination": 0.022,
-                "r_pbis": 0.009
+                "discrimination": 0.001,
+                "r_pbis": -0.002
             }
-        }
+        },
+        "correct_index": 2,
+        "group_choice_percentages": [
+            {
+                "0": 0.1,
+                "1": 0.3,
+                "2": 0.533,
+                "3": 0.067
+            },
+            {
+                "0": 0.143,
+                "1": 0.464,
+                "2": 0.393,
+                "3": 0.0
+            },
+            {
+                "0": 0.25,
+                "1": 0.25,
+                "2": 0.429,
+                "3": 0.071
+            },
+            {
+                "0": 0.107,
+                "1": 0.179,
+                "2": 0.571,
+                "3": 0.143
+            },
+            {
+                "0": 0.071,
+                "1": 0.321,
+                "2": 0.571,
+                "3": 0.036
+            }
+        ]
     },
     "22": {
         "content": {
-            "question": "This is the content for question 22.",
+            "question": "Trong danh s\u00e1ch li\u00ean k\u1ebft \u0111\u00f4i m\u1ed7i n\u00fat ch\u1ee9a th\u00f4ng tin g\u00ec?",
             "option": [
-                "Option A for question 22",
-                "Option B for question 22",
-                "Option C for question 22",
-                "Option D for question 22"
+                "Ch\u1ec9 li\u00ean k\u1ebft t\u1edbi n\u00fat cha",
+                " Ch\u1ec9 li\u00ean k\u1ebft t\u1edbi n\u00fat con",
+                " Li\u00ean k\u1ebft t\u1edbi c\u1ea3 n\u00fat cha v\u00e0 con",
+                " Kh\u00f4ng li\u00ean k\u1ebft v\u1edbi b\u1ea5t k\u1ef3 n\u00fat n\u00e0o"
             ]
         },
         "difficulty": 0.5370999071065405,
@@ -1111,27 +1804,27 @@
         "options": {
             "0": {
                 "selected_by": 67,
-                "top_selected": 32,
-                "bottom_selected": 16,
+                "top_selected": 33,
+                "bottom_selected": 17,
                 "ratio": 0.472,
                 "discrimination": 0.348,
-                "r_pbis": 0.328
+                "r_pbis": 0.304
             },
             "1": {
                 "selected_by": 49,
-                "top_selected": 12,
-                "bottom_selected": 19,
+                "top_selected": 10,
+                "bottom_selected": 18,
                 "ratio": 0.345,
-                "discrimination": -0.141,
-                "r_pbis": -0.151
+                "discrimination": -0.162,
+                "r_pbis": -0.131
             },
             "2": {
                 "selected_by": 20,
-                "top_selected": 2,
-                "bottom_selected": 9,
+                "top_selected": 3,
+                "bottom_selected": 10,
                 "ratio": 0.141,
                 "discrimination": -0.145,
-                "r_pbis": -0.194
+                "r_pbis": -0.186
             },
             "3": {
                 "selected_by": 5,
@@ -1139,18 +1832,51 @@
                 "bottom_selected": 3,
                 "ratio": 0.035,
                 "discrimination": -0.041,
-                "r_pbis": -0.11
+                "r_pbis": -0.111
             }
-        }
+        },
+        "correct_index": 0,
+        "group_choice_percentages": [
+            {
+                "0": 0.3,
+                "1": 0.367,
+                "2": 0.233,
+                "3": 0.1
+            },
+            {
+                "0": 0.357,
+                "1": 0.464,
+                "2": 0.143,
+                "3": 0.0
+            },
+            {
+                "0": 0.429,
+                "1": 0.429,
+                "2": 0.143,
+                "3": 0.0
+            },
+            {
+                "0": 0.536,
+                "1": 0.286,
+                "2": 0.143,
+                "3": 0.036
+            },
+            {
+                "0": 0.75,
+                "1": 0.179,
+                "2": 0.036,
+                "3": 0.036
+            }
+        ]
     },
     "23": {
         "content": {
-            "question": "This is the content for question 23.",
+            "question": "\u0110\u1ed9 ph\u1ee9c t\u1ea1p th\u1eddi gian t\u1ed3i t\u1ec7 nh\u1ea5t c\u1ee7a quicksort l\u00e0 g\u00ec?",
             "option": [
-                "Option A for question 23",
-                "Option B for question 23",
-                "Option C for question 23",
-                "Option D for question 23"
+                "O(n)",
+                " O(log n)",
+                " O(n log n)",
+                " O(n^2)"
             ]
         },
         "difficulty": 0.9098838056645285,
@@ -1163,46 +1889,79 @@
         "options": {
             "0": {
                 "selected_by": 70,
-                "top_selected": 22,
-                "bottom_selected": 22,
+                "top_selected": 24,
+                "bottom_selected": 24,
                 "ratio": 0.493,
-                "discrimination": 0.01,
-                "r_pbis": -0.012
+                "discrimination": 0.011,
+                "r_pbis": 0.027
             },
             "1": {
                 "selected_by": 13,
                 "top_selected": 1,
-                "bottom_selected": 6,
+                "bottom_selected": 8,
                 "ratio": 0.092,
-                "discrimination": -0.104,
-                "r_pbis": -0.14
+                "discrimination": -0.145,
+                "r_pbis": -0.186
             },
             "2": {
                 "selected_by": 5,
-                "top_selected": 1,
-                "bottom_selected": 3,
+                "top_selected": 0,
+                "bottom_selected": 1,
                 "ratio": 0.035,
-                "discrimination": -0.041,
-                "r_pbis": -0.161
+                "discrimination": -0.021,
+                "r_pbis": -0.128
             },
             "3": {
                 "selected_by": 54,
-                "top_selected": 23,
-                "bottom_selected": 17,
+                "top_selected": 22,
+                "bottom_selected": 15,
                 "ratio": 0.38,
-                "discrimination": 0.135,
-                "r_pbis": 0.157
+                "discrimination": 0.156,
+                "r_pbis": 0.132
             }
-        }
+        },
+        "correct_index": 3,
+        "group_choice_percentages": [
+            {
+                "0": 0.467,
+                "1": 0.167,
+                "2": 0.033,
+                "3": 0.333
+            },
+            {
+                "0": 0.429,
+                "1": 0.179,
+                "2": 0.071,
+                "3": 0.321
+            },
+            {
+                "0": 0.429,
+                "1": 0.071,
+                "2": 0.071,
+                "3": 0.429
+            },
+            {
+                "0": 0.714,
+                "1": 0.036,
+                "2": 0.0,
+                "3": 0.25
+            },
+            {
+                "0": 0.429,
+                "1": 0.0,
+                "2": 0.0,
+                "3": 0.571
+            }
+        ]
     },
     "24": {
         "content": {
-            "question": "This is the content for question 24.",
+            "question": "\u0110\u1eb7c \u0111i\u1ec3m n\u00e0o \u0111\u00fang v\u1edbi h\u00e0ng \u0111\u1ee3i \u01b0u ti\u00ean?",
             "option": [
-                "Option A for question 24",
-                "Option B for question 24",
-                "Option C for question 24",
-                "Option D for question 24"
+                "FIFO",
+                " LIFO",
+                " C\u00e1c ph\u1ea7n t\u1eed c\u00f3 m\u1ee9c \u01b0u ti\u00ean ri\u00eang",
+                " Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o"
             ]
         },
         "difficulty": 0.6222702046228797,
@@ -1215,46 +1974,79 @@
         "options": {
             "0": {
                 "selected_by": 29,
-                "top_selected": 12,
+                "top_selected": 11,
                 "bottom_selected": 8,
                 "ratio": 0.204,
-                "discrimination": 0.089,
-                "r_pbis": 0.051
+                "discrimination": 0.067,
+                "r_pbis": 0.045
             },
             "1": {
                 "selected_by": 25,
                 "top_selected": 5,
-                "bottom_selected": 9,
+                "bottom_selected": 10,
                 "ratio": 0.176,
-                "discrimination": -0.081,
-                "r_pbis": -0.12
+                "discrimination": -0.102,
+                "r_pbis": -0.118
             },
             "2": {
                 "selected_by": 24,
-                "top_selected": 5,
-                "bottom_selected": 11,
+                "top_selected": 6,
+                "bottom_selected": 9,
                 "ratio": 0.169,
-                "discrimination": -0.123,
-                "r_pbis": -0.123
+                "discrimination": -0.06,
+                "r_pbis": -0.106
             },
             "3": {
                 "selected_by": 63,
                 "top_selected": 25,
-                "bottom_selected": 20,
+                "bottom_selected": 21,
                 "ratio": 0.444,
-                "discrimination": 0.115,
-                "r_pbis": 0.146
+                "discrimination": 0.094,
+                "r_pbis": 0.132
             }
-        }
+        },
+        "correct_index": 3,
+        "group_choice_percentages": [
+            {
+                "0": 0.133,
+                "1": 0.267,
+                "2": 0.2,
+                "3": 0.4
+            },
+            {
+                "0": 0.143,
+                "1": 0.143,
+                "2": 0.214,
+                "3": 0.5
+            },
+            {
+                "0": 0.286,
+                "1": 0.25,
+                "2": 0.179,
+                "3": 0.25
+            },
+            {
+                "0": 0.321,
+                "1": 0.107,
+                "2": 0.179,
+                "3": 0.393
+            },
+            {
+                "0": 0.143,
+                "1": 0.107,
+                "2": 0.071,
+                "3": 0.679
+            }
+        ]
     },
     "25": {
         "content": {
-            "question": "This is the content for question 25.",
+            "question": "Thu\u1eadt to\u00e1n n\u00e0o \u0111\u01b0\u1ee3c d\u00f9ng \u0111\u1ec3 duy\u1ec7t qua c\u00e1c n\u00fat trong \u0111\u1ed3 th\u1ecb?",
             "option": [
-                "Option A for question 25",
-                "Option B for question 25",
-                "Option C for question 25",
-                "Option D for question 25"
+                "Dijkstra",
+                " DFS",
+                " BFS",
+                " Pre-order traversal"
             ]
         },
         "difficulty": 2.332681545741558,
@@ -1271,42 +2063,75 @@
                 "bottom_selected": 5,
                 "ratio": 0.12,
                 "discrimination": -0.019,
-                "r_pbis": -0.04
+                "r_pbis": -0.065
             },
             "1": {
                 "selected_by": 104,
                 "top_selected": 36,
-                "bottom_selected": 33,
+                "bottom_selected": 35,
                 "ratio": 0.732,
-                "discrimination": 0.078,
-                "r_pbis": 0.05
+                "discrimination": 0.037,
+                "r_pbis": 0.07
             },
             "2": {
                 "selected_by": 10,
                 "top_selected": 1,
-                "bottom_selected": 7,
+                "bottom_selected": 6,
                 "ratio": 0.07,
-                "discrimination": -0.125,
-                "r_pbis": -0.165
+                "discrimination": -0.104,
+                "r_pbis": -0.172
             },
             "3": {
                 "selected_by": 11,
                 "top_selected": 6,
-                "bottom_selected": 3,
+                "bottom_selected": 2,
                 "ratio": 0.077,
-                "discrimination": 0.065,
-                "r_pbis": 0.125
+                "discrimination": 0.086,
+                "r_pbis": 0.128
             }
-        }
+        },
+        "correct_index": 3,
+        "group_choice_percentages": [
+            {
+                "0": 0.1,
+                "1": 0.7,
+                "2": 0.133,
+                "3": 0.067
+            },
+            {
+                "0": 0.107,
+                "1": 0.75,
+                "2": 0.143,
+                "3": 0.0
+            },
+            {
+                "0": 0.179,
+                "1": 0.714,
+                "2": 0.036,
+                "3": 0.071
+            },
+            {
+                "0": 0.143,
+                "1": 0.786,
+                "2": 0.036,
+                "3": 0.036
+            },
+            {
+                "0": 0.071,
+                "1": 0.714,
+                "2": 0.0,
+                "3": 0.214
+            }
+        ]
     },
     "26": {
         "content": {
-            "question": "This is the content for question 26.",
+            "question": "Thu\u1eadt to\u00e1n Kruskal \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 l\u00e0m g\u00ec?",
             "option": [
-                "Option A for question 26",
-                "Option B for question 26",
-                "Option C for question 26",
-                "Option D for question 26"
+                "T\u00ecm c\u00e2y khung nh\u1ecf nh\u1ea5t",
+                " T\u00ecm \u0111\u01b0\u1eddng \u0111i ng\u1eafn nh\u1ea5t",
+                " S\u1eafp x\u1ebfp nhanh",
+                " Ph\u00e2n v\u00f9ng d\u1eef li\u1ec7u"
             ]
         },
         "difficulty": 0.31078898365093566,
@@ -1320,45 +2145,78 @@
             "0": {
                 "selected_by": 11,
                 "top_selected": 2,
-                "bottom_selected": 7,
+                "bottom_selected": 8,
                 "ratio": 0.077,
-                "discrimination": -0.103,
-                "r_pbis": -0.185
+                "discrimination": -0.124,
+                "r_pbis": -0.2
             },
             "1": {
                 "selected_by": 45,
-                "top_selected": 11,
-                "bottom_selected": 21,
+                "top_selected": 9,
+                "bottom_selected": 19,
                 "ratio": 0.317,
-                "discrimination": -0.203,
-                "r_pbis": -0.19
+                "discrimination": -0.204,
+                "r_pbis": -0.202
             },
             "2": {
                 "selected_by": 11,
                 "top_selected": 4,
-                "bottom_selected": 3,
+                "bottom_selected": 2,
                 "ratio": 0.077,
-                "discrimination": 0.023,
-                "r_pbis": 0.007
+                "discrimination": 0.043,
+                "r_pbis": 0.045
             },
             "3": {
                 "selected_by": 75,
-                "top_selected": 30,
-                "bottom_selected": 17,
+                "top_selected": 32,
+                "bottom_selected": 19,
                 "ratio": 0.528,
-                "discrimination": 0.284,
-                "r_pbis": 0.272
+                "discrimination": 0.285,
+                "r_pbis": 0.271
             }
-        }
+        },
+        "correct_index": 3,
+        "group_choice_percentages": [
+            {
+                "0": 0.133,
+                "1": 0.433,
+                "2": 0.067,
+                "3": 0.367
+            },
+            {
+                "0": 0.143,
+                "1": 0.286,
+                "2": 0.071,
+                "3": 0.5
+            },
+            {
+                "0": 0.036,
+                "1": 0.464,
+                "2": 0.071,
+                "3": 0.429
+            },
+            {
+                "0": 0.036,
+                "1": 0.25,
+                "2": 0.071,
+                "3": 0.643
+            },
+            {
+                "0": 0.036,
+                "1": 0.143,
+                "2": 0.107,
+                "3": 0.714
+            }
+        ]
     },
     "27": {
         "content": {
-            "question": "This is the content for question 27.",
+            "question": "\u0110\u1eb7c \u0111i\u1ec3m c\u1ee7a danh s\u00e1ch li\u00ean k\u1ebft \u0111\u01a1n l\u00e0 g\u00ec?",
             "option": [
-                "Option A for question 27",
-                "Option B for question 27",
-                "Option C for question 27",
-                "Option D for question 27"
+                "C\u00f3 hai n\u00fat \u0111\u1ea7u v\u00e0 cu\u1ed1i li\u00ean k\u1ebft",
+                " Ch\u1ec9 ch\u1ee9a n\u00fat cha",
+                " M\u1ed7i n\u00fat ch\u1ec9 li\u00ean k\u1ebft t\u1edbi n\u00fat ti\u1ebfp theo",
+                " C\u00f3 li\u00ean k\u1ebft ng\u1eabu nhi\u00ean"
             ]
         },
         "difficulty": -0.4468808881828158,
@@ -1372,10 +2230,10 @@
             "0": {
                 "selected_by": 15,
                 "top_selected": 2,
-                "bottom_selected": 10,
+                "bottom_selected": 9,
                 "ratio": 0.106,
-                "discrimination": -0.166,
-                "r_pbis": -0.222
+                "discrimination": -0.145,
+                "r_pbis": -0.24
             },
             "1": {
                 "selected_by": 6,
@@ -1383,34 +2241,67 @@
                 "bottom_selected": 3,
                 "ratio": 0.042,
                 "discrimination": -0.062,
-                "r_pbis": -0.132
+                "r_pbis": -0.123
             },
             "2": {
                 "selected_by": 101,
                 "top_selected": 45,
-                "bottom_selected": 24,
+                "bottom_selected": 23,
                 "ratio": 0.711,
-                "discrimination": 0.457,
-                "r_pbis": 0.417
+                "discrimination": 0.478,
+                "r_pbis": 0.428
             },
             "3": {
                 "selected_by": 19,
                 "top_selected": 0,
-                "bottom_selected": 10,
+                "bottom_selected": 12,
                 "ratio": 0.134,
-                "discrimination": -0.208,
+                "discrimination": -0.25,
                 "r_pbis": -0.261
             }
-        }
+        },
+        "correct_index": 2,
+        "group_choice_percentages": [
+            {
+                "0": 0.267,
+                "1": 0.033,
+                "2": 0.4,
+                "3": 0.267
+            },
+            {
+                "0": 0.071,
+                "1": 0.107,
+                "2": 0.643,
+                "3": 0.179
+            },
+            {
+                "0": 0.107,
+                "1": 0.036,
+                "2": 0.714,
+                "3": 0.143
+            },
+            {
+                "0": 0.036,
+                "1": 0.036,
+                "2": 0.857,
+                "3": 0.071
+            },
+            {
+                "0": 0.036,
+                "1": 0.0,
+                "2": 0.964,
+                "3": 0.0
+            }
+        ]
     },
     "28": {
         "content": {
-            "question": "This is the content for question 28.",
+            "question": "Thu\u1eadt to\u00e1n n\u00e0o l\u00e0 duy\u1ec7t theo chi\u1ec1u r\u1ed9ng?",
             "option": [
-                "Option A for question 28",
-                "Option B for question 28",
-                "Option C for question 28",
-                "Option D for question 28"
+                "DFS",
+                " Post-order traversal",
+                " BFS",
+                " Quick sort"
             ]
         },
         "difficulty": -0.5707809794596165,
@@ -1427,42 +2318,75 @@
                 "bottom_selected": 3,
                 "ratio": 0.042,
                 "discrimination": -0.02,
-                "r_pbis": -0.08
+                "r_pbis": -0.033
             },
             "1": {
                 "selected_by": 105,
                 "top_selected": 41,
-                "bottom_selected": 25,
+                "bottom_selected": 26,
                 "ratio": 0.739,
-                "discrimination": 0.352,
-                "r_pbis": 0.34
+                "discrimination": 0.331,
+                "r_pbis": 0.328
             },
             "2": {
                 "selected_by": 6,
                 "top_selected": 1,
-                "bottom_selected": 4,
+                "bottom_selected": 3,
                 "ratio": 0.042,
-                "discrimination": -0.062,
-                "r_pbis": -0.122
+                "discrimination": -0.041,
+                "r_pbis": -0.133
             },
             "3": {
                 "selected_by": 24,
                 "top_selected": 3,
-                "bottom_selected": 16,
+                "bottom_selected": 15,
                 "ratio": 0.169,
-                "discrimination": -0.27,
+                "discrimination": -0.249,
                 "r_pbis": -0.283
             }
-        }
+        },
+        "correct_index": 1,
+        "group_choice_percentages": [
+            {
+                "0": 0.067,
+                "1": 0.467,
+                "2": 0.1,
+                "3": 0.367
+            },
+            {
+                "0": 0.036,
+                "1": 0.75,
+                "2": 0.0,
+                "3": 0.179
+            },
+            {
+                "0": 0.0,
+                "1": 0.786,
+                "2": 0.036,
+                "3": 0.179
+            },
+            {
+                "0": 0.071,
+                "1": 0.786,
+                "2": 0.071,
+                "3": 0.071
+            },
+            {
+                "0": 0.036,
+                "1": 0.929,
+                "2": 0.0,
+                "3": 0.036
+            }
+        ]
     },
     "29": {
         "content": {
-            "question": "This is the content for question 29.",
+            "question": "\u0110\u1ed9 ph\u1ee9c t\u1ea1p th\u1eddi gian c\u1ee7a t\u00ecm ki\u1ebfm tu\u1ea7n t\u1ef1 l\u00e0 g\u00ec?",
             "option": [
-                "Option A for question 29",
-                "Option B for question 29",
-                "Option C for question 29",
-                "Option D for question 29"
+                "O(1)",
+                " O(n)",
+                " O(log n)",
+                " O(n log n)"
             ]
         },
         "difficulty": -0.44688088818281574,
@@ -1476,26 +2400,26 @@
             "0": {
                 "selected_by": 101,
                 "top_selected": 42,
-                "bottom_selected": 27,
+                "bottom_selected": 25,
                 "ratio": 0.711,
-                "discrimination": 0.331,
-                "r_pbis": 0.282
+                "discrimination": 0.373,
+                "r_pbis": 0.325
             },
             "1": {
                 "selected_by": 12,
                 "top_selected": 1,
-                "bottom_selected": 6,
+                "bottom_selected": 7,
                 "ratio": 0.085,
-                "discrimination": -0.104,
-                "r_pbis": -0.132
+                "discrimination": -0.125,
+                "r_pbis": -0.193
             },
             "2": {
                 "selected_by": 15,
                 "top_selected": 2,
-                "bottom_selected": 7,
+                "bottom_selected": 8,
                 "ratio": 0.106,
-                "discrimination": -0.103,
-                "r_pbis": -0.129
+                "discrimination": -0.124,
+                "r_pbis": -0.117
             },
             "3": {
                 "selected_by": 14,
@@ -1503,18 +2427,51 @@
                 "bottom_selected": 8,
                 "ratio": 0.099,
                 "discrimination": -0.124,
-                "r_pbis": -0.172
+                "r_pbis": -0.194
             }
-        }
+        },
+        "correct_index": 0,
+        "group_choice_percentages": [
+            {
+                "0": 0.5,
+                "1": 0.167,
+                "2": 0.133,
+                "3": 0.2
+            },
+            {
+                "0": 0.643,
+                "1": 0.143,
+                "2": 0.143,
+                "3": 0.071
+            },
+            {
+                "0": 0.714,
+                "1": 0.036,
+                "2": 0.107,
+                "3": 0.143
+            },
+            {
+                "0": 0.75,
+                "1": 0.071,
+                "2": 0.107,
+                "3": 0.071
+            },
+            {
+                "0": 0.964,
+                "1": 0.0,
+                "2": 0.036,
+                "3": 0.0
+            }
+        ]
     },
     "30": {
         "content": {
-            "question": "This is the content for question 30.",
+            "question": "Thu\u1eadt to\u00e1n s\u1eafp x\u1ebfp n\u00e0o c\u00f3 \u0111\u1ed9 ph\u1ee9c t\u1ea1p t\u1ed1t nh\u1ea5t v\u1edbi d\u1eef li\u1ec7u \u0111\u00e3 \u0111\u01b0\u1ee3c s\u1eafp x\u1ebfp?",
             "option": [
-                "Option A for question 30",
-                "Option B for question 30",
-                "Option C for question 30",
-                "Option D for question 30"
+                "Bubble sort",
+                " Selection sort",
+                " Insertion sort",
+                " Quick sort"
             ]
         },
         "difficulty": 0.7078378207402113,
@@ -1531,23 +2488,23 @@
                 "bottom_selected": 15,
                 "ratio": 0.162,
                 "discrimination": -0.291,
-                "r_pbis": -0.359
+                "r_pbis": -0.345
             },
             "1": {
                 "selected_by": 51,
-                "top_selected": 17,
-                "bottom_selected": 16,
+                "top_selected": 18,
+                "bottom_selected": 15,
                 "ratio": 0.359,
-                "discrimination": 0.028,
-                "r_pbis": 0.051
+                "discrimination": 0.07,
+                "r_pbis": 0.068
             },
             "2": {
                 "selected_by": 61,
-                "top_selected": 26,
-                "bottom_selected": 15,
+                "top_selected": 25,
+                "bottom_selected": 16,
                 "ratio": 0.43,
-                "discrimination": 0.241,
-                "r_pbis": 0.213
+                "discrimination": 0.199,
+                "r_pbis": 0.175
             },
             "3": {
                 "selected_by": 7,
@@ -1555,18 +2512,51 @@
                 "bottom_selected": 2,
                 "ratio": 0.049,
                 "discrimination": 0.022,
-                "r_pbis": 0.011
+                "r_pbis": 0.037
             }
-        }
+        },
+        "correct_index": 2,
+        "group_choice_percentages": [
+            {
+                "0": 0.333,
+                "1": 0.333,
+                "2": 0.3,
+                "3": 0.033
+            },
+            {
+                "0": 0.286,
+                "1": 0.321,
+                "2": 0.357,
+                "3": 0.036
+            },
+            {
+                "0": 0.071,
+                "1": 0.429,
+                "2": 0.429,
+                "3": 0.071
+            },
+            {
+                "0": 0.107,
+                "1": 0.214,
+                "2": 0.643,
+                "3": 0.036
+            },
+            {
+                "0": 0.0,
+                "1": 0.5,
+                "2": 0.429,
+                "3": 0.071
+            }
+        ]
     },
     "31": {
         "content": {
-            "question": "This is the content for question 31.",
+            "question": "Trong c\u00e2y AVL \u0111i\u1ec1u ki\u1ec7n c\u00e2n b\u1eb1ng \u0111\u01b0\u1ee3c \u0111\u1ecbnh ngh\u0129a nh\u01b0 th\u1ebf n\u00e0o?",
             "option": [
-                "Option A for question 31",
-                "Option B for question 31",
-                "Option C for question 31",
-                "Option D for question 31"
+                "Chi\u1ec1u cao c\u1ee7a hai c\u00e2y con kh\u00e1c nhau kh\u00f4ng qu\u00e1 1",
+                " C\u00e2y con tr\u00e1i l\u1edbn h\u01a1n c\u00e2y con ph\u1ea3i",
+                " C\u00e1c n\u00fat kh\u00f4ng c\u1ea7n c\u00e2n b\u1eb1ng",
+                " Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o"
             ]
         },
         "difficulty": -0.03154703802398469,
@@ -1579,46 +2569,79 @@
         "options": {
             "0": {
                 "selected_by": 87,
-                "top_selected": 35,
-                "bottom_selected": 22,
+                "top_selected": 34,
+                "bottom_selected": 25,
                 "ratio": 0.613,
-                "discrimination": 0.286,
-                "r_pbis": 0.258
+                "discrimination": 0.203,
+                "r_pbis": 0.235
             },
             "1": {
                 "selected_by": 19,
-                "top_selected": 2,
-                "bottom_selected": 10,
+                "top_selected": 3,
+                "bottom_selected": 8,
                 "ratio": 0.134,
-                "discrimination": -0.166,
-                "r_pbis": -0.205
+                "discrimination": -0.103,
+                "r_pbis": -0.137
             },
             "2": {
                 "selected_by": 23,
-                "top_selected": 6,
-                "bottom_selected": 9,
+                "top_selected": 7,
+                "bottom_selected": 8,
                 "ratio": 0.162,
-                "discrimination": -0.06,
-                "r_pbis": -0.058
+                "discrimination": -0.018,
+                "r_pbis": -0.087
             },
             "3": {
                 "selected_by": 12,
-                "top_selected": 4,
-                "bottom_selected": 6,
+                "top_selected": 3,
+                "bottom_selected": 7,
                 "ratio": 0.085,
-                "discrimination": -0.04,
-                "r_pbis": -0.108
+                "discrimination": -0.082,
+                "r_pbis": -0.117
             }
-        }
+        },
+        "correct_index": 0,
+        "group_choice_percentages": [
+            {
+                "0": 0.467,
+                "1": 0.167,
+                "2": 0.2,
+                "3": 0.167
+            },
+            {
+                "0": 0.536,
+                "1": 0.214,
+                "2": 0.143,
+                "3": 0.071
+            },
+            {
+                "0": 0.679,
+                "1": 0.071,
+                "2": 0.214,
+                "3": 0.036
+            },
+            {
+                "0": 0.571,
+                "1": 0.143,
+                "2": 0.179,
+                "3": 0.107
+            },
+            {
+                "0": 0.821,
+                "1": 0.071,
+                "2": 0.071,
+                "3": 0.036
+            }
+        ]
     },
     "32": {
         "content": {
-            "question": "This is the content for question 32.",
+            "question": "\u0110\u1eb7c \u0111i\u1ec3m n\u00e0o c\u1ee7a \u0111\u1ed3 th\u1ecb v\u00f4 h\u01b0\u1edbng l\u00e0 \u0111\u00fang?",
             "option": [
-                "Option A for question 32",
-                "Option B for question 32",
-                "Option C for question 32",
-                "Option D for question 32"
+                "C\u00f3 tr\u1ecdng s\u1ed1",
+                " C\u00f3 h\u01b0\u1edbng",
+                " Kh\u00f4ng c\u00f3 tr\u1ecdng s\u1ed1",
+                " Kh\u00f4ng c\u00f3 h\u01b0\u1edbng"
             ]
         },
         "difficulty": 0.11199700764657365,
@@ -1631,46 +2654,79 @@
         "options": {
             "0": {
                 "selected_by": 19,
-                "top_selected": 3,
-                "bottom_selected": 6,
+                "top_selected": 4,
+                "bottom_selected": 7,
                 "ratio": 0.134,
                 "discrimination": -0.061,
-                "r_pbis": -0.07
+                "r_pbis": -0.091
             },
             "1": {
                 "selected_by": 24,
-                "top_selected": 7,
+                "top_selected": 8,
                 "bottom_selected": 9,
                 "ratio": 0.169,
-                "discrimination": -0.039,
-                "r_pbis": -0.023
+                "discrimination": -0.017,
+                "r_pbis": -0.024
             },
             "2": {
                 "selected_by": 82,
-                "top_selected": 35,
-                "bottom_selected": 24,
+                "top_selected": 33,
+                "bottom_selected": 22,
                 "ratio": 0.577,
-                "discrimination": 0.245,
-                "r_pbis": 0.18
+                "discrimination": 0.244,
+                "r_pbis": 0.213
             },
             "3": {
                 "selected_by": 17,
                 "top_selected": 2,
-                "bottom_selected": 9,
+                "bottom_selected": 10,
                 "ratio": 0.12,
-                "discrimination": -0.145,
-                "r_pbis": -0.173
+                "discrimination": -0.166,
+                "r_pbis": -0.202
             }
-        }
+        },
+        "correct_index": 2,
+        "group_choice_percentages": [
+            {
+                "0": 0.1,
+                "1": 0.2,
+                "2": 0.533,
+                "3": 0.167
+            },
+            {
+                "0": 0.214,
+                "1": 0.179,
+                "2": 0.357,
+                "3": 0.25
+            },
+            {
+                "0": 0.179,
+                "1": 0.107,
+                "2": 0.643,
+                "3": 0.071
+            },
+            {
+                "0": 0.107,
+                "1": 0.179,
+                "2": 0.607,
+                "3": 0.107
+            },
+            {
+                "0": 0.071,
+                "1": 0.179,
+                "2": 0.75,
+                "3": 0.0
+            }
+        ]
     },
     "33": {
         "content": {
-            "question": "This is the content for question 33.",
+            "question": "\u0110\u1ed9 ph\u1ee9c t\u1ea1p th\u1eddi gian t\u1ed1t nh\u1ea5t c\u1ee7a s\u1eafp x\u1ebfp ch\u1ecdn l\u00e0 g\u00ec?",
             "option": [
-                "Option A for question 33",
-                "Option B for question 33",
-                "Option C for question 33",
-                "Option D for question 33"
+                "O(n)",
+                " O(log n)",
+                " O(n^2)",
+                " O(n log n)"
             ]
         },
         "difficulty": -0.762409286195624,
@@ -1687,23 +2743,23 @@
                 "bottom_selected": 2,
                 "ratio": 0.014,
                 "discrimination": -0.042,
-                "r_pbis": -0.18
+                "r_pbis": -0.144
             },
             "1": {
                 "selected_by": 111,
                 "top_selected": 42,
-                "bottom_selected": 32,
+                "bottom_selected": 31,
                 "ratio": 0.782,
-                "discrimination": 0.227,
-                "r_pbis": 0.29
+                "discrimination": 0.248,
+                "r_pbis": 0.291
             },
             "2": {
                 "selected_by": 15,
                 "top_selected": 1,
-                "bottom_selected": 8,
+                "bottom_selected": 9,
                 "ratio": 0.106,
-                "discrimination": -0.145,
-                "r_pbis": -0.25
+                "discrimination": -0.166,
+                "r_pbis": -0.285
             },
             "3": {
                 "selected_by": 14,
@@ -1711,18 +2767,51 @@
                 "bottom_selected": 6,
                 "ratio": 0.099,
                 "discrimination": -0.04,
-                "r_pbis": -0.073
+                "r_pbis": -0.053
             }
-        }
+        },
+        "correct_index": 1,
+        "group_choice_percentages": [
+            {
+                "0": 0.033,
+                "1": 0.567,
+                "2": 0.3,
+                "3": 0.1
+            },
+            {
+                "0": 0.036,
+                "1": 0.75,
+                "2": 0.107,
+                "3": 0.107
+            },
+            {
+                "0": 0.0,
+                "1": 0.786,
+                "2": 0.071,
+                "3": 0.143
+            },
+            {
+                "0": 0.0,
+                "1": 0.893,
+                "2": 0.036,
+                "3": 0.071
+            },
+            {
+                "0": 0.0,
+                "1": 0.929,
+                "2": 0.0,
+                "3": 0.071
+            }
+        ]
     },
     "34": {
         "content": {
-            "question": "This is the content for question 34.",
+            "question": "Thu\u1eadt to\u00e1n Floyd-Warshall \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 l\u00e0m g\u00ec?",
             "option": [
-                "Option A for question 34",
-                "Option B for question 34",
-                "Option C for question 34",
-                "Option D for question 34"
+                "T\u00ecm c\u00e2y khung nh\u1ecf nh\u1ea5t",
+                " T\u00ecm \u0111\u01b0\u1eddng \u0111i ng\u1eafn nh\u1ea5t",
+                " Duy\u1ec7t qua \u0111\u1ed3 th\u1ecb",
+                " Ph\u00e2n ho\u1ea1ch \u0111\u1ed3 th\u1ecb"
             ]
         },
         "difficulty": 1.7527802349648016,
@@ -1736,45 +2825,78 @@
             "0": {
                 "selected_by": 90,
                 "top_selected": 23,
-                "bottom_selected": 30,
+                "bottom_selected": 28,
                 "ratio": 0.634,
-                "discrimination": -0.136,
-                "r_pbis": -0.178
+                "discrimination": -0.094,
+                "r_pbis": -0.12
             },
             "1": {
                 "selected_by": 11,
                 "top_selected": 1,
-                "bottom_selected": 9,
+                "bottom_selected": 10,
                 "ratio": 0.077,
-                "discrimination": -0.166,
-                "r_pbis": -0.2
+                "discrimination": -0.187,
+                "r_pbis": -0.236
             },
             "2": {
                 "selected_by": 14,
                 "top_selected": 2,
-                "bottom_selected": 8,
+                "bottom_selected": 7,
                 "ratio": 0.099,
-                "discrimination": -0.124,
-                "r_pbis": -0.156
+                "discrimination": -0.103,
+                "r_pbis": -0.198
             },
             "3": {
                 "selected_by": 27,
                 "top_selected": 21,
-                "bottom_selected": 1,
+                "bottom_selected": 3,
                 "ratio": 0.19,
-                "discrimination": 0.426,
-                "r_pbis": 0.474
+                "discrimination": 0.384,
+                "r_pbis": 0.458
             }
-        }
+        },
+        "correct_index": 3,
+        "group_choice_percentages": [
+            {
+                "0": 0.5,
+                "1": 0.267,
+                "2": 0.167,
+                "3": 0.067
+            },
+            {
+                "0": 0.714,
+                "1": 0.071,
+                "2": 0.179,
+                "3": 0.036
+            },
+            {
+                "0": 0.857,
+                "1": 0.0,
+                "2": 0.071,
+                "3": 0.071
+            },
+            {
+                "0": 0.679,
+                "1": 0.0,
+                "2": 0.036,
+                "3": 0.286
+            },
+            {
+                "0": 0.429,
+                "1": 0.036,
+                "2": 0.036,
+                "3": 0.5
+            }
+        ]
     },
     "35": {
         "content": {
-            "question": "This is the content for question 35.",
+            "question": "Trong c\u00e2y nh\u1ecb ph\u00e2n ho\u00e0n ch\u1ec9nh s\u1ed1 n\u00fat l\u00e1 l\u1edbn nh\u1ea5t n\u1eb1m \u1edf m\u1ee9c n\u00e0o?",
             "option": [
-                "Option A for question 35",
-                "Option B for question 35",
-                "Option C for question 35",
-                "Option D for question 35"
+                "M\u1ee9c g\u1ed1c",
+                " M\u1ee9c d\u01b0\u1edbi g\u1ed1c",
+                " M\u1ee9c th\u1ea5p nh\u1ea5t",
+                " Kh\u00f4ng x\u00e1c \u0111\u1ecbnh"
             ]
         },
         "difficulty": 0.7939525159738106,
@@ -1788,10 +2910,10 @@
             "0": {
                 "selected_by": 49,
                 "top_selected": 9,
-                "bottom_selected": 21,
+                "bottom_selected": 19,
                 "ratio": 0.345,
-                "discrimination": -0.246,
-                "r_pbis": -0.177
+                "discrimination": -0.204,
+                "r_pbis": -0.142
             },
             "1": {
                 "selected_by": 22,
@@ -1799,34 +2921,67 @@
                 "bottom_selected": 14,
                 "ratio": 0.155,
                 "discrimination": -0.228,
-                "r_pbis": -0.253
+                "r_pbis": -0.243
             },
             "2": {
                 "selected_by": 13,
                 "top_selected": 1,
-                "bottom_selected": 5,
+                "bottom_selected": 8,
                 "ratio": 0.092,
-                "discrimination": -0.083,
-                "r_pbis": -0.16
+                "discrimination": -0.145,
+                "r_pbis": -0.193
             },
             "3": {
                 "selected_by": 58,
                 "top_selected": 34,
-                "bottom_selected": 8,
+                "bottom_selected": 7,
                 "ratio": 0.408,
-                "discrimination": 0.557,
-                "r_pbis": 0.451
+                "discrimination": 0.578,
+                "r_pbis": 0.43
             }
-        }
+        },
+        "correct_index": 3,
+        "group_choice_percentages": [
+            {
+                "0": 0.333,
+                "1": 0.367,
+                "2": 0.167,
+                "3": 0.133
+            },
+            {
+                "0": 0.464,
+                "1": 0.179,
+                "2": 0.107,
+                "3": 0.25
+            },
+            {
+                "0": 0.571,
+                "1": 0.071,
+                "2": 0.107,
+                "3": 0.25
+            },
+            {
+                "0": 0.143,
+                "1": 0.036,
+                "2": 0.071,
+                "3": 0.75
+            },
+            {
+                "0": 0.214,
+                "1": 0.107,
+                "2": 0.0,
+                "3": 0.679
+            }
+        ]
     },
     "36": {
         "content": {
-            "question": "This is the content for question 36.",
+            "question": "\u0110\u1eb7c \u0111i\u1ec3m n\u00e0o \u0111\u00fang v\u1ec1 b\u1ea3ng b\u0103m?",
             "option": [
-                "Option A for question 36",
-                "Option B for question 36",
-                "Option C for question 36",
-                "Option D for question 36"
+                "Kh\u00f4ng cho ph\u00e9p xung \u0111\u1ed9t",
+                " C\u00f3 th\u1ec3 x\u1ea3y ra xung \u0111\u1ed9t",
+                " Kh\u00f4ng c\u00f3 y\u1ebfu t\u1ed1 ng\u1eabu nhi\u00ean",
+                " Ch\u1ec9 c\u00f3 c\u00e1c s\u1ed1 nguy\u00ean"
             ]
         },
         "difficulty": -0.03154703802398468,
@@ -1839,46 +2994,79 @@
         "options": {
             "0": {
                 "selected_by": 20,
-                "top_selected": 6,
-                "bottom_selected": 9,
+                "top_selected": 5,
+                "bottom_selected": 8,
                 "ratio": 0.141,
                 "discrimination": -0.06,
-                "r_pbis": -0.057
+                "r_pbis": -0.071
             },
             "1": {
                 "selected_by": 20,
-                "top_selected": 2,
-                "bottom_selected": 8,
+                "top_selected": 1,
+                "bottom_selected": 11,
                 "ratio": 0.141,
-                "discrimination": -0.124,
-                "r_pbis": -0.186
+                "discrimination": -0.208,
+                "r_pbis": -0.21
             },
             "2": {
                 "selected_by": 87,
-                "top_selected": 36,
-                "bottom_selected": 23,
+                "top_selected": 38,
+                "bottom_selected": 19,
                 "ratio": 0.613,
-                "discrimination": 0.287,
-                "r_pbis": 0.264
+                "discrimination": 0.413,
+                "r_pbis": 0.322
             },
             "3": {
                 "selected_by": 15,
                 "top_selected": 3,
-                "bottom_selected": 8,
+                "bottom_selected": 10,
                 "ratio": 0.106,
-                "discrimination": -0.103,
-                "r_pbis": -0.144
+                "discrimination": -0.145,
+                "r_pbis": -0.192
             }
-        }
+        },
+        "correct_index": 2,
+        "group_choice_percentages": [
+            {
+                "0": 0.167,
+                "1": 0.2,
+                "2": 0.367,
+                "3": 0.267
+            },
+            {
+                "0": 0.143,
+                "1": 0.286,
+                "2": 0.5,
+                "3": 0.071
+            },
+            {
+                "0": 0.179,
+                "1": 0.107,
+                "2": 0.643,
+                "3": 0.071
+            },
+            {
+                "0": 0.071,
+                "1": 0.071,
+                "2": 0.821,
+                "3": 0.036
+            },
+            {
+                "0": 0.143,
+                "1": 0.036,
+                "2": 0.75,
+                "3": 0.071
+            }
+        ]
     },
     "37": {
         "content": {
-            "question": "This is the content for question 37.",
+            "question": "Trong h\u00e0ng \u0111\u1ee3i k\u00e9p c\u00f3 th\u1ec3 th\u1ef1c hi\u1ec7n thao t\u00e1c g\u00ec?",
             "option": [
-                "Option A for question 37",
-                "Option B for question 37",
-                "Option C for question 37",
-                "Option D for question 37"
+                "Ch\u1ec9 th\u00eam \u1edf cu\u1ed1i",
+                " Ch\u1ec9 x\u00f3a \u1edf \u0111\u1ea7u",
+                " Th\u00eam ho\u1eb7c x\u00f3a t\u1eeb c\u1ea3 hai \u0111\u1ea7u",
+                " Kh\u00f4ng th\u1ec3 thao t\u00e1c g\u00ec"
             ]
         },
         "difficulty": 1.393289406645503,
@@ -1891,46 +3079,79 @@
         "options": {
             "0": {
                 "selected_by": 27,
-                "top_selected": 7,
-                "bottom_selected": 12,
+                "top_selected": 9,
+                "bottom_selected": 13,
                 "ratio": 0.19,
-                "discrimination": -0.101,
-                "r_pbis": -0.088
+                "discrimination": -0.079,
+                "r_pbis": -0.085
             },
             "1": {
                 "selected_by": 38,
-                "top_selected": 12,
-                "bottom_selected": 10,
+                "top_selected": 13,
+                "bottom_selected": 8,
                 "ratio": 0.268,
-                "discrimination": 0.047,
-                "r_pbis": 0.08
+                "discrimination": 0.11,
+                "r_pbis": 0.113
             },
             "2": {
                 "selected_by": 50,
-                "top_selected": 24,
+                "top_selected": 21,
                 "bottom_selected": 13,
                 "ratio": 0.352,
-                "discrimination": 0.24,
-                "r_pbis": 0.148
+                "discrimination": 0.176,
+                "r_pbis": 0.15
             },
             "3": {
                 "selected_by": 27,
                 "top_selected": 4,
-                "bottom_selected": 13,
+                "bottom_selected": 14,
                 "ratio": 0.19,
-                "discrimination": -0.186,
-                "r_pbis": -0.183
+                "discrimination": -0.207,
+                "r_pbis": -0.225
             }
-        }
+        },
+        "correct_index": 1,
+        "group_choice_percentages": [
+            {
+                "0": 0.2,
+                "1": 0.167,
+                "2": 0.3,
+                "3": 0.333
+            },
+            {
+                "0": 0.286,
+                "1": 0.25,
+                "2": 0.25,
+                "3": 0.214
+            },
+            {
+                "0": 0.071,
+                "1": 0.321,
+                "2": 0.393,
+                "3": 0.214
+            },
+            {
+                "0": 0.357,
+                "1": 0.286,
+                "2": 0.25,
+                "3": 0.107
+            },
+            {
+                "0": 0.036,
+                "1": 0.321,
+                "2": 0.571,
+                "3": 0.071
+            }
+        ]
     },
     "38": {
         "content": {
-            "question": "This is the content for question 38.",
+            "question": "Ph\u01b0\u01a1ng ph\u00e1p n\u00e0o d\u00f9ng \u0111\u1ec3 ph\u00e1t hi\u1ec7n chu tr\u00ecnh trong \u0111\u1ed3 th\u1ecb?",
             "option": [
-                "Option A for question 38",
-                "Option B for question 38",
-                "Option C for question 38",
-                "Option D for question 38"
+                "DFS",
+                " BFS",
+                " Bellman-Ford",
+                " Floyd-Warshall"
             ]
         },
         "difficulty": 0.6222702046228797,
@@ -1943,46 +3164,79 @@
         "options": {
             "0": {
                 "selected_by": 13,
-                "top_selected": 2,
-                "bottom_selected": 6,
+                "top_selected": 1,
+                "bottom_selected": 8,
                 "ratio": 0.092,
-                "discrimination": -0.082,
-                "r_pbis": -0.236
+                "discrimination": -0.145,
+                "r_pbis": -0.234
             },
             "1": {
                 "selected_by": 47,
-                "top_selected": 7,
-                "bottom_selected": 21,
+                "top_selected": 8,
+                "bottom_selected": 20,
                 "ratio": 0.331,
-                "discrimination": -0.289,
-                "r_pbis": -0.206
+                "discrimination": -0.246,
+                "r_pbis": -0.195
             },
             "2": {
                 "selected_by": 18,
-                "top_selected": 3,
-                "bottom_selected": 9,
+                "top_selected": 4,
+                "bottom_selected": 10,
                 "ratio": 0.127,
-                "discrimination": -0.124,
-                "r_pbis": -0.162
+                "discrimination": -0.123,
+                "r_pbis": -0.172
             },
             "3": {
                 "selected_by": 62,
-                "top_selected": 35,
-                "bottom_selected": 11,
+                "top_selected": 34,
+                "bottom_selected": 9,
                 "ratio": 0.437,
-                "discrimination": 0.516,
-                "r_pbis": 0.457
+                "discrimination": 0.536,
+                "r_pbis": 0.456
             }
-        }
+        },
+        "correct_index": 3,
+        "group_choice_percentages": [
+            {
+                "0": 0.233,
+                "1": 0.367,
+                "2": 0.2,
+                "3": 0.167
+            },
+            {
+                "0": 0.071,
+                "1": 0.5,
+                "2": 0.179,
+                "3": 0.25
+            },
+            {
+                "0": 0.036,
+                "1": 0.393,
+                "2": 0.071,
+                "3": 0.464
+            },
+            {
+                "0": 0.107,
+                "1": 0.286,
+                "2": 0.143,
+                "3": 0.464
+            },
+            {
+                "0": 0.0,
+                "1": 0.107,
+                "2": 0.036,
+                "3": 0.857
+            }
+        ]
     },
     "39": {
         "content": {
-            "question": "This is the content for question 39.",
+            "question": "\u0110\u1ed9 ph\u1ee9c t\u1ea1p th\u1eddi gian c\u1ee7a thu\u1eadt to\u00e1n heapsort l\u00e0 g\u00ec?",
             "option": [
-                "Option A for question 39",
-                "Option B for question 39",
-                "Option C for question 39",
-                "Option D for question 39"
+                "O(n)",
+                " O(log n)",
+                " O(n log n)",
+                " O(n^2)"
             ]
         },
         "difficulty": -0.20662075815074993,
@@ -1996,26 +3250,26 @@
             "0": {
                 "selected_by": 32,
                 "top_selected": 4,
-                "bottom_selected": 16,
+                "bottom_selected": 15,
                 "ratio": 0.225,
-                "discrimination": -0.248,
-                "r_pbis": -0.293
+                "discrimination": -0.227,
+                "r_pbis": -0.268
             },
             "1": {
                 "selected_by": 8,
                 "top_selected": 0,
-                "bottom_selected": 6,
+                "bottom_selected": 8,
                 "ratio": 0.056,
-                "discrimination": -0.125,
-                "r_pbis": -0.253
+                "discrimination": -0.167,
+                "r_pbis": -0.295
             },
             "2": {
                 "selected_by": 93,
                 "top_selected": 41,
-                "bottom_selected": 20,
+                "bottom_selected": 19,
                 "ratio": 0.655,
-                "discrimination": 0.456,
-                "r_pbis": 0.461
+                "discrimination": 0.477,
+                "r_pbis": 0.455
             },
             "3": {
                 "selected_by": 9,
@@ -2023,18 +3277,51 @@
                 "bottom_selected": 6,
                 "ratio": 0.063,
                 "discrimination": -0.082,
-                "r_pbis": -0.159
+                "r_pbis": -0.15
             }
-        }
+        },
+        "correct_index": 2,
+        "group_choice_percentages": [
+            {
+                "0": 0.367,
+                "1": 0.2,
+                "2": 0.267,
+                "3": 0.167
+            },
+            {
+                "0": 0.25,
+                "1": 0.071,
+                "2": 0.607,
+                "3": 0.071
+            },
+            {
+                "0": 0.321,
+                "1": 0.0,
+                "2": 0.679,
+                "3": 0.0
+            },
+            {
+                "0": 0.143,
+                "1": 0.0,
+                "2": 0.821,
+                "3": 0.036
+            },
+            {
+                "0": 0.036,
+                "1": 0.0,
+                "2": 0.929,
+                "3": 0.036
+            }
+        ]
     },
     "40": {
         "content": {
-            "question": "This is the content for question 40.",
+            "question": "\u0110\u1eb7c \u0111i\u1ec3m n\u00e0o \u0111\u00fang v\u1edbi danh s\u00e1ch li\u00ean k\u1ebft v\u00f2ng?",
             "option": [
-                "Option A for question 40",
-                "Option B for question 40",
-                "Option C for question 40",
-                "Option D for question 40"
+                "Kh\u00f4ng c\u00f3 n\u00fat \u0111\u1ea7u",
+                " Kh\u00f4ng c\u00f3 n\u00fat cu\u1ed1i",
+                " N\u00fat cu\u1ed1i tr\u1ecf v\u1ec1 n\u00fat \u0111\u1ea7u",
+                " Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o"
             ]
         },
         "difficulty": -0.4775936883380455,
@@ -2048,45 +3335,78 @@
             "0": {
                 "selected_by": 10,
                 "top_selected": 1,
-                "bottom_selected": 6,
+                "bottom_selected": 7,
                 "ratio": 0.07,
-                "discrimination": -0.104,
-                "r_pbis": -0.169
+                "discrimination": -0.125,
+                "r_pbis": -0.18
             },
             "1": {
                 "selected_by": 17,
                 "top_selected": 2,
-                "bottom_selected": 12,
+                "bottom_selected": 11,
                 "ratio": 0.12,
-                "discrimination": -0.207,
-                "r_pbis": -0.243
+                "discrimination": -0.187,
+                "r_pbis": -0.241
             },
             "2": {
                 "selected_by": 102,
                 "top_selected": 44,
-                "bottom_selected": 19,
+                "bottom_selected": 20,
                 "ratio": 0.718,
-                "discrimination": 0.54,
-                "r_pbis": 0.452
+                "discrimination": 0.52,
+                "r_pbis": 0.449
             },
             "3": {
                 "selected_by": 9,
                 "top_selected": 0,
-                "bottom_selected": 8,
+                "bottom_selected": 7,
                 "ratio": 0.063,
-                "discrimination": -0.167,
-                "r_pbis": -0.261
+                "discrimination": -0.146,
+                "r_pbis": -0.219
             }
-        }
+        },
+        "correct_index": 2,
+        "group_choice_percentages": [
+            {
+                "0": 0.167,
+                "1": 0.2,
+                "2": 0.367,
+                "3": 0.167
+            },
+            {
+                "0": 0.107,
+                "1": 0.25,
+                "2": 0.536,
+                "3": 0.107
+            },
+            {
+                "0": 0.036,
+                "1": 0.036,
+                "2": 0.857,
+                "3": 0.036
+            },
+            {
+                "0": 0.0,
+                "1": 0.071,
+                "2": 0.929,
+                "3": 0.0
+            },
+            {
+                "0": 0.036,
+                "1": 0.036,
+                "2": 0.929,
+                "3": 0.0
+            }
+        ]
     },
     "41": {
         "content": {
-            "question": "This is the content for question 41.",
+            "question": "\u0110\u1eb7c \u0111i\u1ec3m n\u00e0o \u0111\u00fang v\u1ec1 c\u00e2y nh\u1ecb ph\u00e2n t\u00ecm ki\u1ebfm?",
             "option": [
-                "Option A for question 41",
-                "Option B for question 41",
-                "Option C for question 41",
-                "Option D for question 41"
+                "M\u1ed7i n\u00fat con tr\u00e1i nh\u1ecf h\u01a1n n\u00fat cha",
+                " M\u1ed7i n\u00fat con ph\u1ea3i l\u1edbn h\u01a1n ho\u1eb7c b\u1eb1ng n\u00fat cha",
+                " Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o",
+                " C\u1ea3 hai \u0111\u1ec1u sai"
             ]
         },
         "difficulty": -0.08950983432743126,
@@ -2100,18 +3420,18 @@
             "0": {
                 "selected_by": 22,
                 "top_selected": 3,
-                "bottom_selected": 9,
+                "bottom_selected": 14,
                 "ratio": 0.155,
-                "discrimination": -0.124,
-                "r_pbis": -0.226
+                "discrimination": -0.228,
+                "r_pbis": -0.24
             },
             "1": {
                 "selected_by": 89,
-                "top_selected": 38,
-                "bottom_selected": 26,
+                "top_selected": 37,
+                "bottom_selected": 22,
                 "ratio": 0.627,
-                "discrimination": 0.267,
-                "r_pbis": 0.297
+                "discrimination": 0.329,
+                "r_pbis": 0.306
             },
             "2": {
                 "selected_by": 21,
@@ -2119,26 +3439,59 @@
                 "bottom_selected": 8,
                 "ratio": 0.148,
                 "discrimination": -0.103,
-                "r_pbis": -0.111
+                "r_pbis": -0.132
             },
             "3": {
                 "selected_by": 9,
-                "top_selected": 3,
-                "bottom_selected": 4,
+                "top_selected": 4,
+                "bottom_selected": 3,
                 "ratio": 0.063,
-                "discrimination": -0.02,
-                "r_pbis": -0.069
+                "discrimination": 0.023,
+                "r_pbis": -0.028
             }
-        }
+        },
+        "correct_index": 1,
+        "group_choice_percentages": [
+            {
+                "0": 0.267,
+                "1": 0.4,
+                "2": 0.2,
+                "3": 0.1
+            },
+            {
+                "0": 0.214,
+                "1": 0.714,
+                "2": 0.071,
+                "3": 0.0
+            },
+            {
+                "0": 0.143,
+                "1": 0.536,
+                "2": 0.286,
+                "3": 0.036
+            },
+            {
+                "0": 0.107,
+                "1": 0.643,
+                "2": 0.143,
+                "3": 0.107
+            },
+            {
+                "0": 0.036,
+                "1": 0.857,
+                "2": 0.036,
+                "3": 0.071
+            }
+        ]
     },
     "42": {
         "content": {
-            "question": "This is the content for question 42.",
+            "question": "Thu\u1eadt to\u00e1n n\u00e0o \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 duy\u1ec7t \u0111\u1ed3 th\u1ecb?",
             "option": [
-                "Option A for question 42",
-                "Option B for question 42",
-                "Option C for question 42",
-                "Option D for question 42"
+                "DFS",
+                " BFS",
+                " Kruskal",
+                " Prim"
             ]
         },
         "difficulty": 0.8807650181416407,
@@ -2152,45 +3505,78 @@
             "0": {
                 "selected_by": 14,
                 "top_selected": 3,
-                "bottom_selected": 6,
+                "bottom_selected": 8,
                 "ratio": 0.099,
-                "discrimination": -0.061,
-                "r_pbis": -0.118
+                "discrimination": -0.103,
+                "r_pbis": -0.141
             },
             "1": {
                 "selected_by": 55,
-                "top_selected": 25,
-                "bottom_selected": 14,
+                "top_selected": 24,
+                "bottom_selected": 15,
                 "ratio": 0.387,
-                "discrimination": 0.24,
-                "r_pbis": 0.218
+                "discrimination": 0.198,
+                "r_pbis": 0.203
             },
             "2": {
                 "selected_by": 53,
-                "top_selected": 15,
-                "bottom_selected": 19,
+                "top_selected": 14,
+                "bottom_selected": 17,
                 "ratio": 0.373,
-                "discrimination": -0.077,
-                "r_pbis": -0.106
+                "discrimination": -0.056,
+                "r_pbis": -0.086
             },
             "3": {
                 "selected_by": 18,
-                "top_selected": 4,
-                "bottom_selected": 8,
+                "top_selected": 6,
+                "bottom_selected": 7,
                 "ratio": 0.127,
-                "discrimination": -0.082,
-                "r_pbis": -0.041
+                "discrimination": -0.018,
+                "r_pbis": -0.023
             }
-        }
+        },
+        "correct_index": 1,
+        "group_choice_percentages": [
+            {
+                "0": 0.2,
+                "1": 0.267,
+                "2": 0.333,
+                "3": 0.167
+            },
+            {
+                "0": 0.071,
+                "1": 0.321,
+                "2": 0.464,
+                "3": 0.143
+            },
+            {
+                "0": 0.107,
+                "1": 0.25,
+                "2": 0.5,
+                "3": 0.107
+            },
+            {
+                "0": 0.0,
+                "1": 0.607,
+                "2": 0.321,
+                "3": 0.071
+            },
+            {
+                "0": 0.107,
+                "1": 0.5,
+                "2": 0.25,
+                "3": 0.143
+            }
+        ]
     },
     "43": {
         "content": {
-            "question": "This is the content for question 43.",
+            "question": "\u0110\u1eb7c \u0111i\u1ec3m n\u00e0o \u0111\u00fang v\u1ec1 m\u1ea3ng \u0111\u1ed9ng?",
             "option": [
-                "Option A for question 43",
-                "Option B for question 43",
-                "Option C for question 43",
-                "Option D for question 43"
+                "K\u00edch th\u01b0\u1edbc c\u1ed1 \u0111\u1ecbnh",
+                " C\u00f3 th\u1ec3 thay \u0111\u1ed5i k\u00edch th\u01b0\u1edbc",
+                " Kh\u00f4ng c\u00f3 y\u1ebfu t\u1ed1 ng\u1eabu nhi\u00ean",
+                " Ch\u1ec9 ch\u1ee9a s\u1ed1 nguy\u00ean"
             ]
         },
         "difficulty": 0.8517406324258158,
@@ -2204,45 +3590,78 @@
             "0": {
                 "selected_by": 25,
                 "top_selected": 6,
-                "bottom_selected": 7,
+                "bottom_selected": 10,
                 "ratio": 0.176,
-                "discrimination": -0.018,
-                "r_pbis": -0.062
+                "discrimination": -0.081,
+                "r_pbis": -0.079
             },
             "1": {
                 "selected_by": 56,
-                "top_selected": 26,
-                "bottom_selected": 14,
+                "top_selected": 27,
+                "bottom_selected": 15,
                 "ratio": 0.394,
                 "discrimination": 0.262,
-                "r_pbis": 0.27
+                "r_pbis": 0.29
             },
             "2": {
                 "selected_by": 24,
                 "top_selected": 9,
-                "bottom_selected": 10,
+                "bottom_selected": 6,
                 "ratio": 0.169,
-                "discrimination": -0.017,
-                "r_pbis": -0.023
+                "discrimination": 0.066,
+                "r_pbis": -0.016
             },
             "3": {
                 "selected_by": 34,
-                "top_selected": 6,
+                "top_selected": 5,
                 "bottom_selected": 16,
                 "ratio": 0.239,
-                "discrimination": -0.206,
-                "r_pbis": -0.225
+                "discrimination": -0.227,
+                "r_pbis": -0.233
             }
-        }
+        },
+        "correct_index": 1,
+        "group_choice_percentages": [
+            {
+                "0": 0.133,
+                "1": 0.3,
+                "2": 0.133,
+                "3": 0.4
+            },
+            {
+                "0": 0.321,
+                "1": 0.321,
+                "2": 0.143,
+                "3": 0.214
+            },
+            {
+                "0": 0.143,
+                "1": 0.286,
+                "2": 0.25,
+                "3": 0.286
+            },
+            {
+                "0": 0.143,
+                "1": 0.429,
+                "2": 0.179,
+                "3": 0.214
+            },
+            {
+                "0": 0.143,
+                "1": 0.643,
+                "2": 0.143,
+                "3": 0.071
+            }
+        ]
     },
     "44": {
         "content": {
-            "question": "This is the content for question 44.",
+            "question": "Trong c\u1ea5u tr\u00fac h\u00e0ng \u0111\u1ee3i thao t\u00e1c n\u00e0o l\u00e0 \u0111\u00fang?",
             "option": [
-                "Option A for question 44",
-                "Option B for question 44",
-                "Option C for question 44",
-                "Option D for question 44"
+                "Ch\u1ec9 th\u00eam \u1edf \u0111\u1ea7u",
+                " Th\u00eam \u1edf cu\u1ed1i v\u00e0 x\u00f3a \u1edf \u0111\u1ea7u",
+                " Th\u00eam \u1edf \u0111\u1ea7u v\u00e0 x\u00f3a \u1edf cu\u1ed1i",
+                " Kh\u00f4ng thao t\u00e1c n\u00e0o \u0111\u00fang"
             ]
         },
         "difficulty": -0.11863079292872555,
@@ -2255,46 +3674,79 @@
         "options": {
             "0": {
                 "selected_by": 21,
-                "top_selected": 3,
-                "bottom_selected": 7,
+                "top_selected": 2,
+                "bottom_selected": 10,
                 "ratio": 0.148,
-                "discrimination": -0.082,
-                "r_pbis": -0.124
+                "discrimination": -0.166,
+                "r_pbis": -0.17
             },
             "1": {
                 "selected_by": 90,
-                "top_selected": 37,
-                "bottom_selected": 30,
+                "top_selected": 38,
+                "bottom_selected": 24,
                 "ratio": 0.634,
-                "discrimination": 0.162,
-                "r_pbis": 0.235
+                "discrimination": 0.309,
+                "r_pbis": 0.285
             },
             "2": {
                 "selected_by": 17,
                 "top_selected": 5,
-                "bottom_selected": 4,
+                "bottom_selected": 6,
                 "ratio": 0.12,
-                "discrimination": 0.023,
-                "r_pbis": -0.04
+                "discrimination": -0.019,
+                "r_pbis": -0.049
             },
             "3": {
                 "selected_by": 12,
                 "top_selected": 1,
-                "bottom_selected": 6,
+                "bottom_selected": 7,
                 "ratio": 0.085,
-                "discrimination": -0.104,
-                "r_pbis": -0.215
+                "discrimination": -0.125,
+                "r_pbis": -0.223
             }
-        }
+        },
+        "correct_index": 1,
+        "group_choice_percentages": [
+            {
+                "0": 0.267,
+                "1": 0.433,
+                "2": 0.133,
+                "3": 0.133
+            },
+            {
+                "0": 0.107,
+                "1": 0.679,
+                "2": 0.071,
+                "3": 0.143
+            },
+            {
+                "0": 0.179,
+                "1": 0.536,
+                "2": 0.179,
+                "3": 0.107
+            },
+            {
+                "0": 0.107,
+                "1": 0.714,
+                "2": 0.143,
+                "3": 0.036
+            },
+            {
+                "0": 0.071,
+                "1": 0.821,
+                "2": 0.071,
+                "3": 0.0
+            }
+        ]
     },
     "45": {
         "content": {
-            "question": "This is the content for question 45.",
+            "question": "S\u1eafp x\u1ebfp ch\u00e8n (insertion sort) ho\u1ea1t \u0111\u1ed9ng nh\u01b0 th\u1ebf n\u00e0o?",
             "option": [
-                "Option A for question 45",
-                "Option B for question 45",
-                "Option C for question 45",
-                "Option D for question 45"
+                "T\u00ecm ph\u1ea7n t\u1eed nh\u1ecf nh\u1ea5t v\u00e0 \u0111\u1eb7t v\u00e0o \u0111\u1ea7u danh s\u00e1ch",
+                " Ch\u00e8n t\u1eebng ph\u1ea7n t\u1eed v\u00e0o \u0111\u00fang v\u1ecb tr\u00ed c\u1ee7a n\u00f3",
+                " S\u1eed d\u1ee5ng c\u00e2y nh\u1ecb ph\u00e2n \u0111\u1ec3 s\u1eafp x\u1ebfp",
+                " S\u1eed d\u1ee5ng b\u1ea3ng b\u0103m \u0111\u1ec3 s\u1eafp x\u1ebfp"
             ]
         },
         "difficulty": 0.5087723223611027,
@@ -2307,46 +3759,79 @@
         "options": {
             "0": {
                 "selected_by": 35,
-                "top_selected": 8,
-                "bottom_selected": 13,
+                "top_selected": 9,
+                "bottom_selected": 15,
                 "ratio": 0.246,
-                "discrimination": -0.101,
-                "r_pbis": -0.08
+                "discrimination": -0.121,
+                "r_pbis": -0.089
             },
             "1": {
                 "selected_by": 68,
-                "top_selected": 31,
-                "bottom_selected": 14,
+                "top_selected": 30,
+                "bottom_selected": 15,
                 "ratio": 0.479,
-                "discrimination": 0.368,
-                "r_pbis": 0.32
+                "discrimination": 0.326,
+                "r_pbis": 0.299
             },
             "2": {
                 "selected_by": 18,
                 "top_selected": 6,
-                "bottom_selected": 9,
+                "bottom_selected": 7,
                 "ratio": 0.127,
-                "discrimination": -0.06,
-                "r_pbis": -0.13
+                "discrimination": -0.018,
+                "r_pbis": -0.102
             },
             "3": {
                 "selected_by": 20,
                 "top_selected": 2,
-                "bottom_selected": 11,
+                "bottom_selected": 10,
                 "ratio": 0.141,
-                "discrimination": -0.187,
-                "r_pbis": -0.221
+                "discrimination": -0.166,
+                "r_pbis": -0.201
             }
-        }
+        },
+        "correct_index": 1,
+        "group_choice_percentages": [
+            {
+                "0": 0.233,
+                "1": 0.333,
+                "2": 0.233,
+                "3": 0.167
+            },
+            {
+                "0": 0.393,
+                "1": 0.286,
+                "2": 0.071,
+                "3": 0.25
+            },
+            {
+                "0": 0.214,
+                "1": 0.464,
+                "2": 0.107,
+                "3": 0.214
+            },
+            {
+                "0": 0.214,
+                "1": 0.643,
+                "2": 0.107,
+                "3": 0.036
+            },
+            {
+                "0": 0.179,
+                "1": 0.679,
+                "2": 0.107,
+                "3": 0.036
+            }
+        ]
     },
     "46": {
         "content": {
-            "question": "This is the content for question 46.",
+            "question": "\u0110\u1eb7c \u0111i\u1ec3m n\u00e0o \u0111\u00fang v\u1edbi thu\u1eadt to\u00e1n Bellman-Ford?",
             "option": [
-                "Option A for question 46",
-                "Option B for question 46",
-                "Option C for question 46",
-                "Option D for question 46"
+                "Ch\u1ec9 ho\u1ea1t \u0111\u1ed9ng v\u1edbi \u0111\u1ed3 th\u1ecb kh\u00f4ng tr\u1ecdng s\u1ed1",
+                " C\u00f3 th\u1ec3 x\u1eed l\u00fd tr\u1ecdng s\u1ed1 \u00e2m",
+                " Ch\u1ec9 t\u00ecm c\u00e2y khung nh\u1ecf nh\u1ea5t",
+                " Kh\u00f4ng th\u1ec3 t\u00ecm \u0111\u01b0\u1eddng \u0111i ng\u1eafn nh\u1ea5t"
             ]
         },
         "difficulty": 0.22580198684864614,
@@ -2359,46 +3844,79 @@
         "options": {
             "0": {
                 "selected_by": 30,
-                "top_selected": 6,
-                "bottom_selected": 12,
+                "top_selected": 5,
+                "bottom_selected": 15,
                 "ratio": 0.211,
-                "discrimination": -0.122,
-                "r_pbis": -0.208
+                "discrimination": -0.206,
+                "r_pbis": -0.214
             },
             "1": {
                 "selected_by": 20,
                 "top_selected": 3,
-                "bottom_selected": 11,
+                "bottom_selected": 12,
                 "ratio": 0.141,
-                "discrimination": -0.165,
-                "r_pbis": -0.249
+                "discrimination": -0.186,
+                "r_pbis": -0.237
             },
             "2": {
                 "selected_by": 14,
                 "top_selected": 1,
-                "bottom_selected": 9,
+                "bottom_selected": 6,
                 "ratio": 0.099,
-                "discrimination": -0.166,
-                "r_pbis": -0.153
+                "discrimination": -0.104,
+                "r_pbis": -0.194
             },
             "3": {
                 "selected_by": 77,
-                "top_selected": 37,
-                "bottom_selected": 15,
+                "top_selected": 38,
+                "bottom_selected": 14,
                 "ratio": 0.542,
-                "discrimination": 0.475,
-                "r_pbis": 0.446
+                "discrimination": 0.517,
+                "r_pbis": 0.473
             }
-        }
+        },
+        "correct_index": 3,
+        "group_choice_percentages": [
+            {
+                "0": 0.3,
+                "1": 0.333,
+                "2": 0.133,
+                "3": 0.2
+            },
+            {
+                "0": 0.25,
+                "1": 0.071,
+                "2": 0.214,
+                "3": 0.464
+            },
+            {
+                "0": 0.286,
+                "1": 0.179,
+                "2": 0.107,
+                "3": 0.429
+            },
+            {
+                "0": 0.107,
+                "1": 0.071,
+                "2": 0.036,
+                "3": 0.786
+            },
+            {
+                "0": 0.107,
+                "1": 0.036,
+                "2": 0.0,
+                "3": 0.857
+            }
+        ]
     },
     "47": {
         "content": {
-            "question": "This is the content for question 47.",
+            "question": "C\u00e1ch t\u1ed1t nh\u1ea5t \u0111\u1ec3 tri\u1ec3n khai ng\u0103n x\u1ebfp l\u00e0 g\u00ec?",
             "option": [
-                "Option A for question 47",
-                "Option B for question 47",
-                "Option C for question 47",
-                "Option D for question 47"
+                "S\u1eed d\u1ee5ng danh s\u00e1ch li\u00ean k\u1ebft",
+                " S\u1eed d\u1ee5ng m\u1ea3ng \u0111\u1ed9ng",
+                " S\u1eed d\u1ee5ng c\u00e2y nh\u1ecb ph\u00e2n",
+                " S\u1eed d\u1ee5ng b\u1ea3ng b\u0103m"
             ]
         },
         "difficulty": 0.5087723223611027,
@@ -2412,45 +3930,78 @@
             "0": {
                 "selected_by": 18,
                 "top_selected": 4,
-                "bottom_selected": 8,
+                "bottom_selected": 12,
                 "ratio": 0.127,
-                "discrimination": -0.082,
-                "r_pbis": -0.187
+                "discrimination": -0.165,
+                "r_pbis": -0.191
             },
             "1": {
                 "selected_by": 68,
-                "top_selected": 33,
-                "bottom_selected": 14,
+                "top_selected": 34,
+                "bottom_selected": 15,
                 "ratio": 0.479,
-                "discrimination": 0.41,
-                "r_pbis": 0.401
+                "discrimination": 0.411,
+                "r_pbis": 0.382
             },
             "2": {
                 "selected_by": 37,
-                "top_selected": 7,
-                "bottom_selected": 17,
+                "top_selected": 6,
+                "bottom_selected": 16,
                 "ratio": 0.261,
-                "discrimination": -0.205,
-                "r_pbis": -0.16
+                "discrimination": -0.206,
+                "r_pbis": -0.174
             },
             "3": {
                 "selected_by": 17,
                 "top_selected": 3,
-                "bottom_selected": 7,
+                "bottom_selected": 3,
                 "ratio": 0.12,
-                "discrimination": -0.082,
-                "r_pbis": -0.179
+                "discrimination": 0.001,
+                "r_pbis": -0.121
             }
-        }
+        },
+        "correct_index": 1,
+        "group_choice_percentages": [
+            {
+                "0": 0.3,
+                "1": 0.3,
+                "2": 0.3,
+                "3": 0.067
+            },
+            {
+                "0": 0.107,
+                "1": 0.321,
+                "2": 0.357,
+                "3": 0.179
+            },
+            {
+                "0": 0.0,
+                "1": 0.429,
+                "2": 0.321,
+                "3": 0.25
+            },
+            {
+                "0": 0.107,
+                "1": 0.643,
+                "2": 0.179,
+                "3": 0.071
+            },
+            {
+                "0": 0.107,
+                "1": 0.714,
+                "2": 0.143,
+                "3": 0.036
+            }
+        ]
     },
     "48": {
         "content": {
-            "question": "This is the content for question 48.",
+            "question": "Trong danh s\u00e1ch li\u00ean k\u1ebft \u0111\u00f4i \u0111i\u1ec1u g\u00ec l\u00e0 \u0111\u00fang?",
             "option": [
-                "Option A for question 48",
-                "Option B for question 48",
-                "Option C for question 48",
-                "Option D for question 48"
+                "Ch\u1ec9 c\u00f3 li\u00ean k\u1ebft m\u1ed9t chi\u1ec1u",
+                " C\u00f3 li\u00ean k\u1ebft hai chi\u1ec1u",
+                " Ch\u1ec9 th\u00eam v\u00e0 x\u00f3a \u1edf cu\u1ed1i danh s\u00e1ch",
+                " Kh\u00f4ng c\u00f3 li\u00ean k\u1ebft n\u00e0o"
             ]
         },
         "difficulty": 0.33907766442657966,
@@ -2464,45 +4015,78 @@
             "0": {
                 "selected_by": 15,
                 "top_selected": 1,
-                "bottom_selected": 10,
+                "bottom_selected": 12,
                 "ratio": 0.106,
-                "discrimination": -0.187,
-                "r_pbis": -0.219
+                "discrimination": -0.229,
+                "r_pbis": -0.244
             },
             "1": {
                 "selected_by": 34,
-                "top_selected": 8,
-                "bottom_selected": 12,
+                "top_selected": 9,
+                "bottom_selected": 13,
                 "ratio": 0.239,
-                "discrimination": -0.08,
-                "r_pbis": -0.082
+                "discrimination": -0.079,
+                "r_pbis": -0.112
             },
             "2": {
                 "selected_by": 74,
-                "top_selected": 33,
-                "bottom_selected": 18,
+                "top_selected": 32,
+                "bottom_selected": 17,
                 "ratio": 0.521,
                 "discrimination": 0.327,
-                "r_pbis": 0.264
+                "r_pbis": 0.299
             },
             "3": {
                 "selected_by": 18,
                 "top_selected": 5,
-                "bottom_selected": 8,
+                "bottom_selected": 6,
                 "ratio": 0.127,
-                "discrimination": -0.06,
-                "r_pbis": -0.096
+                "discrimination": -0.019,
+                "r_pbis": -0.086
             }
-        }
+        },
+        "correct_index": 2,
+        "group_choice_percentages": [
+            {
+                "0": 0.2,
+                "1": 0.333,
+                "2": 0.3,
+                "3": 0.167
+            },
+            {
+                "0": 0.25,
+                "1": 0.25,
+                "2": 0.393,
+                "3": 0.107
+            },
+            {
+                "0": 0.036,
+                "1": 0.286,
+                "2": 0.571,
+                "3": 0.107
+            },
+            {
+                "0": 0.0,
+                "1": 0.179,
+                "2": 0.607,
+                "3": 0.179
+            },
+            {
+                "0": 0.036,
+                "1": 0.143,
+                "2": 0.75,
+                "3": 0.071
+            }
+        ]
     },
     "49": {
         "content": {
-            "question": "This is the content for question 49.",
+            "question": "\u0110\u1ed9 ph\u1ee9c t\u1ea1p th\u1eddi gian trung b\u00ecnh c\u1ee7a thu\u1eadt to\u00e1n t\u00ecm ki\u1ebfm nh\u1ecb ph\u00e2n l\u00e0 g\u00ec?",
             "option": [
-                "Option A for question 49",
-                "Option B for question 49",
-                "Option C for question 49",
-                "Option D for question 49"
+                "O(n)",
+                " O(log n)",
+                " O(n^2)",
+                " O(n log n)"
             ]
         },
         "difficulty": 0.08342135666613684,
@@ -2516,45 +4100,78 @@
             "0": {
                 "selected_by": 35,
                 "top_selected": 8,
-                "bottom_selected": 15,
+                "bottom_selected": 16,
                 "ratio": 0.246,
-                "discrimination": -0.142,
-                "r_pbis": -0.173
+                "discrimination": -0.163,
+                "r_pbis": -0.145
             },
             "1": {
                 "selected_by": 83,
                 "top_selected": 34,
-                "bottom_selected": 20,
+                "bottom_selected": 19,
                 "ratio": 0.585,
-                "discrimination": 0.307,
-                "r_pbis": 0.297
+                "discrimination": 0.328,
+                "r_pbis": 0.286
             },
             "2": {
                 "selected_by": 15,
                 "top_selected": 4,
-                "bottom_selected": 6,
+                "bottom_selected": 7,
                 "ratio": 0.106,
-                "discrimination": -0.04,
-                "r_pbis": -0.101
+                "discrimination": -0.061,
+                "r_pbis": -0.103
             },
             "3": {
                 "selected_by": 8,
                 "top_selected": 1,
-                "bottom_selected": 7,
+                "bottom_selected": 6,
                 "ratio": 0.056,
-                "discrimination": -0.125,
-                "r_pbis": -0.174
+                "discrimination": -0.104,
+                "r_pbis": -0.199
             }
-        }
+        },
+        "correct_index": 1,
+        "group_choice_percentages": [
+            {
+                "0": 0.333,
+                "1": 0.4,
+                "2": 0.133,
+                "3": 0.133
+            },
+            {
+                "0": 0.321,
+                "1": 0.429,
+                "2": 0.179,
+                "3": 0.071
+            },
+            {
+                "0": 0.214,
+                "1": 0.643,
+                "2": 0.071,
+                "3": 0.036
+            },
+            {
+                "0": 0.179,
+                "1": 0.786,
+                "2": 0.036,
+                "3": 0.0
+            },
+            {
+                "0": 0.179,
+                "1": 0.679,
+                "2": 0.107,
+                "3": 0.036
+            }
+        ]
     },
     "50": {
         "content": {
-            "question": "This is the content for question 50.",
+            "question": "Thu\u1eadt ng\u1eef n\u00e0o d\u00f9ng \u0111\u1ec3 m\u00f4 t\u1ea3 c\u00e1ch c\u00e1c n\u00fat \u0111\u01b0\u1ee3c t\u1ed5 ch\u1ee9c trong c\u00e2y?",
             "option": [
-                "Option A for question 50",
-                "Option B for question 50",
-                "Option C for question 50",
-                "Option D for question 50"
+                "\u0110\u1ed9 s\u00e2u",
+                " Chi\u1ec1u cao",
+                " M\u1ee9c",
+                " G\u1ed1c"
             ]
         },
         "difficulty": -0.2361790155346125,
@@ -2567,46 +4184,79 @@
         "options": {
             "0": {
                 "selected_by": 94,
-                "top_selected": 44,
+                "top_selected": 42,
                 "bottom_selected": 21,
                 "ratio": 0.662,
-                "discrimination": 0.499,
-                "r_pbis": 0.436
+                "discrimination": 0.456,
+                "r_pbis": 0.408
             },
             "1": {
                 "selected_by": 9,
                 "top_selected": 1,
-                "bottom_selected": 4,
+                "bottom_selected": 7,
                 "ratio": 0.063,
-                "discrimination": -0.062,
-                "r_pbis": -0.12
+                "discrimination": -0.125,
+                "r_pbis": -0.171
             },
             "2": {
                 "selected_by": 24,
-                "top_selected": 2,
-                "bottom_selected": 12,
+                "top_selected": 4,
+                "bottom_selected": 11,
                 "ratio": 0.169,
-                "discrimination": -0.207,
-                "r_pbis": -0.191
+                "discrimination": -0.144,
+                "r_pbis": -0.176
             },
             "3": {
                 "selected_by": 15,
                 "top_selected": 0,
-                "bottom_selected": 11,
+                "bottom_selected": 9,
                 "ratio": 0.106,
-                "discrimination": -0.229,
-                "r_pbis": -0.343
+                "discrimination": -0.188,
+                "r_pbis": -0.278
             }
-        }
+        },
+        "correct_index": 0,
+        "group_choice_percentages": [
+            {
+                "0": 0.467,
+                "1": 0.133,
+                "2": 0.167,
+                "3": 0.233
+            },
+            {
+                "0": 0.429,
+                "1": 0.143,
+                "2": 0.321,
+                "3": 0.107
+            },
+            {
+                "0": 0.643,
+                "1": 0.0,
+                "2": 0.214,
+                "3": 0.143
+            },
+            {
+                "0": 0.821,
+                "1": 0.036,
+                "2": 0.107,
+                "3": 0.036
+            },
+            {
+                "0": 0.964,
+                "1": 0.0,
+                "2": 0.036,
+                "3": 0.0
+            }
+        ]
     },
     "51": {
         "content": {
-            "question": "This is the content for question 51.",
+            "question": "Trong c\u00e2y AVL y\u1ebfu t\u1ed1 c\u00e2n b\u1eb1ng l\u00e0 g\u00ec?",
             "option": [
-                "Option A for question 51",
-                "Option B for question 51",
-                "Option C for question 51",
-                "Option D for question 51"
+                "Ch\u00eanh l\u1ec7ch s\u1ed1 n\u00fat gi\u1eefa c\u00e2y con tr\u00e1i v\u00e0 ph\u1ea3i",
+                " Ch\u00eanh l\u1ec7ch chi\u1ec1u cao gi\u1eefa c\u00e2y con tr\u00e1i v\u00e0 ph\u1ea3i",
+                " T\u1ed5ng s\u1ed1 n\u00fat trong c\u00e2y con",
+                " T\u1ed5ng s\u1ed1 c\u1ea1nh trong c\u00e2y con"
             ]
         },
         "difficulty": 1.2075167905465785,
@@ -2620,10 +4270,10 @@
             "0": {
                 "selected_by": 30,
                 "top_selected": 3,
-                "bottom_selected": 15,
+                "bottom_selected": 13,
                 "ratio": 0.211,
-                "discrimination": -0.249,
-                "r_pbis": -0.294
+                "discrimination": -0.207,
+                "r_pbis": -0.253
             },
             "1": {
                 "selected_by": 44,
@@ -2631,7 +4281,7 @@
                 "bottom_selected": 9,
                 "ratio": 0.31,
                 "discrimination": 0.302,
-                "r_pbis": 0.283
+                "r_pbis": 0.29
             },
             "2": {
                 "selected_by": 55,
@@ -2639,26 +4289,59 @@
                 "bottom_selected": 17,
                 "ratio": 0.387,
                 "discrimination": 0.093,
-                "r_pbis": 0.102
+                "r_pbis": 0.057
             },
             "3": {
                 "selected_by": 13,
                 "top_selected": 0,
-                "bottom_selected": 7,
+                "bottom_selected": 9,
                 "ratio": 0.092,
-                "discrimination": -0.146,
-                "r_pbis": -0.209
+                "discrimination": -0.188,
+                "r_pbis": -0.204
             }
-        }
+        },
+        "correct_index": 1,
+        "group_choice_percentages": [
+            {
+                "0": 0.3,
+                "1": 0.233,
+                "2": 0.367,
+                "3": 0.1
+            },
+            {
+                "0": 0.286,
+                "1": 0.071,
+                "2": 0.393,
+                "3": 0.25
+            },
+            {
+                "0": 0.321,
+                "1": 0.286,
+                "2": 0.357,
+                "3": 0.036
+            },
+            {
+                "0": 0.107,
+                "1": 0.5,
+                "2": 0.321,
+                "3": 0.071
+            },
+            {
+                "0": 0.036,
+                "1": 0.464,
+                "2": 0.5,
+                "3": 0.0
+            }
+        ]
     },
     "52": {
         "content": {
-            "question": "This is the content for question 52.",
+            "question": "Trong danh s\u00e1ch li\u00ean k\u1ebft vi\u1ec7c ch\u00e8n m\u1ed9t n\u00fat m\u1edbi v\u00e0o gi\u1eefa danh s\u00e1ch c\u1ea7n g\u00ec?",
             "option": [
-                "Option A for question 52",
-                "Option B for question 52",
-                "Option C for question 52",
-                "Option D for question 52"
+                "Thay \u0111\u1ed5i n\u00fat \u0111\u1ea7u",
+                " Thay \u0111\u1ed5i c\u00e1c li\u00ean k\u1ebft c\u1ee7a c\u00e1c n\u00fat xung quanh",
+                " T\u1ea1o m\u1ed9t danh s\u00e1ch m\u1edbi",
+                " Kh\u00f4ng th\u1ec3 th\u1ef1c hi\u1ec7n \u0111\u01b0\u1ee3c"
             ]
         },
         "difficulty": 0.8517406324258158,
@@ -2671,27 +4354,27 @@
         "options": {
             "0": {
                 "selected_by": 48,
-                "top_selected": 17,
-                "bottom_selected": 12,
+                "top_selected": 16,
+                "bottom_selected": 13,
                 "ratio": 0.338,
-                "discrimination": 0.112,
-                "r_pbis": 0.035
+                "discrimination": 0.07,
+                "r_pbis": 0.042
             },
             "1": {
                 "selected_by": 31,
                 "top_selected": 9,
-                "bottom_selected": 14,
+                "bottom_selected": 11,
                 "ratio": 0.218,
-                "discrimination": -0.1,
-                "r_pbis": -0.092
+                "discrimination": -0.038,
+                "r_pbis": -0.069
             },
             "2": {
                 "selected_by": 56,
-                "top_selected": 21,
-                "bottom_selected": 18,
+                "top_selected": 22,
+                "bottom_selected": 19,
                 "ratio": 0.394,
                 "discrimination": 0.072,
-                "r_pbis": 0.11
+                "r_pbis": 0.081
             },
             "3": {
                 "selected_by": 6,
@@ -2699,18 +4382,51 @@
                 "bottom_selected": 4,
                 "ratio": 0.042,
                 "discrimination": -0.083,
-                "r_pbis": -0.146
+                "r_pbis": -0.128
             }
-        }
+        },
+        "correct_index": 2,
+        "group_choice_percentages": [
+            {
+                "0": 0.3,
+                "1": 0.3,
+                "2": 0.367,
+                "3": 0.033
+            },
+            {
+                "0": 0.25,
+                "1": 0.179,
+                "2": 0.429,
+                "3": 0.107
+            },
+            {
+                "0": 0.393,
+                "1": 0.179,
+                "2": 0.357,
+                "3": 0.071
+            },
+            {
+                "0": 0.357,
+                "1": 0.321,
+                "2": 0.321,
+                "3": 0.0
+            },
+            {
+                "0": 0.393,
+                "1": 0.107,
+                "2": 0.5,
+                "3": 0.0
+            }
+        ]
     },
     "53": {
         "content": {
-            "question": "This is the content for question 53.",
+            "question": "Thu\u1eadt to\u00e1n n\u00e0o \u0111\u1ea3m b\u1ea3o k\u1ebft qu\u1ea3 t\u1ed1i \u01b0u cho b\u00e0i to\u00e1n c\u00e2y khung nh\u1ecf nh\u1ea5t?",
             "option": [
-                "Option A for question 53",
-                "Option B for question 53",
-                "Option C for question 53",
-                "Option D for question 53"
+                "Kruskal",
+                " Prim",
+                " Dijkstra",
+                " C\u1ea3 hai Kruskal v\u00e0 Prim"
             ]
         },
         "difficulty": 0.6222702046228799,
@@ -2723,46 +4439,79 @@
         "options": {
             "0": {
                 "selected_by": 25,
-                "top_selected": 7,
-                "bottom_selected": 9,
+                "top_selected": 8,
+                "bottom_selected": 7,
                 "ratio": 0.176,
-                "discrimination": -0.039,
-                "r_pbis": 0.003
+                "discrimination": 0.024,
+                "r_pbis": 0.029
             },
             "1": {
                 "selected_by": 20,
-                "top_selected": 5,
+                "top_selected": 4,
                 "bottom_selected": 12,
                 "ratio": 0.141,
-                "discrimination": -0.144,
-                "r_pbis": -0.292
+                "discrimination": -0.165,
+                "r_pbis": -0.253
             },
             "2": {
                 "selected_by": 33,
                 "top_selected": 4,
-                "bottom_selected": 15,
+                "bottom_selected": 12,
                 "ratio": 0.232,
-                "discrimination": -0.227,
-                "r_pbis": -0.189
+                "discrimination": -0.165,
+                "r_pbis": -0.178
             },
             "3": {
                 "selected_by": 63,
                 "top_selected": 31,
-                "bottom_selected": 12,
+                "bottom_selected": 16,
                 "ratio": 0.444,
-                "discrimination": 0.41,
-                "r_pbis": 0.371
+                "discrimination": 0.326,
+                "r_pbis": 0.317
             }
-        }
+        },
+        "correct_index": 3,
+        "group_choice_percentages": [
+            {
+                "0": 0.067,
+                "1": 0.333,
+                "2": 0.233,
+                "3": 0.367
+            },
+            {
+                "0": 0.25,
+                "1": 0.107,
+                "2": 0.286,
+                "3": 0.321
+            },
+            {
+                "0": 0.214,
+                "1": 0.107,
+                "2": 0.393,
+                "3": 0.286
+            },
+            {
+                "0": 0.214,
+                "1": 0.107,
+                "2": 0.179,
+                "3": 0.5
+            },
+            {
+                "0": 0.143,
+                "1": 0.036,
+                "2": 0.071,
+                "3": 0.75
+            }
+        ]
     },
     "54": {
         "content": {
-            "question": "This is the content for question 54.",
+            "question": "\u0110\u00e2u l\u00e0 c\u00e1ch t\u1ed1t nh\u1ea5t \u0111\u1ec3 tri\u1ec3n khai h\u00e0ng \u0111\u1ee3i \u01b0u ti\u00ean?",
             "option": [
-                "Option A for question 54",
-                "Option B for question 54",
-                "Option C for question 54",
-                "Option D for question 54"
+                "S\u1eed d\u1ee5ng m\u1ea3ng",
+                " S\u1eed d\u1ee5ng heap",
+                " S\u1eed d\u1ee5ng danh s\u00e1ch li\u00ean k\u1ebft",
+                " S\u1eed d\u1ee5ng b\u1ea3ng b\u0103m"
             ]
         },
         "difficulty": 0.9098838056645285,
@@ -2775,46 +4524,79 @@
         "options": {
             "0": {
                 "selected_by": 25,
-                "top_selected": 9,
-                "bottom_selected": 12,
+                "top_selected": 8,
+                "bottom_selected": 11,
                 "ratio": 0.176,
                 "discrimination": -0.059,
-                "r_pbis": -0.042
+                "r_pbis": -0.038
             },
             "1": {
                 "selected_by": 54,
-                "top_selected": 28,
-                "bottom_selected": 15,
+                "top_selected": 29,
+                "bottom_selected": 18,
                 "ratio": 0.38,
-                "discrimination": 0.283,
-                "r_pbis": 0.271
+                "discrimination": 0.242,
+                "r_pbis": 0.258
             },
             "2": {
                 "selected_by": 37,
                 "top_selected": 6,
-                "bottom_selected": 14,
+                "bottom_selected": 13,
                 "ratio": 0.261,
-                "discrimination": -0.164,
-                "r_pbis": -0.19
+                "discrimination": -0.143,
+                "r_pbis": -0.186
             },
             "3": {
                 "selected_by": 25,
                 "top_selected": 4,
-                "bottom_selected": 7,
+                "bottom_selected": 5,
                 "ratio": 0.176,
-                "discrimination": -0.061,
-                "r_pbis": -0.075
+                "discrimination": -0.019,
+                "r_pbis": -0.063
             }
-        }
+        },
+        "correct_index": 1,
+        "group_choice_percentages": [
+            {
+                "0": 0.2,
+                "1": 0.367,
+                "2": 0.367,
+                "3": 0.067
+            },
+            {
+                "0": 0.25,
+                "1": 0.286,
+                "2": 0.179,
+                "3": 0.25
+            },
+            {
+                "0": 0.071,
+                "1": 0.179,
+                "2": 0.429,
+                "3": 0.321
+            },
+            {
+                "0": 0.214,
+                "1": 0.429,
+                "2": 0.214,
+                "3": 0.143
+            },
+            {
+                "0": 0.143,
+                "1": 0.643,
+                "2": 0.107,
+                "3": 0.107
+            }
+        ]
     },
     "55": {
         "content": {
-            "question": "This is the content for question 55.",
+            "question": "Trong danh s\u00e1ch li\u00ean k\u1ebft \u0111\u01a1n \u0111i\u1ec1u n\u00e0o \u0111\u00fang?",
             "option": [
-                "Option A for question 55",
-                "Option B for question 55",
-                "Option C for question 55",
-                "Option D for question 55"
+                "M\u1ed7i n\u00fat ch\u1ec9 li\u00ean k\u1ebft v\u1edbi n\u00fat tr\u01b0\u1edbc",
+                " M\u1ed7i n\u00fat ch\u1ec9 li\u00ean k\u1ebft v\u1edbi n\u00fat sau",
+                " M\u1ed7i n\u00fat c\u00f3 li\u00ean k\u1ebft hai chi\u1ec1u",
+                " Kh\u00f4ng c\u00f3 li\u00ean k\u1ebft n\u00e0o \u0111\u00fang"
             ]
         },
         "difficulty": 1.057092387200301,
@@ -2827,46 +4609,79 @@
         "options": {
             "0": {
                 "selected_by": 49,
-                "top_selected": 22,
-                "bottom_selected": 10,
+                "top_selected": 20,
+                "bottom_selected": 12,
                 "ratio": 0.345,
-                "discrimination": 0.26,
-                "r_pbis": 0.219
+                "discrimination": 0.176,
+                "r_pbis": 0.193
             },
             "1": {
                 "selected_by": 34,
-                "top_selected": 6,
+                "top_selected": 8,
                 "bottom_selected": 12,
                 "ratio": 0.239,
-                "discrimination": -0.122,
-                "r_pbis": -0.086
+                "discrimination": -0.08,
+                "r_pbis": -0.094
             },
             "2": {
                 "selected_by": 26,
-                "top_selected": 8,
-                "bottom_selected": 13,
+                "top_selected": 7,
+                "bottom_selected": 11,
                 "ratio": 0.183,
-                "discrimination": -0.101,
-                "r_pbis": -0.159
+                "discrimination": -0.08,
+                "r_pbis": -0.168
             },
             "3": {
                 "selected_by": 31,
-                "top_selected": 11,
-                "bottom_selected": 12,
+                "top_selected": 12,
+                "bottom_selected": 11,
                 "ratio": 0.218,
-                "discrimination": -0.016,
-                "r_pbis": 0.008
+                "discrimination": 0.026,
+                "r_pbis": 0.064
             }
-        }
+        },
+        "correct_index": 0,
+        "group_choice_percentages": [
+            {
+                "0": 0.233,
+                "1": 0.267,
+                "2": 0.333,
+                "3": 0.133
+            },
+            {
+                "0": 0.286,
+                "1": 0.214,
+                "2": 0.143,
+                "3": 0.321
+            },
+            {
+                "0": 0.321,
+                "1": 0.321,
+                "2": 0.143,
+                "3": 0.214
+            },
+            {
+                "0": 0.429,
+                "1": 0.25,
+                "2": 0.143,
+                "3": 0.179
+            },
+            {
+                "0": 0.464,
+                "1": 0.143,
+                "2": 0.143,
+                "3": 0.25
+            }
+        ]
     },
     "56": {
         "content": {
-            "question": "This is the content for question 56.",
+            "question": "Trong c\u00e2y nh\u1ecb ph\u00e2n ho\u00e0n ch\u1ec9nh \u0111\u1eb7c \u0111i\u1ec3m n\u00e0o l\u00e0 \u0111\u00fang?",
             "option": [
-                "Option A for question 56",
-                "Option B for question 56",
-                "Option C for question 56",
-                "Option D for question 56"
+                "T\u1ea5t c\u1ea3 c\u00e1c c\u1ea5p \u0111\u1ec1u \u0111\u01b0\u1ee3c l\u1ea5p \u0111\u1ea7y ho\u00e0n to\u00e0n ngo\u1ea1i tr\u1eeb c\u1ea5p cu\u1ed1i c\u00f9ng",
+                " T\u1ea5t c\u1ea3 c\u00e1c c\u1ea5p \u0111\u1ec1u ph\u1ea3i \u0111\u01b0\u1ee3c l\u1ea5p \u0111\u1ea7y ho\u00e0n to\u00e0n",
+                " Ch\u1ec9 c\u00f3 m\u1ed9t n\u00fat cha duy nh\u1ea5t",
+                " T\u1ea5t c\u1ea3 c\u00e1c n\u00fat \u0111\u1ec1u l\u00e0 n\u00fat l\u00e1"
             ]
         },
         "difficulty": 0.5087723223611027,
@@ -2879,46 +4694,79 @@
         "options": {
             "0": {
                 "selected_by": 42,
-                "top_selected": 8,
-                "bottom_selected": 13,
+                "top_selected": 9,
+                "bottom_selected": 16,
                 "ratio": 0.296,
-                "discrimination": -0.101,
-                "r_pbis": -0.07
+                "discrimination": -0.142,
+                "r_pbis": -0.064
             },
             "1": {
                 "selected_by": 15,
                 "top_selected": 3,
-                "bottom_selected": 12,
+                "bottom_selected": 10,
                 "ratio": 0.106,
-                "discrimination": -0.186,
-                "r_pbis": -0.237
+                "discrimination": -0.145,
+                "r_pbis": -0.23
             },
             "2": {
                 "selected_by": 68,
-                "top_selected": 33,
-                "bottom_selected": 14,
+                "top_selected": 32,
+                "bottom_selected": 15,
                 "ratio": 0.479,
-                "discrimination": 0.41,
-                "r_pbis": 0.351
+                "discrimination": 0.368,
+                "r_pbis": 0.316
             },
             "3": {
                 "selected_by": 16,
                 "top_selected": 3,
-                "bottom_selected": 9,
+                "bottom_selected": 6,
                 "ratio": 0.113,
-                "discrimination": -0.124,
-                "r_pbis": -0.212
+                "discrimination": -0.061,
+                "r_pbis": -0.167
             }
-        }
+        },
+        "correct_index": 2,
+        "group_choice_percentages": [
+            {
+                "0": 0.267,
+                "1": 0.233,
+                "2": 0.333,
+                "3": 0.167
+            },
+            {
+                "0": 0.393,
+                "1": 0.143,
+                "2": 0.321,
+                "3": 0.107
+            },
+            {
+                "0": 0.321,
+                "1": 0.036,
+                "2": 0.536,
+                "3": 0.107
+            },
+            {
+                "0": 0.286,
+                "1": 0.107,
+                "2": 0.429,
+                "3": 0.179
+            },
+            {
+                "0": 0.214,
+                "1": 0.0,
+                "2": 0.786,
+                "3": 0.0
+            }
+        ]
     },
     "57": {
         "content": {
-            "question": "This is the content for question 57.",
+            "question": "\u0110\u1ed9 ph\u1ee9c t\u1ea1p th\u1eddi gian t\u1ed1t nh\u1ea5t c\u1ee7a thu\u1eadt to\u00e1n t\u00ecm ki\u1ebfm tu\u1ea7n t\u1ef1 l\u00e0 g\u00ec?",
             "option": [
-                "Option A for question 57",
-                "Option B for question 57",
-                "Option C for question 57",
-                "Option D for question 57"
+                "O(n)",
+                " O(1)",
+                " O(log n)",
+                " O(n log n)"
             ]
         },
         "difficulty": 0.7364745114708658,
@@ -2931,46 +4779,79 @@
         "options": {
             "0": {
                 "selected_by": 12,
-                "top_selected": 1,
+                "top_selected": 2,
                 "bottom_selected": 6,
                 "ratio": 0.085,
-                "discrimination": -0.104,
-                "r_pbis": -0.17
+                "discrimination": -0.082,
+                "r_pbis": -0.166
             },
             "1": {
                 "selected_by": 60,
-                "top_selected": 29,
-                "bottom_selected": 17,
+                "top_selected": 26,
+                "bottom_selected": 19,
                 "ratio": 0.423,
-                "discrimination": 0.263,
-                "r_pbis": 0.234
+                "discrimination": 0.157,
+                "r_pbis": 0.229
             },
             "2": {
                 "selected_by": 49,
-                "top_selected": 13,
+                "top_selected": 14,
                 "bottom_selected": 15,
                 "ratio": 0.345,
-                "discrimination": -0.036,
-                "r_pbis": -0.018
+                "discrimination": -0.015,
+                "r_pbis": -0.049
             },
             "3": {
                 "selected_by": 20,
-                "top_selected": 4,
-                "bottom_selected": 10,
+                "top_selected": 5,
+                "bottom_selected": 7,
                 "ratio": 0.141,
-                "discrimination": -0.123,
-                "r_pbis": -0.161
+                "discrimination": -0.039,
+                "r_pbis": -0.11
             }
-        }
+        },
+        "correct_index": 1,
+        "group_choice_percentages": [
+            {
+                "0": 0.167,
+                "1": 0.367,
+                "2": 0.333,
+                "3": 0.133
+            },
+            {
+                "0": 0.036,
+                "1": 0.357,
+                "2": 0.357,
+                "3": 0.214
+            },
+            {
+                "0": 0.107,
+                "1": 0.286,
+                "2": 0.464,
+                "3": 0.143
+            },
+            {
+                "0": 0.107,
+                "1": 0.357,
+                "2": 0.357,
+                "3": 0.179
+            },
+            {
+                "0": 0.0,
+                "1": 0.75,
+                "2": 0.214,
+                "3": 0.036
+            }
+        ]
     },
     "58": {
         "content": {
-            "question": "This is the content for question 58.",
+            "question": "\u0110\u1eb7c \u0111i\u1ec3m c\u1ee7a thu\u1eadt to\u00e1n Kruskal l\u00e0 g\u00ec?",
             "option": [
-                "Option A for question 58",
-                "Option B for question 58",
-                "Option C for question 58",
-                "Option D for question 58"
+                "T\u00ecm \u0111\u01b0\u1eddng \u0111i ng\u1eafn nh\u1ea5t trong \u0111\u1ed3 th\u1ecb",
+                " T\u00ecm c\u00e2y khung nh\u1ecf nh\u1ea5t b\u1eb1ng c\u00e1ch ch\u1ecdn c\u1ea1nh nh\u1ecf nh\u1ea5t",
+                " T\u00ecm n\u00fat c\u00f3 tr\u1ecdng s\u1ed1 l\u1edbn nh\u1ea5t",
+                " Kh\u00f4ng c\u00f3 \u0111\u00e1p \u00e1n \u0111\u00fang"
             ]
         },
         "difficulty": 2.0695561523606325,
@@ -2983,46 +4864,79 @@
         "options": {
             "0": {
                 "selected_by": 34,
-                "top_selected": 12,
-                "bottom_selected": 12,
+                "top_selected": 11,
+                "bottom_selected": 14,
                 "ratio": 0.239,
-                "discrimination": 0.005,
-                "r_pbis": -0.003
+                "discrimination": -0.058,
+                "r_pbis": -0.045
             },
             "1": {
                 "selected_by": 47,
                 "top_selected": 15,
-                "bottom_selected": 19,
+                "bottom_selected": 20,
                 "ratio": 0.331,
-                "discrimination": -0.077,
-                "r_pbis": -0.077
+                "discrimination": -0.098,
+                "r_pbis": -0.087
             },
             "2": {
                 "selected_by": 43,
-                "top_selected": 15,
-                "bottom_selected": 11,
+                "top_selected": 16,
+                "bottom_selected": 9,
                 "ratio": 0.303,
-                "discrimination": 0.09,
-                "r_pbis": 0.087
+                "discrimination": 0.153,
+                "r_pbis": 0.12
             },
             "3": {
                 "selected_by": 17,
                 "top_selected": 5,
-                "bottom_selected": 6,
+                "bottom_selected": 4,
                 "ratio": 0.12,
-                "discrimination": -0.019,
-                "r_pbis": 0.004
+                "discrimination": 0.023,
+                "r_pbis": 0.032
             }
-        }
+        },
+        "correct_index": 3,
+        "group_choice_percentages": [
+            {
+                "0": 0.367,
+                "1": 0.4,
+                "2": 0.167,
+                "3": 0.067
+            },
+            {
+                "0": 0.179,
+                "1": 0.357,
+                "2": 0.321,
+                "3": 0.107
+            },
+            {
+                "0": 0.107,
+                "1": 0.286,
+                "2": 0.429,
+                "3": 0.179
+            },
+            {
+                "0": 0.286,
+                "1": 0.286,
+                "2": 0.25,
+                "3": 0.179
+            },
+            {
+                "0": 0.25,
+                "1": 0.321,
+                "2": 0.357,
+                "3": 0.071
+            }
+        ]
     },
     "59": {
         "content": {
-            "question": "This is the content for question 59.",
+            "question": "Thu\u1eadt to\u00e1n s\u1eafp x\u1ebfp n\u00e0o c\u00f3 th\u1ec3 ho\u1ea1t \u0111\u1ed9ng t\u1ed1t tr\u00ean d\u1eef li\u1ec7u g\u1ea7n nh\u01b0 \u0111\u00e3 \u0111\u01b0\u1ee3c s\u1eafp x\u1ebfp?",
             "option": [
-                "Option A for question 59",
-                "Option B for question 59",
-                "Option C for question 59",
-                "Option D for question 59"
+                "Quick sort",
+                " Bubble sort",
+                " Insertion sort",
+                " Merge sort"
             ]
         },
         "difficulty": 1.146915046519808,
@@ -3035,46 +4949,79 @@
         "options": {
             "0": {
                 "selected_by": 27,
-                "top_selected": 7,
+                "top_selected": 6,
                 "bottom_selected": 15,
                 "ratio": 0.19,
-                "discrimination": -0.164,
-                "r_pbis": -0.158
+                "discrimination": -0.185,
+                "r_pbis": -0.217
             },
             "1": {
                 "selected_by": 39,
-                "top_selected": 7,
-                "bottom_selected": 20,
+                "top_selected": 6,
+                "bottom_selected": 17,
                 "ratio": 0.275,
-                "discrimination": -0.268,
-                "r_pbis": -0.209
+                "discrimination": -0.227,
+                "r_pbis": -0.169
             },
             "2": {
                 "selected_by": 30,
                 "top_selected": 7,
-                "bottom_selected": 9,
+                "bottom_selected": 8,
                 "ratio": 0.211,
-                "discrimination": -0.039,
-                "r_pbis": -0.061
+                "discrimination": -0.018,
+                "r_pbis": -0.046
             },
             "3": {
                 "selected_by": 44,
-                "top_selected": 26,
-                "bottom_selected": 4,
+                "top_selected": 28,
+                "bottom_selected": 6,
                 "ratio": 0.31,
-                "discrimination": 0.47,
-                "r_pbis": 0.4
+                "discrimination": 0.471,
+                "r_pbis": 0.409
             }
-        }
+        },
+        "correct_index": 3,
+        "group_choice_percentages": [
+            {
+                "0": 0.367,
+                "1": 0.333,
+                "2": 0.2,
+                "3": 0.1
+            },
+            {
+                "0": 0.214,
+                "1": 0.393,
+                "2": 0.179,
+                "3": 0.143
+            },
+            {
+                "0": 0.107,
+                "1": 0.357,
+                "2": 0.321,
+                "3": 0.214
+            },
+            {
+                "0": 0.143,
+                "1": 0.179,
+                "2": 0.179,
+                "3": 0.5
+            },
+            {
+                "0": 0.107,
+                "1": 0.107,
+                "2": 0.179,
+                "3": 0.607
+            }
+        ]
     },
     "60": {
         "content": {
-            "question": "This is the content for question 60.",
+            "question": "Trong danh s\u00e1ch li\u00ean k\u1ebft v\u00f2ng \u0111i\u1ec1u n\u00e0o \u0111\u00fang?",
             "option": [
-                "Option A for question 60",
-                "Option B for question 60",
-                "Option C for question 60",
-                "Option D for question 60"
+                "Kh\u00f4ng c\u00f3 n\u00fat \u0111\u1ea7u",
+                " N\u00fat cu\u1ed1i li\u00ean k\u1ebft l\u1ea1i v\u1edbi n\u00fat \u0111\u1ea7u",
+                " M\u1ed7i n\u00fat \u0111\u1ec1u li\u00ean k\u1ebft v\u1edbi n\u00fat \u0111\u1ea7u",
+                " Kh\u00f4ng c\u00f3 li\u00ean k\u1ebft n\u00e0o \u0111\u00fang"
             ]
         },
         "difficulty": 0.9098838056645286,
@@ -3088,9 +5035,9 @@
             "0": {
                 "selected_by": 21,
                 "top_selected": 10,
-                "bottom_selected": 6,
+                "bottom_selected": 5,
                 "ratio": 0.148,
-                "discrimination": 0.088,
+                "discrimination": 0.109,
                 "r_pbis": 0.109
             },
             "1": {
@@ -3099,24 +5046,57 @@
                 "bottom_selected": 8,
                 "ratio": 0.155,
                 "discrimination": -0.018,
-                "r_pbis": -0.018
+                "r_pbis": -0.036
             },
             "2": {
                 "selected_by": 54,
-                "top_selected": 20,
-                "bottom_selected": 18,
+                "top_selected": 21,
+                "bottom_selected": 16,
                 "ratio": 0.38,
-                "discrimination": 0.051,
-                "r_pbis": 0.09
+                "discrimination": 0.113,
+                "r_pbis": 0.114
             },
             "3": {
                 "selected_by": 44,
-                "top_selected": 10,
-                "bottom_selected": 16,
+                "top_selected": 9,
+                "bottom_selected": 18,
                 "ratio": 0.31,
-                "discrimination": -0.121,
-                "r_pbis": -0.156
+                "discrimination": -0.184,
+                "r_pbis": -0.164
             }
-        }
+        },
+        "correct_index": 2,
+        "group_choice_percentages": [
+            {
+                "0": 0.133,
+                "1": 0.167,
+                "2": 0.333,
+                "3": 0.367
+            },
+            {
+                "0": 0.071,
+                "1": 0.143,
+                "2": 0.393,
+                "3": 0.357
+            },
+            {
+                "0": 0.107,
+                "1": 0.214,
+                "2": 0.357,
+                "3": 0.321
+            },
+            {
+                "0": 0.25,
+                "1": 0.143,
+                "2": 0.286,
+                "3": 0.321
+            },
+            {
+                "0": 0.179,
+                "1": 0.107,
+                "2": 0.536,
+                "3": 0.179
+            }
+        ]
     }
 }

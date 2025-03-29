@@ -61,7 +61,7 @@ def analyze_uploaded_file():
 
     # Generate Exam Results and Analysis
     exam_result = ExamResult(exams, students)
-    analysis = IrtAnalysis(exam_result)
+    analysis = CttAnalysis(exam_result)
     # analysis = CttAnalysis(exam_result)
     getData = Method()
 
@@ -74,6 +74,7 @@ def analyze_uploaded_file():
     # writeJson(analysis.average_indexes)
     # writeJson(analysis.analyze_questions_ctt())
     # writeJson(analysis.get_student_detail("Rasch"))
+
 
 def process_exam(file_path, question_bank):
     # Group data by Exam_code
@@ -136,8 +137,8 @@ def process_exam(file_path, question_bank):
     return exams
 
 
-def writeJson(data):
-    output_file = "./analysis_result.json"
+def writeJson(data, output_file="analysis_result.json"):
+    output_file = output_file
 
     with open(output_file, "w") as json_file:
         json.dump(data, json_file, indent=4)  # indent=4 for pretty-printing the JSON

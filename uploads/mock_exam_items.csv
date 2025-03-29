@@ -1,121 +1,61 @@
 Exam_code,Content,Option_A,Option_B,Option_C,Option_D,Correct_Option
-1000,This is the content for question 1.,Option A for question 1,Option B for question 1,Option C for question 1,Option D for question 1,C
-1000,This is the content for question 2.,Option A for question 2,Option B for question 2,Option C for question 2,Option D for question 2,A
-1000,This is the content for question 3.,Option A for question 3,Option B for question 3,Option C for question 3,Option D for question 3,B
-1000,This is the content for question 4.,Option A for question 4,Option B for question 4,Option C for question 4,Option D for question 4,B
-1000,This is the content for question 5.,Option A for question 5,Option B for question 5,Option C for question 5,Option D for question 5,A
-1000,This is the content for question 6.,Option A for question 6,Option B for question 6,Option C for question 6,Option D for question 6,D
-1000,This is the content for question 7.,Option A for question 7,Option B for question 7,Option C for question 7,Option D for question 7,A
-1000,This is the content for question 8.,Option A for question 8,Option B for question 8,Option C for question 8,Option D for question 8,A
-1000,This is the content for question 9.,Option A for question 9,Option B for question 9,Option C for question 9,Option D for question 9,D
-1000,This is the content for question 10.,Option A for question 10,Option B for question 10,Option C for question 10,Option D for question 10,A
-1000,This is the content for question 11.,Option A for question 11,Option B for question 11,Option C for question 11,Option D for question 11,A
-1000,This is the content for question 12.,Option A for question 12,Option B for question 12,Option C for question 12,Option D for question 12,D
-1000,This is the content for question 13.,Option A for question 13,Option B for question 13,Option C for question 13,Option D for question 13,D
-1000,This is the content for question 14.,Option A for question 14,Option B for question 14,Option C for question 14,Option D for question 14,C
-1000,This is the content for question 15.,Option A for question 15,Option B for question 15,Option C for question 15,Option D for question 15,C
-1000,This is the content for question 16.,Option A for question 16,Option B for question 16,Option C for question 16,Option D for question 16,A
-1000,This is the content for question 17.,Option A for question 17,Option B for question 17,Option C for question 17,Option D for question 17,C
-1000,This is the content for question 18.,Option A for question 18,Option B for question 18,Option C for question 18,Option D for question 18,D
-1000,This is the content for question 19.,Option A for question 19,Option B for question 19,Option C for question 19,Option D for question 19,C
-1000,This is the content for question 20.,Option A for question 20,Option B for question 20,Option C for question 20,Option D for question 20,C
-1000,This is the content for question 21.,Option A for question 21,Option B for question 21,Option C for question 21,Option D for question 21,C
-1000,This is the content for question 22.,Option A for question 22,Option B for question 22,Option C for question 22,Option D for question 22,A
-1000,This is the content for question 23.,Option A for question 23,Option B for question 23,Option C for question 23,Option D for question 23,D
-1000,This is the content for question 24.,Option A for question 24,Option B for question 24,Option C for question 24,Option D for question 24,D
-1000,This is the content for question 25.,Option A for question 25,Option B for question 25,Option C for question 25,Option D for question 25,D
-1000,This is the content for question 26.,Option A for question 26,Option B for question 26,Option C for question 26,Option D for question 26,D
-1000,This is the content for question 27.,Option A for question 27,Option B for question 27,Option C for question 27,Option D for question 27,C
-1000,This is the content for question 28.,Option A for question 28,Option B for question 28,Option C for question 28,Option D for question 28,B
-1000,This is the content for question 29.,Option A for question 29,Option B for question 29,Option C for question 29,Option D for question 29,A
-1000,This is the content for question 30.,Option A for question 30,Option B for question 30,Option C for question 30,Option D for question 30,C
-1000,This is the content for question 31.,Option A for question 31,Option B for question 31,Option C for question 31,Option D for question 31,A
-1000,This is the content for question 32.,Option A for question 32,Option B for question 32,Option C for question 32,Option D for question 32,C
-1000,This is the content for question 33.,Option A for question 33,Option B for question 33,Option C for question 33,Option D for question 33,B
-1000,This is the content for question 34.,Option A for question 34,Option B for question 34,Option C for question 34,Option D for question 34,D
-1000,This is the content for question 35.,Option A for question 35,Option B for question 35,Option C for question 35,Option D for question 35,D
-1000,This is the content for question 36.,Option A for question 36,Option B for question 36,Option C for question 36,Option D for question 36,C
-1000,This is the content for question 37.,Option A for question 37,Option B for question 37,Option C for question 37,Option D for question 37,B
-1000,This is the content for question 38.,Option A for question 38,Option B for question 38,Option C for question 38,Option D for question 38,D
-1000,This is the content for question 39.,Option A for question 39,Option B for question 39,Option C for question 39,Option D for question 39,C
-1000,This is the content for question 40.,Option A for question 40,Option B for question 40,Option C for question 40,Option D for question 40,C
-1000,This is the content for question 41.,Option A for question 41,Option B for question 41,Option C for question 41,Option D for question 41,B
-1000,This is the content for question 42.,Option A for question 42,Option B for question 42,Option C for question 42,Option D for question 42,B
-1000,This is the content for question 43.,Option A for question 43,Option B for question 43,Option C for question 43,Option D for question 43,B
-1000,This is the content for question 44.,Option A for question 44,Option B for question 44,Option C for question 44,Option D for question 44,B
-1000,This is the content for question 45.,Option A for question 45,Option B for question 45,Option C for question 45,Option D for question 45,B
-1000,This is the content for question 46.,Option A for question 46,Option B for question 46,Option C for question 46,Option D for question 46,D
-1000,This is the content for question 47.,Option A for question 47,Option B for question 47,Option C for question 47,Option D for question 47,B
-1000,This is the content for question 48.,Option A for question 48,Option B for question 48,Option C for question 48,Option D for question 48,C
-1000,This is the content for question 49.,Option A for question 49,Option B for question 49,Option C for question 49,Option D for question 49,B
-1000,This is the content for question 50.,Option A for question 50,Option B for question 50,Option C for question 50,Option D for question 50,A
-1000,This is the content for question 51.,Option A for question 51,Option B for question 51,Option C for question 51,Option D for question 51,B
-1000,This is the content for question 52.,Option A for question 52,Option B for question 52,Option C for question 52,Option D for question 52,C
-1000,This is the content for question 53.,Option A for question 53,Option B for question 53,Option C for question 53,Option D for question 53,D
-1000,This is the content for question 54.,Option A for question 54,Option B for question 54,Option C for question 54,Option D for question 54,B
-1000,This is the content for question 55.,Option A for question 55,Option B for question 55,Option C for question 55,Option D for question 55,A
-1000,This is the content for question 56.,Option A for question 56,Option B for question 56,Option C for question 56,Option D for question 56,C
-1000,This is the content for question 57.,Option A for question 57,Option B for question 57,Option C for question 57,Option D for question 57,B
-1000,This is the content for question 58.,Option A for question 58,Option B for question 58,Option C for question 58,Option D for question 58,D
-1000,This is the content for question 59.,Option A for question 59,Option B for question 59,Option C for question 59,Option D for question 59,D
-1000,This is the content for question 60.,Option A for question 60,Option B for question 60,Option C for question 60,Option D for question 60,C
-1010,This is the content for question 58.,Option C for question 58,Option A for question 58,Option B for question 58,Option D for question 58,D
-1010,This is the content for question 59.,Option A for question 59,Option B for question 59,Option C for question 59,Option D for question 59,D
-1010,This is the content for question 60.,Option A for question 60,Option B for question 60,Option C for question 60,Option D for question 60,C
-1010,This is the content for question 1.,Option A for question 1,Option B for question 1,Option C for question 1,Option D for question 1,C
-1010,This is the content for question 2.,Option A for question 2,Option B for question 2,Option C for question 2,Option D for question 2,A
-1010,This is the content for question 3.,Option A for question 3,Option B for question 3,Option C for question 3,Option D for question 3,B
-1010,This is the content for question 4.,Option A for question 4,Option B for question 4,Option C for question 4,Option D for question 4,B
-1010,This is the content for question 5.,Option A for question 5,Option B for question 5,Option C for question 5,Option D for question 5,A
-1010,This is the content for question 6.,Option A for question 6,Option B for question 6,Option C for question 6,Option D for question 6,D
-1010,This is the content for question 7.,Option A for question 7,Option B for question 7,Option C for question 7,Option D for question 7,A
-1010,This is the content for question 8.,Option A for question 8,Option B for question 8,Option C for question 8,Option D for question 8,A
-1010,This is the content for question 9.,Option A for question 9,Option B for question 9,Option C for question 9,Option D for question 9,D
-1010,This is the content for question 10.,Option A for question 10,Option B for question 10,Option C for question 10,Option D for question 10,A
-1010,This is the content for question 11.,Option A for question 11,Option B for question 11,Option C for question 11,Option D for question 11,A
-1010,This is the content for question 12.,Option A for question 12,Option B for question 12,Option C for question 12,Option D for question 12,D
-1010,This is the content for question 13.,Option A for question 13,Option B for question 13,Option C for question 13,Option D for question 13,D
-1010,This is the content for question 14.,Option A for question 14,Option B for question 14,Option C for question 14,Option D for question 14,C
-1010,This is the content for question 15.,Option A for question 15,Option B for question 15,Option C for question 15,Option D for question 15,C
-1010,This is the content for question 16.,Option A for question 16,Option B for question 16,Option C for question 16,Option D for question 16,A
-1010,This is the content for question 17.,Option A for question 17,Option B for question 17,Option C for question 17,Option D for question 17,C
-1010,This is the content for question 18.,Option A for question 18,Option B for question 18,Option C for question 18,Option D for question 18,D
-1010,This is the content for question 19.,Option A for question 19,Option B for question 19,Option C for question 19,Option D for question 19,C
-1010,This is the content for question 20.,Option A for question 20,Option B for question 20,Option C for question 20,Option D for question 20,C
-1010,This is the content for question 21.,Option A for question 21,Option B for question 21,Option C for question 21,Option D for question 21,C
-1010,This is the content for question 22.,Option A for question 22,Option B for question 22,Option C for question 22,Option D for question 22,A
-1010,This is the content for question 23.,Option A for question 23,Option B for question 23,Option C for question 23,Option D for question 23,D
-1010,This is the content for question 24.,Option A for question 24,Option B for question 24,Option C for question 24,Option D for question 24,D
-1010,This is the content for question 25.,Option A for question 25,Option B for question 25,Option C for question 25,Option D for question 25,D
-1010,This is the content for question 26.,Option A for question 26,Option B for question 26,Option C for question 26,Option D for question 26,D
-1010,This is the content for question 27.,Option A for question 27,Option B for question 27,Option C for question 27,Option D for question 27,C
-1010,This is the content for question 28.,Option A for question 28,Option B for question 28,Option C for question 28,Option D for question 28,B
-1010,This is the content for question 29.,Option A for question 29,Option B for question 29,Option C for question 29,Option D for question 29,A
-1010,This is the content for question 30.,Option A for question 30,Option B for question 30,Option C for question 30,Option D for question 30,C
-1010,This is the content for question 31.,Option A for question 31,Option B for question 31,Option C for question 31,Option D for question 31,A
-1010,This is the content for question 32.,Option A for question 32,Option B for question 32,Option C for question 32,Option D for question 32,C
-1010,This is the content for question 33.,Option A for question 33,Option B for question 33,Option C for question 33,Option D for question 33,B
-1010,This is the content for question 34.,Option A for question 34,Option B for question 34,Option C for question 34,Option D for question 34,D
-1010,This is the content for question 35.,Option A for question 35,Option B for question 35,Option C for question 35,Option D for question 35,D
-1010,This is the content for question 36.,Option A for question 36,Option B for question 36,Option C for question 36,Option D for question 36,C
-1010,This is the content for question 37.,Option A for question 37,Option B for question 37,Option C for question 37,Option D for question 37,B
-1010,This is the content for question 38.,Option A for question 38,Option B for question 38,Option C for question 38,Option D for question 38,D
-1010,This is the content for question 39.,Option A for question 39,Option B for question 39,Option C for question 39,Option D for question 39,C
-1010,This is the content for question 40.,Option A for question 40,Option B for question 40,Option C for question 40,Option D for question 40,C
-1010,This is the content for question 41.,Option A for question 41,Option B for question 41,Option C for question 41,Option D for question 41,B
-1010,This is the content for question 42.,Option A for question 42,Option B for question 42,Option C for question 42,Option D for question 42,B
-1010,This is the content for question 43.,Option A for question 43,Option B for question 43,Option C for question 43,Option D for question 43,B
-1010,This is the content for question 44.,Option A for question 44,Option B for question 44,Option C for question 44,Option D for question 44,B
-1010,This is the content for question 45.,Option A for question 45,Option B for question 45,Option C for question 45,Option D for question 45,B
-1010,This is the content for question 46.,Option A for question 46,Option B for question 46,Option C for question 46,Option D for question 46,D
-1010,This is the content for question 47.,Option A for question 47,Option B for question 47,Option C for question 47,Option D for question 47,B
-1010,This is the content for question 48.,Option A for question 48,Option B for question 48,Option C for question 48,Option D for question 48,C
-1010,This is the content for question 49.,Option A for question 49,Option B for question 49,Option C for question 49,Option D for question 49,B
-1010,This is the content for question 50.,Option A for question 50,Option B for question 50,Option C for question 50,Option D for question 50,A
-1010,This is the content for question 51.,Option A for question 51,Option B for question 51,Option C for question 51,Option D for question 51,B
-1010,This is the content for question 52.,Option A for question 52,Option B for question 52,Option C for question 52,Option D for question 52,C
-1010,This is the content for question 53.,Option A for question 53,Option B for question 53,Option C for question 53,Option D for question 53,D
-1010,This is the content for question 54.,Option A for question 54,Option B for question 54,Option C for question 54,Option D for question 54,B
-1010,This is the content for question 55.,Option A for question 55,Option B for question 55,Option C for question 55,Option D for question 55,A
-1010,This is the content for question 56.,Option A for question 56,Option B for question 56,Option C for question 56,Option D for question 56,C
-1010,This is the content for question 57.,Option A for question 57,Option B for question 57,Option C for question 57,Option D for question 57,B
+1010,Độ phức tạp thời gian của tìm kiếm nhị phân là gì?,O(n),O(log n),O(n log n),O(1),B
+1010,Trong max heap phần tử nào ở gốc?,Phần tử lớn nhất,Phần tử nhỏ nhất,Phần tử đầu tiên,Phần tử cuối cùng,A
+1010,Cấu trúc dữ liệu nào sau đây là ví dụ của cấu trúc dữ liệu phi tuyến tính?,Mảng,Danh sách liên kết,Đồ thị,Ngăn xếp,C
+1010,Cấu trúc dữ liệu nào sau đây không phải là kiểu danh sách liên kết?,Danh sách liên kết đôi,Danh sách mảng,Danh sách liên kết vòng,Danh sách liên kết không có thứ tự,D
+1010,Cấu trúc cây nào sau đây là cây cân bằng?,Cây tìm kiếm nhị phân,Cây AVL,Cây đỏ đen,Tất cả các cây trên,D
+1010,Độ phức tạp không gian của thuật toán sắp xếp trộn là gì?,O(1),O(n),O(log n),O(n log n),B
+1010,Phương pháp duyệt nào sau đây được sử dụng trong tìm kiếm theo chiều sâu?,Duyệt theo thứ tự in-order,Duyệt theo thứ tự pre-order,Duyệt theo thứ tự post-order,Tất cả các phương pháp trên,D
+1010,Độ phức tạp thời gian của việc truy cập một phần tử trong mảng là gì?,O(1),O(n),O(log n),O(n log n),A
+1010,Thuật toán nào được sử dụng để tìm đường đi ngắn nhất trong đồ thị?,Thuật toán quick sort,Thuật toán merge sort,Thuật toán Dijkstra,Thuật toán heap sort,C
+1010,Độ phức tạp thời gian trường hợp xấu nhất của thuật toán quicksort là gì?,O(n),O(n log n),O(log n),O(n^2),D
+1010,Độ phức tạp thời gian của thuật toán tìm kiếm nhị phân là gì?,O(1),O(n),O(log n),O(n log n),A
+1010,Trong một cây nhị phân tìm kiếm đặc điểm nào là đúng?,Các nút con trái luôn nhỏ hơn nút cha,Các nút con phải luôn nhỏ hơn nút cha,Không có quy tắc nào,Tất cả các nút con đều bằng nhau,D
+1010,Thuật toán nào được sử dụng để tìm đường đi ngắn nhất?,Quick sort,Merge sort,Thuật toán Dijkstra,Heap sort,D
+1010,Danh sách liên kết đôi có đặc điểm gì?,Mỗi nút chứa một liên kết tới nút cha,Mỗi nút chứa một liên kết tới nút con,Mỗi nút chứa liên kết tới cả nút cha và con,Chỉ chứa liên kết tới nút đầu tiên,C
+1010,Đặc điểm chính của cấu trúc dữ liệu hàng đợi là gì?,Truy cập ngẫu nhiên,FIFO (First In First Out),LIFO (Last In First Out),Không có quy tắc nào,C
+1010,Độ phức tạp không gian của thuật toán merge sort là gì?,O(n),O(1),O(log n),O(n log n),A
+1010,Cây AVL là một dạng cây gì?,Cây nhị phân tìm kiếm không cân bằng,Cây nhị phân tìm kiếm cân bằng,Đồ thị có trọng số,Cây nhị phân không có quy tắc nào,C
+1010,Thuật toán nào được sử dụng để duyệt đồ thị theo chiều sâu?,In-order traversal,Pre-order traversal,Post-order traversal,DFS,D
+1010,Đặc điểm nào của stack là chính xác nhất?,FIFO (First In First Out),LIFO (Last In First Out),Không có quy tắc nào,Chỉ hỗ trợ truy cập tuần tự,C
+1010,Đặc điểm của danh sách liên kết vòng là gì?,Không có nút cuối,Có một nút đầu và cuối được liên kết lại với nhau,Tất cả các nút có thể liên kết ngẫu nhiên,Có hai đầu nhưng không kết nối với nhau,C
+1010,Đặc điểm của cấu trúc dữ liệu cây nhị phân tìm kiếm là gì?,Mỗi nút con trái nhỏ hơn hoặc bằng nút cha,Mỗi nút con phải nhỏ hơn hoặc bằng nút cha,Các nút con trái nhỏ hơn hoặc bằng nút cha,Không có quy tắc nào,C
+1010,Trong danh sách liên kết đôi mỗi nút chứa thông tin gì?,Chỉ liên kết tới nút cha,Chỉ liên kết tới nút con,Liên kết tới cả nút cha và con,Không liên kết với bất kỳ nút nào,A
+1010,Độ phức tạp thời gian tồi tệ nhất của quicksort là gì?,O(n),O(log n),O(n log n),O(n^2),D
+1010,Đặc điểm nào đúng với hàng đợi ưu tiên?,FIFO,LIFO,Các phần tử có mức ưu tiên riêng,Không có quy tắc nào,D
+1010,Thuật toán nào được dùng để duyệt qua các nút trong đồ thị?,Dijkstra,DFS,BFS,Pre-order traversal,D
+1010,Thuật toán Kruskal được sử dụng để làm gì?,Tìm cây khung nhỏ nhất,Tìm đường đi ngắn nhất,Sắp xếp nhanh,Phân vùng dữ liệu,D
+1010,Đặc điểm của danh sách liên kết đơn là gì?,Có hai nút đầu và cuối liên kết,Chỉ chứa nút cha,Mỗi nút chỉ liên kết tới nút tiếp theo,Có liên kết ngẫu nhiên,C
+1010,Thuật toán nào là duyệt theo chiều rộng?,DFS,Post-order traversal,BFS,Quick sort,B
+1010,Độ phức tạp thời gian của tìm kiếm tuần tự là gì?,O(1),O(n),O(log n),O(n log n),A
+1010,Thuật toán sắp xếp nào có độ phức tạp tốt nhất với dữ liệu đã được sắp xếp?,Bubble sort,Selection sort,Insertion sort,Quick sort,C
+1010,Trong cây AVL điều kiện cân bằng được định nghĩa như thế nào?,Chiều cao của hai cây con khác nhau không quá 1,Cây con trái lớn hơn cây con phải,Các nút không cần cân bằng,Không có quy tắc nào,A
+1010,Đặc điểm nào của đồ thị vô hướng là đúng?,Có trọng số,Có hướng,Không có trọng số,Không có hướng,C
+1010,Độ phức tạp thời gian tốt nhất của sắp xếp chọn là gì?,O(n),O(log n),O(n^2),O(n log n),B
+1010,Thuật toán Floyd-Warshall được sử dụng để làm gì?,Tìm cây khung nhỏ nhất,Tìm đường đi ngắn nhất,Duyệt qua đồ thị,Phân hoạch đồ thị,D
+1010,Trong cây nhị phân hoàn chỉnh số nút lá lớn nhất nằm ở mức nào?,Mức gốc,Mức dưới gốc,Mức thấp nhất,Không xác định,D
+1010,Đặc điểm nào đúng về bảng băm?,Không cho phép xung đột,Có thể xảy ra xung đột,Không có yếu tố ngẫu nhiên,Chỉ có các số nguyên,C
+1010,Trong hàng đợi kép có thể thực hiện thao tác gì?,Chỉ thêm ở cuối,Chỉ xóa ở đầu,Thêm hoặc xóa từ cả hai đầu,Không thể thao tác gì,B
+1010,Phương pháp nào dùng để phát hiện chu trình trong đồ thị?,DFS,BFS,Bellman-Ford,Floyd-Warshall,D
+1010,Độ phức tạp thời gian của thuật toán heapsort là gì?,O(n),O(log n),O(n log n),O(n^2),C
+1010,Đặc điểm nào đúng với danh sách liên kết vòng?,Không có nút đầu,Không có nút cuối,Nút cuối trỏ về nút đầu,Không có quy tắc nào,C
+1010,Đặc điểm nào đúng về cây nhị phân tìm kiếm?,Mỗi nút con trái nhỏ hơn nút cha,Mỗi nút con phải lớn hơn hoặc bằng nút cha,Không có quy tắc nào,Cả hai đều sai,B
+1010,Thuật toán nào được sử dụng để duyệt đồ thị?,DFS,BFS,Kruskal,Prim,B
+1010,Đặc điểm nào đúng về mảng động?,Kích thước cố định,Có thể thay đổi kích thước,Không có yếu tố ngẫu nhiên,Chỉ chứa số nguyên,B
+1010,Trong cấu trúc hàng đợi thao tác nào là đúng?,Chỉ thêm ở đầu,Thêm ở cuối và xóa ở đầu,Thêm ở đầu và xóa ở cuối,Không thao tác nào đúng,B
+1010,Sắp xếp chèn (insertion sort) hoạt động như thế nào?,Tìm phần tử nhỏ nhất và đặt vào đầu danh sách,Chèn từng phần tử vào đúng vị trí của nó,Sử dụng cây nhị phân để sắp xếp,Sử dụng bảng băm để sắp xếp,B
+1010,Đặc điểm nào đúng với thuật toán Bellman-Ford?,Chỉ hoạt động với đồ thị không trọng số,Có thể xử lý trọng số âm,Chỉ tìm cây khung nhỏ nhất,Không thể tìm đường đi ngắn nhất,D
+1010,Cách tốt nhất để triển khai ngăn xếp là gì?,Sử dụng danh sách liên kết,Sử dụng mảng động,Sử dụng cây nhị phân,Sử dụng bảng băm,B
+1010,Trong danh sách liên kết đôi điều gì là đúng?,Chỉ có liên kết một chiều,Có liên kết hai chiều,Chỉ thêm và xóa ở cuối danh sách,Không có liên kết nào,C
+1010,Độ phức tạp thời gian trung bình của thuật toán tìm kiếm nhị phân là gì?,O(n),O(log n),O(n^2),O(n log n),B
+1010,Thuật ngữ nào dùng để mô tả cách các nút được tổ chức trong cây?,Độ sâu,Chiều cao,Mức,Gốc,A
+1010,Trong cây AVL yếu tố cân bằng là gì?,Chênh lệch số nút giữa cây con trái và phải,Chênh lệch chiều cao giữa cây con trái và phải,Tổng số nút trong cây con,Tổng số cạnh trong cây con,B
+1010,Trong danh sách liên kết việc chèn một nút mới vào giữa danh sách cần gì?,Thay đổi nút đầu,Thay đổi các liên kết của các nút xung quanh,Tạo một danh sách mới,Không thể thực hiện được,C
+1010,Thuật toán nào đảm bảo kết quả tối ưu cho bài toán cây khung nhỏ nhất?,Kruskal,Prim,Dijkstra,Cả hai Kruskal và Prim,D
+1010,Đâu là cách tốt nhất để triển khai hàng đợi ưu tiên?,Sử dụng mảng,Sử dụng heap,Sử dụng danh sách liên kết,Sử dụng bảng băm,B
+1010,Trong danh sách liên kết đơn điều nào đúng?,Mỗi nút chỉ liên kết với nút trước,Mỗi nút chỉ liên kết với nút sau,Mỗi nút có liên kết hai chiều,Không có liên kết nào đúng,A
+1010,Trong cây nhị phân hoàn chỉnh đặc điểm nào là đúng?,Tất cả các cấp đều được lấp đầy hoàn toàn ngoại trừ cấp cuối cùng,Tất cả các cấp đều phải được lấp đầy hoàn toàn,Chỉ có một nút cha duy nhất,Tất cả các nút đều là nút lá,C
+1010,Độ phức tạp thời gian tốt nhất của thuật toán tìm kiếm tuần tự là gì?,O(n),O(1),O(log n),O(n log n),B
+1010,Đặc điểm của thuật toán Kruskal là gì?,Tìm đường đi ngắn nhất trong đồ thị,Tìm cây khung nhỏ nhất bằng cách chọn cạnh nhỏ nhất,Tìm nút có trọng số lớn nhất,Không có đáp án đúng,D
+1010,Thuật toán sắp xếp nào có thể hoạt động tốt trên dữ liệu gần như đã được sắp xếp?,Quick sort,Bubble sort,Insertion sort,Merge sort,D
+1010,Trong danh sách liên kết vòng điều nào đúng?,Không có nút đầu,Nút cuối liên kết lại với nút đầu,Mỗi nút đều liên kết với nút đầu,Không có liên kết nào đúng,C

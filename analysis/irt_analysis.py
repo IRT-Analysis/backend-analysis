@@ -1,8 +1,10 @@
 from analysis.method import Model
+
 # from irt import two_parameter_model
 import numpy as np
 from scipy.optimize import minimize
 from models.student import Student
+
 
 class IrtAnalysis(Model):
     response_list = []
@@ -24,12 +26,12 @@ class IrtAnalysis(Model):
                 else:
                     response_data.append(0)
             else:
-                if self.examResult.is_correct_answer(student['student'], question_id):
+                if self.examResult.is_correct_answer(student["student"], question_id):
                     response_data.append(1)
                 else:
                     response_data.append(0)
         return response_data
-    
+
     def _init_difficulty(self, response_data, total_student):
         return sum(response_data) / total_student
 
@@ -47,66 +49,120 @@ class IrtAnalysis(Model):
         all_questions = self.examResult.exams[0].question_bank.get_all_questions()
         total_students = len(self.examResult.students)
 
-        self.general_detail.update({
-            "total_students": total_students,
-            "total_questions": len(all_questions)
-        })
+        self.general_detail.update(
+            {"total_students": total_students, "total_questions": len(all_questions)}
+        )
 
         sorted_students, top_students, bottom_students = self.split_students()
-        
-        
+
         # Initialize difficulties
         # question_difficulties = {q_id: 0.5 for q_id in all_questions.keys()}
-        question_difficulties = {q_id: self._init_difficulty(self._get_response_data(q_id, sorted_students), total_students) for q_id in all_questions.keys()}
-        
+        question_difficulties = {
+            q_id: self._init_difficulty(
+                self._get_response_data(q_id, sorted_students), total_students
+            )
+            for q_id in all_questions.keys()
+        }
+
         # Iterate to refine difficulties and abilities
         max_iterations = 20
         tol = 1e-4
-        
+
         for _ in range(max_iterations):
             # Step 1: Estimate student abilities using current question difficulties
             student_abilities = {}
             for student in sorted_students:
-                response_data = [1 if self.examResult.is_correct_answer(student['student'], q_id) else 0 for q_id in all_questions]
-                ability_estimate = RaschModel().estimate_ability(response_data, np.array(list(question_difficulties.values())))
-                student_abilities[student['student']] = ability_estimate
-                student['student'].ability = ability_estimate
+                response_data = [
+                    1
+                    if self.examResult.is_correct_answer(student["student"], q_id)
+                    else 0
+                    for q_id in all_questions
+                ]
+                ability_estimate = RaschModel().estimate_ability(
+                    response_data, np.array(list(question_difficulties.values()))
+                )
+                student_abilities[student["student"]] = ability_estimate
+                student["student"].ability = ability_estimate
 
             # Step 2: Estimate question difficulties using current student abilities
             new_question_difficulties = {}
             for q_id in all_questions.keys():
-                response_data = np.array([1 if self.examResult.is_correct_answer(student['student'], q_id) else 0 for student in sorted_students])
-                ability_levels = np.array([student_abilities[student['student']] for student in sorted_students])
-                new_question_difficulties[q_id] = RaschModel().estimate_difficulty(response_data, ability_levels)
-            
+                response_data = np.array(
+                    [
+                        1
+                        if self.examResult.is_correct_answer(student["student"], q_id)
+                        else 0
+                        for student in sorted_students
+                    ]
+                )
+                ability_levels = np.array(
+                    [
+                        student_abilities[student["student"]]
+                        for student in sorted_students
+                    ]
+                )
+                new_question_difficulties[q_id] = RaschModel().estimate_difficulty(
+                    response_data, ability_levels
+                )
+
             # Check for convergence
-            if all(abs(new_question_difficulties[q] - question_difficulties[q]) < tol for q in all_questions.keys()):
+            if all(
+                abs(new_question_difficulties[q] - question_difficulties[q]) < tol
+                for q in all_questions.keys()
+            ):
                 break
             question_difficulties = new_question_difficulties
 
         # Step 3: Store final question statistics
         question_stats_list = [
             self._analysis_single_question_rasch(
-                q_id, all_questions[q_id], sorted_students, top_students, bottom_students, difficulty=question_difficulties[q_id]
-            ) for q_id in all_questions.keys()
+                q_id,
+                all_questions[q_id],
+                sorted_students,
+                top_students,
+                bottom_students,
+                difficulty=question_difficulties[q_id],
+            )
+            for q_id in all_questions.keys()
         ]
 
-        self.question_stats.update({
-            q_id: stat for q_id, stat in zip(all_questions.keys(), question_stats_list)
-        })
+        self.question_stats.update(
+            {
+                q_id: stat
+                for q_id, stat in zip(all_questions.keys(), question_stats_list)
+            }
+        )
 
-        self.average_indexes.update({
-            "average_score": self.get_average_value("score", self.examResult.scores),
-            "average_difficulty": self.get_average_value("difficulty", question_stats_list),
-            "average_separation": self.get_average_value("separation", question_stats_list),
-            "average_reliability": self.get_average_value("reliability", question_stats_list),
-            "item_infit": self.get_average_value("infit", question_stats_list),
-            "item_outfit": self.get_average_value("outfit", question_stats_list),
-        })
+        self.average_indexes.update(
+            {
+                "average_score": self.get_average_value(
+                    "score", self.examResult.scores
+                ),
+                "average_difficulty": self.get_average_value(
+                    "difficulty", question_stats_list
+                ),
+                "average_separation": self.get_average_value(
+                    "separation", question_stats_list
+                ),
+                "average_reliability": self.get_average_value(
+                    "reliability", question_stats_list
+                ),
+                "item_infit": self.get_average_value("infit", question_stats_list),
+                "item_outfit": self.get_average_value("outfit", question_stats_list),
+            }
+        )
 
         return self.question_stats
 
-    def _analysis_single_question_rasch(self, question_id, question_data, sorted_students, top_students, bottom_students, difficulty):
+    def _analysis_single_question_rasch(
+        self,
+        question_id,
+        question_data,
+        sorted_students,
+        top_students,
+        bottom_students,
+        difficulty,
+    ):
         chosen_by, option_stats = self._compute_option_stats(
             question_id, question_data, top_students, bottom_students, sorted_students
         )
@@ -116,17 +172,23 @@ class IrtAnalysis(Model):
         response_data_bottom = self._get_response_data(question_id, bottom_students)
 
         # Use precomputed student abilities from rasch_analysis
-        ability_levels = np.array([student['student'].ability for student in sorted_students])
+        ability_levels = np.array(
+            [student["student"].ability for student in sorted_students]
+        )
 
         # Compute separation and reliability
-        discrimination, reliability = self.calculate_discrimination_reliability(response_data_top, response_data_bottom)
+        discrimination, reliability = self.calculate_discrimination_reliability(
+            response_data_top, response_data_bottom
+        )
 
         # Get question content
         question_bank = self.examResult.exams[0].question_bank
         content = question_bank.get_content(question_id)
-        
+
         # Calculate infot, outfit value
-        infit, outfit = self._calculate_infit_outfit(response_data, difficulty, sorted_students)
+        infit, outfit = self._calculate_infit_outfit(
+            response_data, difficulty, sorted_students
+        )
 
         return {
             "content": content,
@@ -137,27 +199,28 @@ class IrtAnalysis(Model):
             "infit": infit,  # Remove redundant infit/outfit computation
             "outfit": outfit,  # These should be computed once in rasch_analysis
             "reliability": reliability,
-            "options": option_stats
+            "options": option_stats,
         }
 
     def get_average_value(self, key, data):
         return np.mean([d[key] for d in data if key in d])
-    
-    def calculate_discrimination_reliability(self, response_data_top, response_data_bottom):
+
+    def calculate_discrimination_reliability(
+        self, response_data_top, response_data_bottom
+    ):
         separation = np.mean(response_data_top) - np.mean(response_data_bottom)
-        reliability = 1 - (1 / (1 + separation ** 2))
+        reliability = 1 - (1 / (1 + separation**2))
         return separation, reliability
-           
+
     def two_pl_analysis(self):
         """
         Perform 2PL analysis on the exam.
         """
         all_questions = self.examResult.exams[0].question_bank.get_all_questions()
         total_students = len(self.examResult.students)
-        self.general_detail.update({
-            "total_students": total_students,
-            "total_questions": len(all_questions)
-        })
+        self.general_detail.update(
+            {"total_students": total_students, "total_questions": len(all_questions)}
+        )
 
         sorted_students, top_students, bottom_students = self.split_students()
 
@@ -167,23 +230,37 @@ class IrtAnalysis(Model):
                 question_data,
                 sorted_students,
                 top_students,
-                bottom_students
-            ) for question_id, question_data in all_questions.items()
+                bottom_students,
+            )
+            for question_id, question_data in all_questions.items()
         ]
 
-        self.question_stats.update({
-            question_id: stat for question_id, stat in zip(all_questions.keys(), question_stats_list)
-        })
-        
-        self.average_indexes.update({
-            "average_score": self.get_average_value("score", self.examResult.scores),
-            "average_discrimination": self.get_average_value("discrimination", question_stats_list),
-            "average_difficulty": self.get_average_value("difficulty", question_stats_list),
-        })
+        self.question_stats.update(
+            {
+                question_id: stat
+                for question_id, stat in zip(all_questions.keys(), question_stats_list)
+            }
+        )
+
+        self.average_indexes.update(
+            {
+                "average_score": self.get_average_value(
+                    "score", self.examResult.scores
+                ),
+                "average_discrimination": self.get_average_value(
+                    "discrimination", question_stats_list
+                ),
+                "average_difficulty": self.get_average_value(
+                    "difficulty", question_stats_list
+                ),
+            }
+        )
 
         return self.question_stats
-    
-    def _analyze_single_question_2pl(self, question_id, question_data, sorted_students, top_students, bottom_students):
+
+    def _analyze_single_question_2pl(
+        self, question_id, question_data, sorted_students, top_students, bottom_students
+    ):
         """
         Analyze a single question using 2PL model.
         """
@@ -203,30 +280,31 @@ class IrtAnalysis(Model):
         difficulty, discrimination = model.get_params()
 
         # Calculate the separation and reliability
-        separation, reliability = model.get_separation_reliability(response_data_top, response_data_bottom)
+        separation, reliability = model.get_separation_reliability(
+            response_data_top, response_data_bottom
+        )
 
         question_bank = self.examResult.exams[0].question_bank
         content = question_bank.get_content(question_id)
-        
+
         return {
             "content": content,
             "difficulty": difficulty,
             "discrimination": discrimination,
             "separation": separation,
             "reliability": reliability,
-            "options": option_stats
+            "options": option_stats,
         }
-        
-    def three_pl_analysis(self):
+
+    def analyze_questions(self):
         """
         Perform 3PL analysis on the exam.
         """
         all_questions = self.examResult.exams[0].question_bank.get_all_questions()
         total_students = len(self.examResult.students)
-        self.general_detail.update({
-            "total_students": total_students,
-            "total_questions": len(all_questions)
-        })
+        self.general_detail.update(
+            {"total_students": total_students, "total_questions": len(all_questions)}
+        )
 
         sorted_students, top_students, bottom_students = self.split_students()
 
@@ -236,24 +314,40 @@ class IrtAnalysis(Model):
                 question_data,
                 sorted_students,
                 top_students,
-                bottom_students
-            ) for question_id, question_data in all_questions.items()
+                bottom_students,
+            )
+            for question_id, question_data in all_questions.items()
         ]
 
-        self.question_stats.update({
-            question_id: stat for question_id, stat in zip(all_questions.keys(), question_stats_list)
-        })
-        
-        self.average_indexes.update({
-            "average_score": self.get_average_value("score", self.examResult.scores),
-            "average_discrimination": self.get_average_value("discrimination", question_stats_list),
-            "average_difficulty": self.get_average_value("difficulty", question_stats_list),
-            "average_guessing": self.get_average_value("guessing", question_stats_list),
-        })
+        self.question_stats.update(
+            {
+                question_id: stat
+                for question_id, stat in zip(all_questions.keys(), question_stats_list)
+            }
+        )
+
+        self.average_indexes.update(
+            {
+                "average_score": self.get_average_value(
+                    "score", self.examResult.scores
+                ),
+                "average_discrimination": self.get_average_value(
+                    "discrimination", question_stats_list
+                ),
+                "average_difficulty": self.get_average_value(
+                    "difficulty", question_stats_list
+                ),
+                "average_guessing": self.get_average_value(
+                    "guessing", question_stats_list
+                ),
+            }
+        )
 
         return self.question_stats
-    
-    def _analyze_single_question_3pl(self, question_id, question_data, sorted_students, top_students, bottom_students):
+
+    def _analyze_single_question_3pl(
+        self, question_id, question_data, sorted_students, top_students, bottom_students
+    ):
         """
         Analyze a single question using 3PL model.
         """
@@ -273,11 +367,13 @@ class IrtAnalysis(Model):
         difficulty, discrimination, guessing = model.get_params()
 
         # Calculate the separation and reliability
-        separation, reliability = model.get_separation_reliability(response_data_top, response_data_bottom)
+        separation, reliability = model.get_separation_reliability(
+            response_data_top, response_data_bottom
+        )
 
         question_bank = self.examResult.exams[0].question_bank
         content = question_bank.get_content(question_id)
-        
+
         return {
             "content": content,
             "difficulty": difficulty,
@@ -285,14 +381,16 @@ class IrtAnalysis(Model):
             "guessing": guessing,
             "separation": separation,
             "reliability": reliability,
-            "options": option_stats
+            "options": option_stats,
         }
 
     def _calculate_infit_outfit(self, response_data, difficulty, sorted_students):
         """
         Calculate the infit and outfit statistics for a given question.
         """
-        ability_levels = np.array([student['student'].ability for student in sorted_students])
+        ability_levels = np.array(
+            [student["student"].ability for student in sorted_students]
+        )
 
         # Compute probabilities of correct responses (avoid extreme values)
         p_list = [1 / (1 + np.exp(difficulty - ability)) for ability in ability_levels]
@@ -301,14 +399,17 @@ class IrtAnalysis(Model):
         z_list = [(x - p) / np.sqrt(p * (1 - p)) for x, p in zip(response_data, p_list)]
 
         # Compute infit and outfit statistics
-        infit = np.sum([(p * (1 - p) * (z ** 2)) for p, z in zip(p_list, z_list)]) / np.sum([p * (1 - p) for p in p_list])
-        outfit = np.mean([z ** 2 for z in z_list])
+        infit = np.sum(
+            [(p * (1 - p) * (z**2)) for p, z in zip(p_list, z_list)]
+        ) / np.sum([p * (1 - p) for p in p_list])
+        outfit = np.mean([z**2 for z in z_list])
 
         return infit, outfit
-    
+
     def _calculate_infit_outfit_ability(self):
         pass
-    
+
+
 class RaschModel:
     def __init__(self, difficulty_init=0.5):
         self.difficulty = difficulty_init
@@ -320,7 +421,7 @@ class RaschModel:
             logit_sum = sum(difficulty_levels)
             p_correct = 1 / (1 + np.exp(difficulty_levels - ability))
             ability_new = ability + np.sum(response_data - p_correct) / logit_sum
-            
+
             if abs(ability_new - ability) < tol:
                 break
             ability = ability_new
@@ -331,7 +432,9 @@ class RaschModel:
         difficulty = self.difficulty  # Initial difficulty
         for _ in range(max_iter):
             p_correct = 1 / (1 + np.exp(difficulty - ability_levels))
-            difficulty_new = difficulty + np.sum(p_correct - response_data) / len(response_data)
+            difficulty_new = difficulty + np.sum(p_correct - response_data) / len(
+                response_data
+            )
 
             if abs(difficulty_new - difficulty) < tol:
                 break
@@ -340,28 +443,42 @@ class RaschModel:
 
     def get_params(self):
         return self.difficulty
-    
+
     def calculate_prob(self, theta, beta):
         return 1 / (1 + np.exp(beta - theta))
-       
+
+
 class Irt2PL:
     def __init__(self):
         self.difficulty = 0.5
         self.discrimination = 1.0
 
-    def fit(self, response_data, abilities=0.25, initial_difficulty=0.5, initial_discrimination=1.0):
+    def fit(
+        self,
+        response_data,
+        abilities=0.25,
+        initial_difficulty=0.5,
+        initial_discrimination=1.0,
+    ):
         """
         Fit the 2PL model to the response data.
         """
+
         def likelihood(params, *args):
             difficulty, discrimination = params
             response_data = np.array(args[0], dtype=np.float64)
             prob = 1 / (1 + np.exp(-discrimination * (abilities - difficulty)))
             epsilon = 1e-10
-            likelihood = np.sum(response_data * np.log(prob + epsilon) + (1 - response_data) * np.log(1 - prob + epsilon))
+            likelihood = np.sum(
+                response_data * np.log(prob + epsilon)
+                + (1 - response_data) * np.log(1 - prob + epsilon)
+            )
             return -likelihood
+
         initial_params = [initial_difficulty, initial_discrimination]
-        result = minimize(likelihood, initial_params, args=(response_data), method='L-BFGS-B')
+        result = minimize(
+            likelihood, initial_params, args=(response_data), method="L-BFGS-B"
+        )
         self.difficulty, self.discrimination = result.x
 
     def get_params(self):
@@ -386,41 +503,60 @@ class Irt2PL:
         separation = mean_top - mean_bottom
         reliability = separation / (1 + separation)
         return separation, reliability
-    
+
+
 class Irt3PL:
     def __init__(self):
         self.difficulty = None
         self.discrimination = None
         self.guessing = None
-        
-    def fit(self, response_data, abilitites=0.5, initial_difficulty=0.5, initial_discrimination=1.0, initial_guessing=0.25):
+
+    def fit(
+        self,
+        response_data,
+        abilitites=0.5,
+        initial_difficulty=0.5,
+        initial_discrimination=1.0,
+        initial_guessing=0.25,
+    ):
         """
         Fit the 3PL model to the response data.
         """
+
         def likelihood(params, *args):
             difficulty, discrimination, guessing = params
             response_data = np.array(args[0], dtype=np.float64)
-            prob = guessing + (1 - guessing) / (1 + np.exp(discrimination * (difficulty - abilitites)))
+            prob = guessing + (1 - guessing) / (
+                1 + np.exp(discrimination * (difficulty - abilitites))
+            )
             epsilon = 1e-10
-            likelihood = np.sum(response_data * np.log(prob + epsilon) + (1 - response_data) * np.log(1 - prob + epsilon))
+            likelihood = np.sum(
+                response_data * np.log(prob + epsilon)
+                + (1 - response_data) * np.log(1 - prob + epsilon)
+            )
             return -likelihood
+
         initial_params = [initial_difficulty, initial_discrimination, initial_guessing]
-        result = minimize(likelihood, initial_params, args=(response_data,), method='BFGS')
+        result = minimize(
+            likelihood, initial_params, args=(response_data,), method="BFGS"
+        )
         self.difficulty, self.discrimination, self.guessing = result.x
-        
+
     def get_params(self):
         """
         Get the estimated parameters of the 3PL model.
         """
         return self.difficulty, self.discrimination, self.guessing
-    
+
     def get_probability(self, ability):
         """
         Calculate the probability of a correct response given the ability level.
         """
-        prob = self.guessing + (1 - self.guessing) / (1 + np.exp(self.discrimination * (self.difficulty - ability)))
+        prob = self.guessing + (1 - self.guessing) / (
+            1 + np.exp(self.discrimination * (self.difficulty - ability))
+        )
         return prob
-    
+
     def get_separation_reliability(self, response_data_top, response_data_bottom):
         """
         Calculate separation and reliability of the 3PL model.
@@ -430,6 +566,3 @@ class Irt3PL:
         separation = mean_top - mean_bottom
         reliability = separation / (1 + separation)
         return separation, reliability
-        
-            
-    
