@@ -1,6 +1,5 @@
 import logging
 import os
-from turtle import mode
 import uuid
 from itertools import groupby
 from typing import Dict, List
@@ -236,6 +235,13 @@ class AnalysisService:
 
             self.handle_insert_histogram(project_id, histogram)
 
+            self.handle_insert_general_detail(
+                self.get_general_detail()["total_option"],
+                self.get_general_detail()["total_questions"],
+                self.get_general_detail()["total_students"],
+                project_id,
+            )
+
             # Insert exam
             exam_id = self.handle_insert_exams("Test exam")
             self.handle_insert_exam_analysis(
@@ -243,12 +249,17 @@ class AnalysisService:
                 project_id,
                 average_indexes["average_difficulty"],
                 average_indexes["average_discrimination"],
+                0.9,  # Placeholder for Cronbach's alpha, still missing
+                average_indexes["average_score"],
+                average_indexes["average_rpbis"],
             )
 
             questions_to_insert = []
             options_to_insert = []
             question_analysis_to_insert = []
             options_analysis_to_insert = []
+
+            correct_option_mapping = {}
 
             # Insert analysis data
             for key, value in analysis_data.items():
@@ -263,6 +274,9 @@ class AnalysisService:
                 # Step 1: Create question with a temporary correct_option_id (initially None)
                 question_id = str(uuid.uuid4())
                 value["question_id"] = question_id
+
+                correct_option_mapping[question_id] = correct_index
+
                 questions_to_insert.append(
                     {
                         "id": question_id,
@@ -271,7 +285,14 @@ class AnalysisService:
                         "correct_option_id": None,  # Placeholder for later update
                     }
                 )
-
+                question_analysis_id = str(uuid.uuid4())
+                question_analysis_to_insert.append(
+                    {
+                        "id": question_analysis_id,
+                        "question_id": question_id,
+                        "exam_id": exam_id,
+                    }
+                )
                 # Step 2: Prepare question analysis
                 question_analysis_to_insert.append(
                     {
@@ -304,6 +325,9 @@ class AnalysisService:
                             "discrimination_index": option_analysis["discrimination"],
                             "rpbis": option_analysis["r_pbis"],
                             "selection_rate": option_analysis["ratio"],
+                            "selected_by": option_analysis["selected_by"],
+                            "top_selected": option_analysis["top_selected"],
+                            "bottom_selected": option_analysis["bottom_selected"],
                         }
                     )
 
@@ -328,23 +352,30 @@ class AnalysisService:
                 ).execute()
 
             # Step 4: Update questions with correct_option_ids after options have been inserted
-            for i, question in enumerate(questions_to_insert):
-                correct_index = analysis_data[key][
-                    "correct_index"
-                ]  # Get correct index from original data
-                correct_option_id = options_to_insert[
-                    correct_index
-                    + sum(
-                        len(value["content"]["option"])
-                        for value in analysis_data.values()
-                        if value["content"]["question"] != question["content"]
-                    )
-                ]["id"]
+            inserted_options = (
+                self.supabase.table("options")
+                .select("id, question_id")
+                .in_("question_id", [q["id"] for q in questions_to_insert])
+                .execute()
+                .data
+            )
 
-                # Update the correct_option_id in the questions list
-                questions_to_insert[i]["correct_option_id"] = correct_option_id
+            # Build mapping: (question_id, index) → option_id
+            question_options_map = {}
+            for option in inserted_options:
+                question_options_map.setdefault(option["question_id"], []).append(
+                    option["id"]
+                )
+
+            # Assign correct_option_id back to question
+            for q in questions_to_insert:
+                qid = q["id"]
+                correct_index = correct_option_mapping[qid]
+                correct_option_id = question_options_map[qid][correct_index]
+                q["correct_option_id"] = correct_option_id
+
+            # Final upsert of questions with correct_option_id
             self.supabase.table("questions").upsert(questions_to_insert).execute()
-
             student_answers_to_upsert = []
             student_exam_to_insert = []
 
@@ -427,7 +458,9 @@ class AnalysisService:
         project_id: str,
         avg_difficulty: float,
         avg_discrimination: float,
-        cronbach_alpha: float = 0.5,
+        cronbach_alpha: float = None,
+        average_score: float = None,
+        average_rpbis: float = None,
     ):
         logging.info("Inserting exam analysis data")
         logging.info(
@@ -443,9 +476,33 @@ class AnalysisService:
                         "avg_difficulty_index": avg_difficulty,
                         "avg_discrimination_index": avg_discrimination,
                         "cronbach_alpha": cronbach_alpha,
+                        "avg_score": average_score,
+                        "avg_rpbis": average_rpbis,
                     }
                 ]
             )
+            .execute()
+        )
+
+    def handle_insert_general_detail(
+        self, total_options, total_questions, total_students, project_id
+    ):
+        """
+        Insert general detail data into the 'general_detail' table.
+        """
+        logging.info("Inserting general detail data")
+        (
+            self.supabase.table("projects")
+            .update(
+                [
+                    {
+                        "total_options": total_options,
+                        "total_questions": total_questions,
+                        "total_students": total_students,
+                    }
+                ]
+            )
+            .eq("id", project_id)
             .execute()
         )
 
@@ -543,17 +600,18 @@ class AnalysisService:
             )
 
             # Create a record in question_analysis table
-            question_analysis_id = str(uuid.uuid4())
-
             questions_to_insert = []
             question_analysis_to_insert = []
             options_to_insert = []
             result_analysis_to_insert = []
             options_analysis_to_insert = []
 
+            correct_option_mapping = {}
+
             # Insert analysis data
             for key, value in analysis_data.items():
                 question_content = value["content"]["question"]
+                correct_index = value["correct_index"]
                 difficulty = value["difficulty"]
                 discrimination = value["discrimination"]
                 logit = value["logit"]
@@ -565,6 +623,9 @@ class AnalysisService:
                 # Step 1: Create question with a temporary correct_option_id (initially None)
                 question_id = str(uuid.uuid4())
                 value["question_id"] = question_id
+
+                correct_option_mapping[question_id] = correct_index
+
                 questions_to_insert.append(
                     {
                         "id": question_id,
@@ -624,9 +685,10 @@ class AnalysisService:
             if questions_to_insert:
                 self.supabase.table("questions").insert(questions_to_insert).execute()
 
-            self.supabase.table("question_analysis").insert(
-                question_analysis_to_insert
-            ).execute()
+            if question_analysis_to_insert:
+                self.supabase.table("question_analysis").insert(
+                    question_analysis_to_insert
+                ).execute()
 
             # Perform bulk inserts for question analysis
             if result_analysis_to_insert:
@@ -643,23 +705,29 @@ class AnalysisService:
                 self.supabase.table("option_analysis").insert(
                     options_analysis_to_insert
                 ).execute()
-
+            inserted_options = (
+                self.supabase.table("options")
+                .select("id, question_id")
+                .in_("question_id", [q["id"] for q in questions_to_insert])
+                .execute()
+                .data
+            )
             # Step 4: Update questions with correct_option_ids after options have been inserted
-            for i, question in enumerate(questions_to_insert):
-                correct_index = analysis_data[key][
-                    "correct_index"
-                ]  # Get correct index from original data
-                correct_option_id = options_to_insert[
-                    correct_index
-                    + sum(
-                        len(value["content"]["option"])
-                        for value in analysis_data.values()
-                        if value["content"]["question"] != question["content"]
-                    )
-                ]["id"]
 
-                # Update the correct_option_id in the questions list
-                questions_to_insert[i]["correct_option_id"] = correct_option_id
+            question_options_map = {}
+            for option in inserted_options:
+                question_options_map.setdefault(option["question_id"], []).append(
+                    option["id"]
+                )
+
+            # Assign correct_option_id back to question
+            for q in questions_to_insert:
+                qid = q["id"]
+                correct_index = correct_option_mapping[qid]
+                correct_option_id = question_options_map[qid][correct_index]
+                q["correct_option_id"] = correct_option_id
+
+            # Final upsert of questions with correct_option_id
             self.supabase.table("questions").upsert(questions_to_insert).execute()
 
             student_answers_to_upsert = []
