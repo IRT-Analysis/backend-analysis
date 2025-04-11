@@ -1,7 +1,8 @@
 import pandas as pd
 from models.question import QuestionBank
 from models.student import Student
-from models.exam import Exam
+from models.exam import Exam, Option
+
 
 class DataProcessing:
     def result_file_process(self, file_path: str):
@@ -93,7 +94,7 @@ class DataProcessing:
 
         return students
 
-    def process_question_bank(file_path):
+    def process_question_bank(self, file_path):
         """
         Process a question bank file and populate a QuestionBank object.
 
@@ -131,17 +132,19 @@ class DataProcessing:
         # Create a QuestionBank object
         question_bank = QuestionBank()
         question_id = 0
-        exam_code = df[1]["Exam_code"]
+        # exam_code = df[1]["Exam_code"]
+        exam_code = df.iloc[1]["Exam_code"]
+
         # Iterate through the DataFrame and add questions to the QuestionBank
         for _, row in df.iterrows():
             if row["Exam_code"] == exam_code:
                 question_id = question_id + 1
                 content = row["Content"]
                 options = [
-                    row["Option_A"],
-                    row["Option_B"],
-                    row["Option_C"],
-                    row["Option_D"],
+                    Option(row["Option_A"]),
+                    Option(row["Option_B"]),
+                    Option(row["Option_C"]),
+                    Option(row["Option_D"]),
                 ]
                 correct_option = row["Correct_Option"]
 
@@ -157,86 +160,86 @@ class DataProcessing:
 
         return question_bank
 
-def process_exam(file_path, question_bank):
-    # Load the file into a DataFrame
-    if file_path.endswith(".xlsx"):
-        df = pd.read_excel(file_path)
-    elif file_path.endswith(".csv"):
-        df = pd.read_csv(file_path)
-    else:
-        raise ValueError("Unsupported file format. Please use an Excel or CSV file.")
+    def process_exam(self, file_path, question_bank):
+        # Load the file into a DataFrame
+        if file_path.endswith(".xlsx"):
+            df = pd.read_excel(file_path)
+        elif file_path.endswith(".csv"):
+            df = pd.read_csv(file_path)
+        else:
+            raise ValueError("Unsupported file format. Please use an Excel or CSV file.")
 
-    # Group data by Exam_code
-    # file_path.sort(key=lambda x: x['Exam_code'])
-    # Ensure required columns are present
-    required_columns = [
-        "Exam_code",
-        "Content",
-        "Option_A",
-        "Option_B",
-        "Option_C",
-        "Option_D",
-        "Correct_Option",
-    ]
-    for col in required_columns:
-        if col not in df.columns:
-            raise ValueError(f"Missing required column: {col}")
+        # Group data by Exam_code
+        # file_path.sort(key=lambda x: x['Exam_code'])
+        # Ensure required columns are present
+        required_columns = [
+            "Exam_code",
+            "Content",
+            "Option_A",
+            "Option_B",
+            "Option_C",
+            "Option_D",
+            "Correct_Option",
+        ]
+        for col in required_columns:
+            if col not in df.columns:
+                raise ValueError(f"Missing required column: {col}")
 
-    # Group data by Exam_code
-    grouped = df.groupby("Exam_code")
+        # Group data by Exam_code
+        grouped = df.groupby("Exam_code")
 
-    # Group the data by 'Exam_code'
-    # grouped = {key: list(file_path) for key, group in groupby(file_path, key=lambda x: x['Exam_code'])}
+        # Group the data by 'Exam_code'
+        # grouped = {key: list(file_path) for key, group in groupby(file_path, key=lambda x: x['Exam_code'])}
 
-    exams = []
+        exams = []
 
-    for exam_code, group in grouped:
-        question_order = []
-        answer_order = {}
+        for exam_code, group in grouped:
+            question_order = []
+            answer_order = {}
 
-        for _, question in group.iterrows():
-            content = question["Content"]
-            options = [
-                question["Option_A"],
-                question["Option_B"],
-                question["Option_C"],
-                question["Option_D"],
-            ]
-            correct_option = question["Correct_Option"]
+            for _, question in group.iterrows():
+                content = question["Content"]
+                options = [
+                    question["Option_A"],
+                    question["Option_B"],
+                    question["Option_C"],
+                    question["Option_D"],
+                ]
+                correct_option = question["Correct_Option"]
 
-            # Match content with the question bank
-            matched_question_id = None
-            matched_answer_order = [None] * 4
+                # Match content with the question bank
+                matched_question_id = None
+                matched_answer_order = [None] * 4
 
-            for question_id, question_data in question_bank.get_all_questions().items():
-                if question_data["content"] == content:
-                    matched_question_id = question_id
-                    for index, option in enumerate(options):
-                        for option_bank in question_data["options"]:
-                            # print(option, " " , option_bank.content)
-                            if option == option_bank.content:
-                                matched_answer_order[index] = option_bank
-                                break
+                for question_id, question_data in question_bank.get_all_questions().items():
+                    if question_data["content"] == content:
+                        matched_question_id = question_id
+                        for index, option in enumerate(options):
+                            for option_bank in question_data["options"]:
+                                # print(option, " " , option_bank.content)
+                                if option == option_bank.content:
+                                    matched_answer_order[index] = option_bank
+                                    break
 
-            if matched_question_id is None:
-                print(
-                    f"Warning: Question not found in question bank for Exam Code {exam_code}: {content}"
-                )
-                continue
+                if matched_question_id is None:
+                    print(
+                        f"Warning: Question not found in question bank for Exam Code {exam_code}: {content}"
+                    )
+                    continue
 
-            # Append question order and answer order
-            question_order.append(matched_question_id)
-            answer_order[matched_question_id] = matched_answer_order
+                # Append question order and answer order
+                question_order.append(matched_question_id)
+                answer_order[matched_question_id] = matched_answer_order
 
-        # Initialize Exam object
-        exam = Exam(
-            code=exam_code,
-            question_bank=question_bank,
-            question_order=question_order,
-            answer_order=answer_order,
-        )
+            # Initialize Exam object
+            exam = Exam(
+                code=exam_code,
+                question_bank=question_bank,
+                question_order=question_order,
+                answer_order=answer_order,
+            )
 
-        exams.append(exam)
+            exams.append(exam)
 
-    return exams
+        return exams
 

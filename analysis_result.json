@@ -9,13 +9,11 @@
                 "O(1)"
             ]
         },
-        "difficulty": 0.3107889836509357,
-        "discrimination": 0.5155141843971631,
-        "personal_ability": 0.4219420440867572,
-        "logit": -0.11115306043582146,
-        "infit": 0.8986571614444769,
-        "outfit": 0.8860194092332538,
-        "reliability": 0.2099576147858503,
+        "difficulty": 0.162,
+        "difficulty_category": "Very Difficult",
+        "discrimination": -0.164,
+        "discrimination_category": "Bad",
+        "r_pbis": -0.17,
         "options": {
             "0": {
                 "selected_by": 7,
@@ -94,13 +92,11 @@
                 "Ph\u1ea7n t\u1eed cu\u1ed1i c\u00f9ng"
             ]
         },
-        "difficulty": 0.4804668092732044,
-        "discrimination": 0.32668439716312053,
-        "personal_ability": 0.4219420440867572,
-        "logit": 0.058524765186447225,
-        "infit": 1.000510204505233,
-        "outfit": 0.9918930342849518,
-        "reliability": 0.09643128834192449,
+        "difficulty": 0.486,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.264,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.272,
         "options": {
             "0": {
                 "selected_by": 69,
@@ -179,13 +175,11 @@
                 "Ng\u0103n x\u1ebfp"
             ]
         },
-        "difficulty": 0.8807650181416407,
-        "discrimination": 0.4299645390070922,
-        "personal_ability": 0.4219420440867572,
-        "logit": 0.4588229740548835,
-        "infit": 0.9249561113877766,
-        "outfit": 0.9067556469052067,
-        "reliability": 0.15602520282115595,
+        "difficulty": 0.183,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.024,
+        "discrimination_category": "Bad",
+        "r_pbis": 0.028,
         "options": {
             "0": {
                 "selected_by": 52,
@@ -264,13 +258,11 @@
                 "Danh s\u00e1ch li\u00ean k\u1ebft kh\u00f4ng c\u00f3 th\u1ee9 t\u1ef1"
             ]
         },
-        "difficulty": 0.054784756120903215,
-        "discrimination": 0.28679078014184395,
-        "personal_ability": 0.4219420440867572,
-        "logit": -0.36715728796585395,
-        "infit": 0.9743044620043114,
-        "outfit": 0.9514802239187817,
-        "reliability": 0.0759981808757757,
+        "difficulty": 0.077,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.022,
+        "discrimination_category": "Bad",
+        "r_pbis": 0.045,
         "options": {
             "0": {
                 "selected_by": 11,
@@ -349,13 +341,11 @@
                 "T\u1ea5t c\u1ea3 c\u00e1c c\u00e2y tr\u00ean"
             ]
         },
-        "difficulty": 1.4248913717741345,
-        "discrimination": -0.12189716312056736,
-        "personal_ability": 0.4219420440867572,
-        "logit": 1.0029493276873773,
-        "infit": 1.159976982628388,
-        "outfit": 1.200752587927003,
-        "reliability": 0.0146413635509135,
+        "difficulty": 0.042,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.043,
+        "discrimination_category": "Bad",
+        "r_pbis": 0.008,
         "options": {
             "0": {
                 "selected_by": 37,
@@ -434,13 +424,11 @@
                 "O(n log n)"
             ]
         },
-        "difficulty": 1.3618799985097176,
-        "discrimination": 0.19547872340425532,
-        "personal_ability": 0.4219420440867572,
-        "logit": 0.9399379544229605,
-        "infit": 0.967798603324674,
-        "outfit": 0.9750678292941368,
-        "reliability": 0.036805521254000606,
+        "difficulty": 0.169,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.129,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.089,
         "options": {
             "0": {
                 "selected_by": 48,
@@ -519,13 +507,11 @@
                 "T\u1ea5t c\u1ea3 c\u00e1c ph\u01b0\u01a1ng ph\u00e1p tr\u00ean"
             ]
         },
-        "difficulty": -0.002693794330783523,
-        "discrimination": 0.2021276595744681,
-        "personal_ability": 0.4219420440867572,
-        "logit": -0.4246358384175407,
-        "infit": 1.030351875372005,
-        "outfit": 1.0438936650056405,
-        "reliability": 0.03925192997716653,
+        "difficulty": 0.035,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.022,
+        "discrimination_category": "Bad",
+        "r_pbis": 0.004,
         "options": {
             "0": {
                 "selected_by": 86,
@@ -604,13 +590,11 @@
                 "O(n log n)"
             ]
         },
-        "difficulty": -0.7950973329237158,
-        "discrimination": 0.07934397163120566,
-        "personal_ability": 0.4219420440867572,
-        "logit": -1.2170393770104728,
-        "infit": 0.9574931168914361,
-        "outfit": 1.0391678433165683,
-        "reliability": 0.0062560808907100585,
+        "difficulty": 0.789,
+        "difficulty_category": "Very Easy",
+        "discrimination": -0.004,
+        "discrimination_category": "Bad",
+        "r_pbis": 0.075,
         "options": {
             "0": {
                 "selected_by": 112,
@@ -689,13 +673,11 @@
                 "Thu\u1eadt to\u00e1n heap sort"
             ]
         },
-        "difficulty": 2.3715709587790363,
-        "discrimination": 0.023049645390070927,
-        "personal_ability": 0.4219420440867572,
-        "logit": 1.9496289146922792,
-        "infit": 0.6325948221530694,
-        "outfit": 0.7025837942466946,
-        "reliability": 0.0005310040375160474,
+        "difficulty": 0.648,
+        "difficulty_category": "Easy",
+        "discrimination": 0.245,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.261,
         "options": {
             "0": {
                 "selected_by": 25,
@@ -774,13 +756,11 @@
                 "O(n^2)"
             ]
         },
-        "difficulty": 1.1771400589743484,
-        "discrimination": 0.2796985815602837,
-        "personal_ability": 0.4219420440867572,
-        "logit": 0.7551980148875912,
-        "infit": 0.9631677884301967,
-        "outfit": 0.9442272487446446,
-        "reliability": 0.07255520849638741,
+        "difficulty": 0.141,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.087,
+        "discrimination_category": "Bad",
+        "r_pbis": 0.045,
         "options": {
             "0": {
                 "selected_by": 45,
@@ -854,18 +834,16 @@
             "question": "\u0110\u1ed9 ph\u1ee9c t\u1ea1p th\u1eddi gian c\u1ee7a thu\u1eadt to\u00e1n t\u00ecm ki\u1ebfm nh\u1ecb ph\u00e2n l\u00e0 g\u00ec?",
             "option": [
                 "O(1)",
-                " O(n)",
-                " O(log n)",
-                " O(n log n)"
+                "O(n)",
+                "O(log n)",
+                "O(n log n)"
             ]
         },
-        "difficulty": 1.5209109799025957,
-        "discrimination": -0.015514184397163122,
-        "personal_ability": 0.4219420440867572,
-        "logit": 1.0989689358158385,
-        "infit": 1.0923455321445732,
-        "outfit": 1.224780546178941,
-        "reliability": 0.0002406319998129458,
+        "difficulty": 0.239,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.005,
+        "discrimination_category": "Bad",
+        "r_pbis": -0.01,
         "options": {
             "0": {
                 "selected_by": 34,
@@ -939,18 +917,16 @@
             "question": "Trong m\u1ed9t c\u00e2y nh\u1ecb ph\u00e2n t\u00ecm ki\u1ebfm \u0111\u1eb7c \u0111i\u1ec3m n\u00e0o l\u00e0 \u0111\u00fang?",
             "option": [
                 "C\u00e1c n\u00fat con tr\u00e1i lu\u00f4n nh\u1ecf h\u01a1n n\u00fat cha",
-                " C\u00e1c n\u00fat con ph\u1ea3i lu\u00f4n nh\u1ecf h\u01a1n n\u00fat cha",
-                " Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o",
-                " T\u1ea5t c\u1ea3 c\u00e1c n\u00fat con \u0111\u1ec1u b\u1eb1ng nhau"
+                "C\u00e1c n\u00fat con ph\u1ea3i lu\u00f4n nh\u1ecf h\u01a1n n\u00fat cha",
+                "Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o",
+                "T\u1ea5t c\u1ea3 c\u00e1c n\u00fat con \u0111\u1ec1u b\u1eb1ng nhau"
             ]
         },
-        "difficulty": -0.8611690034671227,
-        "discrimination": 0.22695035460992907,
-        "personal_ability": 0.4219420440867572,
-        "logit": -1.2831110475538798,
-        "infit": 0.8800042042603731,
-        "outfit": 0.8379160515579687,
-        "reliability": 0.04898349677110747,
+        "difficulty": 0.803,
+        "difficulty_category": "Very Easy",
+        "discrimination": 0.185,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.278,
         "options": {
             "0": {
                 "selected_by": 3,
@@ -1024,18 +1000,16 @@
             "question": "Thu\u1eadt to\u00e1n n\u00e0o \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 t\u00ecm \u0111\u01b0\u1eddng \u0111i ng\u1eafn nh\u1ea5t?",
             "option": [
                 "Quick sort",
-                " Merge sort",
-                " Thu\u1eadt to\u00e1n Dijkstra",
-                " Heap sort"
+                "Merge sort",
+                "Thu\u1eadt to\u00e1n Dijkstra",
+                "Heap sort"
             ]
         },
-        "difficulty": -0.6338392520876993,
-        "discrimination": 0.09973404255319152,
-        "personal_ability": 0.4219420440867572,
-        "logit": -1.0557812961744566,
-        "infit": 1.0178879915225114,
-        "outfit": 1.0520685982154654,
-        "reliability": 0.009848913292793804,
+        "difficulty": 0.754,
+        "difficulty_category": "Very Easy",
+        "discrimination": 0.079,
+        "discrimination_category": "Bad",
+        "r_pbis": 0.084,
         "options": {
             "0": {
                 "selected_by": 15,
@@ -1109,18 +1083,16 @@
             "question": "Danh s\u00e1ch li\u00ean k\u1ebft \u0111\u00f4i c\u00f3 \u0111\u1eb7c \u0111i\u1ec3m g\u00ec?",
             "option": [
                 "M\u1ed7i n\u00fat ch\u1ee9a m\u1ed9t li\u00ean k\u1ebft t\u1edbi n\u00fat cha",
-                " M\u1ed7i n\u00fat ch\u1ee9a m\u1ed9t li\u00ean k\u1ebft t\u1edbi n\u00fat con",
-                " M\u1ed7i n\u00fat ch\u1ee9a li\u00ean k\u1ebft t\u1edbi c\u1ea3 n\u00fat cha v\u00e0 con",
-                " Ch\u1ec9 ch\u1ee9a li\u00ean k\u1ebft t\u1edbi n\u00fat \u0111\u1ea7u ti\u00ean"
+                "M\u1ed7i n\u00fat ch\u1ee9a m\u1ed9t li\u00ean k\u1ebft t\u1edbi n\u00fat con",
+                "M\u1ed7i n\u00fat ch\u1ee9a li\u00ean k\u1ebft t\u1edbi c\u1ea3 n\u00fat cha v\u00e0 con",
+                "Ch\u1ec9 ch\u1ee9a li\u00ean k\u1ebft t\u1edbi n\u00fat \u0111\u1ea7u ti\u00ean"
             ]
         },
-        "difficulty": -1.1355660426176155,
-        "discrimination": 0.1653368794326241,
-        "personal_ability": 0.4219420440867572,
-        "logit": -1.5575080867043727,
-        "infit": 0.7812553333349653,
-        "outfit": 0.7381892594758952,
-        "reliability": 0.02660889538725464,
+        "difficulty": 0.859,
+        "difficulty_category": "Very Easy",
+        "discrimination": 0.186,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.268,
         "options": {
             "0": {
                 "selected_by": 5,
@@ -1194,18 +1166,16 @@
             "question": "\u0110\u1eb7c \u0111i\u1ec3m ch\u00ednh c\u1ee7a c\u1ea5u tr\u00fac d\u1eef li\u1ec7u h\u00e0ng \u0111\u1ee3i l\u00e0 g\u00ec?",
             "option": [
                 "Truy c\u1eadp ng\u1eabu nhi\u00ean",
-                " FIFO (First In First Out)",
-                " LIFO (Last In First Out)",
-                " Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o"
+                "FIFO (First In First Out)",
+                "LIFO (Last In First Out)",
+                "Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o"
             ]
         },
-        "difficulty": -0.9962557049648565,
-        "discrimination": 0.22828014184397172,
-        "personal_ability": 0.4219420440867572,
-        "logit": -1.4181977490516138,
-        "infit": 0.8397575773970205,
-        "outfit": 0.7748564615803012,
-        "reliability": 0.049530688671259204,
+        "difficulty": 0.831,
+        "difficulty_category": "Very Easy",
+        "discrimination": 0.27,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.297,
         "options": {
             "0": {
                 "selected_by": 16,
@@ -1279,18 +1249,16 @@
             "question": "\u0110\u1ed9 ph\u1ee9c t\u1ea1p kh\u00f4ng gian c\u1ee7a thu\u1eadt to\u00e1n merge sort l\u00e0 g\u00ec?",
             "option": [
                 "O(n)",
-                " O(1)",
-                " O(log n)",
-                " O(n log n)"
+                "O(1)",
+                "O(log n)",
+                "O(n log n)"
             ]
         },
-        "difficulty": -0.11863079292872554,
-        "discrimination": 0.4122340425531915,
-        "personal_ability": 0.4219420440867572,
-        "logit": -0.5405728370154828,
-        "infit": 0.9293643661208728,
-        "outfit": 0.913023980644309,
-        "reliability": 0.1452530516744156,
+        "difficulty": 0.634,
+        "difficulty_category": "Easy",
+        "discrimination": 0.413,
+        "discrimination_category": "Good",
+        "r_pbis": 0.38,
         "options": {
             "0": {
                 "selected_by": 90,
@@ -1364,18 +1332,16 @@
             "question": "C\u00e2y AVL l\u00e0 m\u1ed9t d\u1ea1ng c\u00e2y g\u00ec?",
             "option": [
                 "C\u00e2y nh\u1ecb ph\u00e2n t\u00ecm ki\u1ebfm kh\u00f4ng c\u00e2n b\u1eb1ng",
-                " C\u00e2y nh\u1ecb ph\u00e2n t\u00ecm ki\u1ebfm c\u00e2n b\u1eb1ng",
-                " \u0110\u1ed3 th\u1ecb c\u00f3 tr\u1ecdng s\u1ed1",
-                " C\u00e2y nh\u1ecb ph\u00e2n kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o"
+                "C\u00e2y nh\u1ecb ph\u00e2n t\u00ecm ki\u1ebfm c\u00e2n b\u1eb1ng",
+                "\u0110\u1ed3 th\u1ecb c\u00f3 tr\u1ecdng s\u1ed1",
+                "C\u00e2y nh\u1ecb ph\u00e2n kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o"
             ]
         },
-        "difficulty": 1.5859936671791959,
-        "discrimination": 0.2575354609929078,
-        "personal_ability": 0.4219420440867572,
-        "logit": 1.1640516230924387,
-        "infit": 0.9381589750541589,
-        "outfit": 0.9059159586452142,
-        "reliability": 0.062199183099178046,
+        "difficulty": 0.225,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.258,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.242,
         "options": {
             "0": {
                 "selected_by": 26,
@@ -1449,18 +1415,16 @@
             "question": "Thu\u1eadt to\u00e1n n\u00e0o \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 duy\u1ec7t \u0111\u1ed3 th\u1ecb theo chi\u1ec1u s\u00e2u?",
             "option": [
                 "In-order traversal",
-                " Pre-order traversal",
-                " Post-order traversal",
-                " DFS"
+                "Pre-order traversal",
+                "Post-order traversal",
+                "DFS"
             ]
         },
-        "difficulty": -0.29567276676287974,
-        "discrimination": 0.43439716312056736,
-        "personal_ability": 0.4219420440867572,
-        "logit": -0.717614810849637,
-        "infit": 0.8675328711439576,
-        "outfit": 0.8237736650894454,
-        "reliability": 0.1587454809439306,
+        "difficulty": 0.669,
+        "difficulty_category": "Easy",
+        "discrimination": 0.54,
+        "discrimination_category": "Good",
+        "r_pbis": 0.502,
         "options": {
             "0": {
                 "selected_by": 4,
@@ -1534,18 +1498,16 @@
             "question": "\u0110\u1eb7c \u0111i\u1ec3m n\u00e0o c\u1ee7a stack l\u00e0 ch\u00ednh x\u00e1c nh\u1ea5t?",
             "option": [
                 "FIFO (First In First Out)",
-                " LIFO (Last In First Out)",
-                " Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o",
-                " Ch\u1ec9 h\u1ed7 tr\u1ee3 truy c\u1eadp tu\u1ea7n t\u1ef1"
+                "LIFO (Last In First Out)",
+                "Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o",
+                "Ch\u1ec9 h\u1ed7 tr\u1ee3 truy c\u1eadp tu\u1ea7n t\u1ef1"
             ]
         },
-        "difficulty": -0.5084773490179276,
-        "discrimination": 0.37234042553191493,
-        "personal_ability": 0.4219420440867572,
-        "logit": -0.9304193931046848,
-        "infit": 0.8941556123408341,
-        "outfit": 0.9476506939871375,
-        "reliability": 0.12175728058841073,
+        "difficulty": 0.725,
+        "difficulty_category": "Easy",
+        "discrimination": 0.372,
+        "discrimination_category": "Good",
+        "r_pbis": 0.344,
         "options": {
             "0": {
                 "selected_by": 25,
@@ -1619,18 +1581,16 @@
             "question": "\u0110\u1eb7c \u0111i\u1ec3m c\u1ee7a danh s\u00e1ch li\u00ean k\u1ebft v\u00f2ng l\u00e0 g\u00ec?",
             "option": [
                 "Kh\u00f4ng c\u00f3 n\u00fat cu\u1ed1i",
-                " C\u00f3 m\u1ed9t n\u00fat \u0111\u1ea7u v\u00e0 cu\u1ed1i \u0111\u01b0\u1ee3c li\u00ean k\u1ebft l\u1ea1i v\u1edbi nhau",
-                " T\u1ea5t c\u1ea3 c\u00e1c n\u00fat c\u00f3 th\u1ec3 li\u00ean k\u1ebft ng\u1eabu nhi\u00ean",
-                " C\u00f3 hai \u0111\u1ea7u nh\u01b0ng kh\u00f4ng k\u1ebft n\u1ed1i v\u1edbi nhau"
+                "C\u00f3 m\u1ed9t n\u00fat \u0111\u1ea7u v\u00e0 cu\u1ed1i \u0111\u01b0\u1ee3c li\u00ean k\u1ebft l\u1ea1i v\u1edbi nhau",
+                "T\u1ea5t c\u1ea3 c\u00e1c n\u00fat c\u00f3 th\u1ec3 li\u00ean k\u1ebft ng\u1eabu nhi\u00ean",
+                "C\u00f3 hai \u0111\u1ea7u nh\u01b0ng kh\u00f4ng k\u1ebft n\u1ed1i v\u1edbi nhau"
             ]
         },
-        "difficulty": 0.9391026529896558,
-        "discrimination": 0.008421985815602828,
-        "personal_ability": 0.4219420440867572,
-        "logit": 0.5171606089028986,
-        "infit": 1.1178996696982744,
-        "outfit": 1.1569013683642788,
-        "reliability": 7.092481439219256e-05,
+        "difficulty": 0.373,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.071,
+        "discrimination_category": "Bad",
+        "r_pbis": 0.087,
         "options": {
             "0": {
                 "selected_by": 17,
@@ -1704,18 +1664,16 @@
             "question": "\u0110\u1eb7c \u0111i\u1ec3m c\u1ee7a c\u1ea5u tr\u00fac d\u1eef li\u1ec7u c\u00e2y nh\u1ecb ph\u00e2n t\u00ecm ki\u1ebfm l\u00e0 g\u00ec?",
             "option": [
                 "M\u1ed7i n\u00fat con tr\u00e1i nh\u1ecf h\u01a1n ho\u1eb7c b\u1eb1ng n\u00fat cha",
-                " M\u1ed7i n\u00fat con ph\u1ea3i nh\u1ecf h\u01a1n ho\u1eb7c b\u1eb1ng n\u00fat cha",
-                " C\u00e1c n\u00fat con tr\u00e1i nh\u1ecf h\u01a1n ho\u1eb7c b\u1eb1ng n\u00fat cha",
-                " Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o"
+                "M\u1ed7i n\u00fat con ph\u1ea3i nh\u1ecf h\u01a1n ho\u1eb7c b\u1eb1ng n\u00fat cha",
+                "C\u00e1c n\u00fat con tr\u00e1i nh\u1ecf h\u01a1n ho\u1eb7c b\u1eb1ng n\u00fat cha",
+                "Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o"
             ]
         },
-        "difficulty": 0.4238999780719114,
-        "discrimination": 0.15780141843971635,
-        "personal_ability": 0.4219420440867572,
-        "logit": 0.0019579339851542032,
-        "infit": 1.058233848100547,
-        "outfit": 1.0662743322146424,
-        "reliability": 0.024296279028394152,
+        "difficulty": 0.5,
+        "difficulty_category": "Easy",
+        "discrimination": 0.158,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.155,
         "options": {
             "0": {
                 "selected_by": 19,
@@ -1789,18 +1747,16 @@
             "question": "Trong danh s\u00e1ch li\u00ean k\u1ebft \u0111\u00f4i m\u1ed7i n\u00fat ch\u1ee9a th\u00f4ng tin g\u00ec?",
             "option": [
                 "Ch\u1ec9 li\u00ean k\u1ebft t\u1edbi n\u00fat cha",
-                " Ch\u1ec9 li\u00ean k\u1ebft t\u1edbi n\u00fat con",
-                " Li\u00ean k\u1ebft t\u1edbi c\u1ea3 n\u00fat cha v\u00e0 con",
-                " Kh\u00f4ng li\u00ean k\u1ebft v\u1edbi b\u1ea5t k\u1ef3 n\u00fat n\u00e0o"
+                "Ch\u1ec9 li\u00ean k\u1ebft t\u1edbi n\u00fat con",
+                "Li\u00ean k\u1ebft t\u1edbi c\u1ea3 n\u00fat cha v\u00e0 con",
+                "Kh\u00f4ng li\u00ean k\u1ebft v\u1edbi b\u1ea5t k\u1ef3 n\u00fat n\u00e0o"
             ]
         },
-        "difficulty": 0.5370999071065405,
-        "discrimination": 0.3475177304964539,
-        "personal_ability": 0.4219420440867572,
-        "logit": 0.11515786301978337,
-        "infit": 0.9676422453797967,
-        "outfit": 0.9705098298276926,
-        "reliability": 0.10775513867695896,
+        "difficulty": 0.472,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.348,
+        "discrimination_category": "Good",
+        "r_pbis": 0.304,
         "options": {
             "0": {
                 "selected_by": 67,
@@ -1874,18 +1830,16 @@
             "question": "\u0110\u1ed9 ph\u1ee9c t\u1ea1p th\u1eddi gian t\u1ed3i t\u1ec7 nh\u1ea5t c\u1ee7a quicksort l\u00e0 g\u00ec?",
             "option": [
                 "O(n)",
-                " O(log n)",
-                " O(n log n)",
-                " O(n^2)"
+                "O(log n)",
+                "O(n log n)",
+                "O(n^2)"
             ]
         },
-        "difficulty": 0.9098838056645285,
-        "discrimination": 0.13519503546099287,
-        "personal_ability": 0.4219420440867572,
-        "logit": 0.48794176157777136,
-        "infit": 1.0598166525570207,
-        "outfit": 1.0700838493434912,
-        "reliability": 0.01794961988869992,
+        "difficulty": 0.38,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.156,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.132,
         "options": {
             "0": {
                 "selected_by": 70,
@@ -1959,18 +1913,16 @@
             "question": "\u0110\u1eb7c \u0111i\u1ec3m n\u00e0o \u0111\u00fang v\u1edbi h\u00e0ng \u0111\u1ee3i \u01b0u ti\u00ean?",
             "option": [
                 "FIFO",
-                " LIFO",
-                " C\u00e1c ph\u1ea7n t\u1eed c\u00f3 m\u1ee9c \u01b0u ti\u00ean ri\u00eang",
-                " Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o"
+                "LIFO",
+                "C\u00e1c ph\u1ea7n t\u1eed c\u00f3 m\u1ee9c \u01b0u ti\u00ean ri\u00eang",
+                "Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o"
             ]
         },
-        "difficulty": 0.6222702046228797,
-        "discrimination": 0.11524822695035458,
-        "personal_ability": 0.4219420440867572,
-        "logit": 0.20032816053612257,
-        "infit": 1.0759383369917659,
-        "outfit": 1.0939641331269698,
-        "reliability": 0.013108050669984217,
+        "difficulty": 0.444,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.094,
+        "discrimination_category": "Bad",
+        "r_pbis": 0.132,
         "options": {
             "0": {
                 "selected_by": 29,
@@ -2044,18 +1996,16 @@
             "question": "Thu\u1eadt to\u00e1n n\u00e0o \u0111\u01b0\u1ee3c d\u00f9ng \u0111\u1ec3 duy\u1ec7t qua c\u00e1c n\u00fat trong \u0111\u1ed3 th\u1ecb?",
             "option": [
                 "Dijkstra",
-                " DFS",
-                " BFS",
-                " Pre-order traversal"
+                "DFS",
+                "BFS",
+                "Pre-order traversal"
             ]
         },
-        "difficulty": 2.332681545741558,
-        "discrimination": 0.0651595744680851,
-        "personal_ability": 0.4219420440867572,
-        "logit": 1.910739501654801,
-        "infit": 0.6434691961609214,
-        "outfit": 0.6654036078076714,
-        "reliability": 0.0042278197938036,
+        "difficulty": 0.077,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.086,
+        "discrimination_category": "Bad",
+        "r_pbis": 0.128,
         "options": {
             "0": {
                 "selected_by": 17,
@@ -2129,18 +2079,16 @@
             "question": "Thu\u1eadt to\u00e1n Kruskal \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 l\u00e0m g\u00ec?",
             "option": [
                 "T\u00ecm c\u00e2y khung nh\u1ecf nh\u1ea5t",
-                " T\u00ecm \u0111\u01b0\u1eddng \u0111i ng\u1eafn nh\u1ea5t",
-                " S\u1eafp x\u1ebfp nhanh",
-                " Ph\u00e2n v\u00f9ng d\u1eef li\u1ec7u"
+                "T\u00ecm \u0111\u01b0\u1eddng \u0111i ng\u1eafn nh\u1ea5t",
+                "S\u1eafp x\u1ebfp nhanh",
+                "Ph\u00e2n v\u00f9ng d\u1eef li\u1ec7u"
             ]
         },
-        "difficulty": 0.31078898365093566,
-        "discrimination": 0.2841312056737589,
-        "personal_ability": 0.4219420440867572,
-        "logit": -0.11115306043582152,
-        "infit": 1.0000041412093466,
-        "outfit": 0.9941316600416026,
-        "reliability": 0.07469997274752083,
+        "difficulty": 0.528,
+        "difficulty_category": "Easy",
+        "discrimination": 0.285,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.271,
         "options": {
             "0": {
                 "selected_by": 11,
@@ -2214,18 +2162,16 @@
             "question": "\u0110\u1eb7c \u0111i\u1ec3m c\u1ee7a danh s\u00e1ch li\u00ean k\u1ebft \u0111\u01a1n l\u00e0 g\u00ec?",
             "option": [
                 "C\u00f3 hai n\u00fat \u0111\u1ea7u v\u00e0 cu\u1ed1i li\u00ean k\u1ebft",
-                " Ch\u1ec9 ch\u1ee9a n\u00fat cha",
-                " M\u1ed7i n\u00fat ch\u1ec9 li\u00ean k\u1ebft t\u1edbi n\u00fat ti\u1ebfp theo",
-                " C\u00f3 li\u00ean k\u1ebft ng\u1eabu nhi\u00ean"
+                "Ch\u1ec9 ch\u1ee9a n\u00fat cha",
+                "M\u1ed7i n\u00fat ch\u1ec9 li\u00ean k\u1ebft t\u1edbi n\u00fat ti\u1ebfp theo",
+                "C\u00f3 li\u00ean k\u1ebft ng\u1eabu nhi\u00ean"
             ]
         },
-        "difficulty": -0.4468808881828158,
-        "discrimination": 0.45744680851063835,
-        "personal_ability": 0.4219420440867572,
-        "logit": -0.868822932269573,
-        "infit": 0.8739843118590623,
-        "outfit": 0.8137201419890571,
-        "reliability": 0.1730463266261114,
+        "difficulty": 0.711,
+        "difficulty_category": "Easy",
+        "discrimination": 0.478,
+        "discrimination_category": "Good",
+        "r_pbis": 0.428,
         "options": {
             "0": {
                 "selected_by": 15,
@@ -2299,18 +2245,16 @@
             "question": "Thu\u1eadt to\u00e1n n\u00e0o l\u00e0 duy\u1ec7t theo chi\u1ec1u r\u1ed9ng?",
             "option": [
                 "DFS",
-                " Post-order traversal",
-                " BFS",
-                " Quick sort"
+                "Post-order traversal",
+                "BFS",
+                "Quick sort"
             ]
         },
-        "difficulty": -0.5707809794596165,
-        "discrimination": 0.35150709219858156,
-        "personal_ability": 0.4219420440867572,
-        "logit": -0.9927230235463737,
-        "infit": 0.8965689719284061,
-        "outfit": 0.8533521891389859,
-        "reliability": 0.10996968549686659,
+        "difficulty": 0.739,
+        "difficulty_category": "Easy",
+        "discrimination": 0.331,
+        "discrimination_category": "Good",
+        "r_pbis": 0.328,
         "options": {
             "0": {
                 "selected_by": 6,
@@ -2384,18 +2328,16 @@
             "question": "\u0110\u1ed9 ph\u1ee9c t\u1ea1p th\u1eddi gian c\u1ee7a t\u00ecm ki\u1ebfm tu\u1ea7n t\u1ef1 l\u00e0 g\u00ec?",
             "option": [
                 "O(1)",
-                " O(n)",
-                " O(log n)",
-                " O(n log n)"
+                "O(n)",
+                "O(log n)",
+                "O(n log n)"
             ]
         },
-        "difficulty": -0.44688088818281574,
-        "discrimination": 0.3311170212765957,
-        "personal_ability": 0.4219420440867572,
-        "logit": -0.8688229322695729,
-        "infit": 0.9487204837091003,
-        "outfit": 0.9401252496051161,
-        "reliability": 0.09880558720647636,
+        "difficulty": 0.711,
+        "difficulty_category": "Easy",
+        "discrimination": 0.373,
+        "discrimination_category": "Good",
+        "r_pbis": 0.325,
         "options": {
             "0": {
                 "selected_by": 101,
@@ -2469,18 +2411,16 @@
             "question": "Thu\u1eadt to\u00e1n s\u1eafp x\u1ebfp n\u00e0o c\u00f3 \u0111\u1ed9 ph\u1ee9c t\u1ea1p t\u1ed1t nh\u1ea5t v\u1edbi d\u1eef li\u1ec7u \u0111\u00e3 \u0111\u01b0\u1ee3c s\u1eafp x\u1ebfp?",
             "option": [
                 "Bubble sort",
-                " Selection sort",
-                " Insertion sort",
-                " Quick sort"
+                "Selection sort",
+                "Insertion sort",
+                "Quick sort"
             ]
         },
-        "difficulty": 0.7078378207402113,
-        "discrimination": 0.24069148936170215,
-        "personal_ability": 0.4219420440867572,
-        "logit": 0.2858957766534541,
-        "infit": 1.0389328575312042,
-        "outfit": 1.0294229575356513,
-        "reliability": 0.054760014374900745,
+        "difficulty": 0.43,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.199,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.175,
         "options": {
             "0": {
                 "selected_by": 23,
@@ -2554,18 +2494,16 @@
             "question": "Trong c\u00e2y AVL \u0111i\u1ec1u ki\u1ec7n c\u00e2n b\u1eb1ng \u0111\u01b0\u1ee3c \u0111\u1ecbnh ngh\u0129a nh\u01b0 th\u1ebf n\u00e0o?",
             "option": [
                 "Chi\u1ec1u cao c\u1ee7a hai c\u00e2y con kh\u00e1c nhau kh\u00f4ng qu\u00e1 1",
-                " C\u00e2y con tr\u00e1i l\u1edbn h\u01a1n c\u00e2y con ph\u1ea3i",
-                " C\u00e1c n\u00fat kh\u00f4ng c\u1ea7n c\u00e2n b\u1eb1ng",
-                " Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o"
+                "C\u00e2y con tr\u00e1i l\u1edbn h\u01a1n c\u00e2y con ph\u1ea3i",
+                "C\u00e1c n\u00fat kh\u00f4ng c\u1ea7n c\u00e2n b\u1eb1ng",
+                "Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o"
             ]
         },
-        "difficulty": -0.03154703802398469,
-        "discrimination": 0.28634751773049644,
-        "personal_ability": 0.4219420440867572,
-        "logit": -0.45348908211074185,
-        "infit": 0.9991024628384976,
-        "outfit": 0.9917884158064493,
-        "reliability": 0.07578122673353127,
+        "difficulty": 0.613,
+        "difficulty_category": "Easy",
+        "discrimination": 0.203,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.235,
         "options": {
             "0": {
                 "selected_by": 87,
@@ -2639,18 +2577,16 @@
             "question": "\u0110\u1eb7c \u0111i\u1ec3m n\u00e0o c\u1ee7a \u0111\u1ed3 th\u1ecb v\u00f4 h\u01b0\u1edbng l\u00e0 \u0111\u00fang?",
             "option": [
                 "C\u00f3 tr\u1ecdng s\u1ed1",
-                " C\u00f3 h\u01b0\u1edbng",
-                " Kh\u00f4ng c\u00f3 tr\u1ecdng s\u1ed1",
-                " Kh\u00f4ng c\u00f3 h\u01b0\u1edbng"
+                "C\u00f3 h\u01b0\u1edbng",
+                "Kh\u00f4ng c\u00f3 tr\u1ecdng s\u1ed1",
+                "Kh\u00f4ng c\u00f3 h\u01b0\u1edbng"
             ]
         },
-        "difficulty": 0.11199700764657365,
-        "discrimination": 0.24468085106382975,
-        "personal_ability": 0.4219420440867572,
-        "logit": -0.3099450364401835,
-        "infit": 1.0492002558854487,
-        "outfit": 1.0627540760656058,
-        "reliability": 0.05648691938067285,
+        "difficulty": 0.577,
+        "difficulty_category": "Easy",
+        "discrimination": 0.244,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.213,
         "options": {
             "0": {
                 "selected_by": 19,
@@ -2724,18 +2660,16 @@
             "question": "\u0110\u1ed9 ph\u1ee9c t\u1ea1p th\u1eddi gian t\u1ed1t nh\u1ea5t c\u1ee7a s\u1eafp x\u1ebfp ch\u1ecdn l\u00e0 g\u00ec?",
             "option": [
                 "O(n)",
-                " O(log n)",
-                " O(n^2)",
-                " O(n log n)"
+                "O(log n)",
+                "O(n^2)",
+                "O(n log n)"
             ]
         },
-        "difficulty": -0.762409286195624,
-        "discrimination": 0.22695035460992907,
-        "personal_ability": 0.4219420440867572,
-        "logit": -1.1843513302823812,
-        "infit": 0.8863499558906744,
-        "outfit": 0.840268115168325,
-        "reliability": 0.04898349677110747,
+        "difficulty": 0.782,
+        "difficulty_category": "Very Easy",
+        "discrimination": 0.248,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.291,
         "options": {
             "0": {
                 "selected_by": 2,
@@ -2809,18 +2743,16 @@
             "question": "Thu\u1eadt to\u00e1n Floyd-Warshall \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 l\u00e0m g\u00ec?",
             "option": [
                 "T\u00ecm c\u00e2y khung nh\u1ecf nh\u1ea5t",
-                " T\u00ecm \u0111\u01b0\u1eddng \u0111i ng\u1eafn nh\u1ea5t",
-                " Duy\u1ec7t qua \u0111\u1ed3 th\u1ecb",
-                " Ph\u00e2n ho\u1ea1ch \u0111\u1ed3 th\u1ecb"
+                "T\u00ecm \u0111\u01b0\u1eddng \u0111i ng\u1eafn nh\u1ea5t",
+                "Duy\u1ec7t qua \u0111\u1ed3 th\u1ecb",
+                "Ph\u00e2n ho\u1ea1ch \u0111\u1ed3 th\u1ecb"
             ]
         },
-        "difficulty": 1.7527802349648016,
-        "discrimination": 0.42597517730496454,
-        "personal_ability": 0.4219420440867572,
-        "logit": 1.3308381908780444,
-        "infit": 0.7637039165586957,
-        "outfit": 0.6815390770267412,
-        "reliability": 0.15358593806777476,
+        "difficulty": 0.19,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.384,
+        "discrimination_category": "Good",
+        "r_pbis": 0.458,
         "options": {
             "0": {
                 "selected_by": 90,
@@ -2894,18 +2826,16 @@
             "question": "Trong c\u00e2y nh\u1ecb ph\u00e2n ho\u00e0n ch\u1ec9nh s\u1ed1 n\u00fat l\u00e1 l\u1edbn nh\u1ea5t n\u1eb1m \u1edf m\u1ee9c n\u00e0o?",
             "option": [
                 "M\u1ee9c g\u1ed1c",
-                " M\u1ee9c d\u01b0\u1edbi g\u1ed1c",
-                " M\u1ee9c th\u1ea5p nh\u1ea5t",
-                " Kh\u00f4ng x\u00e1c \u0111\u1ecbnh"
+                "M\u1ee9c d\u01b0\u1edbi g\u1ed1c",
+                "M\u1ee9c th\u1ea5p nh\u1ea5t",
+                "Kh\u00f4ng x\u00e1c \u0111\u1ecbnh"
             ]
         },
-        "difficulty": 0.7939525159738106,
-        "discrimination": 0.5567375886524824,
-        "personal_ability": 0.4219420440867572,
-        "logit": 0.3720104718870534,
-        "infit": 0.8902491313999631,
-        "outfit": 0.8881495235573361,
-        "reliability": 0.2366160137463642,
+        "difficulty": 0.408,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.578,
+        "discrimination_category": "Good",
+        "r_pbis": 0.43,
         "options": {
             "0": {
                 "selected_by": 49,
@@ -2979,18 +2909,16 @@
             "question": "\u0110\u1eb7c \u0111i\u1ec3m n\u00e0o \u0111\u00fang v\u1ec1 b\u1ea3ng b\u0103m?",
             "option": [
                 "Kh\u00f4ng cho ph\u00e9p xung \u0111\u1ed9t",
-                " C\u00f3 th\u1ec3 x\u1ea3y ra xung \u0111\u1ed9t",
-                " Kh\u00f4ng c\u00f3 y\u1ebfu t\u1ed1 ng\u1eabu nhi\u00ean",
-                " Ch\u1ec9 c\u00f3 c\u00e1c s\u1ed1 nguy\u00ean"
+                "C\u00f3 th\u1ec3 x\u1ea3y ra xung \u0111\u1ed9t",
+                "Kh\u00f4ng c\u00f3 y\u1ebfu t\u1ed1 ng\u1eabu nhi\u00ean",
+                "Ch\u1ec9 c\u00f3 c\u00e1c s\u1ed1 nguy\u00ean"
             ]
         },
-        "difficulty": -0.03154703802398468,
-        "discrimination": 0.28679078014184395,
-        "personal_ability": 0.4219420440867572,
-        "logit": -0.45348908211074185,
-        "infit": 0.9905951633492489,
-        "outfit": 1.005424002821187,
-        "reliability": 0.0759981808757757,
+        "difficulty": 0.613,
+        "difficulty_category": "Easy",
+        "discrimination": 0.413,
+        "discrimination_category": "Good",
+        "r_pbis": 0.322,
         "options": {
             "0": {
                 "selected_by": 20,
@@ -3064,18 +2992,16 @@
             "question": "Trong h\u00e0ng \u0111\u1ee3i k\u00e9p c\u00f3 th\u1ec3 th\u1ef1c hi\u1ec7n thao t\u00e1c g\u00ec?",
             "option": [
                 "Ch\u1ec9 th\u00eam \u1edf cu\u1ed1i",
-                " Ch\u1ec9 x\u00f3a \u1edf \u0111\u1ea7u",
-                " Th\u00eam ho\u1eb7c x\u00f3a t\u1eeb c\u1ea3 hai \u0111\u1ea7u",
-                " Kh\u00f4ng th\u1ec3 thao t\u00e1c g\u00ec"
+                "Ch\u1ec9 x\u00f3a \u1edf \u0111\u1ea7u",
+                "Th\u00eam ho\u1eb7c x\u00f3a t\u1eeb c\u1ea3 hai \u0111\u1ea7u",
+                "Kh\u00f4ng th\u1ec3 thao t\u00e1c g\u00ec"
             ]
         },
-        "difficulty": 1.393289406645503,
-        "discrimination": 0.04698581560283685,
-        "personal_ability": 0.4219420440867572,
-        "logit": 0.9713473625587459,
-        "infit": 1.05109552840931,
-        "outfit": 1.1248584302536075,
-        "reliability": 0.002202803810874232,
+        "difficulty": 0.268,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.11,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.113,
         "options": {
             "0": {
                 "selected_by": 27,
@@ -3149,18 +3075,16 @@
             "question": "Ph\u01b0\u01a1ng ph\u00e1p n\u00e0o d\u00f9ng \u0111\u1ec3 ph\u00e1t hi\u1ec7n chu tr\u00ecnh trong \u0111\u1ed3 th\u1ecb?",
             "option": [
                 "DFS",
-                " BFS",
-                " Bellman-Ford",
-                " Floyd-Warshall"
+                "BFS",
+                "Bellman-Ford",
+                "Floyd-Warshall"
             ]
         },
-        "difficulty": 0.6222702046228797,
-        "discrimination": 0.49468085106382975,
-        "personal_ability": 0.4219420440867572,
-        "logit": 0.20032816053612257,
-        "infit": 0.9004718699302114,
-        "outfit": 0.8850347537335439,
-        "reliability": 0.19659945900484166,
+        "difficulty": 0.437,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.515,
+        "discrimination_category": "Good",
+        "r_pbis": 0.456,
         "options": {
             "0": {
                 "selected_by": 13,
@@ -3234,18 +3158,16 @@
             "question": "\u0110\u1ed9 ph\u1ee9c t\u1ea1p th\u1eddi gian c\u1ee7a thu\u1eadt to\u00e1n heapsort l\u00e0 g\u00ec?",
             "option": [
                 "O(n)",
-                " O(log n)",
-                " O(n log n)",
-                " O(n^2)"
+                "O(log n)",
+                "O(n log n)",
+                "O(n^2)"
             ]
         },
-        "difficulty": -0.20662075815074993,
-        "discrimination": 0.45567375886524825,
-        "personal_ability": 0.4219420440867572,
-        "logit": -0.6285628022375072,
-        "infit": 0.8660234321043905,
-        "outfit": 0.829750824647844,
-        "reliability": 0.17193767978237384,
+        "difficulty": 0.655,
+        "difficulty_category": "Easy",
+        "discrimination": 0.477,
+        "discrimination_category": "Good",
+        "r_pbis": 0.455,
         "options": {
             "0": {
                 "selected_by": 32,
@@ -3319,18 +3241,16 @@
             "question": "\u0110\u1eb7c \u0111i\u1ec3m n\u00e0o \u0111\u00fang v\u1edbi danh s\u00e1ch li\u00ean k\u1ebft v\u00f2ng?",
             "option": [
                 "Kh\u00f4ng c\u00f3 n\u00fat \u0111\u1ea7u",
-                " Kh\u00f4ng c\u00f3 n\u00fat cu\u1ed1i",
-                " N\u00fat cu\u1ed1i tr\u1ecf v\u1ec1 n\u00fat \u0111\u1ea7u",
-                " Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o"
+                "Kh\u00f4ng c\u00f3 n\u00fat cu\u1ed1i",
+                "N\u00fat cu\u1ed1i tr\u1ecf v\u1ec1 n\u00fat \u0111\u1ea7u",
+                "Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o"
             ]
         },
-        "difficulty": -0.4775936883380455,
-        "discrimination": 0.5403368794326242,
-        "personal_ability": 0.4219420440867572,
-        "logit": -0.8995357324248027,
-        "infit": 0.8496279443658202,
-        "outfit": 0.7924914546891735,
-        "reliability": 0.2259845909746443,
+        "difficulty": 0.718,
+        "difficulty_category": "Easy",
+        "discrimination": 0.52,
+        "discrimination_category": "Good",
+        "r_pbis": 0.449,
         "options": {
             "0": {
                 "selected_by": 10,
@@ -3404,18 +3324,16 @@
             "question": "\u0110\u1eb7c \u0111i\u1ec3m n\u00e0o \u0111\u00fang v\u1ec1 c\u00e2y nh\u1ecb ph\u00e2n t\u00ecm ki\u1ebfm?",
             "option": [
                 "M\u1ed7i n\u00fat con tr\u00e1i nh\u1ecf h\u01a1n n\u00fat cha",
-                " M\u1ed7i n\u00fat con ph\u1ea3i l\u1edbn h\u01a1n ho\u1eb7c b\u1eb1ng n\u00fat cha",
-                " Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o",
-                " C\u1ea3 hai \u0111\u1ec1u sai"
+                "M\u1ed7i n\u00fat con ph\u1ea3i l\u1edbn h\u01a1n ho\u1eb7c b\u1eb1ng n\u00fat cha",
+                "Kh\u00f4ng c\u00f3 quy t\u1eafc n\u00e0o",
+                "C\u1ea3 hai \u0111\u1ec1u sai"
             ]
         },
-        "difficulty": -0.08950983432743126,
-        "discrimination": 0.26684397163120566,
-        "personal_ability": 0.4219420440867572,
-        "logit": -0.5114518784141884,
-        "infit": 0.974342035178512,
-        "outfit": 0.9469224008235678,
-        "reliability": 0.06647248502367953,
+        "difficulty": 0.627,
+        "difficulty_category": "Easy",
+        "discrimination": 0.329,
+        "discrimination_category": "Good",
+        "r_pbis": 0.306,
         "options": {
             "0": {
                 "selected_by": 22,
@@ -3489,18 +3407,16 @@
             "question": "Thu\u1eadt to\u00e1n n\u00e0o \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 duy\u1ec7t \u0111\u1ed3 th\u1ecb?",
             "option": [
                 "DFS",
-                " BFS",
-                " Kruskal",
-                " Prim"
+                "BFS",
+                "Kruskal",
+                "Prim"
             ]
         },
-        "difficulty": 0.8807650181416407,
-        "discrimination": 0.24024822695035458,
-        "personal_ability": 0.4219420440867572,
-        "logit": 0.4588229740548835,
-        "infit": 1.0283658277093126,
-        "outfit": 1.0252800573385328,
-        "reliability": 0.05456950197834043,
+        "difficulty": 0.387,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.198,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.203,
         "options": {
             "0": {
                 "selected_by": 14,
@@ -3574,18 +3490,16 @@
             "question": "\u0110\u1eb7c \u0111i\u1ec3m n\u00e0o \u0111\u00fang v\u1ec1 m\u1ea3ng \u0111\u1ed9ng?",
             "option": [
                 "K\u00edch th\u01b0\u1edbc c\u1ed1 \u0111\u1ecbnh",
-                " C\u00f3 th\u1ec3 thay \u0111\u1ed5i k\u00edch th\u01b0\u1edbc",
-                " Kh\u00f4ng c\u00f3 y\u1ebfu t\u1ed1 ng\u1eabu nhi\u00ean",
-                " Ch\u1ec9 ch\u1ee9a s\u1ed1 nguy\u00ean"
+                "C\u00f3 th\u1ec3 thay \u0111\u1ed5i k\u00edch th\u01b0\u1edbc",
+                "Kh\u00f4ng c\u00f3 y\u1ebfu t\u1ed1 ng\u1eabu nhi\u00ean",
+                "Ch\u1ec9 ch\u1ee9a s\u1ed1 nguy\u00ean"
             ]
         },
-        "difficulty": 0.8517406324258158,
-        "discrimination": 0.26152482269503546,
-        "personal_ability": 0.4219420440867572,
-        "logit": 0.4297985883390586,
-        "infit": 0.9947821321757829,
-        "outfit": 0.9940989086533835,
-        "reliability": 0.06401678964903124,
+        "difficulty": 0.394,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.262,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.29,
         "options": {
             "0": {
                 "selected_by": 25,
@@ -3659,18 +3573,16 @@
             "question": "Trong c\u1ea5u tr\u00fac h\u00e0ng \u0111\u1ee3i thao t\u00e1c n\u00e0o l\u00e0 \u0111\u00fang?",
             "option": [
                 "Ch\u1ec9 th\u00eam \u1edf \u0111\u1ea7u",
-                " Th\u00eam \u1edf cu\u1ed1i v\u00e0 x\u00f3a \u1edf \u0111\u1ea7u",
-                " Th\u00eam \u1edf \u0111\u1ea7u v\u00e0 x\u00f3a \u1edf cu\u1ed1i",
-                " Kh\u00f4ng thao t\u00e1c n\u00e0o \u0111\u00fang"
+                "Th\u00eam \u1edf cu\u1ed1i v\u00e0 x\u00f3a \u1edf \u0111\u1ea7u",
+                "Th\u00eam \u1edf \u0111\u1ea7u v\u00e0 x\u00f3a \u1edf cu\u1ed1i",
+                "Kh\u00f4ng thao t\u00e1c n\u00e0o \u0111\u00fang"
             ]
         },
-        "difficulty": -0.11863079292872555,
-        "discrimination": 0.16223404255319152,
-        "personal_ability": 0.4219420440867572,
-        "logit": -0.5405728370154828,
-        "infit": 1.009835156450255,
-        "outfit": 0.989198017450141,
-        "reliability": 0.025644913402758096,
+        "difficulty": 0.634,
+        "difficulty_category": "Easy",
+        "discrimination": 0.309,
+        "discrimination_category": "Good",
+        "r_pbis": 0.285,
         "options": {
             "0": {
                 "selected_by": 21,
@@ -3744,18 +3656,16 @@
             "question": "S\u1eafp x\u1ebfp ch\u00e8n (insertion sort) ho\u1ea1t \u0111\u1ed9ng nh\u01b0 th\u1ebf n\u00e0o?",
             "option": [
                 "T\u00ecm ph\u1ea7n t\u1eed nh\u1ecf nh\u1ea5t v\u00e0 \u0111\u1eb7t v\u00e0o \u0111\u1ea7u danh s\u00e1ch",
-                " Ch\u00e8n t\u1eebng ph\u1ea7n t\u1eed v\u00e0o \u0111\u00fang v\u1ecb tr\u00ed c\u1ee7a n\u00f3",
-                " S\u1eed d\u1ee5ng c\u00e2y nh\u1ecb ph\u00e2n \u0111\u1ec3 s\u1eafp x\u1ebfp",
-                " S\u1eed d\u1ee5ng b\u1ea3ng b\u0103m \u0111\u1ec3 s\u1eafp x\u1ebfp"
+                "Ch\u00e8n t\u1eebng ph\u1ea7n t\u1eed v\u00e0o \u0111\u00fang v\u1ecb tr\u00ed c\u1ee7a n\u00f3",
+                "S\u1eed d\u1ee5ng c\u00e2y nh\u1ecb ph\u00e2n \u0111\u1ec3 s\u1eafp x\u1ebfp",
+                "S\u1eed d\u1ee5ng b\u1ea3ng b\u0103m \u0111\u1ec3 s\u1eafp x\u1ebfp"
             ]
         },
-        "difficulty": 0.5087723223611027,
-        "discrimination": 0.36790780141843965,
-        "personal_ability": 0.4219420440867572,
-        "logit": 0.08683027827434553,
-        "infit": 0.972671058480581,
-        "outfit": 0.9721466616544033,
-        "reliability": 0.11921911049979605,
+        "difficulty": 0.479,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.326,
+        "discrimination_category": "Good",
+        "r_pbis": 0.299,
         "options": {
             "0": {
                 "selected_by": 35,
@@ -3829,18 +3739,16 @@
             "question": "\u0110\u1eb7c \u0111i\u1ec3m n\u00e0o \u0111\u00fang v\u1edbi thu\u1eadt to\u00e1n Bellman-Ford?",
             "option": [
                 "Ch\u1ec9 ho\u1ea1t \u0111\u1ed9ng v\u1edbi \u0111\u1ed3 th\u1ecb kh\u00f4ng tr\u1ecdng s\u1ed1",
-                " C\u00f3 th\u1ec3 x\u1eed l\u00fd tr\u1ecdng s\u1ed1 \u00e2m",
-                " Ch\u1ec9 t\u00ecm c\u00e2y khung nh\u1ecf nh\u1ea5t",
-                " Kh\u00f4ng th\u1ec3 t\u00ecm \u0111\u01b0\u1eddng \u0111i ng\u1eafn nh\u1ea5t"
+                "C\u00f3 th\u1ec3 x\u1eed l\u00fd tr\u1ecdng s\u1ed1 \u00e2m",
+                "Ch\u1ec9 t\u00ecm c\u00e2y khung nh\u1ecf nh\u1ea5t",
+                "Kh\u00f4ng th\u1ec3 t\u00ecm \u0111\u01b0\u1eddng \u0111i ng\u1eafn nh\u1ea5t"
             ]
         },
-        "difficulty": 0.22580198684864614,
-        "discrimination": 0.4539007092198582,
-        "personal_ability": 0.4219420440867572,
-        "logit": -0.19614005723811104,
-        "infit": 0.9006744579936482,
-        "outfit": 0.8836856081656331,
-        "reliability": 0.170830379113317,
+        "difficulty": 0.542,
+        "difficulty_category": "Easy",
+        "discrimination": 0.496,
+        "discrimination_category": "Good",
+        "r_pbis": 0.473,
         "options": {
             "0": {
                 "selected_by": 30,
@@ -3914,18 +3822,16 @@
             "question": "C\u00e1ch t\u1ed1t nh\u1ea5t \u0111\u1ec3 tri\u1ec3n khai ng\u0103n x\u1ebfp l\u00e0 g\u00ec?",
             "option": [
                 "S\u1eed d\u1ee5ng danh s\u00e1ch li\u00ean k\u1ebft",
-                " S\u1eed d\u1ee5ng m\u1ea3ng \u0111\u1ed9ng",
-                " S\u1eed d\u1ee5ng c\u00e2y nh\u1ecb ph\u00e2n",
-                " S\u1eed d\u1ee5ng b\u1ea3ng b\u0103m"
+                "S\u1eed d\u1ee5ng m\u1ea3ng \u0111\u1ed9ng",
+                "S\u1eed d\u1ee5ng c\u00e2y nh\u1ecb ph\u00e2n",
+                "S\u1eed d\u1ee5ng b\u1ea3ng b\u0103m"
             ]
         },
-        "difficulty": 0.5087723223611027,
-        "discrimination": 0.4104609929078014,
-        "personal_ability": 0.4219420440867572,
-        "logit": 0.08683027827434553,
-        "infit": 0.9258466402442953,
-        "outfit": 0.9088173959085434,
-        "reliability": 0.14418602148440263,
+        "difficulty": 0.479,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.411,
+        "discrimination_category": "Good",
+        "r_pbis": 0.382,
         "options": {
             "0": {
                 "selected_by": 18,
@@ -3999,18 +3905,16 @@
             "question": "Trong danh s\u00e1ch li\u00ean k\u1ebft \u0111\u00f4i \u0111i\u1ec1u g\u00ec l\u00e0 \u0111\u00fang?",
             "option": [
                 "Ch\u1ec9 c\u00f3 li\u00ean k\u1ebft m\u1ed9t chi\u1ec1u",
-                " C\u00f3 li\u00ean k\u1ebft hai chi\u1ec1u",
-                " Ch\u1ec9 th\u00eam v\u00e0 x\u00f3a \u1edf cu\u1ed1i danh s\u00e1ch",
-                " Kh\u00f4ng c\u00f3 li\u00ean k\u1ebft n\u00e0o"
+                "C\u00f3 li\u00ean k\u1ebft hai chi\u1ec1u",
+                "Ch\u1ec9 th\u00eam v\u00e0 x\u00f3a \u1edf cu\u1ed1i danh s\u00e1ch",
+                "Kh\u00f4ng c\u00f3 li\u00ean k\u1ebft n\u00e0o"
             ]
         },
-        "difficulty": 0.33907766442657966,
-        "discrimination": 0.3271276595744681,
-        "personal_ability": 0.4219420440867572,
-        "logit": -0.08286437966017751,
-        "infit": 1.0048591650814607,
-        "outfit": 1.017464069391336,
-        "reliability": 0.09666783808823998,
+        "difficulty": 0.521,
+        "difficulty_category": "Easy",
+        "discrimination": 0.327,
+        "discrimination_category": "Good",
+        "r_pbis": 0.299,
         "options": {
             "0": {
                 "selected_by": 15,
@@ -4084,18 +3988,16 @@
             "question": "\u0110\u1ed9 ph\u1ee9c t\u1ea1p th\u1eddi gian trung b\u00ecnh c\u1ee7a thu\u1eadt to\u00e1n t\u00ecm ki\u1ebfm nh\u1ecb ph\u00e2n l\u00e0 g\u00ec?",
             "option": [
                 "O(n)",
-                " O(log n)",
-                " O(n^2)",
-                " O(n log n)"
+                "O(log n)",
+                "O(n^2)",
+                "O(n log n)"
             ]
         },
-        "difficulty": 0.08342135666613684,
-        "discrimination": 0.3067375886524823,
-        "personal_ability": 0.4219420440867572,
-        "logit": -0.33852068742062036,
-        "infit": 0.9775309850923757,
-        "outfit": 0.9704420643070828,
-        "reliability": 0.08599669563968104,
+        "difficulty": 0.585,
+        "difficulty_category": "Easy",
+        "discrimination": 0.328,
+        "discrimination_category": "Good",
+        "r_pbis": 0.286,
         "options": {
             "0": {
                 "selected_by": 35,
@@ -4169,18 +4071,16 @@
             "question": "Thu\u1eadt ng\u1eef n\u00e0o d\u00f9ng \u0111\u1ec3 m\u00f4 t\u1ea3 c\u00e1ch c\u00e1c n\u00fat \u0111\u01b0\u1ee3c t\u1ed5 ch\u1ee9c trong c\u00e2y?",
             "option": [
                 "\u0110\u1ed9 s\u00e2u",
-                " Chi\u1ec1u cao",
-                " M\u1ee9c",
-                " G\u1ed1c"
+                "Chi\u1ec1u cao",
+                "M\u1ee9c",
+                "G\u1ed1c"
             ]
         },
-        "difficulty": -0.2361790155346125,
-        "discrimination": 0.49867021276595747,
-        "personal_ability": 0.4219420440867572,
-        "logit": -0.6581210596213697,
-        "infit": 0.8823095001070265,
-        "outfit": 0.8351811558794525,
-        "reliability": 0.19914916396295868,
+        "difficulty": 0.662,
+        "difficulty_category": "Easy",
+        "discrimination": 0.456,
+        "discrimination_category": "Good",
+        "r_pbis": 0.408,
         "options": {
             "0": {
                 "selected_by": 94,
@@ -4254,18 +4154,16 @@
             "question": "Trong c\u00e2y AVL y\u1ebfu t\u1ed1 c\u00e2n b\u1eb1ng l\u00e0 g\u00ec?",
             "option": [
                 "Ch\u00eanh l\u1ec7ch s\u1ed1 n\u00fat gi\u1eefa c\u00e2y con tr\u00e1i v\u00e0 ph\u1ea3i",
-                " Ch\u00eanh l\u1ec7ch chi\u1ec1u cao gi\u1eefa c\u00e2y con tr\u00e1i v\u00e0 ph\u1ea3i",
-                " T\u1ed5ng s\u1ed1 n\u00fat trong c\u00e2y con",
-                " T\u1ed5ng s\u1ed1 c\u1ea1nh trong c\u00e2y con"
+                "Ch\u00eanh l\u1ec7ch chi\u1ec1u cao gi\u1eefa c\u00e2y con tr\u00e1i v\u00e0 ph\u1ea3i",
+                "T\u1ed5ng s\u1ed1 n\u00fat trong c\u00e2y con",
+                "T\u1ed5ng s\u1ed1 c\u1ea1nh trong c\u00e2y con"
             ]
         },
-        "difficulty": 1.2075167905465785,
-        "discrimination": 0.30186170212765956,
-        "personal_ability": 0.4219420440867572,
-        "logit": 0.7855747464598213,
-        "infit": 0.9618745704570232,
-        "outfit": 0.977317571458833,
-        "reliability": 0.08351093053369907,
+        "difficulty": 0.31,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.302,
+        "discrimination_category": "Good",
+        "r_pbis": 0.29,
         "options": {
             "0": {
                 "selected_by": 30,
@@ -4339,18 +4237,16 @@
             "question": "Trong danh s\u00e1ch li\u00ean k\u1ebft vi\u1ec7c ch\u00e8n m\u1ed9t n\u00fat m\u1edbi v\u00e0o gi\u1eefa danh s\u00e1ch c\u1ea7n g\u00ec?",
             "option": [
                 "Thay \u0111\u1ed5i n\u00fat \u0111\u1ea7u",
-                " Thay \u0111\u1ed5i c\u00e1c li\u00ean k\u1ebft c\u1ee7a c\u00e1c n\u00fat xung quanh",
-                " T\u1ea1o m\u1ed9t danh s\u00e1ch m\u1edbi",
-                " Kh\u00f4ng th\u1ec3 th\u1ef1c hi\u1ec7n \u0111\u01b0\u1ee3c"
+                "Thay \u0111\u1ed5i c\u00e1c li\u00ean k\u1ebft c\u1ee7a c\u00e1c n\u00fat xung quanh",
+                "T\u1ea1o m\u1ed9t danh s\u00e1ch m\u1edbi",
+                "Kh\u00f4ng th\u1ec3 th\u1ef1c hi\u1ec7n \u0111\u01b0\u1ee3c"
             ]
         },
-        "difficulty": 0.8517406324258158,
-        "discrimination": 0.07180851063829785,
-        "personal_ability": 0.4219420440867572,
-        "logit": 0.4297985883390586,
-        "infit": 1.0865616123070492,
-        "outfit": 1.1140963247531348,
-        "reliability": 0.005130009500017629,
+        "difficulty": 0.394,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.072,
+        "discrimination_category": "Bad",
+        "r_pbis": 0.081,
         "options": {
             "0": {
                 "selected_by": 48,
@@ -4424,18 +4320,16 @@
             "question": "Thu\u1eadt to\u00e1n n\u00e0o \u0111\u1ea3m b\u1ea3o k\u1ebft qu\u1ea3 t\u1ed1i \u01b0u cho b\u00e0i to\u00e1n c\u00e2y khung nh\u1ecf nh\u1ea5t?",
             "option": [
                 "Kruskal",
-                " Prim",
-                " Dijkstra",
-                " C\u1ea3 hai Kruskal v\u00e0 Prim"
+                "Prim",
+                "Dijkstra",
+                "C\u1ea3 hai Kruskal v\u00e0 Prim"
             ]
         },
-        "difficulty": 0.6222702046228799,
-        "discrimination": 0.40957446808510634,
-        "personal_ability": 0.4219420440867572,
-        "logit": 0.20032816053612268,
-        "infit": 0.9468698265300505,
-        "outfit": 0.9333411759984034,
-        "reliability": 0.14365323577156985,
+        "difficulty": 0.444,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.305,
+        "discrimination_category": "Good",
+        "r_pbis": 0.317,
         "options": {
             "0": {
                 "selected_by": 25,
@@ -4509,18 +4403,16 @@
             "question": "\u0110\u00e2u l\u00e0 c\u00e1ch t\u1ed1t nh\u1ea5t \u0111\u1ec3 tri\u1ec3n khai h\u00e0ng \u0111\u1ee3i \u01b0u ti\u00ean?",
             "option": [
                 "S\u1eed d\u1ee5ng m\u1ea3ng",
-                " S\u1eed d\u1ee5ng heap",
-                " S\u1eed d\u1ee5ng danh s\u00e1ch li\u00ean k\u1ebft",
-                " S\u1eed d\u1ee5ng b\u1ea3ng b\u0103m"
+                "S\u1eed d\u1ee5ng heap",
+                "S\u1eed d\u1ee5ng danh s\u00e1ch li\u00ean k\u1ebft",
+                "S\u1eed d\u1ee5ng b\u1ea3ng b\u0103m"
             ]
         },
-        "difficulty": 0.9098838056645285,
-        "discrimination": 0.2832446808510638,
-        "personal_ability": 0.4219420440867572,
-        "logit": 0.48794176157777136,
-        "infit": 0.9868964647392662,
-        "outfit": 1.001296132860291,
-        "reliability": 0.0742691197679386,
+        "difficulty": 0.38,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.242,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.258,
         "options": {
             "0": {
                 "selected_by": 25,
@@ -4594,18 +4486,16 @@
             "question": "Trong danh s\u00e1ch li\u00ean k\u1ebft \u0111\u01a1n \u0111i\u1ec1u n\u00e0o \u0111\u00fang?",
             "option": [
                 "M\u1ed7i n\u00fat ch\u1ec9 li\u00ean k\u1ebft v\u1edbi n\u00fat tr\u01b0\u1edbc",
-                " M\u1ed7i n\u00fat ch\u1ec9 li\u00ean k\u1ebft v\u1edbi n\u00fat sau",
-                " M\u1ed7i n\u00fat c\u00f3 li\u00ean k\u1ebft hai chi\u1ec1u",
-                " Kh\u00f4ng c\u00f3 li\u00ean k\u1ebft n\u00e0o \u0111\u00fang"
+                "M\u1ed7i n\u00fat ch\u1ec9 li\u00ean k\u1ebft v\u1edbi n\u00fat sau",
+                "M\u1ed7i n\u00fat c\u00f3 li\u00ean k\u1ebft hai chi\u1ec1u",
+                "Kh\u00f4ng c\u00f3 li\u00ean k\u1ebft n\u00e0o \u0111\u00fang"
             ]
         },
-        "difficulty": 1.057092387200301,
-        "discrimination": 0.25975177304964536,
-        "personal_ability": 0.4219420440867572,
-        "logit": 0.6351503431135439,
-        "infit": 1.0228476168835872,
-        "outfit": 1.003633872790371,
-        "reliability": 0.06320638653309119,
+        "difficulty": 0.345,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.176,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.193,
         "options": {
             "0": {
                 "selected_by": 49,
@@ -4679,18 +4569,16 @@
             "question": "Trong c\u00e2y nh\u1ecb ph\u00e2n ho\u00e0n ch\u1ec9nh \u0111\u1eb7c \u0111i\u1ec3m n\u00e0o l\u00e0 \u0111\u00fang?",
             "option": [
                 "T\u1ea5t c\u1ea3 c\u00e1c c\u1ea5p \u0111\u1ec1u \u0111\u01b0\u1ee3c l\u1ea5p \u0111\u1ea7y ho\u00e0n to\u00e0n ngo\u1ea1i tr\u1eeb c\u1ea5p cu\u1ed1i c\u00f9ng",
-                " T\u1ea5t c\u1ea3 c\u00e1c c\u1ea5p \u0111\u1ec1u ph\u1ea3i \u0111\u01b0\u1ee3c l\u1ea5p \u0111\u1ea7y ho\u00e0n to\u00e0n",
-                " Ch\u1ec9 c\u00f3 m\u1ed9t n\u00fat cha duy nh\u1ea5t",
-                " T\u1ea5t c\u1ea3 c\u00e1c n\u00fat \u0111\u1ec1u l\u00e0 n\u00fat l\u00e1"
+                "T\u1ea5t c\u1ea3 c\u00e1c c\u1ea5p \u0111\u1ec1u ph\u1ea3i \u0111\u01b0\u1ee3c l\u1ea5p \u0111\u1ea7y ho\u00e0n to\u00e0n",
+                "Ch\u1ec9 c\u00f3 m\u1ed9t n\u00fat cha duy nh\u1ea5t",
+                "T\u1ea5t c\u1ea3 c\u00e1c n\u00fat \u0111\u1ec1u l\u00e0 n\u00fat l\u00e1"
             ]
         },
-        "difficulty": 0.5087723223611027,
-        "discrimination": 0.4104609929078014,
-        "personal_ability": 0.4219420440867572,
-        "logit": 0.08683027827434553,
-        "infit": 0.954439905136797,
-        "outfit": 0.9564210929507263,
-        "reliability": 0.14418602148440263,
+        "difficulty": 0.479,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.368,
+        "discrimination_category": "Good",
+        "r_pbis": 0.316,
         "options": {
             "0": {
                 "selected_by": 42,
@@ -4764,18 +4652,16 @@
             "question": "\u0110\u1ed9 ph\u1ee9c t\u1ea1p th\u1eddi gian t\u1ed1t nh\u1ea5t c\u1ee7a thu\u1eadt to\u00e1n t\u00ecm ki\u1ebfm tu\u1ea7n t\u1ef1 l\u00e0 g\u00ec?",
             "option": [
                 "O(n)",
-                " O(1)",
-                " O(log n)",
-                " O(n log n)"
+                "O(1)",
+                "O(log n)",
+                "O(n log n)"
             ]
         },
-        "difficulty": 0.7364745114708658,
-        "discrimination": 0.262854609929078,
-        "personal_ability": 0.4219420440867572,
-        "logit": 0.31453246738410867,
-        "infit": 1.0198662784353103,
-        "outfit": 1.020381225052174,
-        "reliability": 0.06462728247615179,
+        "difficulty": 0.423,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.157,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.229,
         "options": {
             "0": {
                 "selected_by": 12,
@@ -4849,18 +4735,16 @@
             "question": "\u0110\u1eb7c \u0111i\u1ec3m c\u1ee7a thu\u1eadt to\u00e1n Kruskal l\u00e0 g\u00ec?",
             "option": [
                 "T\u00ecm \u0111\u01b0\u1eddng \u0111i ng\u1eafn nh\u1ea5t trong \u0111\u1ed3 th\u1ecb",
-                " T\u00ecm c\u00e2y khung nh\u1ecf nh\u1ea5t b\u1eb1ng c\u00e1ch ch\u1ecdn c\u1ea1nh nh\u1ecf nh\u1ea5t",
-                " T\u00ecm n\u00fat c\u00f3 tr\u1ecdng s\u1ed1 l\u1edbn nh\u1ea5t",
-                " Kh\u00f4ng c\u00f3 \u0111\u00e1p \u00e1n \u0111\u00fang"
+                "T\u00ecm c\u00e2y khung nh\u1ecf nh\u1ea5t b\u1eb1ng c\u00e1ch ch\u1ecdn c\u1ea1nh nh\u1ecf nh\u1ea5t",
+                "T\u00ecm n\u00fat c\u00f3 tr\u1ecdng s\u1ed1 l\u1edbn nh\u1ea5t",
+                "Kh\u00f4ng c\u00f3 \u0111\u00e1p \u00e1n \u0111\u00fang"
             ]
         },
-        "difficulty": 2.0695561523606325,
-        "discrimination": -0.018617021276595744,
-        "personal_ability": 0.4219420440867572,
-        "logit": 1.6476141082738753,
-        "infit": 0.8808309449849193,
-        "outfit": 0.9649136771508257,
-        "reliability": 0.00034647339579285674,
+        "difficulty": 0.12,
+        "difficulty_category": "Very Difficult",
+        "discrimination": 0.002,
+        "discrimination_category": "Bad",
+        "r_pbis": 0.032,
         "options": {
             "0": {
                 "selected_by": 34,
@@ -4934,18 +4818,16 @@
             "question": "Thu\u1eadt to\u00e1n s\u1eafp x\u1ebfp n\u00e0o c\u00f3 th\u1ec3 ho\u1ea1t \u0111\u1ed9ng t\u1ed1t tr\u00ean d\u1eef li\u1ec7u g\u1ea7n nh\u01b0 \u0111\u00e3 \u0111\u01b0\u1ee3c s\u1eafp x\u1ebfp?",
             "option": [
                 "Quick sort",
-                " Bubble sort",
-                " Insertion sort",
-                " Merge sort"
+                "Bubble sort",
+                "Insertion sort",
+                "Merge sort"
             ]
         },
-        "difficulty": 1.146915046519808,
-        "discrimination": 0.46985815602836883,
-        "personal_ability": 0.4219420440867572,
-        "logit": 0.7249730024330507,
-        "infit": 0.9204518056929397,
-        "outfit": 0.8791443243972615,
-        "reliability": 0.1808426533718238,
+        "difficulty": 0.31,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.429,
+        "discrimination_category": "Good",
+        "r_pbis": 0.409,
         "options": {
             "0": {
                 "selected_by": 27,
@@ -5019,18 +4901,16 @@
             "question": "Trong danh s\u00e1ch li\u00ean k\u1ebft v\u00f2ng \u0111i\u1ec1u n\u00e0o \u0111\u00fang?",
             "option": [
                 "Kh\u00f4ng c\u00f3 n\u00fat \u0111\u1ea7u",
-                " N\u00fat cu\u1ed1i li\u00ean k\u1ebft l\u1ea1i v\u1edbi n\u00fat \u0111\u1ea7u",
-                " M\u1ed7i n\u00fat \u0111\u1ec1u li\u00ean k\u1ebft v\u1edbi n\u00fat \u0111\u1ea7u",
-                " Kh\u00f4ng c\u00f3 li\u00ean k\u1ebft n\u00e0o \u0111\u00fang"
+                "N\u00fat cu\u1ed1i li\u00ean k\u1ebft l\u1ea1i v\u1edbi n\u00fat \u0111\u1ea7u",
+                "M\u1ed7i n\u00fat \u0111\u1ec1u li\u00ean k\u1ebft v\u1edbi n\u00fat \u0111\u1ea7u",
+                "Kh\u00f4ng c\u00f3 li\u00ean k\u1ebft n\u00e0o \u0111\u00fang"
             ]
         },
-        "difficulty": 0.9098838056645286,
-        "discrimination": 0.050531914893617025,
-        "personal_ability": 0.4219420440867572,
-        "logit": 0.48794176157777147,
-        "infit": 1.0977057389900102,
-        "outfit": 1.1254800551068194,
-        "reliability": 0.002546970798027348,
+        "difficulty": 0.38,
+        "difficulty_category": "Difficult",
+        "discrimination": 0.113,
+        "discrimination_category": "Normal",
+        "r_pbis": 0.114,
         "options": {
             "0": {
                 "selected_by": 21,

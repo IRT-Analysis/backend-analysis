@@ -120,7 +120,7 @@ class Model:
         return sorted_students, top_students, bottom_students
 
     def _compute_option_stats(
-        self, question_id, question_data, top_students, bottom_students, sorted_students
+        self, question_id, question_data, top_students, bottom_students, sorted_students, correct_index
     ):
         """
         Computes statistics for each option of a question.
@@ -177,9 +177,8 @@ class Model:
                 )
 
                 option_stats[index] = option.option_stats
-
         # Determine chosen_by
-        chosen_by = max(option_stats, key=lambda x: option_stats[x]["selected_by"])
+        chosen_by = option_stats[correct_index]["selected_by"]
         return chosen_by, option_stats
 
     def _calculate_option_rpbis(self, all_students, selected_list):
