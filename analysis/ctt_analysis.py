@@ -13,7 +13,10 @@ class QuestionStatsType(TypedDict):
     options: dict
     correct_index: int
     group_choice_percentages: list
-
+    
+class RaschAnalysisType(TypedDict):
+    content: str
+    option: dict
 
 class AverageIndexesType(TypedDict):
     average_score: float
@@ -96,8 +99,11 @@ class CttAnalysis(Model):
         """
         Analyzes a single question to compute difficulty and discrimination indices.
         """
+        question_bank = self.examResult.exams[0].question_bank
+        correct_index = question_bank.get_correct_answer_index(question_id)
+        
         chosen_by, option_stats = self._compute_option_stats(
-            question_id, question_data, top_students, bottom_students, sorted_students
+            question_id, question_data, top_students, bottom_students, sorted_students, correct_index
         )
 
         total_students = len(self.examResult.students)
@@ -111,7 +117,6 @@ class CttAnalysis(Model):
         discrimination_category = self._categorize_discrimination(discrimination_index)
 
         r_pbis = self._get_rpbis_of_answer(option_stats, question_id)
-        question_bank = self.examResult.exams[0].question_bank
 
         content = question_bank.get_content(question_id)
         correct_index = question_bank.get_correct_answer_index(question_id)
@@ -226,3 +231,4 @@ class CttAnalysis(Model):
             question_id
         )
         return option_stats[answer_index]["r_pbis"]
+    

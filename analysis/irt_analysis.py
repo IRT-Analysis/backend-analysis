@@ -1,10 +1,21 @@
 from analysis.method import Model
+from typing import Dict, TypedDict
 
 # from irt import two_parameter_model
 import numpy as np
 from scipy.optimize import minimize
 from models.student import Student
 
+class IrtAnalysisType(TypedDict):
+    content: str
+    difficulty: float
+    discrimination: float
+    logit: float
+    infit: float
+    outfit: float
+    reliability: float
+    options: dict
+    correct_index: int
 
 class IrtAnalysis(Model):
     response_list = []
@@ -85,33 +96,33 @@ class IrtAnalysis(Model):
                 student["student"].ability = ability_estimate
 
             # Step 2: Estimate question difficulties using current student abilities
-            new_question_difficulties = {}
-            for q_id in all_questions.keys():
-                response_data = np.array(
-                    [
-                        1
-                        if self.examResult.is_correct_answer(student["student"], q_id)
-                        else 0
-                        for student in sorted_students
-                    ]
-                )
-                ability_levels = np.array(
-                    [
-                        student_abilities[student["student"]]
-                        for student in sorted_students
-                    ]
-                )
-                new_question_difficulties[q_id] = RaschModel().estimate_difficulty(
-                    response_data, ability_levels
-                )
+            # new_question_difficulties = {}
+            # for q_id in all_questions.keys():
+            #     response_data = np.array(
+            #         [
+            #             1
+            #             if self.examResult.is_correct_answer(student["student"], q_id)
+            #             else 0
+            #             for student in sorted_students
+            #         ]
+            #     )
+            #     ability_levels = np.array(
+            #         [
+            #             student_abilities[student["student"]]
+            #             for student in sorted_students
+            #         ]
+            #     )
+            #     new_question_difficulties[q_id] = RaschModel().estimate_difficulty(
+            #         response_data, ability_levels
+            #     )
 
-            # Check for convergence
-            if all(
-                abs(new_question_difficulties[q] - question_difficulties[q]) < tol
-                for q in all_questions.keys()
-            ):
-                break
-            question_difficulties = new_question_difficulties
+            # # Check for convergence
+            # if all(
+            #     abs(new_question_difficulties[q] - question_difficulties[q]) < tol
+            #     for q in all_questions.keys()
+            # ):
+            #     break
+            # question_difficulties = new_question_difficulties
 
         # Step 3: Store final question statistics
         question_stats_list = [
@@ -141,8 +152,8 @@ class IrtAnalysis(Model):
                 "average_difficulty": self.get_average_value(
                     "difficulty", question_stats_list
                 ),
-                "average_separation": self.get_average_value(
-                    "separation", question_stats_list
+                "average_discrimination": self.get_average_value(
+                    "discrimination", question_stats_list
                 ),
                 "average_reliability": self.get_average_value(
                     "reliability", question_stats_list
@@ -184,6 +195,7 @@ class IrtAnalysis(Model):
         # Get question content
         question_bank = self.examResult.exams[0].question_bank
         content = question_bank.get_content(question_id)
+        correct_index = question_bank.get_correct_answer_index(question_id)
 
         # Calculate infot, outfit value
         infit, outfit = self._calculate_infit_outfit(
@@ -194,12 +206,12 @@ class IrtAnalysis(Model):
             "content": content,
             "difficulty": difficulty,  # Directly use the precomputed difficulty
             "discrimination": discrimination,
-            "personal_ability": ability_levels.mean(),
             "logit": difficulty - ability_levels.mean(),
             "infit": infit,  # Remove redundant infit/outfit computation
             "outfit": outfit,  # These should be computed once in rasch_analysis
             "reliability": reliability,
             "options": option_stats,
+            "correct_index": correct_index,
         }
 
     def get_average_value(self, key, data):

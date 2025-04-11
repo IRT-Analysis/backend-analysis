@@ -1,6 +1,7 @@
 import json
 import os
 from itertools import groupby
+import uuid
 
 import pandas as pd
 
@@ -11,6 +12,17 @@ from utils.data_processing import DataProcessing
 from analysis.ctt_analysis import CttAnalysis
 from analysis.irt_analysis import IrtAnalysis
 from analysis.method import Method
+from services.analyze import AnalysisService
+import requests
+import jwt
+import os
+from dotenv import load_dotenv
+from utils.data_processing import DataProcessing
+
+UPLOAD_FOLDER = "uploads/"
+data_processing = DataProcessing()
+load_dotenv()
+
 
 
 UPLOAD_FOLDER = "uploads/"
@@ -62,20 +74,30 @@ def analyze_uploaded_file():
     # Generate Exam Results and Analysis
     exam_result = ExamResult(exams, students)
     analysis = CttAnalysis(exam_result)
-    # analysis = CttAnalysis(exam_result)
+    # analysis = IrtAnalysis(exam_result)
     getData = Method()
-
-    writeJson(analysis.get_model("Rasch"))
-    # irt_analysis_1pl = TestModel(exam_result, model_type='1PL')
-    # question_stats_1pl = irt_analysis_1pl.analyze_questions_irt()
-    # print("1PL Analysis:", question_stats_1pl)
-    # result = analysis.rasch_analysis()
-    # writeJson(result)
-    # writeJson(analysis.average_indexes)
-    # writeJson(analysis.analyze_questions_ctt())
-    # writeJson(analysis.get_student_detail("Rasch"))
-
-
+    writeJson(analysis.analyze_questions())
+    # service = AnalysisService(exam_result, getData)
+    # writeJson(analysis.get_model("Rasch"))
+    # student_list = []
+    # student_list.append(
+    #     student.to_dict() for student in exam_result.students
+    # )
+    # # analysis.get_model("Rasch")
+    # service = AnalysisService()
+    # service.getData = getData
+    # service.exam_result = exam_result
+    # service.analysis = analysis
+    # service.save_analysis_to_supabase(
+    #     project_name="Test Project",
+    #     number_of_group=3,
+    #     group_percentage=[0.3, 0.5, 0.2],
+    #     correlation_rpbis={},
+    #     analysis_data=analysis.analyze_questions(),
+    #     student_answer_data=student_list,
+    #     average_indexes=analysis.average_indexes,
+    #     user_id="4ea08a4b-470e-4bd1-a780-8b599bacb084",
+    # )
 def process_exam(file_path, question_bank):
     # Group data by Exam_code
     file_path.sort(key=lambda x: x["Exam_code"])
@@ -108,6 +130,7 @@ def process_exam(file_path, question_bank):
 
             for question_id, question_data in question_bank.get_all_questions().items():
                 if question_data["content"] == content:
+                    print(question_data)
                     matched_question_id = question_id
                     for index, option in enumerate(options):
                         for option_bank in question_data["options"]:
@@ -147,3 +170,5 @@ def writeJson(data, output_file="analysis_result.json"):
 
 
 analyze_uploaded_file()
+
+
