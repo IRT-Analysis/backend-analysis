@@ -174,8 +174,13 @@ class IrtAnalysis(Model):
         bottom_students,
         difficulty,
     ):
+        # Get question content
+        question_bank = self.examResult.exams[0].question_bank
+        content = question_bank.get_content(question_id)
+        correct_index = question_bank.get_correct_answer_index(question_id)
+
         chosen_by, option_stats = self._compute_option_stats(
-            question_id, question_data, top_students, bottom_students, sorted_students
+            question_id, question_data, top_students, bottom_students, sorted_students, correct_index
         )
 
         response_data = self._get_response_data(question_id, sorted_students)
