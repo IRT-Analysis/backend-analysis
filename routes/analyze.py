@@ -93,7 +93,7 @@ def rasch_analyze_file():
     for file_key in required_files:
         file = request.files[file_key]
         uploaded_files[file_key] = file
-        
+
     # Extract additional data from request form
     project_name = request.form.get("projectName")
     number_of_group = request.form.get("numberOfGroup")
@@ -121,17 +121,20 @@ def rasch_analyze_file():
             exam_file=uploaded_files["exam_file"],
             analysis_method=method,
         )
-        analysis_data = analysis_service.get_analysis_results()
+        analysis = analysis_service.analysis
+        # print(analysis_service.analysis)
+
         student_answer_data = analysis_service.get_student_answer()
+        # print(student_answer_data)
 
         res = analysis_service.save_rasch_analysis_to_supabase(
             project_name,
             number_of_group,
-            group_percentage,
-            correlation_rpbis,
-            analysis_data,
+            [0.3, 0.5, 0.2],
+            {},
+            analysis.rasch_analysis(),
             student_answer_data,
-            analysis_service.get_average_indexes(),
+            analysis.average_indexes,
             user_id,
         )
 
