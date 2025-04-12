@@ -18,9 +18,11 @@ import jwt
 import os
 from dotenv import load_dotenv
 from utils.data_processing import DataProcessing
+from services.analyze import AnalysisService
 
 UPLOAD_FOLDER = "uploads/"
 data_processing = DataProcessing()
+service = AnalysisService()
 load_dotenv()
 
 
@@ -73,31 +75,30 @@ def analyze_uploaded_file():
 
     # Generate Exam Results and Analysis
     exam_result = ExamResult(exams, students)
-    analysis = CttAnalysis(exam_result)
-    # analysis = IrtAnalysis(exam_result)
+    # analysis = CttAnalysis(exam_result)
+    analysis = IrtAnalysis(exam_result)
     getData = Method()
-    writeJson(analysis.analyze_questions())
     # service = AnalysisService(exam_result, getData)
-    # writeJson(analysis.get_model("Rasch"))
-    # student_list = []
-    # student_list.append(
-    #     student.to_dict() for student in exam_result.students
-    # )
-    # # analysis.get_model("Rasch")
-    # service = AnalysisService()
-    # service.getData = getData
-    # service.exam_result = exam_result
-    # service.analysis = analysis
-    # service.save_analysis_to_supabase(
-    #     project_name="Test Project",
-    #     number_of_group=3,
-    #     group_percentage=[0.3, 0.5, 0.2],
-    #     correlation_rpbis={},
-    #     analysis_data=analysis.analyze_questions(),
-    #     student_answer_data=student_list,
-    #     average_indexes=analysis.average_indexes,
-    #     user_id="4ea08a4b-470e-4bd1-a780-8b599bacb084",
-    # )
+    writeJson(analysis.get_model("Rasch"))
+    student_list = []
+    student_list.append(
+        student.to_dict() for student in exam_result.students
+    )
+    # analysis.get_model("Rasch")
+    service = AnalysisService()
+    service.getData = getData
+    service.exam_result = exam_result
+    service.analysis = analysis
+    service.save_analysis_to_supabase(
+        project_name="Test Project",
+        number_of_group=3,
+        group_percentage=[0.3, 0.5, 0.2],
+        correlation_rpbis={},
+        analysis_data=analysis.analyze_questions(),
+        student_answer_data=student_list,
+        average_indexes=analysis.average_indexes,
+        user_id="4ea08a4b-470e-4bd1-a780-8b599bacb084",
+    )
 def process_exam(file_path, question_bank):
     # Group data by Exam_code
     file_path.sort(key=lambda x: x["Exam_code"])
@@ -169,6 +170,13 @@ def writeJson(data, output_file="analysis_result.json"):
     print(f"Analysis result has been written to {output_file}")
 
 
-analyze_uploaded_file()
+# analyze_uploaded_file()
+exam_file = os.path.join(UPLOAD_FOLDER, "mock_exam_items.csv")
+result_file = os.path.join(UPLOAD_FOLDER, "KQCO2003.xlsx")
+service.analyze_uploaded_file(
+    result_file=result_file,
+    exam_file=exam_file,
+    analysis_method="Rasch"
+)
 
 
