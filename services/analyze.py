@@ -218,6 +218,7 @@ class AnalysisService:
                             "user_id": user_id,
                             "name": project_name,
                             "description": "TBD",
+                            "type": "CTT",
                         }
                     ]
                 )
@@ -291,19 +292,13 @@ class AnalysisService:
                         "id": question_analysis_id,
                         "question_id": question_id,
                         "exam_id": exam_id,
-                    }
-                )
-                # Step 2: Prepare question analysis
-                question_analysis_to_insert.append(
-                    {
-                        "exam_id": exam_id,
-                        "question_id": question_id,
                         "difficulty_index": difficulty,
                         "discrimination_index": discrimination,
                         "rpbis": r_pbis,
                         "group_choice_percentages": group_choice_percentage,
                     }
                 )
+                # Step 2: Prepare question analysis
 
                 # Step 3: Create options and their analysis
                 for index, option_content in enumerate(value["content"]["option"]):
@@ -385,12 +380,17 @@ class AnalysisService:
                     {
                         "id": student_exam_id,
                         "exam_id": exam_id,
-                        "student_id": student["id"],
-                        "first_name": student["firstName"],
-                        "last_name": student["lastName"],
+                        "student_id": student["student"].id,
+                        "first_name": student["student"].firstName,
+                        "last_name": student["student"].lastName,
+                        "total_score": student["score"],
+                        "grade": (
+                            student["score"]
+                            / self.analysis.general_detail["total_questions"]
+                        ),
                     }
                 )
-                for question_id, answer in student["answers"].items():
+                for question_id, answer in student["student"].answers.items():
                     logging.info(
                         f"Inserting/updating answer for question ID: {question_id}"
                     )
@@ -458,9 +458,9 @@ class AnalysisService:
         project_id: str,
         avg_difficulty: float,
         avg_discrimination: float,
-        cronbach_alpha: float = None,
-        average_score: float = None,
-        average_rpbis: float = None,
+        cronbach_alpha: float = 0.9,
+        average_score: float = 0.42,
+        average_rpbis: float = 0.5,
     ):
         logging.info("Inserting exam analysis data")
         logging.info(
@@ -511,7 +511,9 @@ class AnalysisService:
         Retrieve the score histogram.
         """
 
-        return self.getData.get_score_list(self.exam_result.scores)
+        return self.getData.get_score_list(
+            self.exam_result.scores, self.analysis.general_detail["total_questions"]
+        )
 
     def get_discrimination_histogram(self):
         """
@@ -572,6 +574,7 @@ class AnalysisService:
                             "user_id": user_id,
                             "name": project_name,
                             "description": "TBD",
+                            "type": "Rasch",
                         }
                     ]
                 )
@@ -587,8 +590,15 @@ class AnalysisService:
                 # "r_pbis": self.get_rpbis_histogram(),
             }
 
-            self.handle_insert_histogram(project_id, histogram)
+            logging.info(f"Histogram data: {histogram}")
 
+            self.handle_insert_histogram(project_id, histogram)
+            self.handle_insert_general_detail(
+                4,
+                self.get_general_detail()["total_questions"],
+                self.get_general_detail()["total_students"],
+                project_id,
+            )
             # Insert exam
             exam_id = self.handle_insert_exams("Test exam")
 
@@ -739,12 +749,18 @@ class AnalysisService:
                     {
                         "id": student_exam_id,
                         "exam_id": exam_id,
-                        "student_id": student["id"],
-                        "first_name": student["firstName"],
-                        "last_name": student["lastName"],
+                        "student_id": student["student"].id,
+                        "first_name": student["student"].firstName,
+                        "last_name": student["student"].lastName,
+                        "ability": student["student"].ability,
+                        "total_score": student["score"],
+                        "grade": (
+                            student["score"]
+                            / self.analysis.general_detail["total_questions"]
+                        ),
                     }
                 )
-                for question_id, answer in student["answers"].items():
+                for question_id, answer in student["student"].answers.items():
                     logging.info(
                         f"Inserting/updating answer for question ID: {question_id}"
                     )
