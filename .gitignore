@@ -1,4 +1,10 @@
 __pycache__/
 .venv/
 app.log
+
+# Ignore all .env files
 .env
+.env.*
+
+# Except the example template
+!.env.example
