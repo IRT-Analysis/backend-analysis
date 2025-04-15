@@ -8,7 +8,8 @@ venv/
 .env/
 
 # Environment variables file (if sensitive)
-*.env
+
+
 
 # Flask session and database files
 instance/
