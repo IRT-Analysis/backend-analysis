@@ -1,3 +1,4 @@
+from typing import Dict, List
 import numpy as np
 import collections
 
@@ -33,6 +34,30 @@ class Method:
             ranges.append({round(current_range, 3): count})
             current_range += step
         return ranges
+
+    def get_scatter_plot_data(self, question_data) -> List[dict]:
+        """
+        Trích xuất dữ liệu scatter plot từ dữ liệu phân tích câu hỏi.
+
+        :param question_data: Dict chứa thông tin phân tích câu hỏi (key là ID, value là QuestionStatsType)
+        :return: Danh sách các điểm dạng [{difficulty: float, discrimination: float}]
+        """
+        scatter_data = []
+
+        for question_id, stats in question_data.items():
+            difficulty = stats.get("difficulty")
+            discrimination = stats.get("discrimination")
+
+            if difficulty is not None and discrimination is not None:
+                scatter_data.append(
+                    {
+                        "question_id": question_id,
+                        "difficulty": round(difficulty, 3),
+                        "discrimination": round(discrimination, 3),
+                    }
+                )
+
+        return scatter_data
 
     def calculate_kr20(response_matrix):
         """
@@ -120,7 +145,13 @@ class Model:
         return sorted_students, top_students, bottom_students
 
     def _compute_option_stats(
-        self, question_id, question_data, top_students, bottom_students, sorted_students, correct_index
+        self,
+        question_id,
+        question_data,
+        top_students,
+        bottom_students,
+        sorted_students,
+        correct_index,
     ):
         """
         Computes statistics for each option of a question.

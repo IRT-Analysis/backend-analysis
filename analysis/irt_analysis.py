@@ -6,6 +6,7 @@ import numpy as np
 from scipy.optimize import minimize
 from models.student import Student
 
+
 class IrtAnalysisType(TypedDict):
     content: str
     difficulty: float
@@ -16,6 +17,7 @@ class IrtAnalysisType(TypedDict):
     reliability: float
     options: dict
     correct_index: int
+
 
 class IrtAnalysis(Model):
     response_list = []
@@ -180,7 +182,12 @@ class IrtAnalysis(Model):
         correct_index = question_bank.get_correct_answer_index(question_id)
 
         chosen_by, option_stats = self._compute_option_stats(
-            question_id, question_data, top_students, bottom_students, sorted_students, correct_index
+            question_id,
+            question_data,
+            top_students,
+            bottom_students,
+            sorted_students,
+            correct_index,
         )
 
         response_data = self._get_response_data(question_id, sorted_students)
@@ -425,6 +432,25 @@ class IrtAnalysis(Model):
 
     def _calculate_infit_outfit_ability(self):
         pass
+
+    def get_infit_outfit_list(self, dict):
+        """
+        Trả về danh sách tất cả các câu hỏi với giá trị Infit và Outfit.
+        """
+        result = []
+        question_no = 1
+        for question_id, stats in dict.items():
+            infit = stats.get("infit", None)
+            outfit = stats.get("outfit", None)
+            result.append(
+                {
+                    "questionNo": question_no,
+                    "infit": round(infit, 3) if infit is not None else None,
+                    "outfit": round(outfit, 3) if outfit is not None else None,
+                }
+            )
+            question_no += 1
+        return result
 
 
 class RaschModel:
