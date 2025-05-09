@@ -1,3 +1,4 @@
+import asyncio
 from flask import Blueprint, request, jsonify
 import jwt
 import os
@@ -57,26 +58,30 @@ def analyze_file(analysis_type):
 
         sorted_students, _, _ = analysis_service.analysis.split_students()
         if analysis_type == "Rasch":
-            res = analysis_service.save_rasch_analysis_to_supabase(
-                project_name,
-                number_of_group,
-                group_percentage,
-                correlation_rpbis,
-                analysis_service.analysis.rasch_analysis(),
-                sorted_students,
-                analysis_service.analysis.average_indexes,
-                user_id,
+            res = asyncio.run(
+                analysis_service.save_rasch_analysis_to_supabase(
+                    project_name,
+                    number_of_group,
+                    group_percentage,
+                    correlation_rpbis,
+                    analysis_service.analysis.rasch_analysis(),
+                    sorted_students,
+                    analysis_service.analysis.average_indexes,
+                    user_id,
+                )
             )
         else:  # "ctt"
-            res = analysis_service.save_analysis_to_supabase(
-                project_name,
-                number_of_group,
-                group_percentage,
-                correlation_rpbis,
-                analysis_service.get_analysis_results(),
-                sorted_students,
-                analysis_service.get_average_indexes(),
-                user_id,
+            res = asyncio.run(
+                analysis_service.save_analysis_to_supabase(
+                    project_name,
+                    number_of_group,
+                    group_percentage,
+                    correlation_rpbis,
+                    analysis_service.get_analysis_results(),
+                    sorted_students,
+                    analysis_service.get_average_indexes(),
+                    user_id,
+                )
             )
 
         return jsonify(res), 200
